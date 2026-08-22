@@ -1,0 +1,36 @@
+
+# Esteban Martínez Rubio declaró una empresa de publicidad a su nombre que recibió 12 órdenes de compra por trato directo de la Municipalidad de Peumo entre 2021 y 2024
+
+Esteban Gregorio Martínez Rubio presentó ante InfoProbidad una declaración de patrimonio el 11-01-2021, en la que figura con el cargo de Alcalde de la Municipalidad de Peumo (fuente: declaración con ID 579650). En esa declaración incluyó, entre sus bienes, una participación de tipo "ACCIÓN" en **ESTEBAN GREGORIO MARTINEZ RUBIO MEDIOS EIRL** (RUT 76.176.473-K), dedicada a "SERVICIO DE PUBLICIDAD Y EVENTOS, DISTRIBUCIÓN DE CONGELADOS Y OTROS", adquirida el 20-10-2011 y valorada en esa misma declaración en $5.000.000 (172,01 UF). El cruce de Estado Claro identifica a Martínez Rubio como el único declarante vinculado a esa empresa (un solo declarante, no es una sociedad de base societaria amplia), marca la participación como una de las que enumera el artículo 4 de la Ley 19.886, la describe como no controladora, y calcula una similitud de 0,87 entre su nombre y el del proveedor registrado en ChileCompra.
+
+Del total de 46 órdenes de compra que el cruce vincula a esa empresa entre el 10-02-2021 y el 15-07-2025 —ventana que combina tanto el período en que Martínez Rubio tenía vigente su declaración de 2021 como alcalde de la Municipalidad de Peumo, como el tramo posterior, ya bajo su declaración de 2025 como concejal de la misma municipalidad—, 12 fueron emitidas por la propia **I. Municipalidad de Peumo**, la misma institución que declaró como su organismo, por un total de **$6.062.770 (180,05 UF)**. Las 12 están marcadas como trato directo y las 12 se tramitaron bajo la modalidad "Adquisición igual o inferior a 30 UTM (debe presentar 3 cotizaciones)"; 10 de ellas están además marcadas como compra ágil. Van desde la orden [554734-46-AG21](http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-46-AG21) del 10-02-2021 ($595.000, 20,41 UF) hasta la [554734-327-AG24](http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-327-AG24) del 12-09-2024 ($428.000, 11,31 UF), y las 12 figuran con estado "Aceptada". El cruce etiqueta estas 12 órdenes con el cargo "ALCALDE" —el mismo que consta en la declaración de enero de 2021—, aunque la siguiente declaración de Martínez Rubio que existe en el registro no aparece hasta el 06-01-2025, ya como concejal de la misma municipalidad (ver "Qué queda por verificar").
+
+La misma empresa vendió, en esa misma ventana, a otras tres reparticiones estatales con las que el cruce marca que no comparten institución con lo declarado por Martínez Rubio: 32 órdenes a la I. Municipalidad de San Vicente por $46.023.600 (1.342,34 UF), 1 orden a la I. Municipalidad de Las Cabras por $600.000 (20,16 UF) y 1 orden a la Subsecretaría de Salud Pública por $250.000 (7,25 UF). Sumando todo, la empresa acumula 65 órdenes de compra en toda su historia dentro del registro de ChileCompra por $67.880.883, y ocupa la posición 38.432 de 207.201 proveedores del Estado ordenados por monto total transado: no figura, en ese sentido, entre los grandes proveedores del cruce.
+
+Entre la declaración del 11-01-2021 y la del 06-01-2025, el patrimonio neto que Martínez Rubio declaró bajó de 732,43 UF ($21.290.000) a 532,11 UF ($20.450.000), una variación de -250,61 UF (-$9.631.419): declaró adquisiciones por 285,96 UF ($10.990.000, correspondientes a una camioneta Great Wall Poer año 2021), disposiciones por -406,98 UF (-$15.641.011) y una revalorización de -129,59 UF (-$4.980.408) del resto de sus bienes. La participación en ESTEBAN GREGORIO MARTINEZ RUBIO MEDIOS EIRL se mantuvo declarada en ambas fechas por el mismo monto nominal de $5.000.000 (172,01 UF en 2021 y 130,10 UF en 2025; la diferencia en UF responde a la variación del valor de la UF entre ambas fechas, no a un cambio en el peso declarado).
+
+Todos estos datos son autodeclarados por el propio Martínez Rubio ante el organismo fiscalizador correspondiente y no están auditados por ningún organismo.
+
+## Fuentes
+
+- Declaración de patrimonio, 11-01-2021 (Alcalde, Municipalidad de Peumo): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=579650
+- Declaración de patrimonio, 06-01-2025 (Concejal, Municipalidad de Peumo): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1264172
+- Orden de compra 554734-46-AG21 (10-02-2021): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-46-AG21
+- Orden de compra 554734-79-AG21 (02-03-2021): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-79-AG21
+- Orden de compra 554734-430-AG21 (07-10-2021): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-430-AG21
+- Orden de compra 554734-327-AG22 (09-06-2022): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-327-AG22
+- Orden de compra 554734-343-AG22 (17-06-2022): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-343-AG22
+- Orden de compra 554734-605-AG22 (05-10-2022): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-605-AG22
+- Orden de compra 554734-253-AG23 (27-04-2023): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-253-AG23
+- Orden de compra 554734-501-AG23 (11-09-2023): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-501-AG23
+- Orden de compra 554734-199-AG24 (12-03-2024): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-199-AG24
+- Orden de compra 554734-222-AG24 (18-04-2024): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-222-AG24
+- Orden de compra 554734-242-AG24 (23-05-2024): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-242-AG24
+- Orden de compra 554734-327-AG24 (12-09-2024): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=554734-327-AG24
+
+**Cobertura:** el cruce de órdenes de compra de ChileCompra que usa Estado Claro va del 02-01-2020 al 20-08-2026 y solo alcanza a sociedades cuyo RUT coincide con un proveedor registrado en ChileCompra; no incluye eventuales ventas al Estado hechas por una persona natural. En este caso ninguna de las 46 órdenes vinculadas a la empresa quedó con el campo "misma institución" sin determinar.
+
+## Qué queda por verificar
+
+- Confirmar con la Municipalidad de Peumo o el Servicio Electoral las fechas exactas en que Martínez Rubio ejerció como alcalde: la prensa registra que en la elección municipal de mayo de 2021 quedó en segundo lugar, con Carlos Aliaga Donoso electo alcalde (El Rancagüino, 04-06-2021), mientras que el cruce sigue etiquetando como "ALCALDE" las órdenes de compra de su empresa hasta septiembre de 2024, y no hay en el registro una declaración de patrimonio nueva entre enero de 2021 y enero de 2025 que precise su cargo real en ese tramo.
+- Pedir a la Municipalidad de Peumo las tres cotizaciones que exige la modalidad "igual o inferior a 30 UTM" para cada una de las 12 órdenes, y quién autorizó cada compra.
