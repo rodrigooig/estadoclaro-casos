@@ -1,0 +1,38 @@
+# El patrimonio declarado de un conservador de Ovalle subió 73.524 UF en siete meses, casi todo en un plan de ahorro
+
+Fernando José Peñafiel Salas, quien se desempeña como Conservador dentro del Poder Judicial con asiento en Ovalle, declaró un patrimonio neto de 29.424,87 UF (1.105.613.114 pesos de esa fecha) el 4 de agosto de 2024. En su declaración siguiente, del 6 de marzo de 2025 -la vigente hoy-, ese patrimonio neto subió a 104.516,0 UF (4.048.808.753 pesos declarados en esa fecha): un incremento de 73.524,24 UF (2.848.229.913 pesos) entre ambas declaraciones sucesivas, según el panel de patrimonio de Estado Claro construido sobre las declaraciones publicadas en InfoProbidad.
+
+Del total, solo 185,09 UF (7.170.024 pesos) corresponden a una adquisición de activo: un lote en Vitacura (rol 427-225) inscrito con la misma fecha e inscripción -fojas 71083, n.º 101830 de 2016- que otros lotes vecinos que Peñafiel ya declaraba desde antes, por lo que parece un predio adquirido en 2016 pero recién incorporado a la declaración en 2025. La declaración también registra la salida de un vehículo -una Toyota 4Runner 2017- por -392,15 UF (-15.191.388 pesos). El resto del salto, 73.731,31 UF (2.856.251.277 pesos), queda registrado como "revalorización": un cambio en el valor de un activo que Peñafiel ya tenía, no una compra nueva.
+
+Ese cambio de valor se concentra casi por completo en un solo activo financiero: "Planes de ahorro - Principal APV - Chile". En la declaración del 4 de agosto de 2024 ese plan de ahorro estaba valorado en 8.516,50 UF (320.000.000 pesos); en la declaración del 6 de marzo de 2025, el mismo plan aparece valorado en 82.604,84 UF (3.200.000.000 pesos) -exactamente diez veces la cifra en pesos declarada siete meses antes-. Consultado directamente sobre este mismo salto, el agente de Estado Claro en producción confirmó ambas cifras y citó las mismas dos declaraciones como fuente.
+
+Ningún otro movimiento de la declaración explica ese aumento: los pasivos de Peñafiel bajaron en el mismo período, de 2.896,74 UF (108.842.547 pesos) a 1.329,86 UF (51.516.960 pesos) -pagó deuda, no la aumentó-, y no declaró la venta de ningún otro bien por un monto comparable. Peñafiel declara como actividad profesional el ejercicio de abogado, sin indicar que sea remunerada. Estado Claro marca esta comparación con confianza baja ("confidence": "low") y con brechas en la serie histórica ("series_has_gaps": true); los datos son los que el propio declarante ingresó a InfoProbidad y no están auditados por ningún organismo.
+
+## Explicaciones posibles y qué dice la evidencia pública
+
+Antes de decidir si este salto merecía cobertura, se evaluaron cuatro explicaciones específicas a este caso. Un primer intento de búsqueda automatizada ("Fernando Peñafiel Salas" Conservador Ovalle) fue bloqueado por la herramienta de búsqueda, que reportó tener agotado el cupo de consultas de la sesión (200 de 200). Se recurrió entonces a una consulta directa a un buscador vía navegador: "Fernando Peñafiel Salas" Conservador Ovalle (22-08-2026) y "Peñafiel Salas" notario OR conservador Ovalle (22-08-2026); ninguna de las dos devolvió resultados relacionados con esta persona -la primera mostró resultados sobre la canción "Fernando" de ABBA y una persona homónima no relacionada, y la segunda, artículos genéricos sobre inversión y planificación tributaria-. No se encontró evidencia pública que confirme ni que descarte ninguna de las cuatro hipótesis siguientes; la ausencia de resultados no debe leerse como prueba de que sean falsas, solo como falta de cobertura o registro público indexado bajo ese nombre al momento de esta revisión.
+
+1. **Ingresos propios del cargo de Conservador.** A diferencia de un funcionario a sueldo fijo, un Conservador de Bienes Raíces en Chile se financia con los aranceles que cobra por cada inscripción y trámite, de modo que un repunte de volumen de trabajo podría generarle un ingreso extraordinario en pocos meses. Es una explicación estructural específica a su cargo, pero no se encontró ninguna nota de prensa o cifra pública que la confirme para este período.
+
+2. **Error de digitación o de conversión al declarar el mismo activo.** El salto de valor de la cuenta de ahorro es exactamente diez veces la cifra en pesos de la declaración anterior (de 320.000.000 a 3.200.000.000), un patrón -un cero de más o de menos- típico de un error de transcripción más que de un movimiento financiero real. Las declaraciones de patrimonio son formularios que llena el propio declarante; Estado Claro no corrige ni valida esas cifras contra otra fuente. No hay forma de confirmar ni descartar esto sin ver el formulario original o sin que el propio Peñafiel lo aclare.
+
+3. **Aporte extraordinario a la cuenta (venta de un bien no declarado en detalle, herencia, indemnización).** Si Peñafiel depositó en su plan de ahorro el producto de la venta de algún bien, una herencia o una indemnización, ese movimiento no aparece en ninguna otra línea de sus dos últimas declaraciones: no hay una disposición de activo ni un pasivo nuevo por un monto comparable a los 2.880.000.000 pesos de diferencia en esa cuenta. Que no aparezca no prueba que no ocurrió -pudo ser un ingreso en efectivo que el formulario no exige detallar-, pero tampoco hay ningún dato, propio o de prensa, que lo sostenga.
+
+4. **Rentabilidad de la inversión.** Un plan de ahorro previsional voluntario (APV) es, por diseño, un instrumento de renta relativamente conservadora; una ganancia de mercado de esa magnitud (cerca de 900% en siete meses) sobre el mismo capital no es un rendimiento habitual de este tipo de producto. No se encontró información pública sobre el fondo específico "Principal APV" que sustente o descarte esta hipótesis.
+
+## Fuentes
+
+- Declaración del 6 de marzo de 2025 (vigente): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5094356
+- Declaración del 4 de agosto de 2024 (anterior): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5089419
+- Consulta directa al agente de Estado Claro en producción, que confirmó las mismas cifras y las mismas dos declaraciones como fuente (22 de agosto de 2026).
+- Búsqueda web, vía navegador, "Fernando Peñafiel Salas" Conservador Ovalle, consultada el 22-08-2026: https://www.bing.com/search?q=%22Fernando+Pe%C3%B1afiel+Salas%22+Conservador+Ovalle — sin resultados relacionados con esta persona.
+- Búsqueda web, vía navegador, "Peñafiel Salas" notario OR conservador Ovalle, consultada el 22-08-2026: https://www.bing.com/search?q=%22Pe%C3%B1afiel+Salas%22+notario+OR+conservador+Ovalle — sin resultados relacionados con esta persona.
+
+## Qué queda por verificar
+
+- Si el aumento de valor de "Planes de ahorro - Principal APV" corresponde a un aporte real -y de qué origen- o a un error de digitación en la declaración de marzo de 2025 o en la de agosto de 2024.
+- Si el lote de Vitacura (rol 427-225) es efectivamente una subdivisión de una propiedad que Peñafiel ya tenía desde 2016, o un predio distinto adquirido después y mal fechado.
+- Cobertura de prensa o registro público sobre Peñafiel y su cargo como Conservador de Ovalle, más allá de las dos búsquedas negativas realizadas para esta nota.
+- Qué explicación entrega el propio Peñafiel si es consultado directamente por este salto.
+
+**Advertencia de cobertura:** todas las cifras de este caso son autodeclaradas por el titular ante InfoProbidad y no están auditadas por ningún organismo. Estado Claro marca esta comparación entre declaraciones con confianza baja y brechas en la serie histórica; los montos en pesos corresponden a la fecha de cada declaración, no a valores actualizados a hoy.
