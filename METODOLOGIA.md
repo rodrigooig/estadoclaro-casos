@@ -72,27 +72,55 @@ cobertura transversal por tipo de institución y no solo por tipo de hallazgo. L
 resultantes pasaron por el mismo razonamiento responsable con verificación web *antes* de
 decidir si se publicaban, y luego por la misma verificación adversarial por categoría.
 
+### Ronda 3 — cuatro categorías enteramente nuevas
+
+La ronda 3 no amplió la minería de las cuatro categorías existentes: abrió cuatro
+categorías nuevas —puerta giratoria, salud pública, redes societarias y proximidad
+temporal cargo↔contrato— que no encajaban en ninguna de las anteriores. Para hacerlo se
+agregaron al artefacto de consulta (nunca al artefacto de datos en sí) tres consultas
+nuevas, sobre tablas que el sistema ya calcula pero que ninguna ronda anterior había
+minado: las actividades económicas remuneradas de cada declarante, las sociedades
+declaradas por más de una persona sin ser de amplia propiedad, y la distancia en días
+entre la primera y la última declaración de una persona y las órdenes de compra de sus
+sociedades. Los cuatro ángulos nuevos pasaron por el mismo proceso de razonamiento
+responsable con verificación web y el mismo verificador adversarial por categoría que las
+rondas anteriores.
+
+Esta fue la ronda con la tasa de descarte más alta de las tres: de 40 candidatos
+investigados a fondo, 20 no llegaron a publicarse -la mitad-, principalmente por dos
+motivos que valen la pena nombrar porque son el tipo de error que este proceso existe
+para atrapar: una actividad remunerada que en realidad era la persona describiendo su
+propio cargo (no un cruce real), y "saltos" o "proximidades" de exactamente cero días que
+resultaron ser el mismo bien redeclarado o una coincidencia sin relación causal, no un
+hallazgo real.
+
 ### Lo que ese proceso encontró sobre sí mismo
 
-El objetivo de las dos capas de verificación no es solo revisar los datos: es desconfiar
-del trabajo de la ronda anterior. En la ronda 2, ese proceso encontró y corrigió dos
-errores reales que había cometido la propia investigación, antes de que llegaran a
-publicarse en forma incorrecta:
+El objetivo de las capas de verificación no es solo revisar los datos: es desconfiar del
+trabajo de la ronda anterior. A lo largo de las tres rondas, ese proceso encontró y
+corrigió errores reales que había cometido la propia investigación, antes de que llegaran
+a publicarse en forma incorrecta:
 
-- **Una fabricación.** Un agente de redacción, al justificar por qué un salto patrimonial
-  podía leerse como una omisión y no como una compra nueva, inventó cuatro fechas de
-  adquisición para activos financieros que el propio formulario de declaración no exige
-  ni registra. El agente de verificación lo detectó consultando directamente la tabla del
-  artefacto y el código de la consulta SQL que la produce, confirmó que esas fechas no
-  existen en ningún lugar de los datos, y rechazó el caso.
-- **Un error de unidades.** Un caso de la ronda 1 leía el campo "valor corriente en plaza"
-  —ya convertido a pesos— de dos depósitos a plazo en dólares y lo presentaba como si
-  fuera el monto en dólares, inflando el hallazgo por un factor de casi 1.000. El agente
-  de enriquecimiento lo detectó volviendo a leer la página original de la declaración en
-  infoprobidad.cl y comparando la proporción entre ambos campos con los depósitos en pesos
-  de la misma declaración. El caso se retiró.
+- **Una fabricación (ronda 2).** Un agente de redacción, al justificar por qué un salto
+  patrimonial podía leerse como una omisión y no como una compra nueva, inventó cuatro
+  fechas de adquisición para activos financieros que el propio formulario de declaración
+  no exige ni registra. El agente de verificación lo detectó consultando directamente la
+  tabla del artefacto y el código de la consulta SQL que la produce, confirmó que esas
+  fechas no existen en ningún lugar de los datos, y rechazó el caso.
+- **Un error de unidades (ronda 2).** Un caso de la ronda 1 leía el campo "valor corriente
+  en plaza" —ya convertido a pesos— de dos depósitos a plazo en dólares y lo presentaba
+  como si fuera el monto en dólares, inflando el hallazgo por un factor de casi 1.000. El
+  agente de enriquecimiento lo detectó volviendo a leer la página original de la
+  declaración en infoprobidad.cl y comparando la proporción entre ambos campos con los
+  depósitos en pesos de la misma declaración. El caso se retiró.
+- **Aritmética inflada por doble conteo (ronda 3, tres casos).** Un agente de redacción
+  sumó como si fueran independientes dos conjuntos de órdenes de compra de una misma
+  sociedad —las marcadas "durante" el cargo y las marcadas "después"— cuando en realidad
+  unas eran un subconjunto de las otras, duplicando el total. El verificador lo detectó
+  volviendo a agregar las órdenes directamente contra la tabla del artefacto y rechazó los
+  tres casos.
 
-Ninguno de esos dos casos aparece en este repositorio.
+Ninguno de esos casos aparece en este repositorio.
 
 ## Qué reglas siguen los casos publicados
 
