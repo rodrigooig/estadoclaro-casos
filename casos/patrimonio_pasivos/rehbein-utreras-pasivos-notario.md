@@ -1,0 +1,35 @@
+# El notario Evaldo Rehbein Utreras declaró en marzo de 2026 pasivos por 32.949,96 UF frente a activos por 14.156,01 UF
+
+Evaldo Daniel Rehbein Utreras, notario dependiente del Poder Judicial con oficio en Santiago, presentó el 18 de marzo de 2026 su cuarta declaración de patrimonio e intereses bajo la Ley 20.880. En ese documento declaró activos por 14.156,01 UF (563.999.821 pesos) y pasivos por 32.949,96 UF (1.312.783.251 pesos), lo que arroja un patrimonio neto de -18.793,95 UF (-748.783.430 pesos). La declaración está disponible en el portal InfoProbidad ([ID 5110869](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5110869)).
+
+El patrimonio neto declarado por Rehbein Utreras ha sido negativo en sus cuatro declaraciones desde que hay registro, y se ha profundizado con el tiempo: -4.183,82 UF el 2 de octubre de 2023 ([ID 5080719](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5080719)), -5.395,58 UF el 4 de marzo de 2024 ([ID 5083014](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5083014)), -16.914,81 UF el 27 de marzo de 2025 ([ID 5097895](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5097895)) y -18.793,95 UF en la declaración vigente. El salto más grande ocurre entre la declaración de marzo de 2024 y la de marzo de 2025: los activos pasan de 937,87 UF a 14.136,81 UF, un aumento que la propia declaración de 2025 registra como "delta_acquisition_uf" de 13.509,22 UF —es decir, adquisición de un bien nuevo, no revalorización de uno existente—. Esa fecha coincide con un inmueble que la declaración vigente identifica como adquirido el 3 de julio de 2024.
+
+Ese inmueble es una copropiedad en la comuna de Lo Barnechea, declarada como domicilio, inscrita en el Conservador de Bienes Raíces de Santiago, con un valor de 13.633,03 UF (543.163.554 pesos) según la declaración de marzo de 2026. Es, con diferencia, el activo más grande que declara: el resto de su patrimonio son dos vehículos (una Toyota 4Runner 2017, 332,48 UF, y un Honda Accord 2013, 188,08 UF) y participaciones societarias menores (acciones en la Sociedad Anónima de Deportes Manquehue por 2,42 UF, y un 11,11% de Administradora de Inmuebles S.A. valorizado en 0 UF). Frente a ese activo, la misma declaración lista dos créditos hipotecarios con el Banco BCI —23.765,30 UF (946.850.253 pesos) y 5.222,54 UF (208.074.825 pesos)—, que sumados dan 28.987,84 UF, más del doble del valor que la propia declaración asigna al inmueble. El resto de los pasivos son créditos de consumo y tarjetas con Banco de Chile, BCI y Banco Santander, cada uno por montos menores a 2.400 UF.
+
+Estos datos son autodeclarados por el propio titular ante la Contraloría/InfoProbidad y no están auditados por ningún organismo; la comparación entre declaraciones puede reflejar tanto cambios reales en el patrimonio como diferencias en qué tan exhaustivamente se detalla cada ítem de un año a otro.
+
+## Explicaciones posibles y que dice la evidencia pública
+
+**1. La compra de una vivienda en 2024 explica el salto de activos.** Esto no es una hipótesis externa: la propia declaración de marzo de 2025 registra el alza de 13.509,22 UF como "adquisición" (no revalorización), y la declaración vigente fecha la compra del inmueble de Lo Barnechea el 3 de julio de 2024, justo en la ventana entre ambas declaraciones. Comprar una vivienda con crédito hipotecario es la explicación más simple y directa para gran parte del aumento tanto de activos como de pasivos, y la evidencia interna la respalda con fechas que calzan.
+
+**2. La palabra "copropiedad" sugiere una titularidad compartida (con cónyuge u otro copropietario), lo que podría explicar por qué el crédito conjunto excede el valor que él declara por su cuota.** Si el inmueble fue adquirido en copropiedad, el valor de 13.633,03 UF que aparece en su declaración podría corresponder solo a su parte, mientras que los créditos hipotecarios —si están constituidos sobre el total de la propiedad y ambos copropietarios son codeudores— podrían cubrir el valor completo del bien, no solo la cuota de Rehbein Utreras. Esto es plausible a partir de los propios datos de la declaración, pero no hay forma de confirmarlo sin acceder a la inscripción de dominio y a los contratos de crédito, que no están en las fuentes consultadas.
+
+**3. El segundo crédito hipotecario podría corresponder a una refinanciación o consolidación de deuda previa, y no a un segundo tramo de la misma compra.** Es una práctica bancaria común, pero tampoco hay evidencia pública disponible que la confirme o la descarte para este caso puntual.
+
+**Búsqueda de prensa y registros públicos:** se intentaron dos búsquedas web específicas sobre el nombre completo del notario (una general y otra cruzando "notario" y "patrimonio") para verificar si existe cobertura periodística o algún registro público adicional sobre su situación patrimonial. Ambas búsquedas no pudieron ejecutarse porque la herramienta de búsqueda web de esta sesión había agotado su cupo de uso al momento de intentarlo. No se trata de una búsqueda que arrojó cero resultados, sino de una búsqueda que no llegó a realizarse: por lo tanto, esta nota no puede afirmar ni descartar que exista cobertura de prensa u otro registro público sobre el caso, y esa ausencia de verificación no debe leerse como evidencia a favor ni en contra de ninguna de las explicaciones anteriores.
+
+## Fuentes
+
+- Declaración vigente (18-03-2026, ID 5110869): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5110869
+- Declaración anterior (27-03-2025, ID 5097895): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5097895
+- Declaración anterior (04-03-2024, ID 5083014): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5083014
+- Primera declaración registrada (02-10-2023, ID 5080719): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5080719
+- Datos extraídos mediante las herramientas internas de Estado Claro (`wealth_panel`, `declaration_detail` y el agente en producción) sobre el panel patrimonial construido a partir de InfoProbidad.
+- Búsqueda de prensa/registros públicos: intentada, no ejecutada por agotamiento del cupo de búsqueda web de la sesión (ver sección anterior).
+
+## Qué queda por verificar
+
+- Si los dos créditos hipotecarios con el Banco BCI están efectivamente garantizados con la propiedad de Lo Barnechea, o si uno de ellos financia otro bien o una refinanciación de deuda previa —esto requiere revisar la inscripción en el Conservador de Bienes Raíces de Santiago y los contratos de crédito, que no están en las fuentes consultadas—.
+- Si la copropiedad fue adquirida junto a un cónyuge u otra persona, y si el valor y los créditos declarados corresponden solo a la cuota de Rehbein Utreras o al total del bien.
+- Si existe cobertura de prensa o algún registro público adicional sobre su situación patrimonial: no se pudo verificar en esta nota por una limitación técnica de la sesión (cupo de búsqueda web agotado), no por ausencia confirmada de resultados.
+- Por qué el patrimonio neto declarado ha sido negativo en las cuatro declaraciones disponibles desde 2023, y si esa tendencia se mantiene en declaraciones futuras.

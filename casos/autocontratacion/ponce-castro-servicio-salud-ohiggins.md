@@ -8,11 +8,26 @@ El cruce agregado por empresa, que suma todas las declaraciones que mencionan a 
 
 El nombre que ChileCompra publica para el proveedor de estas dos órdenes es «P&M», bastante distinto del nombre legal completo de la sociedad que Ponce Castro declaró. El cruce no se apoya en esa similitud de nombre —baja— sino en que el RUT del proveedor de la orden (77.426.588) coincide exactamente con el RUT de la sociedad declarada. La declaración vigente lista además otras dos sociedades del médico —una a su propio nombre y otra donde declara 20%— para las que el cruce no encontró órdenes de compra asociadas.
 
+## Explicaciones posibles y qué dice la evidencia pública
+
+Antes de dejar este caso como está, se buscó activamente una explicación legítima y específica a este hecho —que la sociedad controlada por Ponce Castro le venda al mismo servicio de salud donde él trabaja— antes de tratarlo como una simple coincidencia de RUT. Se hicieron búsquedas por su nombre completo solo y junto al hospital y al Servicio de Salud O'Higgins, por el nombre y el RUT de la sociedad, por una posible candidatura suya a un cargo de elección popular, y por dictámenes de Contraloría o cobertura de prensa sobre este caso o sobre su gestión.
+
+- **La propia Ley 19.886 contempla una vía de excepción, pero no hay evidencia de que se haya usado en este caso.** El artículo 4 de esa ley —el mismo que el cruce marcó sobre esta participación— no es una prohibición absoluta: permite que un organismo público contrate igual con una sociedad en esta situación "cuando circunstancias excepcionales lo hagan necesario", siempre que el contrato se ajuste a condiciones de mercado y se apruebe por una resolución fundada, comunicada al superior jerárquico, a la Contraloría General de la República y a la Cámara de Diputados. Este mecanismo aparece resumido en una publicación de la Superintendencia de Seguridad Social sobre jurisprudencia del artículo 4 de la Ley 19.886 (consultada el 22-08-2026): https://www.suseso.gob.cl/612/w3-propertyvalue-123839.html. Buscando el nombre de Ponce Castro, el de la sociedad y el Servicio de Salud O'Higgins junto a "resolución fundada" y "artículo 4", no apareció ninguna resolución, dictamen de Contraloría ni nota de prensa que indique que esa vía de excepción se haya tramitado para estas dos órdenes de compra puntuales. No se encontró evidencia pública que lo confirme ni lo descarte.
+
+- **No hay registro público sobre quién es el otro socio (20%) de la sociedad ni sobre quién ejecuta materialmente el servicio facturado.** Si fuera ese otro socio —y no Ponce Castro— quien presta el servicio que la sociedad facturó al hospital, la autocontratación sería menos directa de lo que sugiere el 80% de control declarado. Se buscó información sobre la constitución de SERVICIOS MEDICOS Y ESPECIALIDADES PM LIMITADA (RUT 77.426.588-0) y sobre su otro socio en registros públicos y prensa, sin resultado. No se encontró evidencia pública que lo confirme ni lo descarte.
+
+- **No se encontró indicio de que Ponce Castro haya sido candidato a algún cargo de elección popular.** Se revisó esta posibilidad —que habría abierto la puerta a revisar el registro de financiamiento electoral de SERVEL como explicación de algún movimiento patrimonial— y las búsquedas por su nombre junto a "candidato", "concejal" y "alcalde" no devolvieron ningún registro de una candidatura suya. No aplica, entonces, buscar en SERVEL sobre esta persona a partir de lo encontrado.
+
+- **No existe cobertura de prensa pública sobre este caso ni sobre la gestión de Ponce Castro en el Servicio de Salud O'Higgins.** Las búsquedas por su nombre completo, solo o junto al hospital, la sociedad o la palabra "Contraloría", no devolvieron ninguna nota periodística ni dictamen que lo mencione a él, a esta sociedad o a estas órdenes de compra.
+
+Ninguna de estas cuatro líneas permite afirmar que existió una autorización excepcional o una explicación alternativa al hallazgo, ni tampoco descartarla: lo que hay es ausencia de registro público, no una prueba en un sentido o en el otro.
+
 ## Fuentes
 
 - Declaración vigente de Fernando Oswaldo Ponce Castro (30-03-2024, rectificación a requerimiento de órgano fiscalizador): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1201406
 - Orden de compra 1023923-1355-SE24 (20-12-2024, $536.832 / 13,98 UF): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1023923-1355-SE24
 - Orden de compra 1023923-169-SE25 (18-02-2025, $268.416 / 6,97 UF): http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1023923-169-SE25
+- Superintendencia de Seguridad Social, normativa y jurisprudencia sobre el artículo 4 de la Ley 19.886 (consultada 22-08-2026): https://www.suseso.gob.cl/612/w3-propertyvalue-123839.html
 
 ## Advertencias de cobertura
 
@@ -20,4 +35,4 @@ El cruce de órdenes de compra cubre desde el 2 de enero de 2020 en adelante y s
 
 ## Qué queda por verificar
 
-Pediría al Servicio de Salud O'Higgins o al Hospital de San Fernando el contrato o la licitación que originó estas dos órdenes de compra, para saber qué proceso de compra las generó y quién las autorizó del lado comprador. También valdría la pena confirmar directamente con SERVICIOS MEDICOS Y ESPECIALIDADES PM LIMITADA quién es el otro 20% no controlado por Ponce Castro, qué servicio específico facturó en ambas órdenes, y a qué corresponde la tercera orden que el cruce agregado por empresa contabiliza pero que no aparece en el detalle orden por orden vinculado a esta persona.
+Pediría al Servicio de Salud O'Higgins o al Hospital de San Fernando el contrato o la licitación que originó estas dos órdenes de compra, para saber qué proceso de compra las generó y quién las autorizó del lado comprador, y si existió alguna resolución fundada bajo el artículo 4 de la Ley 19.886 que las respalde. También valdría la pena confirmar directamente con SERVICIOS MEDICOS Y ESPECIALIDADES PM LIMITADA quién es el otro 20% no controlado por Ponce Castro, qué servicio específico facturó en ambas órdenes, y a qué corresponde la tercera orden que el cruce agregado por empresa contabiliza pero que no aparece en el detalle orden por orden vinculado a esta persona.
