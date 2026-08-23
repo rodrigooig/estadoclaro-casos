@@ -73,6 +73,11 @@ de lectura de unidades cometido en la propia redacción original. El detalle com
 incluidos los errores que el propio proceso encontró y corrigió en cada ronda, está en
 [METODOLOGIA.md](METODOLOGIA.md).
 
+En total, las tres rondas desplegaron **159 agentes de inteligencia artificial**
+—41 en la primera, 70 en la segunda, 48 en la tercera—, cada uno con una tarea acotada
+dentro de una fase (minar un ángulo, investigar y redactar un caso, o verificar de forma
+adversarial lo que otro agente ya escribió).
+
 ## Qué NO es esto
 
 - No es una lista de personas corruptas. Es una lista de hechos públicos —una declaración,
