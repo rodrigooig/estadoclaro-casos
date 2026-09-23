@@ -14,6 +14,10 @@ cada uno— la explicación legítima más plausible que se pudo encontrar y con
 evidencia pública real. Ver [METODOLOGIA.md](METODOLOGIA.md) para cómo se encontraron y
 verificaron, incluidos dos errores propios que el proceso detectó y corrigió solo.
 
+> **Segunda entrega (septiembre de 2026):** casos nuevos sobre el artefacto del 22-09-2026, con
+> la capa de vigencia de cargos y la corrección de montos en otra moneda. Están en
+> [`entrega-2/`](entrega-2/), con su propio índice y su metodología.
+
 ## Índice por categoría
 
 ### [Autocontratación](casos/autocontratacion/) — 8 casos
