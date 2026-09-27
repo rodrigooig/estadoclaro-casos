@@ -1,6 +1,6 @@
 # Casos Estado Claro
 
-62 casos de investigación periodística, encontrados, investigados, contrastados con
+61 casos de investigación periodística, encontrados, investigados, contrastados con
 explicaciones legítimas alternativas y redactados por múltiples agentes de inteligencia
 artificial orquestados sobre [Estado Claro](https://estadoclaro.cl): un
 sistema que cruza las declaraciones de patrimonio e intereses de autoridades y funcionarios
@@ -18,8 +18,9 @@ verificaron, incluidos dos errores propios que el proceso detectó y corrigió s
 Se habían escrito sobre montos en moneda extranjera que Estado Claro leía mal —multiplicaba
 por el tipo de cambio cifras que el declarante ya había informado en pesos— y que el
 portal corrigió el 22 de septiembre. Con los datos corregidos, esos saltos no existen o no
-pueden afirmarse. Los 62 casos que quedan se volvieron a verificar uno por uno contra los
-datos vigentes ese día. El detalle, en
+pueden afirmarse. Se retiró además uno de proximidad temporal, cuya cercanía entre cargo y
+contrato resultó ser un artefacto del cruce. Los 61 casos que quedan se volvieron a verificar
+uno por uno contra los datos vigentes ese día. El detalle, en
 [METODOLOGIA.md](METODOLOGIA.md#corrección-del-27-de-septiembre-de-2026).
 
 ## Índice por categoría
@@ -51,7 +52,7 @@ servicios de salud, FONASA, superintendencia, clínicas.
 Sociedades con varios declarantes vinculados —ni bursátiles ni de una sola persona— que
 hacen negocio con el Estado.
 
-### [Proximidad temporal cargo↔contrato](casos/proximidad_temporal/) — 5 casos
+### [Proximidad temporal cargo↔contrato](casos/proximidad_temporal/) — 4 casos
 Negocios de sociedades declaradas cuya primera o última orden de compra al Estado cae muy
 cerca de cuando la persona asumió o dejó su cargo.
 

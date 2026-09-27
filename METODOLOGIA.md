@@ -140,7 +140,7 @@ correctamente, vale unas novecientas veces menos, o cuya lectura ya no puede afi
 Claro ya no puede atribuir a las ocho personas nombradas en ellos los montos que esos casos les
 asignaban.
 
-Los otros 62 se sostienen: los quince de pasivos desproporcionados coinciden cifra por cifra,
+Los otros 62 se sostenían en sus cifras: los quince de pasivos desproporcionados coinciden cifra por cifra,
 los cuatro saltos que quedan no dependen de moneda extranjera, y en los casos de negocios con
 el Estado cada orden de compra citada existe con el proveedor que el caso indica y un monto
 que no se aparta en más de un 10 %.
@@ -148,12 +148,17 @@ Un caso que se sostiene no es un caso que no pueda cambiar: los datos se actuali
 por semana, y algunos detalles —una declaración más nueva, una orden posterior— ya no son los
 del día en que se escribieron.
 
-Cuatro de los que se sostienen se corrigieron en esos detalles: Ponce Castro vendió al
-hospital tres órdenes dentro de su período y no dos; a González Barrientos le caen dentro las
-dos órdenes de la inmobiliaria y no una; las 127 órdenes de Martínez Ebner cubren sus dos
-declaraciones, hasta agosto de 2026, y no solo el tramo entre ellas; y en Jaeger Cousiño la
-«última orden, 360 días después» era el borde de la ventana del cruce, no el fin de las
-ventas, que siguen hasta 2026.
+Tres se corrigieron en esos detalles: Ponce Castro vendió al hospital tres órdenes dentro de
+su período y no dos; a González Barrientos le caen dentro las dos órdenes de la inmobiliaria y
+no una; y las 127 órdenes de Martínez Ebner cubren sus dos declaraciones, hasta agosto de 2026,
+y no solo el tramo entre ellas.
+
+Un cuarto, el de Pablo Jaeger Cousiño, se retiró aunque sus cifras eran correctas, porque lo
+que lo hacía un caso no lo era. Decía que una sociedad en la que declaró el 2,88% le vendió al
+Estado «360 días después» de su última declaración. Esa fecha era el fin del año por el que el
+cruce acredita una declaración sin sucesora, no la última venta: la sociedad tiene 246 órdenes
+de compra continuas desde 2020 hasta septiembre de 2026, sin ninguna concentración en torno a
+las fechas de sus declaraciones. Quedan 61 casos.
 
 ## Qué reglas siguen los casos publicados
 
