@@ -2,7 +2,7 @@
 
 Los mayores aumentos de patrimonio entre declaraciones consecutivas de una misma persona, excluyendo errores de digitación evidentes.
 
-12 casos.
+4 casos. Ocho más se retiraron el 27 de septiembre de 2026 porque sus cifras no se sostienen en los datos corregidos; el porqué, en [METODOLOGIA.md](../../METODOLOGIA.md#corrección-del-27-de-septiembre-de-2026).
 
 | Caso | Monto de referencia (CLP) |
 |---|---|

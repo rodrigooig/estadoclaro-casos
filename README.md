@@ -1,6 +1,6 @@
 # Casos Estado Claro
 
-70 casos de investigación periodística, encontrados, investigados, contrastados con
+62 casos de investigación periodística, encontrados, investigados, contrastados con
 explicaciones legítimas alternativas y redactados por múltiples agentes de inteligencia
 artificial orquestados sobre [Estado Claro](https://estadoclaro.cl): un
 sistema que cruza las declaraciones de patrimonio e intereses de autoridades y funcionarios
@@ -14,6 +14,14 @@ cada uno— la explicación legítima más plausible que se pudo encontrar y con
 evidencia pública real. Ver [METODOLOGIA.md](METODOLOGIA.md) para cómo se encontraron y
 verificaron, incluidos dos errores propios que el proceso detectó y corrigió solo.
 
+**Corrección del 27 de septiembre de 2026.** Se retiraron ocho casos de saltos patrimoniales.
+Se habían escrito sobre montos en moneda extranjera que Estado Claro leía mal —multiplicaba
+por el tipo de cambio cifras que el declarante ya había informado en pesos— y que el
+portal corrigió el 22 de septiembre. Con los datos corregidos, esos saltos no existen o no
+pueden afirmarse. Los 62 casos que quedan se volvieron a verificar uno por uno contra los
+datos vigentes ese día. El detalle, en
+[METODOLOGIA.md](METODOLOGIA.md#corrección-del-27-de-septiembre-de-2026).
+
 ## Índice por categoría
 
 ### [Autocontratación](casos/autocontratacion/) — 8 casos
@@ -26,7 +34,7 @@ en participación controladora y en la que enumera el artículo 4 de la Ley 19.8
 ### [Patrimonios con pasivos desproporcionados](casos/patrimonio_pasivos/) — 15 casos
 Declaraciones con pasivos muy por sobre los activos, o patrimonio neto muy negativo.
 
-### [Saltos patrimoniales](casos/saltos_patrimoniales/) — 12 casos
+### [Saltos patrimoniales](casos/saltos_patrimoniales/) — 4 casos
 Los mayores aumentos de patrimonio entre declaraciones consecutivas de una misma persona,
 descartados los que resultaron ser errores de digitación o re-declaraciones del mismo bien.
 

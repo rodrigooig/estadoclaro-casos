@@ -122,6 +122,32 @@ a publicarse en forma incorrecta:
 
 Ninguno de esos casos aparece en este repositorio.
 
+## Corrección del 27 de septiembre de 2026
+
+El error de unidades de la ronda 2 no fue el único de su clase, y esta vez no lo detectó el
+proceso antes de publicar: lo detectó el propio Estado Claro después. El 22 de septiembre
+de 2026 el portal corrigió cómo lee los instrumentos declarados en dólares, euros, UF o UTM:
+cuando el declarante ya había informado el valor en pesos, el artefacto lo multiplicaba de
+nuevo por el tipo de cambio, y 591 instrumentos aparecían unas 900 veces más grandes de lo
+declarado. Los casos de este repositorio se escribieron el 22 y 23 de agosto, antes de esa
+corrección.
+
+Se volvieron a verificar los 70 casos, uno por uno, contra los datos que Estado Claro
+publica hoy, buscando cada declaración por su identificador en InfoProbidad y cada orden de
+compra por su código. **Ocho casos de saltos patrimoniales ya no se sostienen** y se
+retiraron: el salto de cada uno descansaba en un instrumento en moneda extranjera que, leído
+correctamente, vale unas novecientas veces menos, o cuya lectura ya no puede afirmarse. Estado
+Claro ya no puede atribuir a las ocho personas nombradas en ellos los montos que esos casos les
+asignaban.
+
+Los otros 62 se sostienen: los quince de pasivos desproporcionados coinciden cifra por cifra,
+los cuatro saltos que quedan no dependen de moneda extranjera, y en los casos de negocios con
+el Estado cada orden de compra citada existe con el proveedor que el caso indica y un monto
+que no se aparta en más de un 10 %.
+Un caso que se sostiene no es un caso que no pueda cambiar: los datos se actualizan dos veces
+por semana, y algunos detalles —una declaración más nueva, una orden posterior— ya no son los
+del día en que se escribieron.
+
 ## Qué reglas siguen los casos publicados
 
 Las mismas que ya sigue el agente de Estado Claro en producción:
