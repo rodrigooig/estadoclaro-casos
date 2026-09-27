@@ -2,7 +2,7 @@
 
 70 casos de investigación periodística, encontrados, investigados, contrastados con
 explicaciones legítimas alternativas y redactados por múltiples agentes de inteligencia
-artificial orquestados sobre [Estado Claro](https://github.com/rodrigooig/estadoclaro): un
+artificial orquestados sobre [Estado Claro](https://estadoclaro.cl): un
 sistema que cruza las declaraciones de patrimonio e intereses de autoridades y funcionarios
 públicos chilenos (Ley 20.880) con las órdenes de compra pública de ChileCompra (Mercado
 Público).
