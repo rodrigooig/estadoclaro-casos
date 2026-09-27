@@ -148,6 +148,13 @@ Un caso que se sostiene no es un caso que no pueda cambiar: los datos se actuali
 por semana, y algunos detalles —una declaración más nueva, una orden posterior— ya no son los
 del día en que se escribieron.
 
+Cuatro de los que se sostienen se corrigieron en esos detalles: Ponce Castro vendió al
+hospital tres órdenes dentro de su período y no dos; a González Barrientos le caen dentro las
+dos órdenes de la inmobiliaria y no una; las 127 órdenes de Martínez Ebner cubren sus dos
+declaraciones, hasta agosto de 2026, y no solo el tramo entre ellas; y en Jaeger Cousiño la
+«última orden, 360 días después» era el borde de la ventana del cruce, no el fin de las
+ventas, que siguen hasta 2026.
+
 ## Qué reglas siguen los casos publicados
 
 Las mismas que ya sigue el agente de Estado Claro en producción:
