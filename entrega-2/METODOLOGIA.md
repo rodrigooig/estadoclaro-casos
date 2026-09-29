@@ -40,28 +40,38 @@ declaraciones anexas; redes de declarantes; sociedades médicas; universidades y
 municipal; obras públicas, vivienda y transporte; fiscalizadores con negocios en el sector
 fiscalizado; y funcionarios que aparecen, por nombre, como proveedores persona natural de su
 propio servicio. Veintiuno terminaron y devolvieron **111 candidatos sobre 83 personas**. El de
-sociedades en el extranjero se detuvo antes de terminar, por el límite de uso, y su ángulo
-queda pendiente.
+sociedades en el extranjero se detuvo por el límite de uso y se completó en el lote 2.
 
 **Selección.** Se eligieron para investigar los candidatos de mayor interés público, los que
 tenían los datos más firmes y los que varios mineros habían encontrado por separado. Una diputada
-apareció en siete ángulos distintos. Este primer lote investigó cinco: por límite de uso, el
-resto quedó para lotes siguientes.
+apareció en siete ángulos distintos. El lote 1 investigó cinco y el lote 2, treinta y cinco.
 
 **Investigación y redacción.** Un agente por caso volvió a verificar desde cero cada hecho que
 traían los mineros contra el artefacto, el bronce y las páginas de origen. Reconstruyó la
 cronología, buscó activamente las explicaciones legítimas más plausibles con evidencia pública
 real, y decidió si publicar o descartar.
 
-**Verificación adversarial.** Un agente distinto, en otro modelo, que no escribió los casos,
+**Verificación adversarial (lote 1).** Un agente distinto, en otro modelo, que no escribió los casos,
 volvió a correr todas las cifras de cada texto, abrió las fuentes citadas para confirmar que
 dijeran lo que el texto les atribuye y revisó las reglas editoriales, con autoridad para
 corregir o retirar. Aprobó tres casos tal como estaban y uno con seis correcciones de
 redondeo (diferencias de $1 a $5 y de 0,01 UF). No retiró ninguno.
 
-En total, esta entrega desplegó **37 agentes**. Treinta corresponden a la fase de minería:
-veintidós mineros más ocho que revisaron la primera entrega (sección 4). Los siete restantes
-son cinco investigadores y dos verificadores.
+**Lote 2.** Por pedido expreso, en un modelo más económico (Sonnet 5) para todos los
+subagentes: 35 casos más, cada uno con un investigador y un verificador adversarial, más el
+ángulo de sociedades en el extranjero, que se completó y devolvió dos candidatos débiles que no
+pasaron a investigación. De los 35, 11 se descartaron en la investigación y 24 se escribieron.
+El verificador corrigió **los 24**, varios en afirmaciones centrales —un titular que atribuía a
+una autoridad lo que solo coincidía por nombre, cifras mal agregadas, un fondo que se daba por
+omitido y había sido comprado después—. Por eso se agregó un **segundo pase**: otro verificador
+por caso, que cerró lo que el primero no pudo confirmar leyendo directamente los certificados
+de socios y el registro público de oferentes (OCDS) de Mercado Público, y releyó titular,
+privacidad e interés público. Solo los casos que completaron ese segundo pase se publican: 7.
+Los otros 17 quedan como borradores, fuera de este repositorio, hasta completarlo.
+
+En total, esta entrega desplegó **109 agentes**: 30 en la minería (22 mineros y 8 revisores de
+la primera entrega), 7 en el lote 1, 64 en el lote 2 y 8 en el segundo pase, que se detuvo por
+límite de uso.
 
 ## 3. Lo que el proceso corrigió antes de publicar
 
@@ -85,10 +95,13 @@ son cinco investigadores y dos verificadores.
 
 ## 4. La primera entrega, revisada contra el artefacto nuevo
 
-En paralelo con la minería, ocho agentes, uno por categoría, volvieron a correr las cifras de
-los 70 casos publicados en agosto contra el artefacto actual. Sus veredictos **todavía no han
-pasado por un segundo verificador**, y por eso no se publican. Cuando lo hagan, la corrección
-irá en el mismo lugar que el caso original, como lo exige el estándar de la primera entrega.
+Ocho agentes, uno por categoría, volvieron a correr las cifras de los 70 casos publicados en
+agosto. Marcaron 13 como «ya no se sostiene», y un segundo verificador independiente confirmó 12
+por completo y 1 en parte. Solo 5 se explican por la corrección de moneda del artefacto; los
+otros 8 son errores de la redacción original —entre ellos un doble conteo de órdenes, el mismo
+error que la primera entrega ya había detectado en otros tres casos— o límites del cruce que ya
+estaban documentados. La fe de erratas está redactada y pendiente de decisión editorial;
+mientras tanto ningún caso publicado se ha modificado.
 
 ## 5. Rarezas del dato encontradas en el camino
 
@@ -106,7 +119,7 @@ Para el repositorio de Estado Claro, no para los casos:
 
 ## 6. Qué queda abierto
 
-- Los candidatos no investigados de este lote. Los guarda un expediente de trabajo que no se
+- Los 17 casos escritos que esperan el segundo pase de verificación, y los candidatos no
+  investigados. Los guarda un expediente de trabajo que no se
   publica, porque son pistas sin verificar sobre personas identificables.
 - La verificación cruzada de la revisión de la primera entrega (sección 4).
-- El ángulo de sociedades y bienes en el extranjero, que no terminó.
