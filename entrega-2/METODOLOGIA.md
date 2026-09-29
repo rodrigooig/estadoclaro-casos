@@ -97,11 +97,13 @@ límite de uso.
 
 Ocho agentes, uno por categoría, volvieron a correr las cifras de los 70 casos publicados en
 agosto. Marcaron 13 como «ya no se sostiene», y un segundo verificador independiente confirmó 12
-por completo y 1 en parte. Solo 5 se explican por la corrección de moneda del artefacto; los
-otros 8 son errores de la redacción original —entre ellos un doble conteo de órdenes, el mismo
-error que la primera entrega ya había detectado en otros tres casos— o límites del cruce que ya
-estaban documentados. La fe de erratas está redactada y pendiente de decisión editorial;
-mientras tanto ningún caso publicado se ha modificado.
+por completo y 1 en parte. Seis de esos trece —cinco saltos patrimoniales leídos sobre montos
+en dólares que ya venían en pesos, y un caso de proximidad temporal— ya se habían retirado en la
+[corrección del 27 de septiembre de 2026](../METODOLOGIA.md#corrección-del-27-de-septiembre-de-2026).
+Los otros siete siguen publicados. No los explica la corrección de moneda, sino errores de la
+redacción original —entre ellos un doble conteo de órdenes, el mismo error que la primera entrega
+ya había detectado en otros tres casos— o límites del cruce que ya estaban documentados. Su fe
+de erratas está redactada y pendiente de decisión editorial.
 
 ## 5. Rarezas del dato encontradas en el camino
 
