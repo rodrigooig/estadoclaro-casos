@@ -1,40 +1,44 @@
 # Casos Estado Claro — segunda entrega
 
-Cuatro casos nuevos, encontrados, investigados, contrastados con explicaciones legítimas
-alternativas y verificados de forma adversarial por agentes de inteligencia artificial sobre
-[Estado Claro](https://github.com/rodrigooig/estadoclaro), con el artefacto de datos del
-**22 de septiembre de 2026**. Las mismas reglas de la [primera entrega](../README.md): hechos
-públicos con su fecha y su fuente, nunca una acusación ni una conclusión legal, y para cada
-hallazgo la explicación legítima más plausible que se pudo encontrar.
+Once casos nuevos, encontrados, investigados, contrastados con explicaciones legítimas
+alternativas y verificados de forma adversarial por agentes que no los escribieron sobre [Estado Claro](https://github.com/rodrigooig/estadoclaro), con el artefacto
+de datos del **22 de septiembre de 2026**. Las mismas reglas de la [primera entrega](../README.md):
+hechos públicos con su fecha y su fuente, nunca una acusación ni una conclusión legal, y para
+cada hallazgo la explicación legítima más plausible que se pudo encontrar.
 
-Esta entrega es un **primer lote**. La minería encontró 111 candidatos sobre 83 personas en 21
-ángulos de investigación; por límite de uso se investigaron a fondo cinco, de los que se
-publican cuatro y uno se descartó. El resto sigue pendiente de investigación, y ninguno se
-publica mientras no pase por el mismo proceso. Ver [METODOLOGIA.md](METODOLOGIA.md).
+La minería encontró 111 candidatos sobre 83 personas en 22 ángulos. Se investigaron a fondo 40:
+se publican 11, 12 se descartaron porque una explicación documentada los cubría o porque su
+premisa no resistió la verificación, y 17 esperan un segundo pase de verificación antes de
+publicarse. Ver [METODOLOGIA.md](METODOLOGIA.md).
 
 ## Índice por categoría
 
-### [De candidato a autoridad](casos/de_candidato_a_autoridad/) — 3 casos
-Lo que cambia entre la declaración que una persona presenta como candidata y la que presenta
-al asumir: bienes y sociedades que aparecen o desaparecen, y lo que el Estado le compró a esas
-sociedades entre una y otra.
+### [De candidato a autoridad](casos/de_candidato_a_autoridad/) — 4 casos
+Lo que cambia entre la declaración de campaña y la de asunción: bienes y sociedades que
+aparecen o desaparecen, y lo que el Estado le compró a esas sociedades en el camino.
 
-### [Reguladores y regulados](casos/regulador_y_regulado/) — 1 caso
-Integrantes de organismos que regulan, fiscalizan o resuelven disputas de un sector, con
-intereses declarados en empresas de ese mismo sector.
+### [Reguladores y regulados](casos/regulador_y_regulado/) — 2 casos
+Integrantes de organismos que regulan o resuelven disputas de un sector, con intereses o
+actividades declaradas en ese mismo sector.
+
+### [Ventas al Estado sin competencia](casos/sin_competencia/) — 3 casos
+Sociedades de autoridades que le venden al Estado por trato directo o como únicas oferentes.
+
+### [Lo que la declaración no dice](casos/declaraciones_incompletas/) — 1 caso
+Participaciones que dejan de figurar entre dos declaraciones sin que se sepa qué pasó con ellas.
+
+### [Después del cargo](casos/despues_del_cargo/) — 1 caso
+Lo que el Estado le compró a sociedades vinculadas a una autoridad después de su salida.
 
 ## Qué hay de nuevo respecto de la primera entrega
 
-- **Vigencia de cargos.** El artefacto ahora deriva quién ejerce hoy cada cargo, desde cuándo y
-  hasta cuándo, en vez de depender solo de la ventana de cada declaración. Eso permite comparar
-  la declaración de candidato con la de asunción y fechar cada orden contra el cargo real.
-- **Montos en otra moneda.** Antes todo instrumento en otra moneda se multiplicaba por el tipo
-  de cambio; 591 que ya venían en pesos aparecían unas 900 veces más grandes. Ahora cada monto
-  dice cómo se leyó, y los inmuebles en dólares se convierten con el dólar del día declarado.
-- **Fuentes que la primera entrega no usó**: el certificado de «socios y accionistas
-  principales» que cada proveedor firma en Mercado Público, que resolvió dos de los cinco casos
-  investigados; el número de oferentes por línea de cada licitación; y las actas públicas del
-  órgano donde ejerce la persona.
+- **Vigencia de cargos.** El artefacto deriva quién ejerce hoy cada cargo, desde cuándo y hasta
+  cuándo; eso permite comparar la declaración de candidato con la de asunción.
+- **Montos en otra moneda**, leídos según la evidencia de cada fila y no multiplicados siempre
+  por el tipo de cambio.
+- **El certificado de socios de Mercado Público** —la declaración jurada de socios que cada
+  proveedor firma— como fuente de quién figura como dueño en la fecha de cada orden. Fue
+  decisivo en varios de los casos investigados, tanto publicados como descartados.
 
 ## Qué NO es esto
 
