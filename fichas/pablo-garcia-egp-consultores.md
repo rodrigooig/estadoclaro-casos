@@ -77,9 +77,27 @@ El PDF se pudo extraer, pero el comando del ledger de citas bloqueó su URL por 
 
 **Próxima comprobación:** buscar y cotejar documentos públicos de causas del TDLC (presentaciones, informes, comparecencias y decisiones) para establecer si existe un solapamiento concreto entre trabajos identificados de EGP y asuntos en que García participó como ministro; después revisar las bases y actos de las tres órdenes clasificadas como trato directo. No abrir borrador público sin cerrar identidad, hecho material, relevancia, descarte de error del cruce y explicaciones legítimas.
 
+## 5. Seguimiento de órdenes clasificadas como trato directo — 2026-10-02
+
+La consulta [`consultas/pablo-garcia-egp-consultores-4.sql`](../consultas/pablo-garcia-egp-consultores-4.sql), ejecutada contra el artefacto con corte 2026-10-02T15:43:07Z, devuelve tres órdenes primarias y coteja cada una con `purchase_order`: 662237-108-SE22 (CLP 18.000.000; ruta de prórroga), 654478-517-SE22 (CLP 1; envío al proveedor, categoría «licitación pública previa sin ofertas, o con ofertas inadmisibles») y 654478-40-SE23 (CLP 30.990.000; recepción conforme, misma categoría). El registro primario de Mercado Público confirma la descripción de prórroga y el total de CLP 18.000.000 para la primera orden.[8] Para la segunda, el registro primario muestra total de CLP 1 y el estado «Enviada a proveedor».[9] Para la tercera, muestra total de CLP 30.990.000, recepción conforme y la misma categoría de compra.[10]
+
+La coincidencia de descripción entre las dos órdenes de la Subsecretaría de Prevención del Delito, con montos y estados distintos, es una pista para revisar los anexos y actos administrativos; **no** permite afirmar que la orden de CLP 1 refleje el valor económico real del servicio, que las dos órdenes sean un solo contrato ni cuál fue la justificación completa. No se accedió a «Ver Anexos» ni a las bases, resolución, expediente de compra o antecedente de la licitación previa. El registro de Mercado Público declara esos anexos disponibles, pero la extracción pública examinada no expuso sus enlaces; el navegador devolvió «Service Unavailable». Por eso esta comprobación se detiene aquí, sin solicitar acceso ni recurrir a una persona.
+
+La consulta recuperó las tres filas por identidad de nombre completo, RUT de proveedor societario y condición `is_primary_for_person`; el cotejo con `purchase_order` reprodujo moneda CLP y montos nominales de 17.999.999,5; 1 y 30.990.000, respectivamente. Para la primera, la interfaz primaria presenta total redondeado de CLP 18.000.000; la pequeña diferencia de medio peso entre el campo subyacente del artefacto y el total mostrado no cambia la lectura nominal, pero se conserva aquí para no ocultarla. La etiqueta de «trato directo» describe la ruta registrada, no una conclusión sobre legalidad o irregularidad.
+
+**Decisión:** mantener **evidencia insuficiente** y no preparar borrador de caso. Hay evidencia nueva de dos expedientes con explicaciones administrativas específicas en su clasificación (prórroga y licitación previa fallida/inadmisible), pero faltan los anexos/actos que explican las selecciones concretas, y sigue sin acreditarse intervención personal de García ni vínculo funcional entre esos contratos y causas del TDLC. La explicación legítima documentada para el conjunto sigue siendo la actividad de consultoría pública y la competencia mediante licitaciones que describe la empresa; no sustituye la revisión de cada expediente.[4]
+
+**Qué resolvería la siguiente etapa:** obtener por acceso público los anexos y actos de las tres órdenes y cotejar los fundamentos fechados con las normas aplicables; además identificar informes/presentaciones EGP firmados por García y compararlos con causas TDLC donde participó. Si el acceso exige CAPTCHA/login, una solicitud de transparencia o contacto, marcar «requiere humano» con la gestión exacta y no intentarla. No atribuir una intervención ni relación causal a partir del cargo, los montos o la coincidencia temática.
+
 
 
 ## Sources
+
+[8] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=662237-108-SE22 — Mercado Público. Extracto: “Orden de Compra Prórroga de un contrato de suministro o servicio o contratación de servicios conexos”; “TOTAL OC | $ 18.000.000”.
+[9] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=654478-517-SE22 — Mercado Público. Extracto: “Orden de Compra licitación pública previa sin ofertas, o con ofertas inadmisibles”; “TOTAL OC | $ 1”.
+[10] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=654478-40-SE23 — Mercado Público. Extracto: “Orden de Compra licitación pública previa sin ofertas, o con ofertas inadmisibles”; “TOTAL OC | $ 30.990.000”.
+
+
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5113268
     > "| Cargo o función | Ministro Suplente |"
