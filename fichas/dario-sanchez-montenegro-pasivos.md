@@ -2,7 +2,7 @@
 
 - **ID estable:** `dario-sanchez-montenegro-pasivos`
 - **Categoría:** patrimonio y pasivos
-- **Estado actual:** evidencia insuficiente; no redactar caso
+- **Estado actual:** requiere humano; no redactar caso
 - **Apertura / última actualización:** 2026-10-02 (seguimiento de búsqueda documental)
 - **Corte de datos:** `meta.build_date = 2026-09-29T15:40:44+00:00`; oro sincronizado 2026-10-01 23:49 UTC, sin cambios frente a última sincronización. Consultas locales el 2026-10-02 mediante `ec-gold-sql`, solo lectura.
 - **Identidad:** coincidencia exacta del nombre completo `DARIO SANCHEZ MONTENEGRO` entre el titular de InfoProbidad y `declarant.full_name`; se enlaza solo el `person_id` que corresponde a esa declaración y su serie de cuatro documentos. No se atribuye ningún registro de homónimo.[1][7]
@@ -87,6 +87,15 @@ No se afirma que se haya localizado o descartado una explicación legítima comp
 - **Resultado negativo acotado:** las búsquedas web exactas del monto y del nombre no localizaron una fuente independiente que confirme el saldo; el único resultado documental directo de monto fue la propia declaración.[unverified] La búsqueda web no sustituye una consulta al índice hipotecario ni un certificado del Conservador.
 - **Decisión:** conservar **evidencia insuficiente**, sin borrador de caso. La cifra es comprobable como dato declarado, pero no hay verificación independiente de su saldo. No se infiere deuda real por esa suma, error, infracción o irregularidad.
 - **Próxima acción concreta:** cuando pueda resolverse el CAPTCHA por un operador humano autorizado, consultar el índice de Hipoteca Propiedad del CBR Arica por el nombre exacto y rango 2019–2024; contrastar solo la inscripción que corresponda al inmueble declarado y distinguir monto inscrito de saldo adeudado. Si no se identifica una inscripción pública vinculable o no aparece una rectificación independiente, cerrar como cifra no corroborada.
+
+## Seguimiento de selección — 2026-10-02
+
+- **Cambio de estado:** la única comprobación independiente restante identificada sigue siendo la búsqueda manual en el índice «Hipoteca Propiedad» del CBR de Arica. El formulario exige resolver CAPTCHA; no se automatiza ni se envía en esta corrida. Se cambia a **requiere humano**.[15]
+- **Gestión exacta requerida:** una persona autorizada debe buscar el nombre completo `DARIO SANCHEZ MONTENEGRO` en el índice de hipotecas del CBR Arica, acotar a 2019–2024 y devolver el resultado público o documento registral suficiente para verificar titularidad, inmueble y monto inscrito. Distinguir monto inscrito de saldo adeudado; no asumir que una inscripción corresponde al declarante sin enlace documental con el inmueble declarado.[1][15]
+- **Pantalla paralela de compras públicas:** se ejecutó y guardó [`consultas/pantalla-compras-propias-20261002.sql`](../consultas/pantalla-compras-propias-20261002.sql) sobre el oro de corte 2026-09-29. De los tres resultados que cumplían filtros reproducibles, cada persona ya aparece en un caso público de la categoría: Alberto Patricio Aliaga Díaz (`casos/autocontratacion/aliaga-diaz-municipalidad-cabildo.md`), Jorge Eduardo Vaccaro Collao (`casos/negocios_estado/vaccaro-collao-negocios-estado.md`) y Esteban Gregorio Martínez Rubio (`casos/autocontratacion/martinez-rubio-municipalidad-peumo.md`). No se abrió ficha duplicada ni se repitió investigación sobre esos casos.
+- **Resultado de esta corrida:** no hubo fuente pública independiente nueva para el saldo hipotecario y no se encontró una pista de compras propia no cubierta al aplicar esa pantalla. La consulta del CBR queda bloqueada por CAPTCHA humano; esto no demuestra que exista o no exista una inscripción.[1][15]
+- **Decisión:** conservar `requiere humano`, sin borrador de caso. La declaración primaria prueba el monto reportado y deja reservado el número de inscripción; no acredita el saldo bancario ni la inscripción concreta.[1]
+- **Próxima acción:** completar la consulta registral manual descrita arriba y volver con el documento o resultado verificable; hasta entonces no publicar la cifra como deuda real confirmada.
 
 ## Sources
 
