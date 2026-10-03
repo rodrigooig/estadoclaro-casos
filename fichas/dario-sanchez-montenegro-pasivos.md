@@ -62,6 +62,20 @@ La declaración ID 846768, del 02-04-2022, presenta el mismo monto y acreedor.[9
 La búsqueda de explicaciones se acotó a las declaraciones originales de 2022–2024 y a los campos del oro.
 No se verificó el crédito con el banco, un certificado de deuda ni el Conservador de Bienes Raíces.
 No se afirma que se haya localizado o descartado una explicación legítima completa.
+## Seguimiento amplio y pivote — 2026-10-03
+
+- **Actualización de corte y reproducibilidad:** el oro sincronizado informado por el job tiene `meta.build_date = 2026-10-02T15:43:07Z`. Se repitieron con `ec-gold-sql` las consultas guardadas 2–6. La serie vuelve a mostrar cuatro declaraciones (02-04-2022, 19-12-2022, 14-03-2023 y 18-03-2024), y los nominales hipotecarios siguen en CLP 81.457.863, CLP 81.457.863, CLP 88.253.566 y CLP 88.520.142.777; la última fila mantiene `implausible = false`. La consulta 6 vuelve a calcular 1.003,02× entre las dos últimas. El corte es nuevo; no cambió el contenido medido en las cuatro filas.
+- **Cotejo de origen por separado:** se abrió en InfoProbidad la declaración 1144876, que muestra en el resumen «Total $ 88.520.142.777», y la 969843, que muestra «Total $ 88.253.566». Son montos publicados en las declaraciones, no confirmación del saldo bancario.
+- **Ruta registral oficial:** se abrió la página de Índices de Hipoteca Propiedad del CBR Arica. El formulario ofrece «Buscar por Nombre» y rango de años 1987–2026, pero la página incluye controles reCAPTCHA; no se ingresó nombre ni se envió el formulario. Continúa pendiente una consulta humana autorizada, sin eludir el control.
+- **Rutas de descubrimiento independientes:** búsqueda exacta web de «DARIO SANCHEZ MONTENEGRO» junto a «88.520.142.777», búsqueda de una declaración 2025/2026 por nombre en InfoProbidad, búsqueda por nombre + Banco de Chile/Arica, y búsqueda del nombre en el sitio del CBR no entregaron una fuente independiente que confirme el saldo o una rectificación posterior. El perfil público de InfoTransparencia abrió sin campos de declaración visibles en el texto extraído. Son resultados de esas rutas y consultas, no prueba de inexistencia de una rectificación o inscripción.
+- **Alternativa legítima y límite:** sigue siendo plausible una obligación real con garantía hipotecaria, un refinanciamiento o un error de digitación/actualización. La declaración confirma qué cifra se informó; no enlaza el pasivo a una inscripción identificable porque campos registrales aparecen reservados, ni permite distinguir esas explicaciones. No se obtuvo evidencia nueva de banco o CBR.
+- **Decisión y pivote:** se conserva `requiere humano`; no hay evidencia nueva que justifique borrar ni reinterpretar el monto. La acción humana precisa permanece: consulta por nombre completo en el índice de Hipoteca Propiedad del CBR Arica para 2019–2024; si encuentra una inscripción, verificar el inmueble e interpretar monto inscrito separadamente del saldo. Tras esta pasada amplia, la investigación pivota a la ficha abierta de Pablo Allard Serrano, donde apareció documentación pública nueva de procesos y fases de contratación; no se repetirá la búsqueda del CBR sin un resultado nuevo.
+
+[16] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1144876 — InfoProbidad, consultada 2026-10-03; extracto: «Total $ 88.520.142.777».
+[17] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=969843 — InfoProbidad, consultada 2026-10-03; extracto: «Total $ 88.253.566».
+[18] https://www.conservadorarica.cl/solicitudes/indices/indices.php — CBR Arica, índice consultado 2026-10-03; «Buscar por Nombre».
+[19] https://www.infotransparencia.cl/AUTORIDADFUNCIONARIO/BFEB37374A43CAFF10FFC1C0D6B605B1 — InfoTransparencia; consultado 2026-10-03; el texto extraído del perfil no mostraba declaración ni pasivos.
+
 
 ## Desafío adversarial y decisión editorial
 
