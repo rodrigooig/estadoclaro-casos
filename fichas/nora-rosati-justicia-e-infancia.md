@@ -1,8 +1,8 @@
-# Nora Rosati, Justicia e Infancia y compras públicas de capacitación — evidencia insuficiente
+# Nora Rosati, Justicia e Infancia y compras públicas de capacitación — requiere humano
 
 - **ID:** `nora-rosati-justicia-e-infancia`
 - **Categoría:** compras/relaciones con el Estado; actividades/cargos/temporalidad.
-- **Estado:** evidencia insuficiente; sin borrador de caso.
+- **Estado:** requiere humano; sin borrador de caso.
 - **Fecha de trabajo:** 2026-10-03.
 - **Corte del oro:** `meta.build_date = 2026-10-02T15:43:07+00:00`; copia local sin cambios según el pre-run.
 - **Identidad:** coincidencia del nombre completo NORA ANGELA ROSATI JEREZ en InfoProbidad y en `person.full_name`; las declaraciones consultadas la identifican como jueza del Poder Judicial.[1][2]
@@ -67,45 +67,42 @@ La secuencia de compras y montos se reprodujo con registros canónicos; no hay e
 La revisión independiente tampoco encontró evidencia que cierre esas brechas; el objeto de capacitación y asesoría resulta temáticamente pertinente.[7][8]
 La Academia Judicial acredita la especialidad de Rosati y la empresa ofrece cursos en ese campo, pero eso no valida cada adjudicación.[9][10]
 
-**Próxima acción:** solo avanzar si una vía documental pública permite revisar las actas, ofertas y anexos de las licitaciones 318-3-LP24 y 1477-17-LE24 y comprobar los equipos/roles declarados, y si los antecedentes públicos permiten determinar si Rosati participó o recibió remuneración por entregables contratados. Si esa evidencia no aparece, conservar la pista como participación societaria concurrente con compras licitadas, sin atribución personal.
+**Próxima acción:** avanzar solo si una vía documental pública permite revisar las actas, ofertas y anexos de 318-3-LP24 y 1477-17-LE24 y comprobar los equipos/roles declarados, o si aparecen antecedentes públicos que acrediten participación o remuneración personal de Rosati en entregables contratados. Si no, conservar la pista como participación societaria concurrente con compras licitadas, sin atribución personal.
+
+## 7. Pasada amplia sobre el rol en la capacitación CAJ — 2026-10-03
+
+**Revalidación medida:** se reejecutaron las consultas guardadas `consultas/nora-rosati-justicia-e-infancia-2.sql` y `-4.sql` contra el corte ya identificado. Se mantuvieron 10 órdenes primarias distintas entre 06-09-2024 y 05-08-2025, por CLP nominales 103.252.000; las 10 se clasifican como provenientes de licitación pública, con 0 tratos directos, y el cotejo fila a fila reproduce monto, RUT societario y CLP en `purchase_order`. `same_institution` continúa NULL en las 10, por lo que no se pudo determinar la coincidencia de institución. La consulta y el cruce no identifican a quien impartió o preparó cada curso.
+
+**Nueva evidencia contractual primaria:** la resolución 4433/2024 del acta oficial de adjudicación confirma la apertura y adjudicación del 03-10-2024; indica que llegaron cinco ofertas, de las cuales dos fueron admisibles (Cinder Capacitación y Justicia e Infancia), y que la comisión propuso adjudicar a Justicia e Infancia por obtener el puntaje máximo y cumplir las bases. El total neto adjudicado fue CLP 13.000.000.[24] El acta de apertura identifica las otras tres ofertas y registra motivos de rechazo por anexos faltantes; no consigna observaciones al acto de apertura.[26] La ficha de licitación asigna 40% a la experiencia de relatores y 20% al precio.[12] La OC 1477-401-SE24, enviada ese mismo día, vincula por nombre y RUT societario a la empresa con el curso de transversalidad del abordaje jurídico de violencia de género y registra CLP 13.000.000.[4] Los documentos revisados identifican a la sociedad, a oferentes y a la comisión, pero no nombran a Rosati como relatora, autora de la propuesta o participante en la decisión.[12][24][26]
+
+La OC de capacitación conjunta 1477-509-SE24 registra CLP 35.260.000 para el curso NAD sobre representación jurídica especializada de niños, niñas y adolescentes; la OC 535657-31-CC24 registra CLP 7.224.000 en la línea para Tarapacá y Antofagasta de la licitación conjunta 318-3-LP24.[5][11] En esta segunda licitación, la ficha oficial dice que cuatro órdenes regionales separaron un solo curso y no deben contarse como cuatro capacitaciones distintas.[8]
+
+**Alternativa legítima y contraste:** la propia empresa informa que realizó la capacitación para 74 funcionarios de la CAJ RM entre noviembre y diciembre de 2024, con profesionales de cinco regiones; la publicación no nombra a Rosati ni detalla el equipo docente.[19] Esto apoya el objeto y la realización reportada por el proveedor, no la identidad de sus relatores. Un acta oficial de Academia Judicial identifica a Nora Rosati y Alicia Fuentes como equipo docente adjudicado en un curso diferente del Programa de Formación N°91 en 2025; un perfil profesional de ADIPA también la describe como instructora de la Ley 21.057.[15][16] Ambos datos respaldan pertinencia temática general, pero son posteriores o ajenos al contrato CAJ 2024 y no prueban su participación en ese servicio.
+
+**Rutas nuevas y límites:** (1) lectura de la ficha y del acta oficial, incluidos criterios/etapas; (2) cotejo de las OCs 1477-401-SE24, 1477-509-SE24 y 535657-31-CC24 por código, fecha, proveedor, RUT societario, importe y objeto; (3) fichas secundarias del proceso/proveedor usadas solo como pistas, contrastadas con las fuentes primarias; (4) búsquedas web exactas por `1477-17-LE24`, `1477-401-SE24`, el título del curso, `Nora Rosati` y dominios de Mercado Público/CAJ; (5) índices de transparencia de CAJ RM de septiembre–diciembre de 2024. En la porción visible de esos índices no identifiqué una resolución de adjudicación con el código de la licitación; esta búsqueda negativa es acotada y no demuestra que el documento no exista. El cuadro comparativo enlazado desde la ficha oficial abrió una página sin contenido visible en esta sesión; no se eludió ningún control. No pude revisar el anexo completo del acta de evaluación ni una oferta técnica que identifique relatores; la ficha indica que las ofertas técnicas serían públicas tras la apertura.[12][24]
+
+**Mapa de afirmaciones y decisión:** identidad e interés societario siguen apoyados por la declaración original y el RUT societario; las órdenes y montos fueron cotejados en fuentes primarias; el vínculo de la empresa con el curso está acreditado; la participación personal de Rosati en la capacitación CAJ no está acreditada. La explicación plausible es una empresa con actividad especializada que concursó en procedimientos abiertos, y su propio relato informa la ejecución de ese curso. No se obtuvo contraste de un revisor independiente en esta pasada.
+
+**Estado: requiere humano; no preparar borrador.** El acta primaria oficial acredita la concurrencia, las ofertas admisibles, la adjudicación y su monto, pero no identifica a Rosati como relatora o interviniente.[24][26] El acta enumera como anexo el PDF `EVALUACION 1477-17-LE24.pdf`; al abrir los anexos el portal mostró un control CAPTCHA (“Ingrese el texto de la imagen”). No se intentó resolverlo ni descargar por vías indirectas. La ficha del proceso y las búsquedas exactas/índices de CAJ ya fueron revisados en esta pasada amplia. **Gestión humana exacta:** una persona autorizada puede completar el CAPTCHA en el portal público para obtener el acta de evaluación y ofertas técnicas anexas, o localizar copias oficiales accesibles por otra vía pública, y comprobar si nombran a relatores/equipo y su papel. Reabrir la valoración editorial solo si esos documentos aportan evidencia nueva; en otro caso, cerrar como participación societaria concurrente con compra licitada, sin atribución personal.
 
 [^metodología]: `METODOLOGIA.md`, «Qué no cubre el cruce», indica que `same_institution = NULL` significa que no se pudo determinar el organismo comprador; el valor no se interpreta como institución distinta.
 
 ## Sources
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5114646
-    > "Cantidad / Porcentaje	50"
-    > "Tiene Calidad de Controlador	false"
-    > "NORA ANGELA ROSATI JEREZ"
-    > "Juez Poder Judicial"
-    > "31-03-2026 Actualización Periódica (Marzo)"
-    > "Grupo Interdisciplinario Justicia e Infancia Ltda."
-    > "Fecha de adquisición"
-    > "Fecha de adquisición	30-08-2023"
 [2] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5086945
-    > "Nombre o Razón Social	Grupo Interdisciplinario Justicia e Infancia Ltda."
-    > "Fecha de adquisición	30-08-2023"
-    > "NORA ANGELA ROSATI JEREZ"
-    > "Actualización Periódica (Marzo)"
-    > "Cargo o función	Juez"
-    > "Organismo	Poder Judicial"
-    > "Cantidad / Porcentaje	50"
 [3] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=318-194-SE24
-    > "Valor Total | $ 11.352.000"
 [4] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1477-401-SE24
-    > "Valor Total | $ 13.000.000"
 [5] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1477-509-SE24
-    > "Valor Total | $ 35.260.000"
 [6] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1252675-118-CC24
-    > "Valor Total | $ 16.168.000"
 [7] https://justiciaeinfancia.cl/asesoria-externa-implicancias-de-ser-garantes-en-derechos
-    > "Asimismo, participó la magistrada Nora Rosati, jueza del ámbito penal y especialista en la Ley 21.057 sobre entrevistas videograbadas, quien reforzó aspectos normativos y jurídicos asociados a la protección de derechos."
 [8] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=318-3-LP24
-    > "El servicio requerido corresponde a un solo curso de capacitación, que fue separado en cuatro líneas para hacer la identificación de la cantidad de participantes por cada Corporación, lo que suma un total de 407 participantes"
 [9] https://academiajudicial.cl/evento/ley-n-21-057-de-entrevista-videograbada-interaccion-entre-sede-penal-y-de-familia
-    > "Nora Rosati Jerez: Abogada, Universidad de Chile; Jueza del Segundo Tribunal Oral en lo Penal de Santiago; Instructora de la Ley 21.057"
 [10] https://justiciaeinfancia.cl/servicios
-    > "Cursos de especialización en las materias propias del sistema de la Ley 21.057: Cambios procesales, Entrevista Investigativa Videograbada e Intermediación de niños, niñas y adolescentes en la declaración judicial"
 [11] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=535657-31-CC24
-    > "Valor Total | $ 7.224.000"
-    > "Proveniente de Licitación | 318-3-LP24"
+[12] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1477-17-LE24
+[15] https://academiajudicial.cl/wp-content/uploads/2025/12/Acta-454-firmada.pdf
+[16] https://adipa.cl/docentes/abga-nora-rosati
+[19] https://justiciaeinfancia.cl/capacitacion-en-transversalidad-del-abordaje-juridico-de-la-violencia-de-genero
+[24] https://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=MZl5JIeVrBzIOOUvofMgOw==
+[26] https://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewElectronicOpening.aspx?qs=MZl5JIeVrBzIOOUvofMgOw==
