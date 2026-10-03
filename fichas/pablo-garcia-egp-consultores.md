@@ -2,8 +2,8 @@
 
 - **ID estable:** `pablo-garcia-egp-consultores`
 - **Categoría:** compras / relaciones con el Estado
-- **Estado actual:** evidencia insuficiente; no preparar borrador de caso
-- **Apertura / última actualización:** 2026-10-02
+- **Estado actual:** requiere humano; no preparar borrador de caso
+- **Apertura / última actualización:** 2026-10-03
 - **Corte del artefacto:** `meta.build_date = 2026-10-02T15:43:07+00:00`; consultado en solo lectura el 2026-10-02. La copia sincronizada no había cambiado desde la corrida previa.
 - **Identidad:** coincidencia completa de nombre en InfoProbidad y `person.full_name`.
 
@@ -91,13 +91,21 @@ La consulta recuperó las tres filas por identidad de nombre completo, RUT de pr
 
 
 
-## Sources
+## 6. Seguimiento de fuentes públicas — 2026-10-03
+
+Se añadió contexto contractual anterior al período de las órdenes examinadas: un informe final atribuido a EGP, con licitación ID 425-85-LE18, fue preparado para la Secretaría de Igualdad de Género y No Discriminación de la Corte Suprema y lleva fecha 29-07-2019 ([PDF alojado por el Poder Judicial](https://secretariadegenero.pjud.cl/images/stignd/estudios/generoMovilidadAcceso/Estudio1/EstudioCondicionantesdeGeneroAccesoCargosdelPoderJudicial.pdf), consultado el 2026-10-03). Esto corrobora experiencia previa de la consultora en un encargo público judicial; no identifica a García como autor o responsable del informe ni lo vincula con las compras 2022–2023 o con una causa del TDLC.
+
+La consulta oficial de expedientes del TDLC redirigió a una pantalla de acceso con clave o Clave Única ([portal de consulta](https://consultas.tdlc.cl/do_search?proc=3), consultado el 2026-10-03); no se ingresaron credenciales ni se intentó sortear el acceso. El siguiente paso exacto requiere una persona autorizada: consultar por «EGP Consultores» y «Pablo García González»; guardar los documentos públicos identificados y cotejar sus fechas, autoría/representación y causas con las decisiones del TDLC. Luego, continuar con anexos y actos de compra solo si pueden obtenerse sin otra gestión humana.
+
+Se revalidaron las fichas públicas de Mercado Público: la OC 654478-517-SE22 consigna CLP 1 y la ruta «licitación pública previa sin ofertas, o con ofertas inadmisibles»; la OC 654478-40-SE23 consigna CLP 30.990.000, recepción conforme y la misma ruta ([OC 654478-517-SE22](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=654478-517-SE22); [OC 654478-40-SE23](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=654478-40-SE23), consultadas el 2026-10-03). Esas fichas no sustituyen los anexos, actos ni expediente y no resuelven el papel personal de García.
+
+**Decisión:** requiere humano; no hay borrador de caso. El resumen de esta corrida con citas y evidencia textual está en [`tmp/resumen.md`](../tmp/resumen.md).
+
+## Sources (evidencia anterior)
 
 [8] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=662237-108-SE22 — Mercado Público. Extracto: “Orden de Compra Prórroga de un contrato de suministro o servicio o contratación de servicios conexos”; “TOTAL OC | $ 18.000.000”.
 [9] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=654478-517-SE22 — Mercado Público. Extracto: “Orden de Compra licitación pública previa sin ofertas, o con ofertas inadmisibles”; “TOTAL OC | $ 1”.
 [10] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=654478-40-SE23 — Mercado Público. Extracto: “Orden de Compra licitación pública previa sin ofertas, o con ofertas inadmisibles”; “TOTAL OC | $ 30.990.000”.
-
-
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5113268
     > "| Cargo o función | Ministro Suplente |"
