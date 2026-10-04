@@ -48,6 +48,8 @@ No hay en las fuentes revisadas prueba de que Plaza interviniera en la licitaci�
 
 **Identidad societaria y límites.**
 
+La página oficial de SalfaCorp informa, en una entrada de 2025, que Constructora Salfa está entre las «filiales del Grupo»; esto respalda la vinculación entre las marcas/nombres del grupo, pero no identifica el porcentaje de propiedad ni qué título exacto representa la tenencia declarada por Plaza.[24]
+
 La CMF identifica la razón social CONSTRUCTORA SALFA S.A. con RUT 93.659.000-4, igual al RUT de la línea que la declaración etiqueta «SALFACORP».[1][11]
 
 El sitio oficial de SalfaCorp describe su unidad de ingeniería y construcción; ese contexto es compatible con la obra, pero no acredita a los accionistas de Constructora Salfa S.A.[3][4]
@@ -115,3 +117,4 @@ Sin revisor humano independiente en esta corrida. Sin borrador de caso ni PR a `
 [17] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=jb77jIdpHotfo6uaLV6UjQ%3D%3D
 [18] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=bd1qUWHYOn+IwfnXpPJgXg%3D%3D
 [21] https://www.todolicitaciones.cl/licitacion/638-18-O125/const-macro-urbanizacion-puh-punta-arenas
+[24] https://salfacorp.com/compania/reconocimientos
