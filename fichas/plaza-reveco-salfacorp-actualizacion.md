@@ -48,11 +48,11 @@ No hay en las fuentes revisadas prueba de que Plaza interviniera en la licitaci�
 
 **Identidad societaria y límites.**
 
-La CMF identifica la razón social CONSTRUCTORA SALFA S.A. con RUT 93.659.000-4, igual al RUT de la línea que la declaración etiqueta «SALFACORP».[1][2]
+La CMF identifica la razón social CONSTRUCTORA SALFA S.A. con RUT 93.659.000-4, igual al RUT de la línea que la declaración etiqueta «SALFACORP».[1][11]
 
 El sitio oficial de SalfaCorp describe su unidad de ingeniería y construcción; ese contexto es compatible con la obra, pero no acredita a los accionistas de Constructora Salfa S.A.[3][4]
 
-La participación y sus datos son autodeclarados; las fuentes no establecen control, intervención del titular, beneficio personal derivado de la compra ni calificación jurídica.[1][2][15]
+La participación y sus datos son autodeclarados; las fuentes no establecen control, intervención del titular, beneficio personal derivado de la compra ni calificación jurídica.[1][11][15]
 
 ## Rutas y consultas de esta pasada (2026-10-04)
 
@@ -62,7 +62,7 @@ La participación y sus datos son autodeclarados; las fuentes no establecen cont
 - **ChileCompra (2/2):** también se verificaron las fichas 829-23-SE26 y 638-93-SE26, y se distinguieron los estados «Enviada a proveedor» y «Aceptada».[8][9]
 
 - **Licitación y organismo comprador:** consulta exacta por 638-18-O125 en Mercado Público y cotejo con la resolución pública MINVU que nombra la comisión técnica.[12][16]
-- **CMF:** consulta por RUT 93.659.000; la ficha oficial entrega la razón social Constructora Salfa S.A.[2]
+- **CMF:** consulta por RUT 93.659.000; la ficha oficial identifica Constructora Salfa S.A. con ese RUT.[11]
 - **SalfaCorp:** se revisaron páginas institucionales de unidades de negocio para contrastar el objeto constructor de la obra.[3][4]
 - **Poder Judicial / refutación:** búsquedas web exactas `"Rafael Plaza Reveco" "Constructora Salfa"`, `"Salfacorp" "Rafael Plaza Reveco" sentencia` y nombre completo + `pjud.cl` ejecutadas el 2026-10-04. No apareció en esos resultados indexados una relación verificable de Plaza con esta licitación o con un juicio de Salfa.[unverified] El resultado negativo se limita a esas búsquedas indexadas y no prueba ausencia de causas o vínculos.
 - **Documentos pendientes de la ruta licitatoria:** la ficha pública acredita el estado adjudicado y la fecha, y el acta MINVU acredita la designación de comisión; no se localizó en esta pasada la resolución de adjudicación con puntuaciones/anexos.[12][16]
@@ -72,7 +72,7 @@ La participación y sus datos son autodeclarados; las fuentes no establecen cont
 - **Reejecución del oro:** se ejecutaron de nuevo, por `ec-gold-sql`, ambas consultas guardadas. La primera devolvió cuatro filas por códigos OC distintos, los cuatro con proveedor/RUT 93.659.000-4; la segunda, que agrega `distinct order_code`, volvió a dar 4 órdenes, CLP 34.277.418.870 y UF 858.290,27, entre 16-12-2025 y 01-07-2026. Corte sin cambio: `meta.build_date=2026-10-02T15:43:07Z`. Es una reejecución independiente de la primera corrida a nivel de consulta, no una revisión humana independiente.
 - **Fichas originales ChileCompra:** se extrajeron de nuevo las cuatro fichas y se cotejaron monto, proveedor/RUT, fecha, comprador, licitación y estado. La nueva ficha confirma 638-216-SE25 en CLP 25.938.092.545, «Enviada a proveedor» y ligada a 638-18-O125.[15] Las otras tres coinciden en sus montos y estado indicados arriba.[7][8][9] Ninguna ficha acredita por sí sola pago efectivo.
 - **Proceso/expediente de la compra:** la ficha de 638-18-O125 la describe como licitación pública abierta de obra, suma alzada, presupuesto CLP 26.849.862.000, para obras de urbanización del PUH en Punta Arenas, con adjudicación indicada el 16-12-2025.[12] La Res. Ex. MINVU 1382, del 31-07-2025, nombra a la comisión técnica evaluadora y le encarga acta de apertura, selección y propuesta de adjudicación; no es el acto final de adjudicación ni muestra puntuaciones.[16] Se buscó por ID exacto y en el índice/colección de resoluciones SERVIU-Magallanes 2025; no se localizó allí el acto final o anexo de evaluación.[14] Consultas adicionales exactas `"638-18-O125" Constructora Salfa adjudicada oferta evaluación`, `site:documentos.minvu.cl "638-18-O125" "ADJUDÍCASE"`, `site:documentos.minvu.cl/server/api/core/bitstreams "ADJUDICA" "638-18-O125"` y `"RESOLUCIÓN EXENTA" "638-18-O125" adjudica` (04-10-2026) no devolvieron el acto; resultados con IDs parecidos correspondían a otros procesos.[17][18]
-- **Identidad societaria / explicación alternativa:** la página CMF de 12 mayores accionistas de Constructora Salfa S.A. dice que no hay datos para el último período informado; la pestaña de directores/administradores también aparece «Sin Información».[13][11] La vista de lista de accionistas no expuso datos útiles en la extracción.[19] Por tanto, el registro público consultado no resolvió qué participación exacta representa la etiqueta «SALFACORP» de la declaración. La explicación comercial más plausible sigue siendo una compra abierta de obras públicas a una constructora con actividad compatible, no una adjudicación identificada como intervención del titular.[3][12][15]
+- **Identidad societaria / explicación alternativa:** la página CMF de 12 mayores accionistas de Constructora Salfa S.A. dice que no hay datos para el último período informado; la pestaña de directores/administradores también aparece «Sin Información».[13][11] Por tanto, el registro público consultado no resolvió qué participación exacta representa la etiqueta «SALFACORP» de la declaración. La explicación comercial más plausible sigue siendo una compra abierta de obras públicas a una constructora con actividad compatible, no una adjudicación identificada como intervención del titular.[3][12][15]
 - **Búsqueda de refutación e índice de organismos:** consultas exactas por persona+sociedad/licitación, la Colección de Resoluciones SERVIU Magallanes 2025 y fichas alternativas de obras SERVIU consultadas por identificadores 638-5-O124 y 638-44-O125 (04-10-2026) no añadieron documento que conecte a Plaza con evaluación, adjudicación o administración del contrato.[14][17][18] Los dos últimos códigos identifican otras licitaciones, no evidencia del caso; las búsquedas web de coincidencias no se interpretan como prueba de ausencia de vínculos.
 - **Ruta secundaria:** Todolicitaciones muestra una ficha del ID como adjudicado, pero su página accesible no expuso la adjudicación ni los anexos; se usa solo como pista y no como sustento del hecho.[21]
 
@@ -88,7 +88,7 @@ La suma corregida de CLP 34.277.418.870 corresponde a cuatro órdenes únicas; n
 
 Mantener `evidencia insuficiente` para una actualización editorial hasta una revisión independiente de las dos consultas y cotejo humano del caso publicado.
 
-La conexión con el proveedor se apoya en el RUT societario exacto, pero la tenencia sigue siendo autodeclarada y no prueba intervención personal.[1][2][15]
+La conexión con el proveedor se apoya en el RUT societario exacto, pero la tenencia sigue siendo autodeclarada y no prueba intervención personal.[1][11][15]
 
 **Acción concreta:** un revisor humano ajeno a esta corrida debe reejecutar ambas consultas y comprobar una vez cada OC en su ficha original.[7][8][9]
 
@@ -101,7 +101,6 @@ Sin revisor humano independiente en esta corrida. Sin borrador de caso ni PR a `
 ## Sources
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087
-[2] https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=93659000&grupo=&tipoentidad=RVSOC&row=AAATmjABrAAAGsIAAI&vig=NV&control=svs&pestania=47
 [3] https://salfacorp.com/en/unidades-de-negocio/ingenieria-y-construccion
 [4] https://salfacorp.com/en/unidades-de-negocio
 [7] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26
@@ -115,5 +114,4 @@ Sin revisor humano independiente en esta corrida. Sin borrador de caso ni PR a `
 [16] https://documentos.minvu.cl/bitstreams/ef62c77a-14d5-4604-81bc-0e8a04cd1b59/download
 [17] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=jb77jIdpHotfo6uaLV6UjQ%3D%3D
 [18] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=bd1qUWHYOn+IwfnXpPJgXg%3D%3D
-[19] https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=93659000&grupo=&tipoentidad=RVSOC&row=AAATmjABrAAAGsIAAI&vig=NV&control=svs&pestania=21
 [21] https://www.todolicitaciones.cl/licitacion/638-18-O125/const-macro-urbanizacion-puh-punta-arenas
