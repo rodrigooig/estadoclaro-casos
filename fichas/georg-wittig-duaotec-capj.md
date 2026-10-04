@@ -89,6 +89,7 @@ Esto es contexto plausible para recurrencia, no prueba de inocuidad ni de ausenc
     > "Unidad de Compra | Departamento de Salud Parral"
     > "Proveedor | DUAOTEC SPA"
     > "Número de la Orden de Compra | 1754-1509-CM24"
+    > "Orden de Compra Proveniente de convenio marco"
 [11] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1057492-1803-CM25 — Mercado Público OC 1057492-1803-CM25
     > "Nombre de la Orden de Compra | ADQUISICIÓN DEL SERVICIO DE PLATAFORMA PARA CONTACTABILIDAD OMNICANAL"
     > "TOTAL OC | UF 252,9600"
