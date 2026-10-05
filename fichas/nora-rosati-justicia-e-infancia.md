@@ -87,6 +87,19 @@ La OC de capacitación conjunta 1477-509-SE24 registra CLP 35.260.000 para el cu
 
 [^metodología]: `METODOLOGIA.md`, «Qué no cubre el cruce», indica que `same_institution = NULL` significa que no se pudo determinar el organismo comprador; el valor no se interpreta como institución distinta.
 
+## 8. Pasada alternativa por identificadores y fuentes institucionales — 2026-10-05
+
+La ficha oficial de 1477-17-LE24 describe una convocatoria abierta y señala que las ofertas técnicas serían públicas después del acto de apertura ([ficha de Mercado Público](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1477-17-LE24)).
+La resolución de adjudicación 4433 registra cinco ofertas, identifica como admisibles a Cinder Capacitación y Justicia e Infancia, y adjudica a Justicia e Infancia por puntaje máximo y cumplimiento de bases, por CLP 13.000.000 netos ([acta oficial de adjudicación](https://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=MZl5JIeVrBzIOOUvofMgOw==)). El acta electrónica de apertura separada confirma que Cinder y Justicia e Infancia fueron aceptadas ([apertura electrónica](https://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewElectronicOpening.aspx?qs=MZl5JIeVrBzIOOUvofMgOw==)). Ninguno de estos documentos visibles nombra a Rosati como oferente, relatora o integrante de la comisión; este negativo se limita a los documentos examinados.
+
+La ficha primaria de la OC 1477-401-SE24 muestra proveedor Justicia e Infancia, enlace a la licitación 1477-17-LE24, recepción conforme y CLP 13.000.000 netos ([OC](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1477-401-SE24)). La empresa reporta que la capacitación se impartió entre noviembre y diciembre de 2024 para 74 funcionarios de la CAJ RM ([reporte del proveedor](https://justiciaeinfancia.cl/capacitacion-en-transversalidad-del-abordaje-juridico-de-la-violencia-de-genero)); se trata de un reporte propio, no de verificación independiente de asistencia o docentes.
+
+Como alternativas de acceso se buscaron el identificador exacto y el nombre en motores web; se revisaron la ficha, la resolución, la apertura electrónica, el directorio de transparencia CAJ RM y un índice de transparencia de marzo de 2024. No apareció otra copia primaria pertinente en los resultados consultados; el índice corresponde a fecha anterior al proceso y no descarta publicación posterior. La página alternativa de ficha mostró al extractor opciones CSV/JSON/OCDS, pero la navegación directa redirigió a la ficha clásica; no se consiguió una descarga de oferta o anexos por esa ruta. El registro de transparencia de CAJ RM consultado expone la categoría de declaraciones de patrimonio e intereses, no el expediente contractual.
+
+El acta de adjudicación enumera `EVALUACION 1477-17-LE24.pdf` entre sus anexos; el portal exhibe un CAPTCHA al abrir el anexo. No se intentó resolverlo ni eludirlo, ni se usó una API que requiere ticket. **La pista sigue en `requiere humano`**: una persona autorizada debe revisar el anexo desde el portal público o localizar copia oficial pública y cotejar la oferta técnica/acta con el equipo docente. Si no identifica a Rosati ni su papel en la capacitación, cerrar como participación societaria concurrente con compra licitada, sin atribución personal.
+
+La contratación competitiva y el objeto de capacitación hacen plausible una prestación ordinaria de servicios especializados; el reporte del proveedor es compatible con ejecución del curso, pero no identifica a Rosati como relatora o participante. No hay evidencia nueva de intervención o remuneración personal por esta compra, y no se afirma que tales antecedentes no existan fuera de las rutas revisadas.
+
 ## Sources
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5114646
