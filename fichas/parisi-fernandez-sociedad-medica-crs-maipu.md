@@ -1,7 +1,7 @@
 # Revisión editorial: sociedad médica CRS de Maipú — Zandra Parisi
 
 **ID:** `parisi-fernandez-sociedad-medica-crs-maipu` (seguimiento de caso ya publicado; no es una nueva pista).  
-**Disposición:** evidencia insuficiente para cambiar el caso o preparar un borrador; actualización investigativa acotada.  
+**Disposición:** requiere humano para resolver titularidad societaria; no cambiar el caso ni preparar borrador hasta revisar la inscripción con anotaciones marginales.
 **Revisión:** 2026-10-05 UTC.  
 **Corte de datos:** `meta.build_date = 2026-10-02T15:43:07+00:00` (oro de solo lectura).
 
@@ -57,9 +57,23 @@ Cotejé en `purchase_order` los códigos 2115-747-SE25 y 2115-368-SE26: dos cód
 
 ## Decisión editorial y reapertura
 
-La novedad es un registro societario de febrero de 2026 que no estaba citado en la ficha del caso revisada; es material para reevaluar la explicación alternativa y la cronología, pero la fuente consultada es secundaria y no resuelve la titularidad de Parisi. No hay evidencia nueva de su intervención individual en licitación, adjudicación, administración, prestación o recepción. No satisface un gate para un nuevo borrador ni permite calificación jurídica. Estado: **evidencia insuficiente** para ampliar o cambiar el caso publicado.
+La pasada anterior halló una transcripción societaria secundaria que no resolvía titularidad y no acreditó intervención individual. La segunda pasada amplió rutas y confirmó que la fuente primaria que permitiría resolver la cronología está disponible solo mediante el índice autenticado o la copia autorizada de anotaciones marginales. No satisface el gate para un nuevo borrador ni permite cambiar el caso publicado; por ese bloqueo central la disposición operativa pasa a **requiere humano**. Sin calificación jurídica ni atribución de parentesco.
 
-**Próxima acción concreta:** contrastar CVE-2766692 en el Diario Oficial oficial y obtener, por vía pública y autorizada, el certificado de vigencia y anotaciones marginales de la sociedad; reconstruir si hubo cambio desde los porcentajes del extracto de 2018 que cita el caso. Solo entonces reconsiderar titularidad y actualizar editorialmente el caso existente. No repetir búsquedas generales ni atribuir parentesco a partir de apellidos.
+**Próxima acción concreta:** una persona autorizada debe solicitar al CBRS copia de la inscripción de fojas 24.734, N.º 20.106, Registro de Comercio de 1994, con anotaciones marginales desde 2018, y cotejar el PDF firmado de CVE-2766692. La ficha pública de ChileAtiende indica que la copia con anotaciones sirve para constatar actos posteriores y que la gestión en línea exige cuenta y pago.[10] El índice del CBRS indica que la búsqueda por razón social o socio requiere iniciar sesión.[11] No acceder, pagar ni usar credenciales en esta investigación; retomar solo con el documento obtenido legítimamente. No inferir relación familiar por apellidos ni participación vigente.
+
+## Rutas nuevas (2026-10-05 UTC; segunda pasada)
+
+11. **Diario Oficial oficial:** búsquedas exactas por `CVE-2766692`, razón social, fecha 07-02-2026 y edición 44.370 en el portal y en búsqueda web indexada; no se recuperó el PDF oficial. Resultado negativo acotado: no se demuestra que la publicación no exista.
+12. **Transcripción secundaria ampliada:** vLex identifica CVE-2766692 como publicado el 07-02-2026; atribuye a escritura de 19-01-2026, repertorio 4.903-2026, una cesión de 46 puntos porcentuales por $1.840.000 desde María Fernanda Ramírez Parisi (98%) a Marcelo Gabriel Ramírez Schmid; queda 52% y 48%, respectivamente.[8] Esto describe esos dos titulares, no prueba que Zandra Parisi fuera cedente ni su relación con María Fernanda.
+13. **Índice oficial CBRS en vivo:** se abrió la ruta pública del Índice del Registro de Comercio; la página dice que permite buscar por foja/número/año o razón social/socio, pero antes del formulario informa «Para acceder debe iniciar sesión». Se detuvo ahí; no se intentó eludir el control.[11]
+14. **Vías oficiales para copia y anotaciones:** ChileAtiende explica que la copia autorizada de inscripción con anotaciones permite constatar actos posteriores; su trámite electrónico indica cuenta, revisión del valor y pago. El certificado de vigencia solo acredita que no aparece nota de término, no reconstruye por sí solo porcentajes.[10][12]
+15. **RES (Tu Empresa en un Día):** revisé el portal y su FAQ; no lo traté como una búsqueda concluyente de esta sociedad constituida en 1994 ni como evidencia de ausencia. La ruta pendiente sigue siendo el Registro de Comercio correspondiente.[13]
+16. **Búsquedas exactas secundarias:** CVE, razón social, RUT societario, fojas/número, y nombres completos de los dos titulares citados; no surgió otro documento primario accesible ni evidencia que enlace a Zandra con la cesión.
+17. **Contraste con fuentes ya verificadas:** InfoProbidad 2025 registra 48% no controlador; la declaración de asunción de 2026 lista dos sociedades distintas y no Prestaciones Médicas.[1][2] El caso y la consulta del oro se releen, sin repetir sus resultados; el corte del artefacto sigue siendo 2026-10-02T15:43:07Z.
+
+## Decisión de esta pasada
+
+La transcripción secundaria precisa acto, fecha, repertorio y proporciones, pero no resuelve si/cuándo Zandra salió de la sociedad ni su relación con María Fernanda. La explicación legítima más plausible sigue siendo una enajenación o reorganización antes de asumir; no está corroborada y no se descarta participación indirecta. La fuente primaria necesaria está detrás de cuenta/pago o login. **Estado: requiere humano.** No se halló intervención individual en licitación, adjudicación o ejecución; no se altera el caso publicado.
 
 **Revisión independiente:** no hubo revisor independiente en esta ejecución. La reproducción de la consulta local sí fue comprobada por separado desde las dos órdenes primarias, pero no constituye revisión adversarial independiente.
 
@@ -91,3 +105,15 @@ La novedad es un registro societario de febrero de 2026 que no estaba citado en 
     > "MARÍA FERNANDA RAMÍREZ PARISI, con un 52% de los derechos sociales"
 [9] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?qs=fkJjkiNIn1MrfKNpISFEdQ== — Mercado Público OC 2115-368-SE26
     > "TOTAL OC | $ 25.208.000"
+[10] https://www.chileatiende.gob.cl/fichas/445-copia-de-inscripcion-de-la-constitucion-de-una-sociedad-con-anotaciones-marginales-con-vigencia — ChileAtiende, copia de inscripción con anotaciones marginales
+    > "Este documento habitualmente se requiere para verificar que la sociedad continúa vigente y constatar las notas al margen de la inscripción que dan cuenta de los actos realizados con posterioridad."
+    > "Escriba su usuario y contraseña. Si no está registrado, cree una cuenta."
+    > "Revise el valor y la cantidad de documentos solicitados"
+    > "Ir a pagar"
+[11] https://www.conservador.cl/consultas-en-linea/indices/indice-del-registro-de-comercio — CBRS, índice del Registro de Comercio
+    > "Busque inscripciones de sociedades por foja/número/año o por nombre de la sociedad o socios."
+    > "Para acceder debe iniciar sesión"
+[12] https://www.chileatiende.gob.cl/fichas/442-certificado-de-vigencia-de-sociedad-del-registro-de-comercio — ChileAtiende, certificado de vigencia
+    > "Permite obtener un documento que certifica que no hay nota o subinscripción sobre que se le haya dado término a una sociedad"
+[13] https://www.registrodeempresasysociedades.cl/FAQ.aspx — Registro de Empresas y Sociedades, preguntas frecuentes
+    > "El Registro de Empresas y Sociedades (RES) es un registro electrónico que dispone de un portal en Internet"
