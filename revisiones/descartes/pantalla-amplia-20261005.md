@@ -44,6 +44,19 @@ Es evidencia posterior al contrato; no establece por sí sola la composición so
 ## Sources
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=543527 — InfoProbidad declaracion Juan Carlos Sepulveda 2020
+    > "TORRES Y SEPULVEDA LIMITADA"
+    > "Organismo | Servicio De Salud O’Higgins"
+    > "Fecha | 28-04-2020"
+    > "Tiene Calidad de Controlador | SI"
 [2] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1627-16-SE20 — Mercado Publico orden 1627-16-SE20
+    > "TOTAL OC | $ 2.643.840"
+    > "Fecha de Envío | 25-06-2020"
+    > "Proveedor | JUAN CARLOS"
+    > "R.U.T. | 76.759.005-9"
+    > "Producto / Servicio | Personal médico temporal"
 [3] https://www.hospitalsanfernando.cl/noticias/id/2327/Comit%C3%A9-de-Etica-Asistencial-de-Hospital-San-Fernando-organiz%C3%B3-primera-jornada-de-participaci%C3%B3n-y-capacitaci%C3%B3n — Hospital de San Fernando — actividad de Comité de Ética Asistencial
+    > "otorrinolaringólogo del Hospital San Fernando"
+    > "jueves 07 de diciembre del 2023"
 [4] https://www.portalchile.org/diario-oficial/2025/02/26/torres-y-sepulveda-limitada-76-759-005-9-2615758 — Diario Oficial reproducido por PortalChile: transformación societaria, 2025
+    > "transformaron la Sociedad Comercial de Responsabilidad Limitada TORRES Y SEPÚLVEDA LIMITADA en la sociedad por acciones razón social “SOCIEDAD TORRES Y SEPÚLVEDA SpA”"
+    > "Capital: $1.000.000 y dividido en 1000 acciones, que corresponde al capital de la sociedad que por este acto se transforma aportado y suscrito íntegramente por don Juan Carlos Sepúlveda Sepúlveda."
