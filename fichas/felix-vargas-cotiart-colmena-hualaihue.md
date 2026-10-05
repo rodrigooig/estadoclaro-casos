@@ -43,7 +43,8 @@ Ocurrió después del inicio declarado del cargo, dentro del plazo original de 1
 2. **Origen de compras:** ficha de licitación y OCs individuales del convenio 2024, una OC de 2025 y una OC ágil de 2025.[3][4][5]
 3. **Datos propios de EstadoClaro:** consultas SQL de snapshots, fechas, filtros y deduplicación; cotejo exacto de 2902-65-SE24 en las tablas `purchase_order` y `declared_supply_order`.[12][13]
 4. **Mercado Público por proveedor:** consulta pública exacta por nombre/RUT societario, siete páginas y 63 resultados únicos; contraste de códigos/fechas/estado contra la extracción Gold.[13]
-5. **Acceso alternativo a expedientes:** la documentación pública de la API indica que el endpoint requiere un ticket; no se obtuvo ni utilizó llave.[10] La página oficial de descargas señala que existen reportes de licitaciones con ofertas recibidas y archivos por organismo, año y semestre; se identificó esta ruta pública pero no se descargó aún el paquete específico de 2024.[14] No se usaron credenciales ni se eludió control alguno.
+5. **Acceso alternativo a expedientes:** la documentación pública de la API indica que el endpoint requiere un ticket; no se obtuvo ni utilizó llave.[10] La página oficial de descargas señala que existen reportes de licitaciones con ofertas recibidas y archivos por organismo, año y semestre; se identificó esta ruta pública pero no se descargó aún el paquete específico de 2024.[14]
+En el selector público de organismo se probaron «Municipalidad de Hualaihué» y «DEPARTAMENTO EDUCACION HUALAIHUE»; en ambos casos la interfaz mostró «No se encontraron resultados».[14] No se usaron credenciales ni se eludió control alguno.
 6. **Búsquedas dirigidas complementarias:** búsquedas por los códigos 2902-17-LE24, 2902-455-AG25 y 2902-842-AG26, nombre completo, empresa, RUT societario y Hualaihué.[3][5]
 La nota del GORE sobre inversión en Rolecha se examinó, pero no relaciona a Vargas con estas compras y no se usa como prueba.[6]
 
@@ -60,9 +61,9 @@ Las órdenes ágiles de 2025/2026 podrían responder a compras corrientes de le�
 ## Próxima acción
 
 No repetir búsquedas web generales ni abrir un caso.[13]
-Descargar, por la ruta pública oficial de datos abiertos, el reporte de licitaciones/ofertas de Hualaihué para el primer semestre de 2024; cotejar oferta, adjudicación, evaluación y responsables del 2902-17-LE24.[14]
-Revisar por separado una OC ágil posterior solo si el expediente público identifica un vínculo funcional verificable.[5][14]
-Si los reportes no ofrecen esos antecedentes, mantener `evidencia insuficiente` sin atribución personal.[14]
+No descargar reportes usando un código de organismo supuesto: el selector público no devolvió resultado para las dos denominaciones probadas.[14]
+Reabrir esta pista solo si una ruta oficial identifica el alias/código del organismo y ofrece el anexo de ofertas/responsables; de otro modo, rotar la siguiente ejecución a otra pista abierta.[14]
+Mantener `evidencia insuficiente`, sin atribución personal ni borrador de caso.
 
 ## Sources
 
@@ -115,3 +116,4 @@ Si los reportes no ofrecen esos antecedentes, mantener `evidencia insuficiente` 
 [14] https://datos-abiertos.chilecompra.cl/descargas/ordenes-y-licitaciones — ChileCompra descargas de órdenes y licitaciones
     > "Los descargables de las licitaciones incluyen las ofertas recibidas cada proceso."
     > "El alcance de los archivos descargables abarca desde el año 2007 a la actualidad con un día de desfase con respecto a los datos en la base de datos productiva."
+    > "Resultado visible tras cada consulta: «No se encontraron resultados»."
