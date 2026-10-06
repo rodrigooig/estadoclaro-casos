@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "run_id": "20261006T203213Z",
+  "lead_id": "mejora-flujo-investigacion",
+  "lead_ids": [
+    "mejora-flujo-investigacion",
+    "danae-prado-carmona-pasivo-hipotecario",
+    "plaza-reveco-salfacorp-actualizacion",
+    "dario-sanchez-montenegro-pasivos",
+    "pablo-allard-serrano-pasarela-vitacura",
+    "paula-tocol-pasivo-negativo",
+    "pablo-garcia-egp-consultores",
+    "nora-rosati-justicia-e-infancia"
+  ],
+  "state": "en curso",
+  "product": "metodologia",
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "METODO_INVESTIGACION.md",
+    "fichas/mejora-flujo-investigacion.md",
+    "fichas/danae-prado-carmona-pasivo-hipotecario.md",
+    "fichas/plaza-reveco-salfacorp-actualizacion.md",
+    "fichas/dario-sanchez-montenegro-pasivos.md",
+    "fichas/pablo-allard-serrano-pasarela-vitacura.md",
+    "fichas/paula-tocol-pasivo-negativo.md",
+    "fichas/pablo-garcia-egp-consultores.md",
+    "fichas/nora-rosati-justicia-e-infancia.md"
+  ],
+  "material_progress": "Nuevo proceso y reencuadre; no evidencia factual nueva"
+}
