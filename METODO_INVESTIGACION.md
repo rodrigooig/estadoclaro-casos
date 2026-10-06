@@ -8,6 +8,8 @@ Un caso contiene una observación material verificable, relevancia pública expl
 
 Éxito de investigación: caso nuevo entregado como PR borrador a `main`, con todos sus hechos centrales sustentados y dos revisiones autónomas independientes. Correcciones de casos existentes se contabilizan aparte. La publicación/merge es decisión editorial, no métrica bajo control del cron. Reportar casos listos/pistas individuales trabajadas; nunca PR/corridas como denominador equivalente. Registrar también avance material, descartes fundados y barreras centrales. No forzar una tasa objetivo ni promover para cumplir cuota.
 
+Después de cerrar una entrega, ejecutar `ec-inv-status` para comprobar recibos y PR de main. Reportar resultado sin extrapolar desde una sola pista. Si GitHub no responde, la tasa queda sin verificar; no reemplazarla por cero. Las entregas de metodología y el cribado general se excluyen del denominador.
+
 ## Selección y persistencia
 
 Lee COLA.md, índice, ficha, consultas y main. Formula una pregunta concreta y qué documento permitiría resolverla. Prioriza paquetes pendientes, correcciones y pistas con un nexo o discrepancia material y una ruta verificable. No minar primero por monto y justificar después.
@@ -59,6 +61,8 @@ Prohibir a ambos cambios de Git, publicaciones, envíos, secretos o cierre del h
 
 El padre recibe ambos resultados, inspecciona comprobaciones y fuentes, corrige errores y obtiene nuevas revisiones sobre el texto final. SHA256 del archivo debe coincidir con manifiesto y ambos registros. No reutilizar aprobación de una versión anterior. El resultado debe provenir de la herramienta: no inventar identidades, acciones, consultas ni aprobaciones. Una salida técnica fallida vuelve a `lista para verificacion`, no a humano.
 
+Antes de delegar, fija un `run_id` para el paquete y una identidad distinta para cada tarea de revisión; pásalos junto con `lead_id`, los IDs `c1...` y el esquema de abajo. Pide expresamente `verdict` (no `decision`), `verified_claims` con los IDs, y listas de URL/rutas como cadenas en `sources_opened` y `queries_rerun`; resultados detallados van en `checks`. Cada revisor confirma el SHA256 que acaba de leer y no inventa su propio run_id. Conserva el resultado recibido en `raw_result` del registro si normalizas su estructura. Se permite convertir una salida genuina al formato del manifiesto, sin alterar veredicto, bloqueos, hash o comprobaciones, sin inferir aprobación desde silencio y sin presentar como guardada una consulta que no existe. Si falta una verificación central, vuelve al revisor. Así el cierre es ejecutable sin inventar evidencia ni depender de otra persona.
+
 Registro por revisor, `revisiones/<id>-<run_id>-revisor-1.json` y `...-revisor-2.json`:
 
 ```json
@@ -79,6 +83,8 @@ Registro por revisor, `revisiones/<id>-<run_id>-revisor-1.json` y `...-revisor-2
 ## Paquete y cierre
 
 Borrador autocontenido: titular factual, síntesis del hallazgo y por qué importa, hechos con fuentes/fechas, cronología, matriz de afirmaciones `c1...`, controles de datos, alternativas con evidencia, límites, preguntas/documentos útiles para investigador o auditor y fuentes originales. No mezclar recomendaciones de auditoría con hechos ya establecidos. Guardar `borradores/<id>.md`; usar categorías existentes de main o una categoría descriptiva sin imputaciones.
+
+Verificar citas del caso con `sources.py verify <borrador> --evidence --min-coverage 0.5`, revisar advertencias y resolver errores de IDs, fuentes, evidencia o cobertura. No usar `--strict` como umbral: convierte advertencias estilísticas en fallos. Una comparación de cuatro versiones primarias puede citar las cuatro; no modificar un texto aprobado solo para bajar ese número. Las afirmaciones externas del resumen también llevan citas y evidencia; sus metadatos de herramientas/revisiones son observaciones locales, no hechos externos. El porcentaje de citas no sustituye la verificación individual del núcleo.
 
 Resumen único `tmp/runs/<run_id>/<id>/resumen.md`: primera línea exactamente `run_id | lead_id | estado | producto | hecho central | evidencia nueva | incertidumbre | próxima acción`, seguido de fuentes. `run_id` UTC con segundos y sufijo si hay dos cierres en un segundo. Productos: `caso`, `correccion`, `ficha`, `triage`, `metodologia`.
 

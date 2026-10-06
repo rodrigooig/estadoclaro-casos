@@ -1,5 +1,20 @@
 # Revisión editorial: sociedad médica CRS de Maipú — Zandra Parisi
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `parisi-fernandez-sociedad-medica-crs-maipu`
+- **Estado vigente:** bloqueada por acceso
+- **Producto a evaluar:** historial societario pendiente.
+- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+
+El bloqueo se limita al historial societario indispensable para afirmar vigencia o término de participación. Una revisión automática puede contrastar hechos disponibles, pero no reemplaza ese documento. La transcripción vLex nombra otros titulares y no demuestra la salida de Zandra Parisi. Mantener seguimiento en reserva hasta ruta/documento público nuevo; no trasladar toda la investigación a una aprobación humana genérica.
+
+**Próxima comprobación autónoma:** Retornar con PDF oficial CVE-2766692 o copia oficial accesible del asiento fojas 24.734 N.º 20.106 (1994) y anotaciones que establezca titularidad/fechas. CBRS exigió login y copia cuenta/pago. No atribuir salida, parentesco o intervención desde apellidos/transcripción; no duplicar caso existente.
+
+Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
+
+## Historial de evidencia y decisiones previas
+
 **ID:** `parisi-fernandez-sociedad-medica-crs-maipu` (seguimiento de caso ya publicado; no es una nueva pista).  
 **Disposición:** requiere humano para resolver titularidad societaria; no cambiar el caso ni preparar borrador hasta revisar la inscripción con anotaciones marginales.
 **Revisión:** 2026-10-05 UTC.  
