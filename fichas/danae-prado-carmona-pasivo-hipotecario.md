@@ -3,13 +3,15 @@
 ## Reevaluación editorial vigente — 2026-10-06
 
 - **ID:** `danae-prado-carmona-pasivo-hipotecario`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** discrepancia de declaración.
-- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+- **Estado vigente:** borrador listo, con doble revisión automática ligada al SHA final.
+- **Producto:** caso documental de discrepancia de declaración; no afirma saldo bancario.
+- **Última actualización:** 2026-10-06 UTC; verificación y entrega registradas en `tmp/runs/20261006T205222Z/danae-prado-carmona-pasivo-hipotecario/resumen.md`.
 
-El saldo bancario privado no es requisito para un caso sobre importes publicados inconsistentes. Las cifras de esta ficha aún deben revalidarse contra fuentes primarias. Una errata confirmada cambia el encuadre hacia calidad/corrección del registro, no hacia deuda real.
+**Síntesis vigente:** InfoProbidad muestra CLP 231.188.715 para un crédito hipotecario en la actualización de 30-03-2025 y dos rectificaciones de 30-03-2026; la actualización del 31-03-2026 informa CLP 39.668.996.400. La sección completa del pasivo, nombre completo, tipo, acreedor y moneda fueron reabiertos en los cuatro documentos; las consultas guardadas 1 y 2 se rerunearon, junto con consultas independientes al oro con corte 2026-10-06T15:56:08+00:00. La razón es 171,59 veces el importe de las rectificaciones, expresada solo como diferencia de importes declarados; no prueba saldo efectivo ni falsedad.
 
-**Próxima comprobación autónoma:** Reabrir las declaraciones 1745780, 1729357, 1722006 y 1398572; comprobar campos/versiones/fechas/unidades y rerun de SQL. Preparar caso sobre discrepancia del registro si se confirma, sin afirmar saldo bancario; dos revisores automáticos.
+**Revisión independiente:** dos agentes aprobaron el mismo borrador SHA256 `8dac2454a2e8090b440fe1c7c59f3c5486b10968d53204cf1295e6314f940d14`; véanse `revisiones/danae-prado-carmona-pasivo-hipotecario-20261006T205222Z-revisor-1.json` y `...-revisor-2.json`.
+
+**Próxima acción:** entrega del caso como PR borrador a `main`; reabrir solo si aparece una explicación/rectificación pública o una declaración posterior que cambie el núcleo.
 
 Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
 

@@ -1,0 +1,30 @@
+{
+  "run_id": "20261006T205222Z",
+  "lead_id": "danae-prado-carmona-pasivo-hipotecario",
+  "reviewer_id": "Hermes Agent (subagente autónomo, revisión adversarial)",
+  "draft_sha256": "8dac2454a2e8090b440fe1c7c59f3c5486b10968d53204cf1295e6314f940d14",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1745780",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1729357",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1722006",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1398572"
+  ],
+  "queries_rerun": [
+    "consultas/danae-prado-carmona-pasivo-1.sql",
+    "consultas/danae-prado-carmona-pasivo-2.sql"
+  ],
+  "checks": [
+    {"claim_id": "c1", "action": "Reapertura de las cuatro declaraciones oficiales.", "result": "Tres declaraciones muestran CLP 231.188.715 y la actualización del 31-03-2026 muestra CLP 39.668.996.400; global CLP 39.674.996.400."},
+    {"claim_id": "c2", "action": "Comparación de mismos campos originales y filas liability.", "result": "Mismo tipo de pasivo, acreedor y moneda CLP en cuatro documentos; no hay diferencia de campo/unidad que invalide comparar importes declarados."},
+    {"claim_id": "c3", "action": "Verificación de fechas, duplicados y razón.", "result": "Actualización 30-03-2025, dos rectificaciones separadas 30-03-2026 y actualización 31-03-2026; la razón equivale a 171,59 veces el importe anterior. No se suman las rectificaciones."},
+    {"claim_id": "c4", "action": "Cuestionamiento adversarial de relevancia, alternativas y titular.", "result": "Las alternativas legítimas no se pueden resolver con las páginas; el borrador las deja abiertas y no afirma saldo real, falsedad o intervención. El titular distingue tres registros repetidos frente al posterior."},
+    {"claim_id": "weakest_claim", "action": "Evaluación de afirmación más débil.", "result": "La razón en UF es derivada y puede retirarse; permanece el núcleo documental sobre importes declarados inconsistentes."}
+  ],
+  "remaining_questions": [
+    "Qué explica la diferencia entre rectificaciones y actualización posterior.",
+    "Si existe una declaración pública posterior al corte revisado."
+  ]
+}

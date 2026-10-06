@@ -1,0 +1,28 @@
+{
+  "run_id": "20261006T205222Z",
+  "lead_id": "danae-prado-carmona-pasivo-hipotecario",
+  "reviewer_id": "Hermes Agent (subagente de revisión de evidencia)",
+  "draft_sha256": "8dac2454a2e8090b440fe1c7c59f3c5486b10968d53204cf1295e6314f940d14",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1745780",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1729357",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1722006",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1398572"
+  ],
+  "queries_rerun": [
+    "consultas/danae-prado-carmona-pasivo-1.sql",
+    "consultas/danae-prado-carmona-pasivo-2.sql"
+  ],
+  "checks": [
+    {"claim_id": "c1", "action": "Reapertura de las cuatro declaraciones completas y cotejo con panel/liability.", "result": "1398572, 1729357 y 1722006 registran CLP 231.188.715; 1745780 registra CLP 39.668.996.400, total global CLP 39.674.996.400."},
+    {"claim_id": "c2", "action": "Cotejo de identidad, pasivo, acreedor y moneda.", "result": "Fuentes primarias identifican DANAE NATALIA PRADO CARMONA; forma normalizada del oro DANAE PRADO CARMONA. Cuatro filas: crédito hipotecario, Banco Santander, CLP."},
+    {"claim_id": "c3", "action": "Reejecución SQL y ratio UF.", "result": "5.944,82 UF; 5.802,68 UF en rectificaciones; 995.664,76 UF en la actualización. Razón 171,59, expresada como importe equivalente a 171,59 veces el anterior."},
+    {"claim_id": "c4", "action": "Revisión de alcance, límites y duplicación.", "result": "Titular y texto precisan tres declaraciones con CLP 231.188.715 y la del 31-03-2026 con CLP 39.668.996.400; las rectificaciones no se suman. No se afirma saldo efectivo, falsedad ni responsabilidad."}
+  ],
+  "remaining_questions": [
+    "Qué explica el cambio declarado y si hay una presentación posterior al corte del oro."
+  ]
+}

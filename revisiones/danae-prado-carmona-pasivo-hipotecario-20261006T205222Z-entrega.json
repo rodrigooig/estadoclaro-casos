@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "run_id": "20261006T205222Z",
+  "lead_id": "danae-prado-carmona-pasivo-hipotecario",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "Hermes Agent (scheduled cron, profile estadoclaro)",
+  "question": "¿Qué explica la diferencia entre el crédito hipotecario declarado por CLP 231.188.715 en una actualización de 2025 y dos rectificaciones de 2026, y CLP 39.668.996.400 en la actualización del 31-03-2026?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "8dac2454a2e8090b440fe1c7c59f3c5486b10968d53204cf1295e6314f940d14",
+  "destination": "casos/patrimonio_pasivos/danae-prado-carmona-pasivo-hipotecario.md",
+  "reviews": [
+    "revisiones/danae-prado-carmona-pasivo-hipotecario-20261006T205222Z-revisor-1.json",
+    "revisiones/danae-prado-carmona-pasivo-hipotecario-20261006T205222Z-revisor-2.json"
+  ],
+  "files": [
+    "COLA.md",
+    "INDICE.md",
+    "fichas/danae-prado-carmona-pasivo-hipotecario.md",
+    "borradores/danae-prado-carmona-pasivo-hipotecario.md",
+    "revisiones/danae-prado-carmona-pasivo-hipotecario-20261006T205222Z-revisor-1.json",
+    "revisiones/danae-prado-carmona-pasivo-hipotecario-20261006T205222Z-revisor-2.json"
+  ],
+  "material_progress": "Núcleo confirmado directamente en cuatro declaraciones primarias y por consultas independientes reejecutadas al oro; se resolvieron identidad normalizada, equivalencia de campo/moneda, duplicación y razón cuantitativa. Dos revisores autónomos aprobaron el mismo borrador SHA sin vacíos centrales; la causa del cambio sigue abierta."
+}
