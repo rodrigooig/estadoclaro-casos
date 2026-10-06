@@ -1,19 +1,30 @@
 # Rafael Mauricio Plaza Reveco / Constructora Salfa: actualización de órdenes declaradas
 
-## Reevaluación editorial vigente — 2026-10-06
+## Reevaluación editorial vigente — 2026-10-06 (v3)
 
 - **ID:** `plaza-reveco-salfacorp-actualizacion`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** corrección de caso existente.
-- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+- **Estado vigente:** correccion lista.
+- **Producto:** corrección del caso publicado `casos/negocios_estado/plaza-reveco-salfacorp.md`; no es caso nuevo.
+- **Pregunta:** ¿el caso vigente contó una vez cada orden del proveedor cuyo RUT societario coincide con el de la línea declarada, dentro de las fechas declaradas?
+- **Resultado medido:** declaración InfoProbidad 5124087 (24-09-2026) registra 1.911 acciones «SALFACORP», RUT 93.659.000-4, CLP 2.425.059, adquisición declarada 28-10-2025. Cuatro códigos OC únicos de ese RUT proveedor, 16-12-2025 a 01-07-2026; CLP 34.277.418.870 y UF 858.290,27 al corte gold `2026-10-06T15:56:08Z`. Dos consultas guardadas y una reejecución adversarial independiente coinciden; las cuatro fichas primarias fueron reabiertas.
+- **Cambio exacto:** sustituir archivo actual por `borradores/plaza-reveco-salfacorp-actualizacion.md`. Reemplaza el titular que dice «facturaba» y el párrafo inicial basado en la declaración de marzo por uno referido a órdenes consignadas y a la actualización del 24-09-2026; cambia el conteo de 3 / CLP 8.339.326.325 / UF 204.450,48 a 4 / CLP 34.277.418.870 / UF 858.290,27 e incorpora 638-216-SE25. Mantiene los estados OC y no afirma pago, titularidad económica, intervención, beneficio personal ni calificación legal.
+- **Revisiones finales independientes:** `revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-1.json` y `...-revisor-2.json`; ambas `approve` para SHA256 `4bec7798f792bdd76725fdcb62045e42f23d89883051378e8c66bc211a1efc4f`. Una primera revisión adversarial encontró falta de especificidad en el reemplazo; se explicitó reemplazo completo y ambos revisores volvieron a aprobar el texto final.
+- **Próxima acción:** entregar como `correccion lista` con `ec-inv-pr`; verificar PR integrado en `investigacion` y PR de corrección abierto como borrador contra `main`. Rodrigo decide merge/publicación.
+- **Incertidumbre remanente:** fuentes revisadas no determinan qué título exacto representa «SALFACORP», propiedad económica subyacente, pago de las órdenes o actuación individual de Plaza Reveco.
 
-La falta de un revisor humano ya no bloquea una corrección: la revisión debe ejecutarse autónomamente. Resolver primero identidad y alcance de la atribución; si no se sostiene, recortar esa afirmación antes de sumar órdenes. No dar por aprobada la cifra histórica.
+Aplicar `METODO_INVESTIGACION.md` v3. El historial de evidencia y decisiones previas que sigue a continuación documenta antecedentes anteriores y no reemplaza este estado vigente.
 
-**Próxima comprobación autónoma:** Comparar texto vigente de main, RUT/nombre declarado y razón social CMF. Verificar ventana, códigos/estados únicos y preparar reemplazo exacto; no ampliar atribución societaria no resuelta. Dos revisores automáticos, destino del caso existente.
+## Verificación y decisión v3 (2026-10-06)
 
-Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
-
-## Historial de evidencia y decisiones previas
+- **Identidad/activo, fuente primaria:** InfoProbidad, declaración 5124087, buscada y reabierta por URL/ID exacto; nombre completo coincide; 24-09-2026; función declarada abogado integrante del Poder Judicial; línea ACCION «SALFACORP», RUT societario 93.659.000-4, cantidad 1.911, valor CLP 2.425.059, fecha de adquisición declarada 28-10-2025, `Tiene Calidad de Controlador: false`. No prueba de acción subyacente o propiedad económica aparte de la declaración.
+- **Órdenes primarias:** reabiertas fichas oficiales 638-216-SE25, 5221-8-SE26, 829-23-SE26 y 638-93-SE26; cada una identifica proveedor RUT 93.659.000-4. Fechas/montos/estados: 16-12-2025, CLP 25.938.092.545, «Enviada a proveedor»; 30-03-2026, CLP 99.781.535, «Aceptada»; 19-06-2026, CLP 5.633.725.103, «Enviada a proveedor»; 01-07-2026, CLP 2.605.819.687, «Aceptada». La orden 638-216-SE25 enlaza a licitación pública 638-18-O125 de obra MINVU; es contexto de selección, no evidencia de intervención o pago.
+- **Medición reproducible:** gold `meta.build_date=2026-10-06T15:56:08Z`. Reejecutadas consultas propias del dossier `consultas/plaza-reveco-salfacorp-actualizacion-20261006-1.sql` y `...-2.sql`: cuatro `order_code` distintos; agregado deduplicado CLP 34.277.418.870, UF 858.290,27, desde 16-12-2025 hasta 01-07-2026. Verificación adicional del revisor adversarial reejecutada por el padre: `consultas/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-adversarial-list.sql` y `...-aggregate.sql`; mismos cuatro códigos, total y fechas, sin duplicados que cambien el total. Todas las órdenes del vendedor se cuentan por código OC único.
+- **Ruta de alternativa/alcance:** revisión de la ficha de licitación 638-18-O125 y cotejo de compradores/estados de las otras tres órdenes. El caso conserva que la licitación pública ofrece contexto de compra, no sustenta intervención individual ni sustituye una pregunta por identidad del interés declarado. Búsqueda de adjudicación/anexos no necesaria para corregir el conteo; el borrador no hace afirmaciones sobre puntajes, decisión o ejecución final.
+- **Resultado editorial:** el caso vigente informa tres órdenes por CLP 8.339.326.325 (UF 204.450,48). El borrador propone reemplazar el archivo existente, su titular «facturaba al Estado» y el párrafo basado en la declaración de 10-03-2026; actualiza a la declaración de 24-09-2026, agrega la orden del 16-12-2025 y reporta cuatro órdenes por CLP 34.277.418.870 (UF 858.290,27). No es caso nuevo. No afirma pago, deuda/ingreso personal, propiedad económica/control, intervención, beneficio o conclusión legal.
+- **Revisión 1 evidencia:** approve, SHA256 `4bec7798f792bdd76725fdcb62045e42f23d89883051378e8c66bc211a1efc4f`, claims c1–c5; abrió las cinco fuentes primarias y el caso main; verificó asset, cada OC y agregado por consultas independientes. JSON: `revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-1.json`.
+- **Revisión 2 adversarial:** approve, mismo SHA y claims c1–c5; reopened declaration, OCs, caso main y ficha de licitación; escribió SQL independiente de listado y agregado; consideró objeción al reemplazo exacto ya resuelta en la redacción final. JSON: `revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-2.json`.
+- **Citas/evidencia:** `sources.py verify borradores/plaza-reveco-salfacorp-actualizacion.md --evidence --min-coverage 0.5` pasó con 58% de cobertura y evidencia adjunta para las cinco fuentes citadas; advertencias estilísticas de más de tres citas se revisaron individualmente, sin tocar el texto aprobado por ese motivo.
+- **Reabrir:** nueva declaración pública/rectificación que resuelva el título/participación subyacente; nuevo documento oficial sobre las órdenes o actuación que cambie el conteo, estados o límite de intervención. Sin eso, no repetir búsquedas generales.
 
 - ID: `plaza-reveco-salfacorp-actualizacion`
 - Estado: `evidencia insuficiente` (2026-10-04). Revisión de un caso ya publicado en `casos/negocios_estado/plaza-reveco-salfacorp.md`; no es una nueva propuesta de caso.

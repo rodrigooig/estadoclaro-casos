@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "run_id": "20261006T210110Z",
+  "lead_id": "plaza-reveco-salfacorp-actualizacion",
+  "state": "correccion lista",
+  "product": "correccion",
+  "author_id": "estadoclaro-cron",
+  "question": "¿El caso vigente contó una vez cada orden del proveedor cuyo RUT societario coincide con el de la línea declarada, dentro de las fechas declaradas?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "4bec7798f792bdd76725fdcb62045e42f23d89883051378e8c66bc211a1efc4f",
+  "destination": "casos/negocios_estado/plaza-reveco-salfacorp.md",
+  "reviews": [
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-1.json",
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/plaza-reveco-salfacorp-actualizacion.md",
+    "borradores/plaza-reveco-salfacorp-actualizacion.md",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261006-1.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261006-2.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-adversarial-list.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-adversarial-aggregate.sql",
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-1.json",
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261006T210110Z-revisor-2.json"
+  ],
+  "material_progress": "Corrección documental aprobada por dos revisores independientes: cuarta orden incorporada; conteo y suma deduplicados reproducidos con cuatro consultas guardadas y fuentes primarias reabiertas."
+}
