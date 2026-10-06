@@ -1,0 +1,29 @@
+# Cribado amplio: actividades e intereses declarados frente a compras — 2026-10-06 UTC
+
+**Decisión:** sin avance material; no se abre pista personal ni caso. Es un cribado interno, no una revisión de expedientes ni una afirmación de ausencia de relaciones. **Corte del oro:** `meta.build_date=2026-10-02T15:43:07+00:00`; pre-run indicó copia local sin cambios. Solo lectura con `ec-gold-sql`.
+
+## Qué se buscó y mapa de evidencia
+
+Pregunta: ¿aparece una persona no duplicada con una actividad económica, gremial, benéfica o de organización declarada, temporalmente próxima, que coincida con una relación societaria/proveedor de Estado y tenga un vínculo plausible con su función pública?
+
+Para afirmar identidad/interés se necesitaría la declaración primaria específica; para la compra, la ficha/expediente oficial por código; y para atribuir relación con la función, un acto o registro funcional contemporáneo. El oro sirve aquí para priorizar candidatos, no satisface por sí mismo esas pruebas primarias.
+
+## Rutas independientes y comprobaciones (2026-10-06)
+
+1. **Temporalidad de actividades vigentes:** consulta agrupada por tipo sobre `panel.is_current` y `activity`, con cruces separados de `is_paid`, `last_twelve_months` y entidad con nombre (`consultas/pantalla-actividad-pagada-reciente-20261006-2.sql`). En los siete tipos devueltos, `paid_recent_people=0` y `paid_recent_named_entity_people=0`; hay actividad profesional/laboral reciente, pero el cruce del artefacto no la marca a la vez como pagada y de últimos 12 meses. Es un resultado de esos campos del oro, no una prueba de que no haya actividades externas.
+2. **Naturaleza de actividades fuera de la relación laboral/profesional ordinaria:** cruce de declaraciones actuales con actividades `ECONOMICA`, `GREMIAL`, `ORGANIZACIÓN SIN FINÉS DE LUCRO` y `BENEFICENCIA`, unida a `declared_supply` por persona para ver entidad, propósito, participación y compras. La salida de hasta 60 filas estuvo dominada por proveedores ampliamente compartidos (p. ej., LATAM, COPEC, Entel y Sonda) y actividades gremiales/benéficas; el importe de esas compañías es agregado y no ingreso personal. La tabla contiene filas repetidas por varias actividades declaradas por una misma persona, por lo que no se contaron como casos u órdenes (`consultas/pantalla-actividades-intereses-20261006-2.sql`).
+3. **Contraste por rol comprador:** agrupación independiente por institución y posición de personas con `n_same_institution>0`: 64 combinaciones institución/posición. La mayor parte de las filas agregadas se concentra en Poder Judicial y Ministerio Público; esto no individualiza intervención de jueces/fiscales y puede reflejar proveedores comunes de sus instituciones. Se conserva el alcance agregado y no se toma volumen como señal individual.
+4. **Vínculos de menor recurrencia:** filtro propio de sociedades no ampliamente compartidas con entre 1 y 2 órdenes a la institución, excluyendo posiciones judiciales y municipales más frecuentes (`consultas/pantalla-proveedores-baja-recurrencia-20261006-2.sql`). De cinco coincidencias devueltas, los nombres/huellas corresponden a pistas ya publicadas o registradas: Dino Lotito, Pedro García, Pablo Opazo, Pablo Allard y Juan Carlos Sepúlveda; no surge una persona nueva.
+5. **Sensibilidad a umbral:** consulta paralela para sociedades no ampliamente compartidas con entre 1 y 4 órdenes a la institución devolvió nueve registros. La extensión incorporó Miguel Pérez Vidal, también ya indexado; no cambia el resultado de deduplicación ni abre una relación nueva.
+6. **Cruce actividades↔sociedades:** se contrastaron tipo/entidad/propósito de actividad con legal_name, bandera de control, número de compradores y recurrencia de `declared_supply`. El cruce no demuestra que una actividad gremial/benéfica sea una sociedad proveedora ni identifica persona que haya intervenido en compras.
+7. **Dedupe y contraste con ciclos previos:** se cotejaron coincidencias por nombre completo y huella contra `INDICE.md`, fichas existentes y casos públicos; se revisó además la pantalla amplia del 2026-10-06 para no repetir los resultados ya recorridos en autocontratación, salud, educación, pasivos y patrimonio. Todos los resultados de bajo volumen quedaron deduplicados; los de gran volumen son agregados de proveedores masivos.
+
+## Alternativas, límites y decisión editorial
+
+La explicación legítima más plausible para los cruces masivos es que empresas de presencia extendida vendan bienes o servicios a muchas instituciones, mientras que actividades gremiales y de beneficencia registran asociaciones o colaboraciones sin relación probada con esas compras. Las banderas del artefacto no acreditan participación personal en decisiones, pago/beneficio individual ni vigencia funcional en una fecha de contratación.
+
+No se abrió una ruta de expediente oficial ni se hicieron búsquedas web nominales porque la pantalla no generó candidato no duplicado que justificara atribuir una compra individual. No aplica declarar un documento bloqueado: no se intentó abrir ninguno en esta fase. No hubo segundo revisor; el resultado no es revisión independiente. No se mezclaron homónimos ni se usaron/guardaron RUT personales.
+
+**Disposición:** sin avance material; no borrador. Reabrir la búsqueda solo ante corte nuevo del oro, fuente primaria nueva o pregunta distinta que individualice una actividad y un acto de compra; para esta tanda, rotar a sector o clase documental distinta, no repetir filtros de proveedor masivo.
+
+**Reproducibilidad:** `consultas/pantalla-actividad-pagada-reciente-20261006-2.sql`, `consultas/pantalla-actividad-temporalidad-20261006-2.sql`, `consultas/pantalla-actividades-intereses-20261006-2.sql` y `consultas/pantalla-proveedores-baja-recurrencia-20261006-2.sql`; todas ejecutadas con `ec-gold-sql` el 2026-10-06 UTC sobre el corte indicado.
