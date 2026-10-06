@@ -1,5 +1,20 @@
 # Ricardo Igor Rivano Aravena: pasivo hipotecario informado en 2026
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `ricardo-rivano-pasivo-hipotecario`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** corrección de caso existente.
+- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+
+El caso existente ya advierte el outlier. Se abre una comprobación acotada de exactitud/atribución del párrafo y comparabilidad de la serie, no una certificación de deuda ni un segundo caso por magnitud. El texto de main usa Banco de Chile mientras la ficha histórica cita Banco Edwards en el original: comprobar antes de proponer reemplazo. Si no hay mejora factual concreta, registrar sin avance y cerrar sin nuevo PR a main.
+
+**Próxima comprobación autónoma:** Comparar párrafo patrimonial vigente de casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md con originales 1651879, 1458933, 1358306 y 1358323; separar acreedor literal BANCO EDWARDS de normalización BANCO DE CHILE y añadir serie solo si aporta corrección sustentada. No duplicar caso; dos revisores.
+
+Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
+
+## Historial de evidencia y decisiones previas
+
 - ID: `ricardo-rivano-pasivo-hipotecario`
 - Estado: `requiere humano` (2026-10-04). Revisión de una cifra de patrimonio señalada en el caso publicado sobre Amulen; no es un caso nuevo.[3]
 - Corte: `gold.duckdb`, `meta.build_date=2026-10-02T15:43:07Z`; corrida 2026-10-04.

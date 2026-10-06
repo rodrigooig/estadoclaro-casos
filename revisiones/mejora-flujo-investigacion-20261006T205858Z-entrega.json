@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "run_id": "20261006T205858Z",
+  "lead_id": "mejora-flujo-investigacion",
+  "lead_ids": [
+    "mejora-flujo-investigacion",
+    "alvaro-jara-bucarey-pasivo-hipotecario",
+    "ricardo-rivano-pasivo-hipotecario",
+    "georg-wittig-duaotec-capj",
+    "parisi-fernandez-sociedad-medica-crs-maipu",
+    "diaz-reyes-municipalidad-de-los-sauces"
+  ],
+  "state": "en curso",
+  "product": "metodologia",
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "METODO_INVESTIGACION.md",
+    "fichas/mejora-flujo-investigacion.md",
+    "fichas/alvaro-jara-bucarey-pasivo-hipotecario.md",
+    "fichas/ricardo-rivano-pasivo-hipotecario.md",
+    "fichas/georg-wittig-duaotec-capj.md",
+    "fichas/parisi-fernandez-sociedad-medica-crs-maipu.md",
+    "fichas/diaz-reyes-municipalidad-de-los-sauces.md"
+  ],
+  "material_progress": "Eliminar bloqueos genéricos y concretar comprobaciones/condiciones de retorno"
+}

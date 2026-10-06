@@ -1,5 +1,20 @@
 # Variaciones abruptas de un pasivo hipotecario declarado — Álvaro Domingo Jara Bucarey
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `alvaro-jara-bucarey-pasivo-hipotecario`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** discrepancia de declaración.
+- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+
+La pregunta pública sobre variaciones del registro no requiere certificado privado de saldo ni gravámenes. La ficha histórica aporta una serie como antecedente, todavía pendiente de nueva corroboración. Si se redacta, atribuir los importes al formulario y mantener como alternativas errores o cambios reales no resueltos.
+
+**Próxima comprobación autónoma:** Reabrir originales 1170324, 1412441 y 1703401; comparar campo, moneda, versiones, acreedor y serie, repetir consultas y controles de duplicación. Evaluar inconsistencia material del registro con dos revisores, sin afirmar saldo real.
+
+Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
+
+## Historial de evidencia y decisiones previas
+
 - **ID estable:** `alvaro-jara-bucarey-pasivo-hipotecario`
 - **Categoría / estado:** patrimonio y pasivos · requiere humano; no preparar caso
 - **Revisión:** 2026-10-03 · **corte del oro:** `2026-10-02T15:43:07Z`, sin cambio reportado desde la sincronización.

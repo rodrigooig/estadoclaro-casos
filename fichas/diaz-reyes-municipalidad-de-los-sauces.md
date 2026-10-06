@@ -1,5 +1,20 @@
 # Seguimiento de caso publicado: Nancy Marisol Díaz Reyes y compras de radiodifusión en Los Sauces
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `diaz-reyes-municipalidad-de-los-sauces`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** corrección de caso existente.
+- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+
+La falta de anexos o rol no impide comprobar y recortar una afirmación del caso publicado si ya excede las fuentes. Primero comparar el texto exacto, no repetir toda la búsqueda. No inferir control desde cantidad 100 frente a controlador false ni función desde cargo Otro. Si una ampliación depende del expediente inaccesible, bloquear esa ampliación con documento concreto; conservar la corrección factual posible y sus límites.
+
+**Próxima comprobación autónoma:** Comparar texto vigente de casos/autocontratacion/diaz-reyes-municipalidad-de-los-sauces.md con originales de declaración/OCs/licitación 3705-127-LE22. Evaluar corrección exacta de cargo, controlador, fechas y límites de atribución; intentar solo rutas oficiales nuevas para expediente. Dos revisores; no ampliar intervención ni duplicar caso.
+
+Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
+
+## Historial de evidencia y decisiones previas
+
 - **ID:** `diaz-reyes-municipalidad-de-los-sauces`
 - **Vínculo:** seguimiento documental del caso ya publicado en [`casos/autocontratacion/diaz-reyes-municipalidad-de-los-sauces.md`](https://github.com/rodrigooig/estadoclaro-casos/blob/main/casos/autocontratacion/diaz-reyes-municipalidad-de-los-sauces.md); no es una pista nueva ni un borrador adicional.
 - **Estado:** requiere humano; no preparar ni duplicar caso.

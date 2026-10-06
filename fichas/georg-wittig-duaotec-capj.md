@@ -1,5 +1,20 @@
 # Georg Richard Wittig Parraguez / DUAOTEC SpA — seguimiento de prensa
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `georg-wittig-duaotec-capj`
+- **Estado vigente:** bloqueada por acceso
+- **Producto a evaluar:** desenlace disciplinario pendiente.
+- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+
+La revisión de fuentes/SQL es automatizable. El antecedente pendiente es el acto o desenlace oficial de un procedimiento descrito como reservado por la fuente secundaria; no basta pedir que una persona valide. La reserva y sus límites siguen atribuidos a esa fuente histórica; esta migración no confirma el estado actual ni una participación personal.
+
+**Próxima comprobación autónoma:** Retornar solo ante comunicación/acto oficial público sobre investigación CAPJ o antecedente público nuevo que vincule función y actuación concreta. La ficha cita reserva del procedimiento informada por prensa; no repetir búsquedas generales ni compras a organismos ajenos.
+
+Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
+
+## Historial de evidencia y decisiones previas
+
 - **ID:** `georg-wittig-duaotec-capj`
 - **Estado:** `requiere humano` (2026-10-04). Nota de seguimiento y contraste; no es caso ni imputación.
 - **Corte del artefacto:** `gold.duckdb`, `meta.build_date=2026-10-02T15:43:07+00:00`; consultas read-only ejecutadas con `ec-gold-sql` el 2026-10-04.
