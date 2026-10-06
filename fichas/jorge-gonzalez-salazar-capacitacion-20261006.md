@@ -56,12 +56,15 @@ No hubo segunda revisión independiente en esta corrida. Las consultas se reejec
 [2] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4993-36-LE26
     > "Tipo de convocatoria: ABIERTO"
     > "Fecha de Adjudicación: 05-05-2026 11:57:02"
+    > "Descripción de talleres: Ejecución de talleres psicosociales, espacios de contención emocional, actividades de autocuidado, encuentros comunitarios y una jornada de cierre"
 [3] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=4993-220-SE26
     > "TOTAL OC | $ 13.750.000"
 [4] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=765-33-LE24
     > "Tipo de convocatoria: ABIERTO"
+    > "Objeto: Diseño e implementación de Escuelas Patrimoniales de arte y oficio"
 [5] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=809-35-LE24
     > "Tipo de convocatoria: ABIERTO"
+    > "Objeto: Formación de Cultores Mapuche en la IX región"
 [9] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=765-303-SE24
     > "Proveniente de Licitación | 765-33-LE24"
     > "TOTAL OC | $ 46.000.000"
@@ -69,5 +72,7 @@ No hubo segunda revisión independiente en esta corrida. Las consultas se reejec
     > "TOTAL OC | $ 20.000.000"
 [11] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1175-2054-AG25
     > "TOTAL OC | $ 3.150.000"
+    > "TALLER HISTORIA Y COSMOVISIÓN MAPUCHE EN SALUD"
 [12] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1802-37-AG26
     > "TOTAL OC | $ 2.999.999"
+    > "Adquisición del servicio de organización y logística para jornadas de capacitación de programas Junaeb"
