@@ -8,7 +8,7 @@
 
 ## Resultado
 
-**Sin avance material hacia una pista nueva.** Se hizo una pasada amplia por actividades declaradas, proveedores compartidos, compras directas y compras a la institución propia. Los resultados útiles fueron mayoritariamente señales ya indexadas o agregados dominados por proveedores de muy amplia difusión. No se elevó ningún nombre a investigación individual con esta pantalla; no se infiere intervención, relación personal con cada orden, ni irregularidad.
+**Sin avance material hacia una pista nueva.** Se hizo una pasada amplia por actividades declaradas, proveedores compartidos, compras directas y compras a la institución propia en seis consultas. Los resultados útiles fueron mayoritariamente señales ya indexadas o agregados dominados por proveedores de muy amplia difusión. No se elevó ningún nombre a investigación individual con esta pantalla; no se infiere intervención, relación personal con cada orden, ni irregularidad.
 
 ## Rutas y verificaciones — 2026-10-06 UTC
 
