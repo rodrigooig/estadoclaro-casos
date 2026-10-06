@@ -63,6 +63,7 @@ Los objetos y la licitación/cotización que muestra cada ficha son contextuales
     > "Fecha de Envío"
     > "SERVICIO DE ELABORACIÓN PLAN DE EMERGENCIA COMUNAL"
     > "Razón Social Armando Flores Jiménez EIRL R.U.T. 76.334.863-6"
+    > "Fecha de Envío 28-02-2025"
 [2] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2308-20-SE25
     > "Fecha de Envío"
     > "Servicios de asesoría de ciencias medioambientales"
@@ -74,6 +75,7 @@ Los objetos y la licitación/cotización que muestra cada ficha son contextuales
 [4] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3945-586-AG25
     > "PLAN DE ACCION COMUNAL PARA EL CAMBIO CLIMATICO (PACCC) DE LA COMUNA DE LOS ALAMOS"
     > "Razón Social ESTRATEGICA CONSULTORES SPA R.U.T. 76.334.863-6"
+    > "Fecha de Envío 21-07-2025"
 [5] https://www.superdesalud.gob.cl/app/uploads/2023/11/articles-26156_recurso_1.pdf
     > "Armando Pablo Flores Jiménez, en su calidad de Representante Legal del prestador institucional denominado "CENTRO DE SALUD FAMILIAR JOAN CRAWFORD""
 [6] http://transparencia.vallenar.cl/index.php/component/content/article/2852
