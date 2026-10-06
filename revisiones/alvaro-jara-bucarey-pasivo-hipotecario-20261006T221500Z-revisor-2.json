@@ -1,0 +1,49 @@
+{
+  "run_id": "20261006T221500Z",
+  "lead_id": "alvaro-jara-bucarey-pasivo-hipotecario",
+  "reviewer_id": "revisor-adversarial-2026T",
+  "draft_sha256": "c8210d0cad4b0e81dfea39a6d8d367d965e2689532ce13fc43005658023bd71e",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1170324",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1412441",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1703401"
+  ],
+  "queries_rerun": [
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-revisor-adversarial-20261006T221500Z.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Reabrí los tres formularios originales por sus IDs y cotejé nombre completo, fecha, cargo y organismo; comparé además person_id, fecha y tipo de declaración en el oro.",
+      "result": "Los tres originales identifican a ÁLVARO DOMINGO JARA BUCAREY. Fechas: 26-03-2024, 31-03-2025 y 30-03-2026. Todos muestran actualización periódica de marzo y Embajador Primera Categoría Exterior en Subsecretaria De Relaciones Exteriores. La consulta devuelve el mismo person_id bb8472098a701fc21afb95f66c2b481e en los tres IDs. Esto acredita snapshots, no continuidad entre ellos."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Inspeccioné en cada formulario el campo Datos de Pasivo y lo cotejé con las filas individuales de liability_uf recuperadas por source_id.",
+      "result": "Cada original rotula la obligación CRÉDITO HIPOTECARIO, informa monto adeudado en pesos y acreedor literal BANCO ITAHU. Los montos son CLP 13.711.534.231 (2024), CLP 133.221.540 (2025) y CLP 42.667.234.500 (2026). La tabla del oro devuelve esos mismos importes en CLP y lectura local. No corregí ni inferí la identidad del acreedor."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Ejecuté la consulta independiente guardada mediante ec-gold-sql; agrupé el detalle de liability_uf por declaración antes de unirlo, evitando joins con activos/inmuebles y multiplicación de filas.",
+      "result": "ec-gold-sql devolvió exactamente 3 filas, una por source_id (1170324, 1412441, 1703401); para cada declaración liability_rows=1 y mortgage_rows=1. Tipo, acreedor, valores, currency=CLP y currency_reading=local coinciden con las páginas abiertas. No hay duplicación de deuda en estos tres documentos."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Intenté falsificar el alcance revisando qué respaldan y qué no los formularios y la consulta.",
+      "result": "Se verifica la publicación de cifras autodeclaradas, no saldos efectivos, causa, falsedad ni infracción. El texto mantiene explícitamente esos límites y no atribuye autorización, evaluación, administración o recepción individual; no se requiere saldo bancario para aprobar esta afirmación documental."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Prueba adversarial de explicación alternativa y relevancia residual; evalué titular, preguntas y afirmación prescindible.",
+      "result": "Cambio real de obligación, error de ingreso o rectificación incompleta siguen siendo explicaciones legítimas posibles; las fuentes no permiten escoger entre ellas. El borrador las conserva como incertidumbre y pregunta por documentos de explicación/rectificación. El titular describe diferencia entre cifras declaradas, no la presenta como deuda real ni irregularidad. La discrepancia entre tres registros públicos de un alto cargo conserva interés documental para revisar comparabilidad de declaraciones. Si se elimina la afirmación auxiliar sobre cargo/organismo (o el acreedor literal), la secuencia central de identidad-fecha-tipo-montos aún sostiene una pregunta pública suficiente; no depende de esa afirmación más débil."
+    }
+  ],
+  "remaining_questions": [
+    "¿Qué documento, rectificación o cambio real explica las variaciones entre los tres registros? Los formularios consultados no lo establecen.",
+    "¿La denominación literal BANCO ITAHU es errata del formulario o la forma de informar al acreedor? No se normalizó ni se atribuye a una entidad distinta.",
+    "¿Existe una declaración o rectificación posterior que altere alguno de estos registros?"
+  ]
+}
