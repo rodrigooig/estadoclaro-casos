@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "run_id": "20261006T221500Z",
+  "lead_id": "alvaro-jara-bucarey-pasivo-hipotecario",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "Hermes Agent (scheduled cron, profile estadoclaro)",
+  "question": "¿Qué explica las diferencias entre tres declaraciones sucesivas que consignan importes distintos para una obligación hipotecaria con el mismo acreedor literal?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "c8210d0cad4b0e81dfea39a6d8d367d965e2689532ce13fc43005658023bd71e",
+  "destination": "casos/patrimonio_pasivos/alvaro-jara-bucarey-pasivo-hipotecario.md",
+  "reviews": [
+    "revisiones/alvaro-jara-bucarey-pasivo-hipotecario-20261006T221500Z-revisor-1.json",
+    "revisiones/alvaro-jara-bucarey-pasivo-hipotecario-20261006T221500Z-revisor-2.json"
+  ],
+  "files": [
+    "COLA.md",
+    "INDICE.md",
+    "fichas/alvaro-jara-bucarey-pasivo-hipotecario.md",
+    "borradores/alvaro-jara-bucarey-pasivo-hipotecario.md",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-20261006.sql",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-revisor-evidencia-20261006T221500Z.sql",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-revisor-adversarial-20261006T221500Z.sql",
+    "revisiones/alvaro-jara-bucarey-pasivo-hipotecario-20261006T221500Z-revisor-1.json",
+    "revisiones/alvaro-jara-bucarey-pasivo-hipotecario-20261006T221500Z-revisor-2.json"
+  ],
+  "material_progress": "Se reabrieron tres declaraciones originales y las consultas independientes confirmaron nombre completo, campos comparables, CLP/local, una obligación por documento y los montos declarados; dos revisores independientes aprobaron el mismo SHA del caso. La causa, saldo efectivo y eventual rectificación posterior siguen sin determinarse."
+}

@@ -1,0 +1,28 @@
+{
+  "run_id": "20261006T221500Z",
+  "lead_id": "alvaro-jara-bucarey-pasivo-hipotecario",
+  "reviewer_id": "revisor-evidencia-20261006T",
+  "draft_sha256": "c8210d0cad4b0e81dfea39a6d8d367d965e2689532ce13fc43005658023bd71e",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1170324",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1412441",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1703401"
+  ],
+  "queries_rerun": [
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-revisor-evidencia-20261006T221500Z.sql",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-20261006.sql",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-1.sql",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-2.sql",
+    "consultas/alvaro-jara-bucarey-pasivo-hipotecario-3.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Abrí las tres declaraciones por ID exacto y cotejé identidad, fechas, cargo e institución.","result":"Todas muestran ÁLVARO DOMINGO JARA BUCAREY; 26-03-2024, 31-03-2025, 30-03-2026; cargo Embajador Primera Categoría Exterior, Subsecretaría de Relaciones Exteriores. Los snapshots no prueban continuidad del cargo."},
+    {"claim_id":"c2","action":"Cotejé tipo, acreedor literal y monto adeudado en las fuentes primarias.","result":"CRÉDITO HIPOTECARIO, BANCO ITAHU; CLP 13.711.534.231, CLP 133.221.540 y CLP 42.667.234.500. El monto global coincide con la obligación de cada declaración."},
+    {"claim_id":"c3","action":"Creé y ejecuté query independiente por nombre completo e IDs exactos y ejecuté consultas de serie/detalle/inmuebles.","result":"Tres filas, una por ID, una obligación por documento, CLP/local; coincide con fuentes. Las consultas existentes reprodujeron los registros; no se observa multiplicación de filas en cifras centrales. Build date 2026-10-06T15:56:08+00:00."},
+    {"claim_id":"c4","action":"Evalué alcance y límite de las inferencias.","result":"El borrador trata importes como declarados, no como saldo real, falsedad o infracción; discrepancy documental sobre declaraciones patrimoniales públicas de una persona que figura como embajador y constituye pregunta documental pública. No se requiere saldo privado para este núcleo."}
+  ],
+  "remaining_questions": ["Qué explica la diferencia entre importes.","Si existe rectificación o declaración posterior.","Si BANCO ITAHU es error de ingreso o denominación informada."]
+}

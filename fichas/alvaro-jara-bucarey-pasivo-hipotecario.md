@@ -1,6 +1,21 @@
 # Variaciones abruptas de un pasivo hipotecario declarado — Álvaro Domingo Jara Bucarey
 
-## Reevaluación editorial vigente — 2026-10-06
+## Reevaluación editorial vigente — 2026-10-06 (v3)
+
+- **ID:** `alvaro-jara-bucarey-pasivo-hipotecario`
+- **Estado vigente:** borrador listo.
+- **Producto:** caso documental sobre importes declarados; no afirma saldo bancario.
+- **Pregunta:** ¿qué explica que tres declaraciones sucesivas consignen CLP 13.711.534.231, CLP 133.221.540 y CLP 42.667.234.500 por un crédito hipotecario con el acreedor literal «BANCO ITAHU»?[1][3][8]
+- **Medición:** originales 1170324 (26-03-2024), 1412441 (31-03-2025) y 1703401 (30-03-2026) reabiertos. Las consultas 1, 2, 3, la consulta independiente por IDs exactos y dos consultas de revisores se ejecutaron con `ec-gold-sql` contra el oro con corte `2026-10-06T15:56:08+00:00`; cada documento devuelve una obligación hipotecaria en CLP/local y los mismos importes de la fuente primaria.[1][3][8]
+- **Revisiones autónomas:** evidencia y adversarial aprobaron borrador SHA256 `c8210d0cad4b0e81dfea39a6d8d367d965e2689532ce13fc43005658023bd71e`; registros `revisiones/alvaro-jara-bucarey-pasivo-hipotecario-20261006T221500Z-revisor-1.json` y `...-revisor-2.json`.
+- **Límite:** se confirma lo consignado en los formularios, no saldos efectivos ni su causa. No se resolvió si la forma literal del acreedor es errata; no se afirma falsedad, infracción ni actuación individual.[1][3][8]
+- **Próximo paso:** entregar un PR borrador a `main`; reabrir solo si una rectificación, documento público o declaración posterior cambia los registros o explica la diferencia.
+
+Aplicar `METODO_INVESTIGACION.md` v3. El historial de abajo documenta antecedentes previos y no sustituye el estado vigente.
+
+---
+
+## Reevaluación editorial previa — 2026-10-06
 
 - **ID:** `alvaro-jara-bucarey-pasivo-hipotecario`
 - **Estado vigente:** en curso
