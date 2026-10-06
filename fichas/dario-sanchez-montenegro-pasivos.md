@@ -1,15 +1,19 @@
-# Salto de pasivo hipotecario en declaración de Dario Sanchez Montenegro — pista en observación
+# Variación en montos hipotecarios declarados por Dario Sanchez Montenegro
 
 ## Reevaluación editorial vigente — 2026-10-06
 
 - **ID:** `dario-sanchez-montenegro-pasivos`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** discrepancia de declaración.
-- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+- **Estado vigente:** borrador listo, con dos revisiones automáticas independientes del mismo SHA final.
+- **Producto:** caso documental sobre la diferencia entre montos declarados; no afirma saldo bancario ni continuidad de un mismo contrato.
+- **Actualización:** 2026-10-06 UTC; paquete de entrega `tmp/runs/20261006T220715Z/dario-sanchez-montenegro-pasivos/resumen.md`.
 
-La hipótesis revisable es la integridad/coherencia del registro publicado. Una inscripción hipotecaria no acredita saldo bancario y no debe convertirse en comprobación obligatoria de esa hipótesis. El contraste primario debe confirmar que no es error del oro.
+Las declaraciones de 14-03-2023 y 18-03-2024 consignan, respectivamente, CLP 88.253.566 y CLP 88.520.142.777 bajo la categoría «CRÉDITO HIPOTECARIO» y nombran a Banco de Chile como acreedor; las fuentes no determinan si es una misma obligación contractual ni explican la diferencia.[2][1] Las declaraciones de 02-04-2022 y la rectificación de 19-12-2022 consignan CLP 81.457.863 cada una; son documentos fechados distintos, no importes sumables como deudas simultáneas.[4][3]
 
-**Próxima comprobación autónoma:** Reabrir serie y detalle primario de pasivos, cotejar magnitud/unidad y total vs componentes. Evaluar caso de discrepancia del registro; no esperar CAPTCHA del CBR ni saldo bancario si no se afirmará deuda real. Dos revisores automáticos.
+El oro de solo lectura, `meta.build_date=2026-10-06T15:56:08+00:00`, y las consultas guardadas 2, 4, 6 y 7 reproducen cuatro declaraciones, una fila de pasivo por declaración, moneda CLP, una coincidencia íntegra de nombre y razón 2024/2023 de 1.003,02 (diferencia CLP 88.431.889.211). Las UF son nominales derivadas por fecha; no se sumaron ni deflactaron.[consultas/dario-sanchez-montenegro-pasivos-2.sql][consultas/dario-sanchez-montenegro-pasivos-4.sql][consultas/dario-sanchez-montenegro-pasivos-6.sql][consultas/dario-sanchez-montenegro-pasivos-7.sql]
+
+**Revisión final:** evidencia y revisión adversarial aprobaron el SHA256 `dd20a6b58a1ce8d4197d3ac1424b4c2bbd781c49266095a4fafab5835b2c2c35`; registros `revisiones/dario-sanchez-montenegro-pasivos-20261006T220715Z-revisor-1.json` y `...-revisor-2.json`. Ambas reabrieron las cuatro declaraciones originales y ejecutaron consultas independientes con `ec-gold-sql`.
+
+**Límites y siguiente paso:** quedan sin determinar la causa de la diferencia, la relación contractual entre ambas cifras y si existe una declaración/rectificación posterior al corte. Entregar como PR borrador a `main`; Rodrigo decide si lo mergea. No convertir los importes declarados en saldo real, falsedad ni infracción.
 
 Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
 

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "run_id": "20261006T220715Z",
+  "lead_id": "dario-sanchez-montenegro-pasivos",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Qué explica la diferencia entre los montos consignados el 14-03-2023 y el 18-03-2024 bajo categoría hipotecaria con Banco de Chile, sin asumir continuidad contractual ni saldo efectivo?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "dd20a6b58a1ce8d4197d3ac1424b4c2bbd781c49266095a4fafab5835b2c2c35",
+  "destination": "casos/patrimonio_pasivos/dario-sanchez-montenegro-pasivos.md",
+  "reviews": [
+    "revisiones/dario-sanchez-montenegro-pasivos-20261006T220715Z-revisor-1.json",
+    "revisiones/dario-sanchez-montenegro-pasivos-20261006T220715Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/dario-sanchez-montenegro-pasivos.md",
+    "borradores/dario-sanchez-montenegro-pasivos.md",
+    "consultas/dario-sanchez-montenegro-pasivos-7.sql",
+    "consultas/dario-sanchez-montenegro-pasivos-review-evidence-v4.sql",
+    "consultas/dario-sanchez-montenegro-pasivos-review-adversarial-v4.sql",
+    "revisiones/dario-sanchez-montenegro-pasivos-20261006T220715Z-revisor-1.json",
+    "revisiones/dario-sanchez-montenegro-pasivos-20261006T220715Z-revisor-2.json"
+  ],
+  "material_progress": "Caso documental nuevo: cuatro declaraciones primarias y consultas independientes verificadas; se acota el hallazgo a diferencias entre importes declarados, sin afirmar saldo ni continuidad contractual. Dos revisores independientes aprobaron el mismo hash final."
+}
