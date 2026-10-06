@@ -1,0 +1,19 @@
+# Cola de investigación autónoma
+
+Prioridad editorial v3, 06-10-2026. No es una aprobación de casos. Primero continuar paquetes con revisión pendiente; después estas preguntas. Las cifras históricas se revalidan antes de redactar. El resto del índice conserva sus estados y solo retorna por evidencia/ruta nueva.
+
+| prioridad | pista | producto | estado | próxima comprobación |
+|---|---|---|---|---|
+| 1 | [danae-prado-carmona-pasivo-hipotecario](fichas/danae-prado-carmona-pasivo-hipotecario.md) | discrepancia de declaración | en curso | Reabrir las declaraciones 1745780, 1729357, 1722006 y 1398572; comprobar campos/versiones/fechas/unidades y rerun de SQL. Preparar caso sobre discrepancia del registro si se confirma, sin afirmar saldo bancario; dos revisores automáticos. |
+| 2 | [plaza-reveco-salfacorp-actualizacion](fichas/plaza-reveco-salfacorp-actualizacion.md) | corrección de caso existente | en curso | Comparar texto vigente de main, RUT/nombre declarado y razón social CMF. Verificar ventana, códigos/estados únicos y preparar reemplazo exacto; no ampliar atribución societaria no resuelta. Dos revisores automáticos, destino del caso existente. |
+| 3 | [dario-sanchez-montenegro-pasivos](fichas/dario-sanchez-montenegro-pasivos.md) | discrepancia de declaración | en curso | Reabrir serie y detalle primario de pasivos, cotejar magnitud/unidad y total vs componentes. Evaluar caso de discrepancia del registro; no esperar CAPTCHA del CBR ni saldo bancario si no se afirmará deuda real. Dos revisores automáticos. |
+| 4 | [pablo-allard-serrano-pasarela-vitacura](fichas/pablo-allard-serrano-pasarela-vitacura.md) | cronología y contratación concreta | en curso | Verificar declaración 2022, contrato de 995 UTM, vigencia real del vínculo municipal y documento que fundó la contratación mediante anexos/repositorio/OCDS. Evaluar encuadre sustentado de exasesor si las fechas lo prueban; no afirmar cargo en 2023 ni intervención sin documento. |
+| 5 | [paula-tocol-pasivo-negativo](fichas/paula-tocol-pasivo-negativo.md) | coherencia del registro declarado | en curso | Confirmar en originales que la partida negativa y el agregado provienen del formulario, no del pipeline; comparar serie, signos y campos. Evaluar relevancia de inconsistencia del registro, eventualmente junto con otras anomalías; no afirmar deuda negativa efectiva. |
+| reserva | [pablo-garcia-egp-consultores](fichas/pablo-garcia-egp-consultores.md) | vínculo de causa pendiente | bloqueada por acceso | Volver solo con ID de causa/informe público de EGP vinculado a una actuación fechada de García, o ruta oficial nueva. No repetir portal con login ni derivar simple revisión de cifras a humano; contratos a otros organismos no establecen nexo con una causa TDLC. |
+| reserva | [nora-rosati-justicia-e-infancia](fichas/nora-rosati-justicia-e-infancia.md) | rol concreto pendiente | bloqueada por acceso | Volver con anexo público equivalente de evaluación/oferta 1477-17-LE24 o documento distinto que establezca rol/competencia relevante. No repetir CAPTCHA. Si el caso depende de que actuó como relatora, no afirmar esa participación sin evidencia. |
+
+## Criterio para salir de la cola
+
+Caso: dos revisiones independientes del mismo texto, sin vacíos centrales, y PR borrador a main. Corrección: mismo control y destino existente. Tiempo/herramienta de revisión insuficientes: lista para verificacion con paquete preservado. Documento esencial inaccessible: bloqueada por acceso con condición de retorno. No repetir búsquedas generales para sustituir una revisión o un documento.
+
+Las pistas de solo magnitud, acción minoritaria difundida o compra a organismo ajeno sin otro nexo no consumen sesiones profundas. No reabrir descartes indiscriminadamente; estas reevaluaciones responden a preguntas distintas explícitas.

@@ -1,5 +1,20 @@
 # Pablo García González, EGP Consultores y compras públicas — evidencia insuficiente
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `pablo-garcia-egp-consultores`
+- **Estado vigente:** bloqueada por acceso
+- **Producto a evaluar:** vínculo de causa pendiente.
+- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+
+No es una validación humana genérica: el antecedente central de la hipótesis funcional sigue sin identificarse/obtenerse. Las cifras de compras por sí solas no resuelven esa conexión. Mantener fuera de la cola activa hasta condición verificable.
+
+**Próxima comprobación autónoma:** Volver solo con ID de causa/informe público de EGP vinculado a una actuación fechada de García, o ruta oficial nueva. No repetir portal con login ni derivar simple revisión de cifras a humano; contratos a otros organismos no establecen nexo con una causa TDLC.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+## Historial de evidencia y decisiones previas
+
 - **ID estable:** `pablo-garcia-egp-consultores`
 - **Categoría:** compras / relaciones con el Estado
 - **Estado actual:** requiere humano; no preparar borrador de caso

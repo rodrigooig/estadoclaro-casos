@@ -1,5 +1,20 @@
 # Salto de pasivo hipotecario en declaración de Dario Sanchez Montenegro — pista en observación
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `dario-sanchez-montenegro-pasivos`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** discrepancia de declaración.
+- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+
+La hipótesis revisable es la integridad/coherencia del registro publicado. Una inscripción hipotecaria no acredita saldo bancario y no debe convertirse en comprobación obligatoria de esa hipótesis. El contraste primario debe confirmar que no es error del oro.
+
+**Próxima comprobación autónoma:** Reabrir serie y detalle primario de pasivos, cotejar magnitud/unidad y total vs componentes. Evaluar caso de discrepancia del registro; no esperar CAPTCHA del CBR ni saldo bancario si no se afirmará deuda real. Dos revisores automáticos.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+## Historial de evidencia y decisiones previas
+
 - **ID estable:** `dario-sanchez-montenegro-pasivos`
 - **Categoría:** patrimonio y pasivos
 - **Estado actual:** requiere humano; no redactar caso

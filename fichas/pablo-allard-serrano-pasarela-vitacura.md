@@ -1,5 +1,20 @@
 # Pablo Allard Serrano y el diseño de la Pasarela Lo Curro — comprobación pendiente
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `pablo-allard-serrano-pasarela-vitacura`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** cronología y contratación concreta.
+- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+
+La ausencia de intervención personal no impide toda propuesta, pero sí toda afirmación de que participó. No extrapolar el honorario terminado en 2020 a 2023. Reunir cronología y fundamento contractual; omitir atribuciones no acreditadas y evaluar si queda núcleo material.
+
+**Próxima comprobación autónoma:** Verificar declaración 2022, contrato de 995 UTM, vigencia real del vínculo municipal y documento que fundó la contratación mediante anexos/repositorio/OCDS. Evaluar encuadre sustentado de exasesor si las fechas lo prueban; no afirmar cargo en 2023 ni intervención sin documento.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+## Historial de evidencia y decisiones previas
+
 - **ID estable:** `pablo-allard-serrano-pasarela-vitacura`
 - **Categoría:** compras / relaciones con el Estado
 - **Estado actual:** requiere humano; no redactar caso

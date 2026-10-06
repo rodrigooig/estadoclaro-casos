@@ -1,5 +1,20 @@
 # Rafael Mauricio Plaza Reveco / Constructora Salfa: actualización de órdenes declaradas
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `plaza-reveco-salfacorp-actualizacion`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** corrección de caso existente.
+- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+
+La falta de un revisor humano ya no bloquea una corrección: la revisión debe ejecutarse autónomamente. Resolver primero identidad y alcance de la atribución; si no se sostiene, recortar esa afirmación antes de sumar órdenes. No dar por aprobada la cifra histórica.
+
+**Próxima comprobación autónoma:** Comparar texto vigente de main, RUT/nombre declarado y razón social CMF. Verificar ventana, códigos/estados únicos y preparar reemplazo exacto; no ampliar atribución societaria no resuelta. Dos revisores automáticos, destino del caso existente.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+## Historial de evidencia y decisiones previas
+
 - ID: `plaza-reveco-salfacorp-actualizacion`
 - Estado: `evidencia insuficiente` (2026-10-04). Revisión de un caso ya publicado en `casos/negocios_estado/plaza-reveco-salfacorp.md`; no es una nueva propuesta de caso.
 - Corte: `gold.duckdb`, `meta.build_date=2026-10-02T15:43:07+00:00`; corrida 2026-10-04. El oro no cambió desde la última sincronización informada por el cron.

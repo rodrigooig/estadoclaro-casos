@@ -1,5 +1,20 @@
 # Una variación muy alta de pasivo hipotecario declarado — Danae Prado Carmona
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `danae-prado-carmona-pasivo-hipotecario`
+- **Estado vigente:** en curso
+- **Producto a evaluar:** discrepancia de declaración.
+- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+
+El saldo bancario privado no es requisito para un caso sobre importes publicados inconsistentes. Las cifras de esta ficha aún deben revalidarse contra fuentes primarias. Una errata confirmada cambia el encuadre hacia calidad/corrección del registro, no hacia deuda real.
+
+**Próxima comprobación autónoma:** Reabrir las declaraciones 1745780, 1729357, 1722006 y 1398572; comprobar campos/versiones/fechas/unidades y rerun de SQL. Preparar caso sobre discrepancia del registro si se confirma, sin afirmar saldo bancario; dos revisores automáticos.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+## Historial de evidencia y decisiones previas
+
 - **ID:** `danae-prado-carmona-pasivo-hipotecario`
 - **Categoría / estado:** patrimonio y pasivos · evidencia insuficiente; no redactar caso.
 - **Fecha de trabajo:** 2026-10-03.

@@ -1,5 +1,20 @@
 # Nora Rosati, Justicia e Infancia y compras públicas de capacitación — requiere humano
 
+## Reevaluación editorial vigente — 2026-10-06
+
+- **ID:** `nora-rosati-justicia-e-infancia`
+- **Estado vigente:** bloqueada por acceso
+- **Producto a evaluar:** rol concreto pendiente.
+- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+
+La revisión de hechos ya disponibles se automatiza. El rol contractual no se atribuye desde la participación societaria; especificar si es indispensable para el encuadre o puede omitirse dejando otro núcleo material documentado. No publicar por mera coincidencia temática.
+
+**Próxima comprobación autónoma:** Volver con anexo público equivalente de evaluación/oferta 1477-17-LE24 o documento distinto que establezca rol/competencia relevante. No repetir CAPTCHA. Si el caso depende de que actuó como relatora, no afirmar esa participación sin evidencia.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+## Historial de evidencia y decisiones previas
+
 - **ID:** `nora-rosati-justicia-e-infancia`
 - **Categoría:** compras/relaciones con el Estado; actividades/cargos/temporalidad.
 - **Estado:** requiere humano; sin borrador de caso.
