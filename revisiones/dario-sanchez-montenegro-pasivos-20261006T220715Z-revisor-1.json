@@ -1,0 +1,41 @@
+{
+  "run_id": "20261006T220715Z",
+  "lead_id": "dario-sanchez-montenegro-pasivos",
+  "reviewer_id": "evidence-reviewer-20261006T220715Z-v4",
+  "draft_sha256": "dd20a6b58a1ce8d4197d3ac1424b4c2bbd781c49266095a4fafab5835b2c2c35",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1144876",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=969843",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=926505",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=846768"
+  ],
+  "queries_rerun": ["consultas/dario-sanchez-montenegro-pasivos-review-evidence-v4.sql"],
+  "checks": [
+    {"claim_id":"c1","action":"Comparé el nombre, cargo, organismo y fechas en las cuatro páginas originales con la serie exacta del oro.","result":"Las cuatro declaraciones identifican a DARIO SANCHEZ MONTENEGRO como Director Regional de la Dirección Nacional de Migraciones. El oro asocia el nombre exacto a un person_id único y devuelve los cuatro documentos fuente requeridos."},
+    {"claim_id":"c2","action":"Cotejé fecha, tipo de declaración, monto global/adeudado, clase, acreedor y moneda en cada página InfoProbidad y en las filas del oro.","result":"02-04-2022: CLP 81.457.863; 19-12-2022 (rectificación): CLP 81.457.863; 14-03-2023: CLP 88.253.566; 18-03-2024: CLP 88.520.142.777. Las cuatro páginas muestran CRÉDITO HIPOTECARIO y BANCO DE CHILE; el oro registra CLP y los mismos nominales."},
+    {"claim_id":"c3","action":"Revisé los valores UF y cardinalidad en la consulta independiente y ejecuté cálculo SQL de la comparación entre 2023 y 2024.","result":"UF por documento, en orden cronológico: 2.566,9061; 2.328,9639; 2.479,3803; 2.392.398,7888. Hay una fila de pasivo por declaración y una fila enlazada por pasivo; la serie tiene cuatro documentos. La diferencia nominal 2024–2023 es CLP 88.431.889.211 y la razón redondeada es 1.003,02. Son snapshots distintos; no se suman."},
+    {"claim_id":"c4","action":"Evalué el título y el lenguaje sobre continuidad, causa y saldo efectivo frente a las cuatro fuentes primarias y al protocolo v3.","result":"El título usa «pasivos hipotecarios» en plural y especifica 2023–2024; no afirma que los cuatro registros sean obligaciones diferentes ni que un contrato haya continuado. El texto presenta la comparación como cifras declaradas y deja sin establecer continuidad contractual, saldo efectivo y causa de la variación."}
+  ],
+  "remaining_questions": ["Qué explica la diferencia consignada entre las declaraciones de marzo de 2023 y marzo de 2024; las fuentes revisadas no lo determinan.", "Si existe una rectificación o declaración pública posterior al corte del oro."],
+  "raw_result": {
+    "run_id": "20261006T220715Z",
+    "lead_id": "dario-sanchez-montenegro-pasivos",
+    "reviewer_id": "evidence-reviewer-20261006T220715Z-v4",
+    "draft_sha256": "dd20a6b58a1ce8d4197d3ac1424b4c2bbd781c49266095a4fafab5835b2c2c35",
+    "verdict": "approve",
+    "blocking_issues": [],
+    "verified_claims": ["c1", "c2", "c3", "c4"],
+    "sources_opened": ["/root/work/estadoclaro-investigacion/METODO_INVESTIGACION.md", "/root/work/estadoclaro-investigacion/borradores/dario-sanchez-montenegro-pasivos.md", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1144876", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=969843", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=926505", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=846768"],
+    "queries_rerun": ["consultas/dario-sanchez-montenegro-pasivos-review-evidence-v4.sql"],
+    "checks": [
+      {"claim_id":"c1","action":"Comparé el nombre, cargo, organismo y fechas en las cuatro páginas originales con la serie exacta del oro.","result":"Las cuatro declaraciones identifican a DARIO SANCHEZ MONTENEGRO como Director Regional de la Dirección Nacional de Migraciones. El oro asocia el nombre exacto a un person_id único y devuelve los cuatro documentos fuente requeridos."},
+      {"claim_id":"c2","action":"Cotejé fecha, tipo de declaración, monto global/adeudado, clase, acreedor y moneda en cada página InfoProbidad y en las filas del oro.","result":"02-04-2022: CLP 81.457.863; 19-12-2022 (rectificación): CLP 81.457.863; 14-03-2023: CLP 88.253.566; 18-03-2024: CLP 88.520.142.777. Las cuatro páginas muestran CRÉDITO HIPOTECARIO y BANCO DE CHILE; el oro registra CLP y los mismos nominales."},
+      {"claim_id":"c3","action":"Revisé los valores UF y cardinalidad en la consulta independiente y ejecuté cálculo SQL de la comparación entre 2023 y 2024.","result":"UF por documento, en orden cronológico: 2.566,9061; 2.328,9639; 2.479,3803; 2.392.398,7888. Hay una fila de pasivo por declaración y una fila enlazada por pasivo; la serie tiene cuatro documentos. La diferencia nominal 2024–2023 es CLP 88.431.889.211 y la razón redondeada es 1.003,02. Son snapshots distintos; no se suman."},
+      {"claim_id":"c4","action":"Evalué el título y el lenguaje sobre continuidad, causa y saldo efectivo frente a las cuatro fuentes primarias y al protocolo v3.","result":"El título usa «pasivos hipotecarios» en plural y especifica 2023–2024; no afirma que los cuatro registros sean obligaciones diferentes ni que un contrato haya continuado. El texto presenta la comparación como cifras declaradas y deja sin establecer continuidad contractual, saldo efectivo y causa de la variación."}
+    ],
+    "remaining_questions": ["Qué explica la diferencia consignada entre las declaraciones de marzo de 2023 y marzo de 2024; las fuentes revisadas no lo determinan.", "Si existe una rectificación o declaración pública posterior al corte del oro."]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "20261006T220715Z",
+  "lead_id": "dario-sanchez-montenegro-pasivos",
+  "reviewer_id": "adversarial-reviewer-20261006T220715Z-v4",
+  "draft_sha256": "dd20a6b58a1ce8d4197d3ac1424b4c2bbd781c49266095a4fafab5835b2c2c35",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1144876",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=969843",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=926505",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=846768"
+  ],
+  "queries_rerun": ["consultas/dario-sanchez-montenegro-pasivos-review-adversarial-v4.sql"],
+  "checks": [
+    {"claim_id":"c1","action":"Reopened the four primary InfoProbidad declarations and independently queried exact-name declaration records in the gold snapshot.","result":"All four pages identify DARIO SANCHEZ MONTENEGRO. The 2023/2024 pages list Director Regional, Dirección Nacional de Migraciones; 2024 lists assumption date 01-10-2021. SQL returned one exact-name person_id and four declaration records at build_date 2026-10-06T15:56:08+00:00."},
+    {"claim_id":"c2","action":"Expanded each primary declaration and compared date, declaration type, obligation category, amount and creditor with independent SQL rows.","result":"2022-04-02 update: CLP 81,457,863; 2022-12-19 rectification: CLP 81,457,863; 2023-03-14 update: CLP 88,253,566; 2024-03-18 update: CLP 88,520,142,777. All list CRÉDITO HIPOTECARIO and BANCO DE CHILE; each primary page says the same amount as both global and owed. These are four records, not four additive liabilities."},
+    {"claim_id":"c3","action":"Independently calculated the 2024/2023 ratio and nominal CLP difference; checked raw currency, UF conversion and panel totals.","result":"SQL returned ratio 1003.0205779673538 (rounds to 1,003.02), nominal difference CLP 88,431,889,211, raw currency CLP, and for 2024 value_uf 2,392,398.78880277. The panel row shows assets CLP 45,375,045 and liabilities CLP 88,520,142,777. The draft distinguishes source pesos from derived UF and does not combine UF across dates."},
+    {"claim_id":"c4","action":"Tried to falsify source interpretation, record continuity, duplication, and alternative explanations against the declarations and SQL.","result":"The 2022 update and rectification are separate dated documents with equal amounts; the draft explicitly does not sum them. The 2023 and 2024 declarations do not establish one continuing contract, an actual bank balance, or the cause of the change. The draft presents refinancing, changed/new obligation, guarantee/co-obligation, and entry error only as possibilities, not findings, and does not attribute personal participation."},
+    {"claim_id":"c3","action":"Assessed whether the headline accurately characterizes the records and values.","result":"The title’s CLP 88 million and CLP 88.520 million correspond, respectively, to the 2023 and 2024 declaration values rounded to millions; it describes what declarations consign as mortgage liabilities and does not claim a continuing contract or four different amounts. SHA256 of the reviewed draft matched the required hash."}
+  ],
+  "remaining_questions": ["What explains the difference between the 2023 and 2024 declared amounts, and do they relate to the same contract? The reviewed declarations do not resolve this; it is a non-blocking follow-up for the bounded claim about declared records."],
+  "raw_result": {
+    "run_id": "20261006T220715Z",
+    "lead_id": "dario-sanchez-montenegro-pasivos",
+    "reviewer_id": "adversarial-reviewer-20261006T220715Z-v4",
+    "draft_sha256": "dd20a6b58a1ce8d4197d3ac1424b4c2bbd781c49266095a4fafab5835b2c2c35",
+    "verdict": "approve",
+    "blocking_issues": [],
+    "verified_claims": ["c1", "c2", "c3", "c4"],
+    "sources_opened": ["https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1144876", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=969843", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=926505", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=846768"],
+    "queries_rerun": ["consultas/dario-sanchez-montenegro-pasivos-review-adversarial-v4.sql"],
+    "checks": [
+      {"claim_id":"c1","action":"Reopened the four primary InfoProbidad declarations and independently queried exact-name declaration records in the gold snapshot.","result":"All four pages identify DARIO SANCHEZ MONTENEGRO. The 2023/2024 pages list Director Regional, Dirección Nacional de Migraciones; 2024 lists assumption date 01-10-2021. SQL returned one exact-name person_id and four declaration records at build_date 2026-10-06T15:56:08+00:00."},
+      {"claim_id":"c2","action":"Expanded each primary declaration and compared date, declaration type, obligation category, amount and creditor with independent SQL rows.","result":"2022-04-02 update: CLP 81,457,863; 2022-12-19 rectification: CLP 81,457,863; 2023-03-14 update: CLP 88,253,566; 2024-03-18 update: CLP 88,520,142,777. All list CRÉDITO HIPOTECARIO and BANCO DE CHILE; each primary page says the same amount as both global and owed. These are four records, not four additive liabilities."},
+      {"claim_id":"c3","action":"Independently calculated the 2024/2023 ratio and nominal CLP difference; checked raw currency, UF conversion and panel totals.","result":"SQL returned ratio 1003.0205779673538 (rounds to 1,003.02), nominal difference CLP 88,431,889,211, raw currency CLP, and for 2024 value_uf 2,392,398.78880277. The panel row shows assets CLP 45,375,045 and liabilities CLP 88,520,142,777. The draft distinguishes source pesos from derived UF and does not combine UF across dates."},
+      {"claim_id":"c4","action":"Tried to falsify source interpretation, record continuity, duplication, and alternative explanations against the declarations and SQL.","result":"The 2022 update and rectification are separate dated documents with equal amounts; the draft explicitly does not sum them. The 2023 and 2024 declarations do not establish one continuing contract, an actual bank balance, or the cause of the change. The draft presents refinancing, changed/new obligation, guarantee/co-obligation, and entry error only as possibilities, not findings, and does not attribute personal participation."},
+      {"claim_id":"c3","action":"Assessed whether the headline accurately characterizes the records and values.","result":"The title’s CLP 88 million and CLP 88.520 million correspond, respectively, to the 2023 and 2024 declaration values rounded to millions; it describes what declarations consign as mortgage liabilities and does not claim a continuing contract or four different amounts. SHA256 of the reviewed draft matched the required hash."}
+    ],
+    "remaining_questions": ["What explains the difference between the 2023 and 2024 declared amounts, and do they relate to the same contract? The reviewed declarations do not resolve this; it is a non-blocking follow-up for the bounded claim about declared records."]
+  }
+}
