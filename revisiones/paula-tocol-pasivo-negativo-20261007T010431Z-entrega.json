@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "run_id": "20261007T010431Z",
+  "lead_id": "paula-tocol-pasivo-negativo",
+  "state": "descartada",
+  "product": "ficha",
+  "author_id": "estadoclaro-cron",
+  "question": "¿La línea de pasivo hipotecario negativa y el total global proceden del formulario original y muestran una discrepancia material, o son un artefacto del pipeline?",
+  "central_claims": [],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/paula-tocol-pasivo-negativo.md"
+  ],
+  "material_progress": "Dos fuentes primarias reabiertas y dos consultas existentes reruneadas confirman que el signo negativo está en el formulario y que el total coincide con sus partidas; no se acredita una discrepancia adicional ni fundamento para caso."
+}
