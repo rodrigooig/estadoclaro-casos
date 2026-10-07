@@ -1,17 +1,27 @@
 # Pablo Allard Serrano y el diseño de la Pasarela Lo Curro — comprobación pendiente
 
-## Reevaluación editorial vigente — 2026-10-06
+## Reevaluación editorial vigente — 2026-10-07 (v3)
 
 - **ID:** `pablo-allard-serrano-pasarela-vitacura`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** cronología y contratación concreta.
-- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+- **Estado vigente:** borrador listo.
+- **Producto:** caso documental nuevo, destino propuesto `casos/negocios_estado/pablo-allard-serrano-pasarela-vitacura.md`.
+- **Pregunta:** ¿qué disponen los actos y antecedentes que la OC cita para una contratación directa de 995 UTM, emitida por Vitacura a un proveedor cuyo RUT coincide con una sociedad que su asesor de Alcaldía declaró controlar en 2022?
 
-La ausencia de intervención personal no impide toda propuesta, pero sí toda afirmación de que participó. No extrapolar el honorario terminado en 2020 a 2023. Reunir cronología y fundamento contractual; omitir atribuciones no acreditadas y evaluar si queda núcleo material.
+La declaración primaria 912542 (11-11-2022) identifica a Pablo Allard Serrano como Asesor Alcaldía de Vitacura y consigna 20%/control en ALLARD ASOCIADOS SPA; una sección distinta registra actividad remunerada de director bajo ALLARD Y ASOCIADOS SPA, con igual RUT 76.598.791-1. La OC primaria 2659-252-SE23 (02-05-2023) identifica al municipio, al proveedor ALLARD ARQUITECTOS ASOCIADOS LIMITADA con ese RUT, el servicio de arquitectura/espacio público, procedimiento de trato directo y 995 UTM. Se reabrieron ambos documentos y se compararon sus campos; no prueban continuidad de cargo/interés ni intervención individual.
 
-**Próxima comprobación autónoma:** Verificar declaración 2022, contrato de 995 UTM, vigencia real del vínculo municipal y documento que fundó la contratación mediante anexos/repositorio/OCDS. Evaluar encuadre sustentado de exasesor si las fechas lo prueban; no afirmar cargo en 2023 ni intervención sin documento.
+**Medición reproducible:** dos consultas independientes reejecutadas con `ec-gold-sql` en solo lectura, corte `2026-10-06T15:56:08Z`; la consulta exacta por nombre completo, declaración 912542, RUT normalizado y OC devuelve una fila. La consulta adversarial sin join restrictivo produce tres filas por fan-out (dos con campos de declaración nulos) para el mismo código, no tres órdenes; el caso cuenta la OC una vez. Consultas: `consultas/pablo-allard-serrano-pasarela-vitacura-20261007-1.sql`, `...-revision-evidencia.sql`, `...-revision-adversarial.sql`.
 
-Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+**Cambio sustantivo tras revisión:** la primera revisión de evidencia advirtió que el nombre de la participación es ALLARD ASOCIADOS SPA, mientras que la actividad de director figura bajo ALLARD Y ASOCIADOS SPA. Se corrigió el borrador para preservar ambos nombres y explicitar el RUT compartido. No se afirma identidad de razón social a partir del texto; el nexo se limita al identificador exacto y al registro declarado.
+
+**Revisiones finales independientes:** revisor 1 (`revisiones/pablo-allard-serrano-pasarela-vitacura-20261007T000135Z-revisor-1.json`) y revisor adversarial 2 (`...-revisor-2.json`) aprobaron el mismo SHA256 `996e03a98f5fdf426849725749a10f70bc4e158cd68d18f7aad30fbe881efba6`; ambos reabrieron declaración/OC y ejecutaron sus SQL propias. La revisión adversarial reportó fan-out de tres filas en su join amplio; la orden se mantiene como un código único.
+
+**Citas y evidencia:** `sources.py verify borradores/pablo-allard-serrano-pasarela-vitacura.md --evidence --min-coverage 0.5` pasó con cobertura 83%, dos fuentes citadas con evidencia literal. Advertencia revisada: cuatro oraciones superan tres citas según el verificador; el texto contiene máximo dos IDs por oración, se conserva claridad y no se hizo cambio cosmético tras aprobar.
+
+**Incertidumbre remanente:** el texto de los actos/anexos citados, continuidad del cargo/participación al 02-05-2023, identidad de quienes intervinieron, fundamento completo de selección, recepción conforme y pago no se establecen en las fuentes abiertas. La pregunta del caso es acotada a los actos citados; no evalúa legalidad ni atribuye intervención.
+
+**Próxima acción:** entregar como `borrador listo` mediante `ec-inv-pr`, abrir PR de caso en borrador a `main` y verificar estado remoto. Rodrigo decide el merge.
+
+Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son historial anterior; el estado vigente de 2026-10-07 las reemplaza. La recomendación previa de no redactar no se trasladó como veto humano: se acotó el caso a registros comprobados y preguntas documentales, sin atribuir continuidad ni intervención.
 
 ## Historial de evidencia y decisiones previas
 

@@ -1,0 +1,29 @@
+{
+  "run_id": "20261007T000135Z",
+  "lead_id": "pablo-allard-serrano-pasarela-vitacura",
+  "reviewer_id": "hermes-subagent-gpt-6-luna-openai-codex",
+  "draft_sha256": "996e03a98f5fdf426849725749a10f70bc4e158cd68d18f7aad30fbe881efba6",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=912542",
+    "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2659-252-SE23"
+  ],
+  "queries_rerun": [
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-1.sql",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-revision-adversarial.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrió y expandió declaración 912542.","result":"Registra a Pablo Allard Serrano, 11-11-2022, Asesor Alcaldía de Vitacura; 20% controlador en ALLARD ASOCIADOS SPA; director remunerado en ALLARD Y ASOCIADOS SPA desde 15-10-2016. Ambas entradas societarias llevan el mismo RUT. Esto no prueba vigencia al 02-05-2023."},
+    {"claim_id":"c2","action":"Reabrió la OC 2659-252-SE23.","result":"Consigna fecha 02-05-2023, estado Aceptada, comprador Vitacura, proveedor ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT 76.598.791-1, trato directo, categoría Servicios especializados inferiores a 1000 UTM y total 995 UTM. La ficha cita Decreto Alcaldicio Sec. 4.ª N.º 10/66 y Resolución N.º 29, sin exponer sus fundamentos completos; la orden no acredita pago."},
+    {"claim_id":"c3","action":"Reejecutó consulta guardada y escribió/ejecutó SQL independiente adversarial.","result":"La consulta guardada devuelve una fila con persona, declaración y OC enlazadas. La SQL adversarial por order_code devolvió 3 filas por fan-out del LEFT JOIN: una con declaración y dos con campos de declaración nulos; los tres repiten el mismo código y datos de proveedor, no son tres órdenes. El borrador no utiliza ese conteo; mantiene una sola OC. SQL exacta preservada en consultas/pablo-allard-serrano-pasarela-vitacura-20261007-revision-adversarial.sql."},
+    {"claim_id":"c4","action":"Desafió nexo, cronología, legalidad, explicación y afirmación más débil.","result":"La afirmación más débil sería continuidad de cargo o participación en mayo de 2023, que el borrador no afirma; al suprimirla queda la pregunta documental por el contenido de los actos citados y antecedentes de selección. El nexo de una declaración previa, interés societario, mismo identificador tributario, comprador municipal y acto de contratación permite una pregunta acotada sin imputación. La fuente no acredita legalidad/ilegalidad, intervención, recepción ni pago."}
+  ],
+  "remaining_questions": [
+    "Texto y anexos de los actos citados para examinar fundamentos de selección.",
+    "Vigencia del cargo y participación a 02-05-2023.",
+    "Identidad del personal que definió, evaluó, autorizó, administró y recibió el servicio; no se atribuye intervención a Allard."
+  ],
+  "raw_result": "Delegación real hermes-subagent-gpt-6-luna-openai-codex: approve para SHA256 996e03a98f5fdf426849725749a10f70bc4e158cd68d18f7aad30fbe881efba6. El subagente reabrió primarias, reejecutó query guardada, ejecutó su SQL independiente con fan-out de 3 filas, distinguió una OC de sus filas repetidas, y aprobó el alcance factual/pregunta acotada."
+}

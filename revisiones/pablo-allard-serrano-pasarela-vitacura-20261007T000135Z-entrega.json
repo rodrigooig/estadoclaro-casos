@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "run_id": "20261007T000135Z",
+  "lead_id": "pablo-allard-serrano-pasarela-vitacura",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Qué disponen los actos y antecedentes que la OC 2659-252-SE23 cita para una contratación directa de 995 UTM, emitida por Vitacura a un proveedor cuyo RUT coincide con una sociedad que su asesor de Alcaldía declaró controlar en 2022?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "996e03a98f5fdf426849725749a10f70bc4e158cd68d18f7aad30fbe881efba6",
+  "destination": "casos/negocios_estado/pablo-allard-serrano-pasarela-vitacura.md",
+  "reviews": [
+    "revisiones/pablo-allard-serrano-pasarela-vitacura-20261007T000135Z-revisor-1.json",
+    "revisiones/pablo-allard-serrano-pasarela-vitacura-20261007T000135Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/pablo-allard-serrano-pasarela-vitacura.md",
+    "borradores/pablo-allard-serrano-pasarela-vitacura.md",
+    "borradores/pablo-allard-serrano-pasarela-vitacura-matriz.md",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-1.sql",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-revision-evidencia.sql",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-revision-adversarial.sql",
+    "revisiones/pablo-allard-serrano-pasarela-vitacura-20261007T000135Z-revisor-1.json",
+    "revisiones/pablo-allard-serrano-pasarela-vitacura-20261007T000135Z-revisor-2.json"
+  ],
+  "material_progress": "Se verificaron declaración y OC primarias, identificador societario exacto y orden única; dos revisores aprobaron el mismo texto tras corregir la diferencia entre ALLARD ASOCIADOS SPA y ALLARD Y ASOCIADOS SPA. La consulta adversarial amplia expuso fan-out, se registra sin contar registros duplicados como órdenes."
+}
