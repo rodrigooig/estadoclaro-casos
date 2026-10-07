@@ -1,0 +1,28 @@
+{
+  "run_id": "20261007T000135Z",
+  "lead_id": "pablo-allard-serrano-pasarela-vitacura",
+  "reviewer_id": "independent-evidence-reviewer-1",
+  "draft_sha256": "996e03a98f5fdf426849725749a10f70bc4e158cd68d18f7aad30fbe881efba6",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=912542",
+    "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2659-252-SE23"
+  ],
+  "queries_rerun": [
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-1.sql",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261007-revision-evidencia.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrió declaración primaria y leyó borrador final.","result":"ID 912542: PABLO ALLARD SERRANO, 11-11-2022, cargo declarado Asesor Alcaldía de Vitacura."},
+    {"claim_id":"c2","action":"Revisó campos completos de sociedades y actividades.","result":"La declaración consigna 20%, controlador SI, giro asesorías en arquitectura y urbanismo en ALLARD ASOCIADOS SPA; separadamente registra actividad remunerada de director desde 15-10-2016 bajo ALLARD Y ASOCIADOS SPA. Ambas entradas muestran RUT 76.598.791-1. El borrador distingue los dos nombres y no confunde fecha de adquisición con inicio de actividad."},
+    {"claim_id":"c3","action":"Reabrió ficha primaria de la OC.","result":"2659-252-SE23: envío 02-05-2023, estado Aceptada, comprador I Municipalidad de Vitacura, proveedor ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT 76.598.791-1, trato directo, servicio de arquitectura/espacio público Pasarela Lo Curro, 995 UTM. La ficha no acredita pago."},
+    {"claim_id":"c4","action":"Reejecutó ambas consultas guardadas con ec-gold-sql, solo lectura.","result":"Cada SQL devolvió una fila con persona, declaración 912542 y OC 2659-252-SE23 enlazadas por RUT societario normalizado 76598791. No demuestra vigencia del cargo, participación o control en mayo de 2023 ni intervención personal."}
+  ],
+  "remaining_questions": [
+    "Las fuentes no establecen si cargo, participación o control seguían vigentes el 02-05-2023.",
+    "No se conoce quién intervino en el proceso ni el fundamento completo de la selección; los actos/anexos citados no fueron consultados en texto íntegro."
+  ],
+  "raw_result": "Delegación real independent-evidence-reviewer-1: approve para SHA256 996e03a98f5fdf426849725749a10f70bc4e158cd68d18f7aad30fbe881efba6. Reabrió ambas primarias y ejecutó las dos consultas guardadas; checks preservan resultados concretos."
+}
