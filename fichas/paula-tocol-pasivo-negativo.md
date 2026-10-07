@@ -1,15 +1,17 @@
 # Paula Verónica Tocol Villarroel — pasivo hipotecario con registro negativo
 
-## Reevaluación editorial vigente — 2026-10-06
+## Reevaluación editorial vigente — 2026-10-07
 
 - **ID:** `paula-tocol-pasivo-negativo`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** coherencia del registro declarado.
-- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+- **Estado vigente:** descartada
+- **Producto:** ficha de no-caso; no se prepara caso.
+- **Alcance de esta actualización:** comprobación de originales y repetición de las consultas centrales; no se afirma saldo efectivo ni error de la declarante.
 
-Se reabre solo la pregunta sobre coherencia de un registro primario, distinta de la descartada deuda real. Si el signo está explicado documentalmente o no hay relevancia material, volver a descartar. No hay nueva corroboración en esta actualización.
+Las declaraciones oficiales 5116924 (04-05-2026) y 5123458 (14-09-2026) contienen las dos partidas hipotecarias en BancoEstado por -CLP 133.920.000 y +CLP 71.379.144, con total global -CLP 62.540.856.[1][2] La consulta de historial devuelve cinco snapshots para el nombre completo; las tres actualizaciones reproducen esos importes y el agregado, sin divergencia entre el original revisado y el oro al corte 2026-10-06T15:56:08Z. La suma de las dos partidas coincide con el total publicado; la anomalía que motivó la pista es un signo negativo en una línea autodeclarada, no una discrepancia aritmética o de versión demostrada.[1][2]
 
-**Próxima comprobación autónoma:** Confirmar en originales que la partida negativa y el agregado provienen del formulario, no del pipeline; comparar serie, signos y campos. Evaluar relevancia de inconsistencia del registro, eventualmente junto con otras anomalías; no afirmar deuda negativa efectiva.
+**Decisión:** el registro primario acredita lo que se declaró, pero no permite distinguir una convención contable, saldo acreedor, error de ingreso u otra explicación. La repetición de una misma entrada en snapshots no son verificaciones independientes. Sin una discrepancia material adicional o documento público que aclare el significado y sustente una pregunta pública concreta, la sola cifra negativa no supera el umbral editorial. Reabrir únicamente ante rectificación o fuente primaria nueva que cambie la interpretación; no buscar saldos privados ni contactar a terceros.
+
+**Próxima acción:** mantener como descartada; retornar solo ante evidencia pública distinta según la condición indicada.
 
 Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
 
