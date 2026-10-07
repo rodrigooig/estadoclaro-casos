@@ -1,0 +1,52 @@
+{
+  "run_id": "20261007T030826Z",
+  "lead_id": "ricardo-rivano-pasivo-hipotecario",
+  "reviewer_id": "hermes-gpt-6-luna-subagent",
+  "draft_sha256": "2e43e1aa6dbcf8b4471ee5012a6da3208d59f1c85a3824cc88efb8fafb51ab32",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1651879",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1458933",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1358306",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1358323"
+  ],
+  "queries_rerun": [
+    "consultas/ricardo-rivano-pasivo-hipotecario-evidence.sql",
+    "consultas/ricardo-rivano-pasivo-hipotecario-independent.sql"
+  ],
+  "checks": [
+    {"claim_id": "c1", "action": "Reabrió fuente oficial 1651879 y cotejó identidad, fecha, pasivo y acreedor.", "result": "RICARDO IGOR RIVANO ARAVENA; 24-03-2026; CRÉDITO HIPOTECARIO; CLP 160.528.863.763; BANCO EDWARDS."},
+    {"claim_id": "c2", "action": "Reabrió 1458933, 1358306 y 1358323.", "result": "Mismo declarante; BANCO EDWARDS en las tres: CLP 127.000.000, CLP 164.688.000 y CLP 164.331.560 en las fechas reportadas."},
+    {"claim_id": "c3", "action": "Ejecutó ambas consultas definitivas con ec-gold-sql.", "result": "Cuatro filas; creditor BANCO EDWARDS, normalized_creditor BANCO DE CHILE, moneda CLP, una fila hipotecaria por declaración; panel, total global y detalle concilian en las cuatro."},
+    {"claim_id": "c4", "action": "Comparó archivo publicado en main y borrador corregido; revisó alcance y UF.", "result": "La versión publicada en main contiene «crédito hipotecario con el Banco de Chile por 4.029.165 UF (160.528.863.763 pesos)». El borrador corregido reemplaza ese pasaje por BANCO EDWARDS literal / BANCO DE CHILE como normalización, monto en CLP. La diferencia justifica una corrección factual puntual; no demuestra equivalencia ni saldo real. 4.029.165 UF desapareció del pasaje y de las preguntas pendientes; la mención de panel 0 UF es distinta."},
+    {"claim_id": "sha256", "action": "Calculó SHA256 del borrador corregido.", "result": "2e43e1aa6dbcf8b4471ee5012a6da3208d59f1c85a3824cc88efb8fafb51ab32."}
+  ],
+  "remaining_questions": ["Origen, saldo real, vigencia y equivalencia bancaria no determinados por las fuentes abiertas."],
+  "raw_result": {
+    "reviewer_id": "hermes-gpt-6-luna-subagent",
+    "run_id": "20261007T030826Z",
+    "lead_id": "ricardo-rivano-pasivo-hipotecario",
+    "draft_sha256": "2e43e1aa6dbcf8b4471ee5012a6da3208d59f1c85a3824cc88efb8fafb51ab32",
+    "verdict": "approve",
+    "blocking_issues": [],
+    "verified_claims": {
+      "c1": "Verificado: la declaración 1651879 corresponde a Ricardo Igor Rivano Aravena, fechada 24-03-2026; su detalle declara un crédito hipotecario de $160.528.863.763 y nombra BANCO EDWARDS.",
+      "c2": "Verificado: las declaraciones 1458933, 1358306 y 1358323 corresponden al mismo declarante y muestran BANCO EDWARDS; las fechas y montos del pasivo también concuerdan con las consultas.",
+      "c3": "Verificado en ambas consultas rerun: las cuatro filas tienen creditor BANCO EDWARDS, normalized_creditor BANCO DE CHILE, moneda CLP y una fila de pasivo cada una. La segunda consulta concilia panel, total global y detalle en las cuatro declaraciones; para la vigente, un pasivo de CLP 160.528.863.763. No se infiere equivalencia legal o comercial.",
+      "c4": "Verificado como límite correctamente expresado: no se prueba saldo bancario real, origen ni vigencia de la obligación. El borrador no conserva la cifra derivada 4.029.165 UF; sí presenta panel 0 UF como campo separado."
+    },
+    "sources_opened": ["https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1651879", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1458933", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1358306", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1358323", "/root/work/estadoclaro-casos/casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md", "/root/work/estadoclaro-investigacion/borradores/ricardo-rivano-pasivo-hipotecario.md"],
+    "queries_rerun": ["consultas/ricardo-rivano-pasivo-hipotecario-evidence.sql", "consultas/ricardo-rivano-pasivo-hipotecario-independent.sql"],
+    "checks": [
+      {"verification": "Versión publicada en main", "result": "Archivo en main sincronizado; HEAD y origin/main ba5db08fd315f6d67d10e7dbe178d582ed79f956. El texto publicado contiene «crédito hipotecario con el Banco de Chile por 4.029.165 UF (160.528.863.763 pesos)»."},
+      {"verification": "Cambio efectivo propuesto", "result": "El borrador contiene el reemplazo textual del pasaje publicado: atribuye BANCO EDWARDS a la declaración, identifica BANCO DE CHILE solo como normalización del artefacto y expresa el monto en CLP. La diferencia literal/normalizada justifica esta corrección factual puntual, pero no demuestra equivalencia bancaria ni saldo real."},
+      {"verification": "Consulta evidence", "result": "ec-gold-sql: cuatro filas, una obligación por declaración, acreedor BANCO EDWARDS, normalized_creditor BANCO DE CHILE; montos CLP 160.528.863.763, 127.000.000, 164.688.000 y 164.331.560."},
+      {"verification": "Consulta independent", "result": "ec-gold-sql: cuatro filas; panel, global y detalle coinciden; n_liabilities/detail_rows=1, CLP, creditor/normalized_creditor separados."},
+      {"verification": "UF derivada e indicador panel", "result": "4.029.165 UF no aparece en el pasaje corregido ni en preguntas pendientes; panel 0 UF se presenta como campo distinto, no conversión de la deuda."},
+      {"verification": "Hash final", "result": "sha256sum del borrador = 2e43e1aa6dbcf8b4471ee5012a6da3208d59f1c85a3824cc88efb8fafb51ab32."}
+    ],
+    "remaining_questions": ["Las fuentes abiertas acreditan lo declarado, no el saldo bancario efectivo ni la causa del monto; resolverlos requeriría una rectificación oficial o evidencia documental legítima adicional."]
+  }
+}

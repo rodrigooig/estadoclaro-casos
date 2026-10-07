@@ -1,15 +1,21 @@
 # Ricardo Igor Rivano Aravena: pasivo hipotecario informado en 2026
 
-## Reevaluación editorial vigente — 2026-10-06
+## Reevaluación editorial vigente — 2026-10-07
 
 - **ID:** `ricardo-rivano-pasivo-hipotecario`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** corrección de caso existente.
-- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+- **Estado vigente:** correccion lista; doble revisión automática del mismo SHA final, sin vacíos centrales.
+- **Producto:** corrección del caso existente, no un segundo caso.
+- **Alcance:** precisión de acreedor declarado frente a normalización del artefacto; mantiene el monto primario en CLP y no acredita saldo bancario.
 
-El caso existente ya advierte el outlier. Se abre una comprobación acotada de exactitud/atribución del párrafo y comparabilidad de la serie, no una certificación de deuda ni un segundo caso por magnitud. El texto de main usa Banco de Chile mientras la ficha histórica cita Banco Edwards en el original: comprobar antes de proponer reemplazo. Si no hay mejora factual concreta, registrar sin avance y cerrar sin nuevo PR a main.
+**Síntesis medida:** las cuatro declaraciones primarias reabiertas identifican literalmente al acreedor como «BANCO EDWARDS». El oro al corte `2026-10-06T15:56:08Z` conserva `creditor='BANCO EDWARDS'` y `normalized_creditor='BANCO DE CHILE'`; ambas consultas nuevas muestran una fila hipotecaria en CLP por declaración y sumas de detalle iguales a las cifras del panel/global. La frase vigente del caso —«con el Banco de Chile»— presenta la normalización como si fuera el acreedor literal y se reemplaza por la descripción de ambas capas. La corrección no establece si la normalización corresponde a una equivalencia institucional válida ni valida el saldo declarado.
 
-**Próxima comprobación autónoma:** Comparar párrafo patrimonial vigente de casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md con originales 1651879, 1458933, 1358306 y 1358323; separar acreedor literal BANCO EDWARDS de normalización BANCO DE CHILE y añadir serie solo si aporta corrección sustentada. No duplicar caso; dos revisores.
+**Texto exacto corregido:** «un “crédito hipotecario” cuyo acreedor la declaración identifica como BANCO EDWARDS (el artefacto de Estado Claro lo normaliza como BANCO DE CHILE), por 160.528.863.763 pesos»; se retira la equivalencia UF del pasaje corregido porque no se verificó en esta revisión.
+
+**Evidencia nueva:** documentos InfoProbidad 1651879, 1458933, 1358306 y 1358323 reabiertos; consultas guardadas `consultas/ricardo-rivano-pasivo-hipotecario-evidence.sql` y `consultas/ricardo-rivano-pasivo-hipotecario-independent.sql` ejecutadas. Extractos literales y filas reproducibles confirman la diferencia entre texto fuente y etiqueta normalizada.
+
+**Revisiones independientes:** evidencia y adversarial aprobaron la versión final SHA256 `2e43e1aa6dbcf8b4471ee5012a6da3208d59f1c85a3824cc88efb8fafb51ab32`; ambas reabrieron las cuatro primarias y ejecutaron las dos consultas guardadas. La segunda revisión pidió quitar la cifra UF derivada, reparado antes de repetir ambas revisiones finales.
+
+**Próximo paso:** validar y cerrar mediante `ec-inv-pr` como corrección borrador a `main`; Rodrigo decide merge/publicación.
 
 Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
 

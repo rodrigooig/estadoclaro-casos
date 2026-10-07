@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "run_id": "20261007T030826Z",
+  "lead_id": "ricardo-rivano-pasivo-hipotecario",
+  "state": "correccion lista",
+  "product": "correccion",
+  "author_id": "Hermes Agent (scheduled cron, profile estadoclaro)",
+  "question": "¿El caso vigente atribuye correctamente el acreedor mostrado en la declaración primaria y distingue ese texto de la normalización del artefacto?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "2e43e1aa6dbcf8b4471ee5012a6da3208d59f1c85a3824cc88efb8fafb51ab32",
+  "destination": "casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md",
+  "reviews": [
+    "revisiones/ricardo-rivano-pasivo-hipotecario-20261007T030826Z-revisor-1.json",
+    "revisiones/ricardo-rivano-pasivo-hipotecario-20261007T030826Z-revisor-2.json"
+  ],
+  "files": [
+    "COLA.md",
+    "INDICE.md",
+    "fichas/ricardo-rivano-pasivo-hipotecario.md",
+    "borradores/ricardo-rivano-pasivo-hipotecario.md",
+    "borradores/ricardo-rivano-pasivo-hipotecario-matriz.md",
+    "consultas/ricardo-rivano-pasivo-hipotecario-evidence.sql",
+    "consultas/ricardo-rivano-pasivo-hipotecario-independent.sql",
+    "revisiones/ricardo-rivano-pasivo-hipotecario-20261007T030826Z-revisor-1.json",
+    "revisiones/ricardo-rivano-pasivo-hipotecario-20261007T030826Z-revisor-2.json"
+  ],
+  "material_progress": "Se verificó y corrigió la atribución del acreedor: las cuatro fuentes primarias dicen BANCO EDWARDS; el oro conserva creditor literal y separa normalized_creditor BANCO DE CHILE. Se retiró la cifra UF no revalidada. Dos revisores independientes aprobaron el mismo SHA final tras reabrir fuentes y rerun de SQL."
+}
