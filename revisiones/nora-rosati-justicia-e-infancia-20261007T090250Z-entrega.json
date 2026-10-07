@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "run_id": "20261007T090250Z",
+  "lead_id": "nora-rosati-justicia-e-infancia",
+  "state": "bloqueada por acceso",
+  "product": "ficha",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Existe una copia pública accesible del anexo de evaluación/oferta 1477-17-LE24 que permita comprobar el rol concreto de Nora Rosati?",
+  "central_claims": [],
+  "quantitative_claims": false,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/nora-rosati-justicia-e-infancia.md"
+  ],
+  "material_progress": "Comprobación de dos consultas web alternativas por identificador y nombre; ambas sin resultados; no se resuelve la barrera central y se conserva la condición de retorno."
+}

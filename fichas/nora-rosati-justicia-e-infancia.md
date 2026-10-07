@@ -5,13 +5,17 @@
 - **ID:** `nora-rosati-justicia-e-infancia`
 - **Estado vigente:** bloqueada por acceso
 - **Producto a evaluar:** rol concreto pendiente.
-- **Alcance de esta actualización:** reencuadre del método; no aporta nueva corroboración, no aprueba un caso ni certifica las cifras históricas.
+- **Alcance de esta actualización:** búsqueda web alternativa por identificadores exactos; no aporta documento nuevo ni resuelve la barrera de acceso.
 
 La revisión de hechos ya disponibles se automatiza. El rol contractual no se atribuye desde la participación societaria; especificar si es indispensable para el encuadre o puede omitirse dejando otro núcleo material documentado. No publicar por mera coincidencia temática.
 
 **Próxima comprobación autónoma:** Volver con anexo público equivalente de evaluación/oferta 1477-17-LE24 o documento distinto que establezca rol/competencia relevante. No repetir CAPTCHA. Si el caso depende de que actuó como relatora, no afirmar esa participación sin evidencia.
 
 Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial anterior y no sustituyen este estado vigente. La doble revisión deberá reabrir fuentes y repetir las consultas centrales antes de promover.
+
+**Comprobación alternativa — 2026-10-07 UTC:** búsquedas web por `"1477-17-LE24" relatora anexo evaluación oferta Nora Rosati` y `site:mercadopublico.cl "1477-17-LE24" "anexo"` no devolvieron resultados. Es una búsqueda de índice, no prueba de que no exista una copia pública ni sustituye el anexo de evaluación/oferta. La barrera central permanece: falta documento público accesible que permita establecer si Rosati integró el equipo docente o su papel concreto. No se volvió a abrir el anexo con CAPTCHA ni se intentó eludirlo.
+
+**Decisión y retorno:** mantener `bloqueada por acceso`; volver solo si aparece un anexo público equivalente de evaluación/oferta 1477-17-LE24 o documento distinto que establezca rol/competencia relevante. Si el documento no identifica a Rosati ni su papel, reconsiderar el caso sin atribuirle intervención.
 
 ## Historial de evidencia y decisiones previas
 
