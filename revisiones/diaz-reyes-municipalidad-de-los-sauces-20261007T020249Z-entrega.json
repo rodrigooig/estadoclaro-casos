@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "run_id": "20261007T020249Z",
+  "lead_id": "diaz-reyes-municipalidad-de-los-sauces",
+  "state": "evidencia insuficiente",
+  "product": "triage",
+  "author_id": "estadoclaro-cron",
+  "question": "¿La declaración y las órdenes de la sociedad bastan para justificar una corrección de caso con relevancia material de auditoría, dado que el cargo está como «Otro» y la licitación se adjudicó antes de la declaración?",
+  "central_claims": [],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/diaz-reyes-municipalidad-de-los-sauces.md",
+    "borradores/diaz-reyes-municipalidad-de-los-sauces.md",
+    "revisiones/diaz-reyes-municipalidad-de-los-sauces-20261007T020249Z-matriz.md",
+    "revisiones/diaz-reyes-municipalidad-de-los-sauces-20261007T020249Z-revisor-1.json",
+    "revisiones/diaz-reyes-municipalidad-de-los-sauces-20261007T020249Z-revisor-2.json"
+  ],
+  "material_progress": "Se reabrieron declaración, licitación y dos OCs primarias; tres consultas se rerunearon. Se documentó la diferencia entre etiqueta de participación y marca no-controladora, la cronología adjudicación anterior a declaración anterior a órdenes, y la discrepancia de estado entre el oro y la ficha vigente. La revisión adversarial no aprobó relevancia material para un caso de auditoría; no se abrió PR ni se infiere conducta indebida."
+}

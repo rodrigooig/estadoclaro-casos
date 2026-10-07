@@ -1,17 +1,18 @@
 # Seguimiento de caso publicado: Nancy Marisol Díaz Reyes y compras de radiodifusión en Los Sauces
 
-## Reevaluación editorial vigente — 2026-10-06
+## Reevaluación editorial vigente — 2026-10-07
 
 - **ID:** `diaz-reyes-municipalidad-de-los-sauces`
-- **Estado vigente:** en curso
-- **Producto a evaluar:** corrección de caso existente.
-- **Alcance:** reencuadre del método; sin nueva corroboración de cifras ni aprobación de caso.
+- **Estado vigente:** evidencia insuficiente para un caso o corrección lista; mantener como triage privado del paquete.
+- **Producto evaluado:** posible corrección de un caso existente; no es un caso nuevo ni se abre PR.
+- **Última revisión:** run `20261007T020249Z`; resumen en `tmp/runs/20261007T020249Z/diaz-reyes-municipalidad-de-los-sauces/resumen.md`.
+- **Datos medidos:** al corte gold `2026-10-06T15:56:08Z`, consultas 1–3 reejecutadas con `ec-gold-sql` devuelven diez OCs únicas por CLP 800.000 cada una y CLP 8.000.000 total, ligadas a 3705-127-LE22. La licitación fue adjudicada el 06-02-2023, antes de la declaración del 11-04-2023; la primera OC es del 05-05-2023. El oro muestra 3705-240-SE23 «Enviada a proveedor», pero su ficha primaria abierta después muestra «Aceptada».
+- **Corrección factual propuesta, no aprobada para entrega:** sustituye «100%» por el texto exacto del campo combinado «Cantidad / Porcentaje 100» y la marca no-controladora; elimina el RUT personal que estaba expuesto en el enlace/texto de una fuente agregadora; no atribuye moneda al valor 1, porque el formulario la deja vacía; explicita la cronología y el límite de intervención.
+- **Revisión final del borrador SHA** `2551eb403ff305ff9c6499e059658ca5bdeb950f513eb72ae79b7f995286ae2e`: revisor de evidencia `approve`, revisor adversarial `revise`. El segundo no encontró sustento suficiente para la relevancia material de la historia como caso de auditoría: cargo «Otro», adjudicación anterior a la declaración, proceso abierto y ninguna prueba de competencia o participación individual. Las verificaciones cuantitativas no resuelven ese vacío editorial.
+- **Decisión:** no promover a `correccion lista`, no crear PR a `main` ni describir esto como caso listo. El borrador permanece solo como material de revisión en la bitácora. No implica veredicto sobre la persona.
+- **Condición de retorno:** únicamente una fuente pública nueva que documente la función concreta/competencia municipal pertinente, una intervención individual o una cuestión específica de cumplimiento que cambie la relevancia material; no repetir búsquedas generales ni inferir un nexo desde «Otro» o la coincidencia institucional.
 
-La falta de anexos o rol no impide comprobar y recortar una afirmación del caso publicado si ya excede las fuentes. Primero comparar el texto exacto, no repetir toda la búsqueda. No inferir control desde cantidad 100 frente a controlador false ni función desde cargo Otro. Si una ampliación depende del expediente inaccesible, bloquear esa ampliación con documento concreto; conservar la corrección factual posible y sus límites.
-
-**Próxima comprobación autónoma:** Comparar texto vigente de casos/autocontratacion/diaz-reyes-municipalidad-de-los-sauces.md con originales de declaración/OCs/licitación 3705-127-LE22. Evaluar corrección exacta de cargo, controlador, fechas y límites de atribución; intentar solo rutas oficiales nuevas para expediente. Dos revisores; no ampliar intervención ni duplicar caso.
-
-Aplicar METODO_INVESTIGACION.md v3. El historial de abajo no sustituye este estado vigente.
+Aplicar METODO_INVESTIGACION.md v3. El historial de abajo conserva antecedentes, pero el estado vigente es el de esta reevaluación. No se exige actuación personal si el texto no la atribuye; aquí, sin embargo, falta el nexo/relevancia que haría del cruce un producto documental suficiente para auditoría.
 
 ## Historial de evidencia y decisiones previas
 
