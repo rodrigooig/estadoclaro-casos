@@ -1,0 +1,27 @@
+{
+  "run_id":"20261007T020249Z",
+  "lead_id":"diaz-reyes-municipalidad-de-los-sauces",
+  "reviewer_id":"revisor-evidencia-1",
+  "draft_sha256":"2551eb403ff305ff9c6499e059658ca5bdeb950f513eb72ae79b7f995286ae2e",
+  "verdict":"approve",
+  "blocking_issues":[],
+  "verified_claims":["c1","c2","c3","c4","c5"],
+  "sources_opened":["https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1052265","https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=Ydfg0AqPNnmX0rBsCcpKHg==","https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3705-240-SE23","https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3705-92-SE24"],
+  "queries_rerun":["consultas/diaz-reyes-municipalidad-de-los-sauces-1.sql","consultas/diaz-reyes-municipalidad-de-los-sauces-2.sql","consultas/diaz-reyes-municipalidad-de-los-sauces-3.sql"],
+  "checks":[
+    {"claim_id":"c1","action":"Abrí y expandí InfoProbidad 1052265; comparé con consulta 1.","result":"Nombre completo, función Otro, institución, declaración 11-04-2023; línea ACCION EMICIONES NANCY MARISOL DIAZ EIRL, cantidad/porcentaje 100, adquisición 11-02-2015, PUBLICIDAD RADIAL, valor 1, moneda vacía, controlador=false. No convierte 100 en 100% de propiedad/control."},
+    {"claim_id":"c2","action":"Reabrí licitación y contrasté fecha con declaración y OC.","result":"Licitación adjudicada 06-02-2023; declaración 11-04-2023; primera OC 05-05-2023. La cronología está correctamente expresada y limitada."},
+    {"claim_id":"c3","action":"Reejecuté consultas 2 y 3 con ec-gold-sql.","result":"10 órdenes únicas, CLP 8.000.000 nominales, cada una CLP 800.000, fechas 2023-05-05 a 2024-02-20, RUT societario 76490266-1, licitación 3705-127-LE22; 10 filas listadas."},
+    {"claim_id":"c4","action":"Reabrí ficha primaria de licitación.","result":"Convocatoria abierta; ponderaciones concesión radial 70%, sucursal 15%, precio 15%; responsable Juan Jiménez Cayul. No prueba oferentes, puntajes ni intervención."},
+    {"claim_id":"c5","action":"Reabrí órdenes y comparé estado primario con oro.","result":"La OC 3705-240-SE23 muestra Aceptada en la ficha actual y Enviada a proveedor en el oro al corte. El borrador destaca la diferencia y no atribuye pago, control, intervención o beneficio."},
+    {"claim_id":"c1","action":"Verifiqué citas con evidencia y cobertura mínima 0.5.","result":"10/10 frases con procedencia; 4 fuentes con evidencia; citations OK. Advertencias de más de tres citas son estilísticas según protocolo."}
+  ],
+  "remaining_questions":["No se acredita quién ofertó, intervención/abstención individual ni pago; el expediente puede servir para seguimiento documental."],
+  "raw_result":{
+    "source":"delegate_task revisor-evidencia-1, resultado síncrono recibido en la sesión",
+    "verdict":"approve",
+    "draft_sha256":"2551eb403ff305ff9c6499e059658ca5bdeb950f513eb72ae79b7f995286ae2e",
+    "verified_claims":["c1","c2","c3","c4","c5"],
+    "note":"Resumen literal de comprobaciones conservado arriba; el resultado completo se mantiene en el transcript de delegación de esta corrida."
+  }
+}

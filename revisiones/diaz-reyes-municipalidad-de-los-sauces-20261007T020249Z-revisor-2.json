@@ -1,0 +1,26 @@
+{
+  "run_id":"20261007T020249Z",
+  "lead_id":"diaz-reyes-municipalidad-de-los-sauces",
+  "reviewer_id":"revisor-adversarial-2",
+  "draft_sha256":"2551eb403ff305ff9c6499e059658ca5bdeb950f513eb72ae79b7f995286ae2e",
+  "verdict":"revise",
+  "blocking_issues":[{"claim_id":"c5","issue":"La secuencia documental está corroborada, pero el borrador no establece por qué el cruce tiene relevancia material para una auditoría más allá de que una persona con función consignada solo como Otro declaró un derecho empresarial y luego hubo órdenes municipales recurrentes. No identifica función o competencia relacionada con compras, intervención, control, abstención ni una cuestión concreta de cumplimiento que esos documentos permitan comprobar. El proceso abierto y adjudicado antes de la declaración ofrece una explicación ordinaria de selección.","required_action":"No insinuar irregularidad ni nexo personal con la contratación. Para conservarlo como caso, precisar la pregunta de auditoría que justifica revisar el paquete —sin presentarla como hallazgo probado— y por qué la serie de órdenes posteriores a la declaración es material pese a que deriva de una licitación adjudicada antes. Si no puede acotarse esa pregunta con evidencia pública, reducirlo a pista de verificación o retirar la propuesta como caso."}],
+  "verified_claims":["c1","c2","c3","c4"],
+  "sources_opened":["https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1052265","https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=Ydfg0AqPNnmX0rBsCcpKHg==","https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3705-240-SE23","https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3705-92-SE24"],
+  "queries_rerun":["consultas/diaz-reyes-municipalidad-de-los-sauces-1.sql","consultas/diaz-reyes-municipalidad-de-los-sauces-2.sql","consultas/diaz-reyes-municipalidad-de-los-sauces-3.sql"],
+  "checks":[
+    {"claim_id":"c1","action":"Reabrió declaración y consulta SQL.","result":"El campo combinado Cantidad / Porcentaje vale 100, controlador false; moneda vacía. No inferir porcentaje ni valor económico."},
+    {"claim_id":"c2","action":"Reejecutó SQL 2 y reabrió dos órdenes.","result":"10 OCs únicas, CLP 8.000.000, todas bajo licitación 3705-127-LE22, fechas 2023-05-05 a 2024-02-20; los estados no prueban pago."},
+    {"claim_id":"c3","action":"Abrió ficha de licitación y rerun SQL 3.","result":"Licitación abierta, adjudicada 2023-02-06; declaración 2023-04-11; primera OC 2023-05-05. Criterios 70/15/15 y responsable Juan Jiménez Cayul."},
+    {"claim_id":"c4","action":"Evaluó alternativamente proceso abierto y nexo individual.","result":"Las fuentes no identifican función municipal de compras ni intervención de Díaz Reyes; la adjudicación es anterior a la declaración."},
+    {"claim_id":"c5","action":"Intentó falsar relevancia y suficiencia editorial.","result":"El texto evita atribuciones personales, pero no sostiene por qué la secuencia merece revisión de auditoría como caso frente al proceso abierto adjudicado antes. Requiere evidencia pública de competencia/participación o bajar a pista de verificación/no caso."}
+  ],
+  "remaining_questions":["Qué función comprendía Otro y si se relacionaba con compras/controles municipales.","Qué pregunta de auditoría concreta justifica la revisión dada la adjudicación previa a la declaración.","Qué explica la etiqueta ROGELIO en proveedor/sucursal."],
+  "raw_result":{
+    "source":"delegate_task revisor-adversarial-2, resultado síncrono recibido en la sesión",
+    "verdict":"revise",
+    "draft_sha256":"2551eb403ff305ff9c6499e059658ca5bdeb950f513eb72ae79b7f995286ae2e",
+    "blocking_issues":["c5: relevancia material no establecida; acudir a evidencia de función/participación o reducir a pista de verificación/no caso."],
+    "note":"Resumen fiel de comprobaciones y observación; resultado completo en el transcript de delegación de esta corrida."
+  }
+}
