@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "run_id": "20261008T120620Z",
+  "lead_id": "plaza-reveco-salfacorp-actualizacion",
+  "state": "correccion lista",
+  "product": "correccion",
+  "author_id": "estadoclaro-cron",
+  "question": "¿El caso vigente contó una vez cada orden del proveedor cuyo RUT societario coincide con el de la línea declarada, dentro de las fechas declaradas, distinguiendo las órdenes de la fecha de asunción del cargo?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "aeb201e545b63ea76ecf8420a573ac71280c0fa97293b890b10a23ad23b49972",
+  "destination": "casos/negocios_estado/plaza-reveco-salfacorp.md",
+  "reviews": [
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-revisor-1.json",
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/plaza-reveco-salfacorp-actualizacion.md",
+    "borradores/plaza-reveco-salfacorp-actualizacion.md",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-1.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-2.sql",
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-revisor-1.json",
+    "revisiones/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-revisor-2.json"
+  ],
+  "material_progress": "Corrección actualizada para explicitar una OC previa a la asunción declarada; SQL reejecutadas contra el corte 2026-10-08, fuentes primarias reabiertas y dos revisiones independientes aprobaron el mismo borrador SHA256 aeb201e545b63ea76ecf8420a573ac71280c0fa97293b890b10a23ad23b49972."
+}
