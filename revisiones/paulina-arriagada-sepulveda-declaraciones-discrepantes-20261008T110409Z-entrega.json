@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "run_id": "20261008T110409Z",
+  "lead_id": "paulina-arriagada-sepulveda-declaraciones-discrepantes",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Por qué dos declaraciones fechadas el 22-09-2026 atribuyen avalúos fiscales distintos al mismo inmueble de Chillán Viejo, identificado por rol 3201-33 e inscripción 8689?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5",
+    "c6"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5",
+  "destination": "entrega-2/casos/declaraciones_discrepantes/paulina-arriagada-sepulveda-declaraciones-discrepantes.md",
+  "reviews": [
+    "revisiones/paulina-arriagada-sepulveda-declaraciones-discrepantes-20261008T110409Z-revisor-1.json",
+    "revisiones/paulina-arriagada-sepulveda-declaraciones-discrepantes-20261008T110409Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/paulina-arriagada-sepulveda-declaraciones-discrepantes.md",
+    "borradores/paulina-arriagada-sepulveda-declaraciones-discrepantes.md",
+    "consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-1.sql",
+    "consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-2.sql",
+    "consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-3.sql",
+    "revisiones/paulina-arriagada-sepulveda-declaraciones-discrepantes-20261008T110409Z-revisor-1.json",
+    "revisiones/paulina-arriagada-sepulveda-declaraciones-discrepantes-20261008T110409Z-revisor-2.json"
+  ],
+  "material_progress": "Caso documental nuevo: las dos primarias y consultas independientes confirman una diferencia sustantiva de importes declarados para el mismo inmueble; dos revisores autónomos aprobaron el mismo SHA final. No se determina cuál avalúo es correcto ni la causa."
+}
