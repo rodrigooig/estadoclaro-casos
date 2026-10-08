@@ -1,6 +1,6 @@
 # Casos Estado Claro
 
-61 casos de investigación periodística, encontrados, investigados, contrastados con
+59 casos de investigación periodística, encontrados, investigados, contrastados con
 explicaciones legítimas alternativas y redactados por múltiples agentes de inteligencia
 artificial orquestados sobre [Estado Claro](https://estadoclaro.cl): un
 sistema que cruza las declaraciones de patrimonio e intereses de autoridades y funcionarios
@@ -23,13 +23,23 @@ contrato resultó ser un artefacto del cruce. Los 61 casos que quedan se volvier
 uno por uno contra los datos vigentes ese día. El detalle, en
 [METODOLOGIA.md](METODOLOGIA.md#corrección-del-27-de-septiembre-de-2026).
 
+**Corrección del 7 de octubre de 2026.** Estado Claro llama «durante el cargo» al tiempo en
+que una declaración está en vigor —hasta la siguiente, o un año si no la hay—, sin saber si la
+persona seguía en el puesto. Contrastadas con las fechas reales de cada cargo, dos autoridades
+municipales de autocontratación ya no lo eran cuando su municipio le compró a su sociedad, y
+esos dos casos se retiraron. En otros tres, la mayor parte de las ventas al Estado que se les
+atribuían ocurrió después de que dejaran el concejo, y se corrigieron sus cifras. Y una marca
+de las actividades declaradas se había leído al revés en ocho casos: uno se corrigió y siete
+llevan una nota mientras se corrigen. Quedan 59 casos, varios aún en revisión. El detalle, en
+[METODOLOGIA.md](METODOLOGIA.md#corrección-del-7-de-octubre-de-2026).
+
 > **Segunda entrega (septiembre de 2026):** casos nuevos sobre el artefacto del 22-09-2026, con
 > la capa de vigencia de cargos y la corrección de montos en otra moneda. Están en
 > [`entrega-2/`](entrega-2/), con su propio índice y su metodología.
 
 ## Índice por categoría
 
-### [Autocontratación](casos/autocontratacion/) — 8 casos
+### [Autocontratación](casos/autocontratacion/) — 6 casos
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
 ### [Negocios con el Estado](casos/negocios_estado/) — 18 casos
