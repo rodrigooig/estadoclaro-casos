@@ -1,0 +1,24 @@
+{
+  "run_id": "20261008T110409Z",
+  "lead_id": "paulina-arriagada-sepulveda-declaraciones-discrepantes",
+  "reviewer_id": "hermes-adversarial-independent-reviewer-20261008T110409Z",
+  "draft_sha256": "fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5", "c6"],
+  "sources_opened": ["https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1852043", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1852198"],
+  "queries_rerun": ["consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-3.sql"],
+  "checks": [
+    {"claim_id": "c1", "action": "Reopened both primary records; compared full displayed name, role, institution, and assumption date.", "result": "Both display PAULINA DEL PILAR ARRIAGADA SEPULVEDA, Secretario Regional Ministerial, Subsecretaria De Salud Publica, assumption 07-07-2026. Pages show the same named declarant; no personal unique identifier is displayed, so identity rests on matching full name and declaration-page context, not a visible RUT."},
+    {"claim_id": "c2", "action": "Opened declaration ID 1852043 and inspected complete declaration.", "result": "Dated 22-09-2026; Primera Declaración (Por Asunción De Cargo); Chillán Viejo property role 3201-33, registration 8689, fojas 12613, year 2018, acquired 05-09-2018, 100% plena propiedad, Avalúo Fiscal $27.409.390.988."},
+    {"claim_id": "c3", "action": "Opened declaration ID 1852198 and inspected complete declaration.", "result": "Dated 22-09-2026; Actualizacion Periodica (Septiembre); same property identifiers and acquisition date; 100% plena propiedad; Avalúo Fiscal $27.390.988."},
+    {"claim_id": "c4", "action": "Reran saved SQL 3 and independently wrote and ran separate read-only SQL through ec-gold-sql stdin.", "result": "Both returned one matched property row per source ID. Independent query confirmed same comuna, role, registration, fojas, registration year, acquisition date, CLP unit and source-specific values. Primary records show the same fields; no duplicate row inflates the comparison."},
+    {"claim_id": "c5", "action": "Checked SQL 3 and independently calculated arithmetic in SQL.", "result": "Two rows across two source IDs; values CLP 27,390,988 and CLP 27,409,390,988; difference CLP 27,382,000,000; ratio 1000.6718628769434, consistent with rounded 1,000.67."},
+    {"claim_id": "c6", "action": "Compared draft language with both primary records and tested for overstatement.", "result": "Documents label the figures Avalúo Fiscal but do not explain the difference or establish which applied. Transcription/data-entry error or version/rectification difference are plausible alternatives, not established. Draft makes no publication-time, market-value, actual-wealth, deliberate-error, or personal-misconduct claim."},
+    {"claim_id": "public_interest", "action": "Adversarially assessed relevance to public role.", "result": "Narrow support: two public declarations associated with the same official record materially different fiscal-assessment figures for a property with matching identifiers, making declared information harder to compare. Supports documentary consistency question, not breach or misconduct."},
+    {"claim_id": "date_wording", "action": "Checked temporal phrasing against primary records.", "result": "Draft says declarations are dated 22 September 2026; it does not call this publication date."},
+    {"claim_id": "draft_hash", "action": "Computed SHA256 on current draft bytes.", "result": "fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5."}
+  ],
+  "remaining_questions": ["What explains the conflicting reported figures and which fiscal assessment applied for the relevant period?", "Was either declaration later corrected or superseded? The reviewed records do not resolve this."],
+  "raw_result": {"saved_sql_3": "ec-gold-sql returned two property rows, one per source ID, with identifiers, dates, CLP values, difference, and ratio matching primary records and draft.", "independent_sql": "Separately composed SQL via ec-gold-sql stdin independently confirmed one matching row per source ID and same registration fields; a second aggregate query returned row/source counts, difference and ratio. No project file was created for the independent query.", "primary_review": "Both requested InfoProbidad URLs reopened in browser; complete declaration sections expanded and inspected.", "disposition_basis": "Verified difference between reported fiscal-assessment fields; draft bounds the inference and leaves plausible explanations unresolved."}
+}

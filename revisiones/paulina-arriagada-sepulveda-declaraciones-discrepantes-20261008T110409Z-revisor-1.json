@@ -1,0 +1,24 @@
+{
+  "run_id": "20261008T110409Z",
+  "lead_id": "paulina-arriagada-sepulveda-declaraciones-discrepantes",
+  "reviewer_id": "hermes-agent-evidence-review-subagent-20261008T110409Z",
+  "draft_sha256": "fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5", "c6"],
+  "sources_opened": ["https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1852043", "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1852198"],
+  "queries_rerun": ["consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-1.sql", "consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-2.sql", "consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-3.sql"],
+  "checks": [
+    {"claim_id": "c1", "action": "Reopened both primary declaration pages and compared displayed identity and role details.", "result": "Both pages identify PAULINA DEL PILAR ARRIAGADA SEPULVEDA, Secretario Regional Ministerial at Subsecretaria De Salud Publica; both show assumption date 07-07-2026."},
+    {"claim_id": "c2", "action": "Inspected complete declaration ID 1852043.", "result": "Date 22-09-2026; type Primera Declaración (Por Asunción De Cargo); Chillán Viejo property role 3201-33, registration 8689, fojas 12613, year 2018, acquisition 05-09-2018; fiscal valuation $27.409.390.988; 100%, plena propiedad."},
+    {"claim_id": "c3", "action": "Inspected complete declaration ID 1852198.", "result": "Date 22-09-2026; type Actualizacion Periodica (Septiembre); same Chillán Viejo property identifiers and acquisition date; fiscal valuation $27.390.988; 100%, plena propiedad."},
+    {"claim_id": "c4", "action": "Reran saved query 3 and wrote an independent read-only SQL comparison through ec-gold-sql.", "result": "Both queries returned exactly two property rows, one per source ID. Each has comuna Chillán Viejo, rol 3201-33, registration 8689, fojas 12613, year 2018, acquisition date 2018-09-05, currency CLP. Independent per-source row count is 1; no duplicate property rows in this comparison."},
+    {"claim_id": "c5", "action": "Checked SQL arithmetic against primary-page inputs.", "result": "27,409,390,988 − 27,390,988 = CLP 27,382,000,000; ratio = 1000.6718628769434, rounded in draft to 1,000.67."},
+    {"claim_id": "c6", "action": "Compared bounded conclusions with both complete primary documents.", "result": "The pages report different fiscal valuations but do not explain the discrepancy or establish which amount is applicable. Draft does not assert actual debt, market value, deliberate error, or wrongdoing."},
+    {"claim_id": "c1", "action": "Reran saved query 1.", "result": "2 rows for exact full name, both dated 2026-09-22 and linked separately to source IDs 1852043 and 1852198."},
+    {"claim_id": "c2", "action": "Reran saved query 2.", "result": "2 distinct source records and declaration types returned; each source ID appears once."},
+    {"claim_id": "c5", "action": "Computed SHA256 from exact draft file bytes.", "result": "fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5, matching manifest."}
+  ],
+  "remaining_questions": ["What source or version produced each form, and was there a formal correction or explanation?", "Which fiscal valuation applied for the relevant period? The draft correctly leaves this unresolved."],
+  "raw_result": {"primary_1852043": "Complete page showed the exact name, role, agency, assumption date, declaration date/type, and property fields in c2.", "primary_1852198": "Complete page showed the same exact name, role, agency and assumption date, and declaration/property fields in c3.", "saved_query_1": "2 rows; exact full name; dates 2026-09-22; source URLs point to IDs 1852043 and 1852198.", "saved_query_2": "2 rows; source IDs 1852198 and 1852043 with respective periodic-update and assumption declaration types.", "saved_query_3": "2 rows; values 27409390988.0 CLP and 27390988.0 CLP; difference 27382000000.0 CLP; ratio 1000.6718628769434.", "independent_query": "2 rows; rows_per_source=1 for each; same property identifiers and acquisition date; difference_clp=27382000000.0; ratio=1000.6718628769434.", "draft_sha256": "fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5"}
+}
