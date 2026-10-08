@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "run_id": "20261008T200237Z",
+  "lead_id": "teillier-declaraciones-discrepantes",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Qué relación documental tienen las declaraciones InfoProbidad 669568 y 669760, ambas fechadas el 28-03-2021, y la rectificación 710408 del 05-04-2021, respecto del valor corriente en plaza declarado para la misma línea APV de CONFUTURO?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "7bfc13bedf2c88fd254a4c27f0967f1ad0dabdba6b11f23d1ed4b3c4e090545e",
+  "destination": "entrega-2/casos/declaraciones_discrepantes/teillier-declaraciones-discrepantes.md",
+  "reviews": [
+    "revisiones/teillier-declaraciones-discrepantes-20261008T200237Z-revisor-1.json",
+    "revisiones/teillier-declaraciones-discrepantes-20261008T200237Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/teillier-declaraciones-discrepantes.md",
+    "borradores/teillier-declaraciones-discrepantes.md",
+    "consultas/teillier-declaraciones-discrepantes-pantalla-multiples-20261008.sql",
+    "consultas/teillier-declaraciones-discrepantes-misma-fecha-20261008.sql",
+    "consultas/teillier-declaraciones-discrepantes-detalle-20261008.sql",
+    "consultas/teillier-declaraciones-discrepantes-apv-serie-20261008.sql",
+    "consultas/teillier-declaraciones-discrepantes-final-evidence-20261008T200237Z.sql",
+    "consultas/teillier-declaraciones-discrepantes-final-adversarial-20261008T200237Z.sql",
+    "revisiones/teillier-declaraciones-discrepantes-20261008T200237Z-revisor-1.json",
+    "revisiones/teillier-declaraciones-discrepantes-20261008T200237Z-revisor-2.json"
+  ],
+  "material_progress": "Cinco declaraciones primarias y el registro del oro cotejados; dos revisiones automáticas independientes aprobaron el mismo borrador SHA256. La discrepancia entre los dos registros de 28-03-2021 está confirmada como diferencia publicada; causa, relación formal de versiones y valor económico efectivo siguen sin determinarse."
+}
