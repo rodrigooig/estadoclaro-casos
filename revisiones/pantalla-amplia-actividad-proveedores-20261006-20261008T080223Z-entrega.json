@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "run_id": "20261008T080223Z",
+  "lead_id": "pantalla-amplia-actividad-proveedores-20261006",
+  "state": "sin avance",
+  "product": "triage",
+  "question": "¿Aparece un candidato individual nuevo al filtrar control societario, compras a la institución declarada y adjudicación directa?",
+  "central_claims": [],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/pantalla-amplia-actividad-proveedores-20261006.md",
+    "consultas/pantalla-amplia-actividad-proveedores-20261006-control-direct-award-20261008.sql"
+  ],
+  "material_progress": "sin avance: único resultado duplicó a Pablo Allard, ya fichado y con PR de caso abierto"
+}
