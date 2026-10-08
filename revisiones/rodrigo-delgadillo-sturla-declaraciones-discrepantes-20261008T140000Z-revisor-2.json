@@ -1,0 +1,30 @@
+{
+  "run_id": "20261008T140000Z",
+  "lead_id": "rodrigo-delgadillo-sturla-declaraciones-discrepantes",
+  "reviewer_id": "hermes-adversarial-reviewer-20261008",
+  "draft_sha256": "81e8de0f569c98cb1daca6a316f2a176372f2bf06e15d595164ace7f5019364c",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=876774",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=876629",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=930821"
+  ],
+  "queries_rerun": [
+    "consultas/rodrigo-delgadillo-sturla-review-independiente-20261008.sql",
+    "consultas/rodrigo-delgadillo-sturla-sonda-versiones-20261008.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrió las tres declaraciones y cotejó titular, cargo, fechas y tipos.","result":"Todas identifican a RODRIGO ANDRÉS DELGADILLO STURLA y Consejero/A del Consejo de Concesiones, Subsecretaría de Obras Públicas. 876774: 22-06-2022, Rectificación Voluntaria; 876629: 22-06-2022, Rectificación a Requerimiento de Órgano Fiscalizador; 930821: 21-12-2022, mismo tipo a requerimiento."},
+    {"claim_id":"c2","action":"Comparó las líneas primarias de SONDA S.A., incluidos RUT societario, cantidad, adquisición, moneda y valor.","result":"Las tres líneas corresponden a SONDA S.A. (RUT societario 83.628.100-4), adquisición 17-10-2019. 876774: 9.000 y 2.839.860; 876629: 4.223.340 y 370.000.000.000; 930821: 9.000 y 2.839.860. Tipo de Moneda vacío en las tres. Valores reproducidos sin asignar moneda."},
+    {"claim_id":"c3","action":"Ejecutó consultas focalizada e independiente por ec-gold-sql y confirmó corte.","result":"Una fila por ID/sociedad sin duplicados; los valores del artefacto coinciden con las primarias, asigna CLP y marca implausible solo 876629, explicado correctamente como metadato/señal. meta.build_date=2026-10-08T12:48:32+00:00."},
+    {"claim_id":"c4","action":"Evaluó adversarialmente pregunta, alternativa más sólida, límites, citas/evidencia y SHA.","result":"La discrepancia de dos rectificaciones en igual fecha y la coincidencia posterior con una es una pregunta pública concreta de trazabilidad. No se afirman saldo, tenencia, moneda, valor económico, causa, sustitución formal ni intervención individual. sources.py verify con ledger aislado, --evidence, --min-coverage 0.5: citations OK, 50% (16/32), 3 fuentes y todas con evidencia. Seis frases con más de tres citas es aviso estilístico, no bloqueo. Hash final comprobado: 81e8de0f569c98cb1daca6a316f2a176372f2bf06e15d595164ace7f5019364c."}
+  ],
+  "remaining_questions": [
+    "Qué antecedente o trámite originó las dos rectificaciones del 22-06-2022 y qué relación formal existe entre ellas.",
+    "Qué campo y unidad monetaria debía consignarse según el formulario aplicable.",
+    "Si hay anotación oficial, expediente o versión posterior aclaratoria."
+  ],
+  "raw_result": "Revisión adversarial independiente final; verdict approve; blocking_issues []; SHA exacto revisado."
+}
