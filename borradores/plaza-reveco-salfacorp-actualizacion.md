@@ -4,7 +4,7 @@
 
 La actualización de la declaración de Rafael Mauricio Plaza Reveco del 24 de septiembre de 2026 registra 1.911 acciones denominadas «SALFACORP», asociadas al RUT societario 93.659.000-4, valoradas en CLP 2.425.059 y adquiridas —según lo declarado— el 28 de octubre de 2025.[1] La declaración identifica su función como abogado integrante del Poder Judicial.[1]
 
-Al contar las órdenes con ese mismo RUT de proveedor, desde la fecha de adquisición declarada hasta la fecha de esa actualización, el registro contiene cuatro códigos OC distintos entre el 16 de diciembre de 2025 y el 1 de julio de 2026.[1][2][3] Los otros dos códigos y sus fechas figuran en las fichas 829-23-SE26 y 638-93-SE26.[4][5] La suma de esos cuatro registros es CLP 34.277.418.870 y UF 858.290,27 según el oro; cada monto individual aparece en su ficha primaria.[2][3][4] La ficha de la cuarta orden registra CLP 2.605.819.687.[5] La suma es de montos consignados en órdenes, no prueba de pago, ingreso personal, intervención del declarante ni titularidad real de las acciones más allá de su declaración.[1][2][3] La cifra corrige las tres órdenes y CLP 8.339.326.325 (UF 204.450,48) que indica el caso actualmente publicado; no es un caso nuevo.
+Al contar las órdenes con ese mismo RUT de proveedor, desde la fecha de adquisición declarada hasta la fecha de esa actualización, el registro contiene cuatro códigos OC distintos entre el 16 de diciembre de 2025 y el 1 de julio de 2026.[1][2][3] La ficha de la declaración indica que Plaza asumió el cargo el 1 de marzo de 2026; por tanto, la OC 638-216-SE25, por CLP 25.938.092.545, fue enviada antes de esa fecha, mientras que las otras tres órdenes son posteriores.[1][2][3][4][5] El total de cuatro órdenes cubre esa ventana documental y no debe leerse como compras efectuadas durante todo el período del cargo. Los otros dos códigos y sus fechas figuran en las fichas 829-23-SE26 y 638-93-SE26.[4][5] La suma de esos cuatro registros es CLP 34.277.418.870 y UF 858.290,27 según el oro; cada monto individual aparece en su ficha primaria.[2][3][4] La ficha de la cuarta orden registra CLP 2.605.819.687.[5] La suma es de montos consignados en órdenes, no prueba de pago, ingreso personal, intervención del declarante ni titularidad real de las acciones más allá de su declaración.[1][2][3] La cifra corrige las tres órdenes y CLP 8.339.326.325 (UF 204.450,48) que indica el caso actualmente publicado; no es un caso nuevo.
 
 ## Cronología documental
 
@@ -19,7 +19,7 @@ Las fichas de las órdenes 638-216-SE25 y 5221-8-SE26 identifican a CONSTRUCTORA
 
 ## Medición reproducible y corrección
 
-Se consultó `gold.duckdb` en solo lectura con `ec-gold-sql`, corte `meta.build_date=2026-10-06T15:56:08Z`. La consulta por persona, declaración del 24-09-2026 y RUT societario 93659000 obtiene cuatro `order_code` distintos, entre 2025-12-16 y 2026-07-01.[1][2][3] La consulta independiente deduplica por `order_code` antes de sumar y devuelve cuatro órdenes, CLP 34.277.418.870 y UF 858.290,27; las fichas primarias documentan los montos que integran esa suma.[2][3][4] Consultas guardadas: `consultas/plaza-reveco-salfacorp-actualizacion-20261006-1.sql` y `consultas/plaza-reveco-salfacorp-actualizacion-20261006-2.sql`. La medición usa CLP nominales de las órdenes; UF es la conversión registrada por el artefacto.
+Se consultó `gold.duckdb` en solo lectura con `ec-gold-sql`, corte `meta.build_date=2026-10-08T05:08:05Z`. La consulta por persona, declaración del 24-09-2026 y RUT societario 93659000 obtiene cuatro `order_code` distintos, entre 2025-12-16 y 2026-07-01.[1][2][3] La consulta independiente deduplica por `order_code` antes de sumar y devuelve cuatro órdenes, CLP 34.277.418.870 y UF 858.290,27; las fichas primarias documentan los montos que integran esa suma.[2][3][4] Consultas ejecutables y guardadas para este corte: `consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-1.sql` y `consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-2.sql`. La medición usa CLP nominales de las órdenes; UF es la conversión registrada por el artefacto.
 
 **Reemplazo completo propuesto del archivo existente:** usar este borrador en lugar de `casos/negocios_estado/plaza-reveco-salfacorp.md`, no como caso adicional. El titular actual que dice «facturaba al Estado por más de UF 204 mil» se sustituye por el titular de este documento, que describe una acción declarada y órdenes de compra por los montos consignados.[2][3][4] El primer párrafo que toma como referencia la declaración del 10-03-2026 se reemplaza por la síntesis basada en la actualización del 24-09-2026.[1] En el cuerpo, sustituir el conteo de tres órdenes y CLP 8.339.326.325 (UF 204.450,48) por las cuatro órdenes de la cronología y CLP 34.277.418.870 (UF 858.290,27), incorporando la OC de 16-12-2025.[2][3][4] Conservar para las órdenes 829-23-SE26 y 638-93-SE26 los estados «Enviada a proveedor» y «Aceptada»; no describirlos como pagos realizados.[4][5] El texto reemplazante limita expresamente la coincidencia al RUT societario declarado y deja sin resolver el título subyacente, la propiedad económica y una eventual intervención individual.
 
@@ -38,7 +38,12 @@ El dato de la participación es autodeclarado. Aunque el nombre de la línea sea
 ## Sources
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087
+    > "Asume el cargo: 01-03-2026"
 [2] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-216-SE25
+    > "TOTAL OC | $ 25.938.092.545"
 [3] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26
+    > "TOTAL OC | $ 99.781.535"
 [4] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=829-23-SE26
+    > "TOTAL OC | $ 5.633.725.103"
 [5] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-93-SE26
+    > "TOTAL OC | $ 2.605.819.687"

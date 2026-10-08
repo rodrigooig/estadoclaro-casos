@@ -1,0 +1,34 @@
+{
+  "run_id": "20261008T120620Z",
+  "lead_id": "plaza-reveco-salfacorp-actualizacion",
+  "reviewer_id": "reviewer-adversarial-20261008T120620Z",
+  "draft_sha256": "aeb201e545b63ea76ecf8420a573ac71280c0fa97293b890b10a23ad23b49972",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087",
+    "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-216-SE25",
+    "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26",
+    "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=829-23-SE26",
+    "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-93-SE26",
+    "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=638-18-O125"
+  ],
+  "queries_rerun": [
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-1.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-2.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Abrí y expandí InfoProbidad 5124087","result":"Confirma Rafael Mauricio Plaza Reveco; actualización 24-09-2026; cargo abogado integrante/Poder Judicial; asunción 01-03-2026; línea SALFACORP, RUT 93.659.000-4, cantidad 1.911, CLP 2.425.059, adquisición 28-10-2025, no controlador. No establece propiedad subyacente."},
+    {"claim_id":"c2","action":"Reabrí cuatro fichas oficiales","result":"Todas muestran RUT proveedor 93.659.000-4; 638-216-SE25: 16-12-2025, CLP 25.938.092.545, Enviada a proveedor; 5221-8-SE26: 30-03-2026, CLP 99.781.535, Aceptada; 829-23-SE26: 19-06-2026, CLP 5.633.725.103, Enviada a proveedor; 638-93-SE26: 01-07-2026, CLP 2.605.819.687, Aceptada. No prueban pago ni intervención personal."},
+    {"claim_id":"c3","action":"Reejecuté ambas SQL guardadas y consulta independiente de cronología","result":"4 códigos únicos; CLP 34.277.418.870; UF 858.290,27; 2025-12-16 a 2026-07-01. La primera orden antecede asunción y las otras tres son posteriores; sin duplicación. Corte gold 2026-10-08T05:08:05Z."},
+    {"claim_id":"c4","action":"Comparé con el caso publicado y revisé la corrección completa","result":"El caso vigente afirma tres órdenes y CLP 8.339.326.325; el borrador sustituye el archivo completo y corrige el titular hacia órdenes consignadas, sin tratar monto como facturas/pagos. No es caso adicional."},
+    {"claim_id":"c5","action":"Abrí licitación 638-18-O125 y sometí el relato a falsificación adversarial","result":"Compra pública abierta de obra MINVU, adjudicación indicada 16-12-2025; la OC de mayor monto deriva de ella y precede al cargo. Alternativa legítima de selección; no prueba intervención ni resuelve la coincidencia del interés. La pregunta de auditoría se mantiene acotada; no hay inferencia de conflicto, intervención, pago o control."}
+  ],
+  "remaining_questions": [
+    "No se identifica el título o participación subyacente representado por SALFACORP.",
+    "No se obtuvo acto que acredite intervención individual de Plaza ni se determina pago final.",
+    "Los antecedentes completos de evaluación/ejecución de 638-18-O125 quedan como preguntas para auditoría."
+  ],
+  "raw_result": "Delegación real reviewer-adversarial-20261008T120620Z: approve, SHA256 aeb201e545b63ea76ecf8420a573ac71280c0fa97293b890b10a23ad23b49972; revisión adversarial independiente conservada en checks."
+}
