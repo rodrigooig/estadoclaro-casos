@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "run_id": "20261008T140000Z",
+  "lead_id": "rodrigo-delgadillo-sturla-declaraciones-discrepantes",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "cron_190483942d6b_20261008_160048",
+  "question": "¿Por qué dos rectificaciones oficiales fechadas el 22-06-2022 consignan cantidades y valores distintos para SONDA S.A., y qué relación tiene con la versión del 21-12-2022 que coincide con una de ellas?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "81e8de0f569c98cb1daca6a316f2a176372f2bf06e15d595164ace7f5019364c",
+  "destination": "entrega-2/casos/declaraciones_discrepantes/rodrigo-delgadillo-sturla-declaraciones-discrepantes.md",
+  "reviews": [
+    "revisiones/rodrigo-delgadillo-sturla-declaraciones-discrepantes-20261008T140000Z-revisor-1.json",
+    "revisiones/rodrigo-delgadillo-sturla-declaraciones-discrepantes-20261008T140000Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/rodrigo-delgadillo-sturla-declaraciones-discrepantes.md",
+    "borradores/rodrigo-delgadillo-sturla-declaraciones-discrepantes.md",
+    "revisiones/rodrigo-delgadillo-sturla-declaraciones-discrepantes-20261008T140000Z-revisor-1.json",
+    "revisiones/rodrigo-delgadillo-sturla-declaraciones-discrepantes-20261008T140000Z-revisor-2.json"
+  ],
+  "material_progress": "Tres declaraciones oficiales cotejadas por dos revisores independientes: discrepancia entre rectificaciones del 22-06-2022 y coincidencia de la versión de diciembre con una de ellas; la unidad, explicación y prevalencia formal siguen sin determinarse."
+}

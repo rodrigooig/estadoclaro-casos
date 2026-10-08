@@ -1,0 +1,30 @@
+{
+  "run_id": "20261008T140000Z",
+  "lead_id": "rodrigo-delgadillo-sturla-declaraciones-discrepantes",
+  "reviewer_id": "hermes-agent-subagent-openai-codex",
+  "draft_sha256": "81e8de0f569c98cb1daca6a316f2a176372f2bf06e15d595164ace7f5019364c",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=876774",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=876629",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=930821"
+  ],
+  "queries_rerun": [
+    "consultas/rodrigo-delgadillo-sturla-sonda-versiones-20261008.sql",
+    "consultas/rodrigo-delgadillo-sturla-review-independiente-20261008.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrió las tres declaraciones oficiales; verificó hash del borrador.","result":"Las tres muestran RODRIGO ANDRÉS DELGADILLO STURLA y el cargo Consejero/A Consejo de Concesiones, Subsecretaría de Obras Públicas. 876774: 22-06-2022, Rectificación Voluntaria; 876629: 22-06-2022, Rectificación a Requerimiento de Órgano Fiscalizador; 930821: 21-12-2022, Rectificación a Requerimiento de Órgano Fiscalizador. Hash revisado: 81e8de0f569c98cb1daca6a316f2a176372f2bf06e15d595164ace7f5019364c."},
+    {"claim_id":"c2","action":"Cotejó SONDA S.A. en las tres páginas primarias.","result":"876774: 9.000 y 2.839.860; 876629: 4.223.340 y 370.000.000.000; 930821: 9.000 y 2.839.860. Tipo de Moneda vacío en las tres; diciembre coincide con la rectificación voluntaria de junio. El texto no atribuye moneda o valor económico."},
+    {"claim_id":"c3","action":"Reejecutó ambas consultas guardadas con ec-gold-sql solo lectura y consultó meta.","result":"Ambas consultas devolvieron tres filas, una por source_id, con valores correspondientes a cada declaración; solo 876629 aparece con implausible=true en el artefacto. meta.build_date=2026-10-08T12:48:32+00:00."},
+    {"claim_id":"c4","action":"Verificó fuentes/citas/evidencia con ledger aislado y evaluó los límites del texto.","result":"El texto no afirma que diciembre sustituya formalmente a otra declaración, ni saldo, tenencia efectiva, valor de mercado, causa o actuación individual. sources.py verify informó citations OK; cobertura 50% (16/32), 3 fuentes citadas y todas con evidencia textual. Aviso: 6 frases superan tres citas, no bloqueante."}
+  ],
+  "remaining_questions": [
+    "Qué trámite o acto formal relaciona las rectificaciones de 22-06-2022 y cuál, si alguna, sustituyó a la otra.",
+    "Qué unidad monetaria correspondía a los valores publicados; el campo está vacío.",
+    "Si existe una anotación oficial posterior que aclare la diferencia."
+  ],
+  "raw_result": "Revisión final independiente de evidencia; verdict approve; blocking_issues []; hash exacto confirmado."
+}
