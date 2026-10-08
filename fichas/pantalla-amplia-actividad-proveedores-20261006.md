@@ -2,8 +2,8 @@
 
 - **ID:** `pantalla-amplia-actividad-proveedores-20261006`
 - **Categoría:** compras/relaciones con el Estado; actividades/cargos/temporalidad.
-- **Estado:** evidencia insuficiente; control de minería, no pista individual ni caso.
-- **Fecha de revisión:** 2026-10-06 UTC.
+- **Estado:** sin avance; cribado general, no pista individual ni caso.
+- **Fecha de revisión:** 2026-10-08 UTC.
 - **Corte del oro:** `meta.build_date=2026-10-02T15:43:07+00:00`; copia local sin cambios según pre-run. Consultas solo lectura con `ec-gold-sql`.
 
 ## Resultado
