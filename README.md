@@ -28,8 +28,9 @@ que una declaración está en vigor —hasta la siguiente, o un año si no la ha
 persona seguía en el puesto. Contrastadas con las fechas reales de cada cargo, dos autoridades
 municipales de autocontratación ya no lo eran cuando su municipio le compró a su sociedad, y
 esos dos casos se retiraron. En otros tres, la mayor parte de las ventas al Estado que se les
-atribuían ocurrió después de que dejaran el concejo, y se corrigieron sus cifras; en un sexto,
-una declaración se había leído al revés. Quedan 59 casos. El detalle, en
+atribuían ocurrió después de que dejaran el concejo, y se corrigieron sus cifras. Y una marca
+de las actividades declaradas se había leído al revés en ocho casos: uno se corrigió y siete
+llevan una nota mientras se corrigen. Quedan 59 casos, varios aún en revisión. El detalle, en
 [METODOLOGIA.md](METODOLOGIA.md#corrección-del-7-de-octubre-de-2026).
 
 > **Segunda entrega (septiembre de 2026):** casos nuevos sobre el artefacto del 22-09-2026, con

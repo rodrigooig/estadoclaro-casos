@@ -191,15 +191,29 @@ integra el concejo 2024-2028, de 2.770 a 203 millones de pesos durante su perío
 Vaccaro Collao (Chillán), de UF 9.869 a UF 1.333, porque terminó su período en junio de 2021 y
 sus declaraciones posteriores son rectificaciones de la de concejal.
 
-**Un caso de puerta giratoria se había leído al revés.** La declaración de 2026 de la jueza
-Ingrid Hernández Román registra sus actividades remuneradas en Cencosud Retail y EFE entre las
-que realiza a la fecha de la declaración, no como actividades terminadas. Que la declaración
-lo diga no establece que ejerza como abogada siendo jueza, y el caso lo dice así.
+**Una marca de las actividades declaradas se leyó al revés, y en ocho casos.** El formulario
+de InfoProbidad separa las «Actividades en que haya participado en los últimos 12 meses» de las
+«Actividades que realiza o en que participa a la fecha de la declaración», y Estado Claro guarda
+esa diferencia en una marca que vale «no» para las segundas. Ocho casos leyeron ese «no» como
+una actividad terminada. En el de la jueza Ingrid Hernández Román, que registra sus actividades
+remuneradas en Cencosud Retail y EFE entre las que realiza a la fecha de la declaración, la
+lectura se corrigió en el texto. En los otros siete —Morales Ceroni, Pérez Uribe, Torres Torres,
+Arancibia Salazar y Sanhueza Cruzat en puerta giratoria; Hartwig en negocios con el Estado;
+Sepúlveda Sepúlveda en autocontratación— una nota al comienzo advierte el error, y la
+corrección de su texto queda pendiente. Que una actividad figure en esa sección no establece
+por sí solo que se ejerza en paralelo al cargo: es frecuente que quien asume declare ahí la
+profesión que traía.
 
-Los demás casos se revisaron con el mismo criterio, salvo uno de redes societarias —González Barrientos— cuya revisión no concluyó. Varios describen todavía en presente un
-cargo que la persona ya no tiene, o llaman «vigente» a una declaración que solo es la última
-disponible; esas precisiones no cambian lo que cada caso afirma y quedan para una revisión
-siguiente. Quedan 59 casos.
+**Otros casos quedan en revisión.** La misma revisión encontró, sin verificarlos todavía con la
+misma profundidad, casos cuyas cifras podrían cambiar por la misma causa: el de Manuel Godoy
+Velásquez (Queilén) cuenta órdenes desde su declaración de candidato, meses antes de asumir;
+el de María Verónica Chahin Sarah (INDISA) cuenta órdenes posteriores a su última declaración;
+el de Danisa Astudillo Peiretti suma órdenes de años en que no ejercía cargo público, y dos de
+las declaraciones que cita no se pueden consultar hoy en InfoProbidad. El de Esmirna Vidal
+Moraga cruza su RUT personal, no el de una sociedad. Varios más describen en presente un cargo
+que la persona ya no tiene, o llaman «vigente» a una declaración que solo es la última
+disponible. La revisión de González Barrientos (redes societarias) no concluyó. Quedan 59
+casos.
 
 ## Qué reglas siguen los casos publicados
 
