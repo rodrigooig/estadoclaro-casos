@@ -1,0 +1,35 @@
+{
+  "run_id": "20261009T050333Z",
+  "lead_id": "fernando-metzner-pasivos-discrepantes",
+  "reviewer_id": "hermes-gpt-6-luna-subagent-review2-fernando-metzner",
+  "draft_sha256": "fbfd202f6c562feaa2ef0c3caf6c1861f152fab595b0e8d9ba52938ccdf825f8",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5", "c6", "c7"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=820453",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=835335",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=890731",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1007320"
+  ],
+  "queries_rerun": [
+    "consultas/fernando-metzner-pasivos-discrepantes-declaraciones-misma-fecha-20261009.sql",
+    "consultas/fernando-metzner-pasivos-discrepantes-serie-pasivos-20261009.sql",
+    "consultas/fernando-metzner-pasivos-discrepantes-diferencia-clp-20261009.sql",
+    "consultas/fernando-metzner-pasivos-discrepantes-revision2-adversarial-20261009.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Abrí las dos páginas primarias de marzo y contrasté identidad, cargo, fecha y tipo.","result":"Ambas muestran FERNANDO ESTEBAN METZNER IRIBARREN, Fiscal Adjunto del Ministerio Público, fecha 30-03-2022; una es Actualización Voluntaria y la otra Actualización Periódica (Marzo). No permiten establecer cuál trámite prevalece ni el orden de presentación."},
+    {"claim_id":"c2","action":"Abrí ID 820453 en su detalle y ejecuté consultas de serie e independiente con ec-gold-sql.","result":"El original muestra crédito hipotecario, monto global y adeudado de $10.021.845.366, acreedor BANCO EDWARDSCITI. SQL lo reproduce como CLP 10.021.845.366."},
+    {"claim_id":"c3","action":"Abrí ID 835335 y cotejé su página con resultados SQL.","result":"El original dice “Pasivos No tiene información declarada”; SQL devuelve monto global vacío y cero filas de pasivo. Confirma diferencia documental, no ausencia de deuda efectiva."},
+    {"claim_id":"c4","action":"Abrí IDs 890731 y 1007320, revisé sus detalles y ejecuté la consulta de serie.","result":"ID 890731, 30-06-2022: crédito hipotecario por $103.526.094 con BANCO DE CHILE. ID 1007320, 28-03-2023: total $144.390.794, con hipotecario $108.052.534 y consumo $36.338.260, ambos con BANCO DE CHILE. El total coincide con sus dos componentes."},
+    {"claim_id":"c5","action":"Escribí y ejecuté consultas independientes por los cuatro IDs; también repetí las dos consultas de serie guardadas.","result":"La consulta independiente devuelve cinco filas de detalle: una para 820453, ninguna para 835335, una para 890731 y dos para 1007320. Mantiene los documentos separados; no suma snapshots."},
+    {"claim_id":"c6","action":"Ejecuté la consulta aritmética guardada con ec-gold-sql.","result":"La diferencia nominal entre 820453 y 890731 es CLP 9.918.319.272 y la razón 96,8050177. Es una comparación entre importes declarados, no acredita continuidad del mismo crédito ni una variación de deuda efectiva."},
+    {"claim_id":"c7","action":"Contrasté los campos de las cuatro primarias con los resultados SQL y busqué explicaciones compatibles con lo que dicen los documentos.","result":"Los tipos distintos de las declaraciones de marzo son una posible explicación legítima para trámites o estados documentales diferentes; ninguna página dice si una sustituyó a la otra. Acreedor y montos posteriores tampoco prueban que sea el mismo crédito. Las fuentes no establecen saldo bancario, causa, error ni prevalencia formal."}
+  ],
+  "remaining_questions": [
+    "La pregunta documental es suficientemente concreta y relevante como revisión de consistencia y trazabilidad de declaraciones públicas de un fiscal; no atribuye irregularidad ni requiere probar intervención individual.",
+    "La afirmación más débil como elemento narrativo es c6: la diferencia y razón comparan marzo con junio sin continuidad contractual demostrada. Si se elimina c6 —y también se acorta el contexto accesorio de 2023— permanece una historia documental suficiente: dos declaraciones del mismo día, bajo el mismo nombre completo y cargo, con registros de pasivos distintos.",
+    "La moneda se presenta nominalmente en pesos/CLP conforme a los campos de fuente y oro, sin conversión. Coincidencia de nombre completo, cargo e institución reduce el riesgo de homonimia dentro de estos documentos, aunque no equivale a una verificación externa de identidad."
+  ]
+}
