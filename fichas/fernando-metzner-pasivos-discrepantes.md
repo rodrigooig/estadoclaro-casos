@@ -2,8 +2,8 @@
 
 - **ID:** `fernando-metzner-pasivos-discrepantes`
 - **Categoría:** patrimonio y pasivos; discrepancia entre versiones declaradas.
-- **Estado vigente:** borrador listo — doble revisión independiente del mismo SHA final.
-- **Fecha de actualización:** 2026-10-09 UTC.
+- **Estado vigente:** sin avance en esta sesión; el caso permanece entregado como borrador listo en PR #125, abierto para decisión editorial.
+- **Fecha de actualización:** 2026-10-09 UTC (estado de entrega reconsultado a las 18:01Z; sin novedad probatoria).
 - **Producto/destino:** caso documental; `casos/patrimonio_pasivos/fernando-metzner-pasivos-discrepantes.md`.
 - **Pregunta central:** ¿qué relación documental hay entre las declaraciones InfoProbidad 820453 y 835335, ambas del 30-03-2022 y atribuidas al mismo nombre/cargo, si una informa un pasivo hipotecario de CLP 10.021.845.366 y la otra no informa pasivos?
 - **Corte del oro:** `meta.build_date=2026-10-08T12:48:32+00:00`; archivo sincronizado sin cambios según el pre-run. Solo se consultó vía `ec-gold-sql` read-only.
