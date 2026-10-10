@@ -17,6 +17,8 @@ Aplicar `METODO_INVESTIGACION.md` v3. Las decisiones de abajo son el historial a
 
 **Decisión y retorno:** mantener `bloqueada por acceso`; volver solo si aparece un anexo público equivalente de evaluación/oferta 1477-17-LE24 o documento distinto que establezca rol/competencia relevante. Si el documento no identifica a Rosati ni su papel, reconsiderar el caso sin atribuirle intervención.
 
+**Ruta adicional — 2026-10-10 UTC:** se inspeccionó la ficha pública ligera de la licitación 1477-17-LE24 y las opciones de descarga anunciadas. El resultado y las citas de la ficha se conservan en `tmp/runs/20261010T010321Z/nora-rosati-justicia-e-infancia/resumen.md`; no apareció el anexo decisivo ni cambia la disposición. No se reintentó CAPTCHA ni se usaron credenciales.
+
 ## Historial de evidencia y decisiones previas
 
 - **ID:** `nora-rosati-justicia-e-infancia`

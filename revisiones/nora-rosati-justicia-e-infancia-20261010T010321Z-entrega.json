@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261010T010321Z",
+  "lead_id": "nora-rosati-justicia-e-infancia",
+  "state": "bloqueada por acceso",
+  "product": "ficha",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Existe en la ficha pública ligera u otra descarga ordinaria accesible un anexo que identifique el equipo docente de 1477-17-LE24?",
+  "central_claims": [],
+  "quantitative_claims": false,
+  "destination": "",
+  "files": [
+    "COLA.md",
+    "fichas/nora-rosati-justicia-e-infancia.md"
+  ],
+  "material_progress": "Ruta adicional de ficha ligera revisada y documentada; no se obtuvo el anexo ni cambió la disposición bloqueada por acceso."
+}
