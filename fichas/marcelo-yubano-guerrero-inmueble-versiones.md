@@ -2,7 +2,7 @@
 
 - **ID:** `marcelo-yubano-guerrero-inmueble-versiones`
 - **Categoría/producto:** patrimonio declarado; caso documental sobre diferencias entre versiones. Destino propuesto: `casos/patrimonio_pasivos/marcelo-yubano-guerrero-inmueble-versiones.md`.
-- **Estado:** borrador listo, pendiente entrega como PR borrador a `main`; merge/publicación es decisión de Rodrigo.
+- **Estado vigente:** sin avance en esta sesión; el caso permanece entregado como borrador listo en PR #130, abierto para decisión editorial de Rodrigo.
 - **Pregunta:** ¿qué secuencia de antecedentes explica que tres declaraciones oficiales publiquen avalúos fiscales distintos para entradas de inmueble de Marcelo Yubano Guerrero con atributos visibles coincidentes, sin un identificador registral disponible para confirmar si es el mismo predio?
 - **Corte gold:** `meta.build_date=2026-10-09T16:06:27+00:00`; consultas solo `ec-gold-sql`, read-only.
 - **Resultado:** primarias InfoProbidad 1219673 y 1219754, ambas 04-04-2024, publican CLP 6.272.947.362 y CLP 60.352.899, respectivamente, para una entrada de inmueble con comuna Puerto Montt, año 2017, fecha de adquisición 17-04-2017, 100%/plena propiedad y domicilio. ID 1287240, rectificación fechada 11-12-2024, publica CLP 62.729.473 con los mismos atributos públicos comparables. El tipo de rectificación y la cifra posterior hacen plausible una corrección; no revelan causa ni prueban identidad del predio.[1][2][3]
