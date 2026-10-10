@@ -1,0 +1,55 @@
+{
+  "run_id": "20261010T041141Z",
+  "lead_id": "marcelo-yubano-guerrero-inmueble-versiones",
+  "reviewer_id": "hermes-subagent:gpt-6-luna/openai-codex-evidence-20261010T041141Z",
+  "draft_sha256": "1deeeff59b65aaa72bd7641b4effa578248ec08ee1753df12021298f21f807ea",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1219673",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1219754",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1287240"
+  ],
+  "queries_rerun": [
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_1.sql",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_2.sql",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_3.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Reabrí las tres páginas oficiales y sus secciones de declaración completa; comprobé identidad y metadatos.",
+      "result": "Las tres muestran MARCELO YUBANO GUERRERO, cargo Profesional y Municipalidad De Puerto Montt. 1219673 y 1219754: 04-04-2024; 1287240: 11-12-2024. Tipo: actualización periódica (Marzo) para 1219673; rectificación a requerimiento de órgano fiscalizador para 1219754 y 1287240."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Comparé los campos originales de bienes inmuebles en las dos primarias de 04-04-2024 y ejecuté la SQL 1 guardada.",
+      "result": "Ambas muestran Puerto Montt, año 2017, avalúo en CLP, 100%, adquisición 17-04-2017, PLENA PROPIEDAD y domicilio SI. Importes: $6.272.947.362 en actualización y $60.352.899 en rectificación. Dirección, N° de inscripción, fojas, rol y Conservador aparecen RESERVADO en las páginas. La SQL 1 devolvió 2 filas, una por ID, con esos importes y los atributos consultados; rol/número registral vacíos y Conservador RESERVADO. Las fuentes no prueban que sea exactamente el mismo predio."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Reabrí la primaria 1287240 y ejecuté la SQL 3 guardada.",
+      "result": "La declaración completa indica 11-12-2024, rectificación a requerimiento de órgano fiscalizador, mismo nombre/cargo/organismo, y un inmueble de Puerto Montt, año 2017, CLP $62.729.473, 100%, adquisición 17-04-2017, PLENA PROPIEDAD y domicilio SI. Identificadores registrales RESERVADO. La SQL 3 devolvió 1 fila (1287240) con CLP 62.729.473 y atributos consultados; rol/número de inscripción vacíos."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Reejecuté las tres SQL guardadas mediante ec-gold-sql --max-rows 30 y examiné las filas.",
+      "result": "SQL 1 terminó con código 0 y devolvió 2 filas: importes de los dos registros de abril. SQL 2 terminó con código 0 y devolvió 2 filas: full_name completo, person_id idéntico d36d4c6ccb61f91ca9875df9b70ae47b, cargo/organismo/fecha; assets_clp 6.286.066.014 y 72.969.871. SQL 3 terminó con código 0 y devolvió 1 fila posterior (1287240), CLP 62.729.473. Corte anotado en las tres consultas: 2026-10-09T16:06:27Z. Las consultas no identifican registralmente el predio ni establecen valor externo, causa o realidad económica más allá de lo declarado."
+    },
+    {
+      "claim_id": "c1-c4",
+      "action": "Calculé SHA256 del borrador actual y cotejé wording/limitaciones.",
+      "result": "sha256sum borradores/marcelo-yubano-guerrero-inmueble-versiones.md: 1deeeff59b65aaa72bd7641b4effa578248ec08ee1753df12021298f21f807ea. El borrador describe importes publicados, conserva CLP, reconoce limitaciones registrales y no atribuye valor comercial, patrimonio real, causa confirmada ni conducta irregular."
+    }
+  ],
+  "remaining_questions": [
+    "¿Las tres entradas corresponden al mismo predio? Los identificadores necesarios están reservados en las primarias.",
+    "¿Qué antecedente motivó las rectificaciones y cuál versión considera vigente el portal? Las páginas abiertas no exponen el oficio ni la causa."
+  ],
+  "raw_result": {
+    "official_pages_reopened": ["1219673: $6.272.947.362 CLP; 1219754: $60.352.899 CLP; 1287240: $62.729.473 CLP"],
+    "ec_gold_sql": "SQL 1: 2 rows; SQL 2: 2 rows; SQL 3: 1 row; all commands exit 0.",
+    "review": "All four bounded documentary claims verified against re-opened primary pages and rerun saved SQL. Approve, with no claim of parcel identity, external valuation, cause, intent, or irregularity."
+  }
+}

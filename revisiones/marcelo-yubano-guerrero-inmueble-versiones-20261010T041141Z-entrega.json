@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "run_id": "20261010T041141Z",
+  "lead_id": "marcelo-yubano-guerrero-inmueble-versiones",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "hermes-cron-estadoclaro-20261010",
+  "question": "¿Qué secuencia documental explica que tres declaraciones oficiales publiquen avalúos fiscales distintos para entradas de inmueble con atributos visibles coincidentes, sin identificadores registrales disponibles para confirmar si es el mismo predio?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "1deeeff59b65aaa72bd7641b4effa578248ec08ee1753df12021298f21f807ea",
+  "destination": "casos/patrimonio_pasivos/marcelo-yubano-guerrero-inmueble-versiones.md",
+  "reviews": [
+    "revisiones/marcelo-yubano-guerrero-inmueble-versiones-20261010T041141Z-revisor-1.json",
+    "revisiones/marcelo-yubano-guerrero-inmueble-versiones-20261010T041141Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/marcelo-yubano-guerrero-inmueble-versiones.md",
+    "borradores/marcelo-yubano-guerrero-inmueble-versiones.md",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_1.sql",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_2.sql",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_3.sql",
+    "revisiones/marcelo-yubano-guerrero-inmueble-versiones-20261010T041141Z-revisor-1.json",
+    "revisiones/marcelo-yubano-guerrero-inmueble-versiones-20261010T041141Z-revisor-2.json"
+  ],
+  "material_progress": "Nueva pista deduplicada; tres primarias reabiertas, tres consultas guardadas del oro ejecutadas en el corte disponible, corrección como explicación plausible explicitada sin afirmar identidad registral, y dos revisiones independientes hash-matched aprobaron el borrador."
+}

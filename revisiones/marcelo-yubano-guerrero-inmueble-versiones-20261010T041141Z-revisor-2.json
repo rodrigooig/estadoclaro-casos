@@ -1,0 +1,61 @@
+{
+  "run_id": "20261010T041141Z",
+  "lead_id": "marcelo-yubano-guerrero-inmueble-versiones",
+  "reviewer_id": "hermes-agent-subagent-adversarial-2",
+  "draft_sha256": "1deeeff59b65aaa72bd7641b4effa578248ec08ee1753df12021298f21f807ea",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1219673",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1219754",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1287240"
+  ],
+  "queries_rerun": [
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_1.sql",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_2.sql",
+    "consultas/marcelo-yubano-guerrero-inmueble-versiones-run20261010_3.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Reabrí las tres páginas primarias InfoProbidad y cotejé nombre completo, fecha, tipo de declaración, cargo y organismo; contrasté los IDs y person_id en la consulta 2.",
+      "result": "Las tres páginas identifican a MARCELO YUBANO GUERRERO y consignan Municipalidad de Puerto Montt y cargo Profesional. 1219673 es actualización periódica (04-04-2024); 1219754 es rectificación a requerimiento de órgano fiscalizador (04-04-2024); 1287240 es rectificación del mismo tipo (11-12-2024). La consulta 2 devuelve el mismo person_id para los dos registros de abril. No atribuyo identidad por nombre aislado: el nombre exacto en las primarias y person_id común en el artefacto la respaldan, sin convertir el identificador del modelo en prueba externa adicional."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Cotejé directamente los campos de inmueble en 1219673 y 1219754 y repetí la consulta 1 sobre el artefacto de solo lectura.",
+      "result": "Ambas primarias dicen Avalúo Fiscal con montos en pesos: $6.272.947.362 y $60.352.899; el oro los devuelve como value_clp/currency CLP. Coinciden los atributos públicos: Puerto Montt, año 2017, adquisición 17-04-2017, 100%, plena propiedad y domicilio SI. Las páginas reservan dirección, rol, inscripción y fojas; el borrador restringe correctamente el hallazgo a entradas con atributos coincidentes, no afirma identidad registral del predio. No vi mezcla de UF/CLP ni confusión entre avalúo y valor comercial: se informa lo publicado bajo el campo avalúo fiscal."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Reabrí la primaria 1287240 y repetí la consulta 3, que busca las filas inmobiliarias posteriores para el nombre completo.",
+      "result": "La página, fechada 11-12-2024, consigna $62.729.473 en Avalúo Fiscal, con los mismos atributos visibles de inmueble indicados en el borrador; la consulta 3 devuelve una fila, currency CLP, fecha de adquisición 2017-04-17 y campos rol/número registral vacíos. Es un seguimiento documental comparable, no identificación concluyente del mismo predio."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Ejecuté las tres consultas guardadas con ec-gold-sql --max-rows 20 y verifiqué qué establecen sus resultados.",
+      "result": "La consulta 1 devuelve exactamente dos filas con los dos valores declarados; la consulta 2 devuelve esas dos declaraciones con el mismo person_id y reproduce los totales modelados 6.286.066.014 CLP y 72.969.871 CLP; la consulta 3 devuelve la fila de diciembre. El oro corrobora lo que modela de las declaraciones, pero no aporta rol/inscripción ni certificación independiente del avalúo, causa de la rectificación o realidad económica subyacente."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Prueba adversarial de explicación legítima y de cómo se enuncia la rectificación.",
+      "result": "La rectificación de abril está rotulada expresamente como hecha a requerimiento de órgano fiscalizador, y la de diciembre publica una cifra cercana a la menor de abril. Eso hace plausible una corrección administrativa, pero no revela el campo corregido, la razón ni cuál registro tiene vigencia formal. El texto expone la corrección como alternativa plausible y desconocida, no como hecho causal confirmado."
+    },
+    {
+      "claim_id": "c1",
+      "action": "Prueba adversarial de nexo público y fuerza de la pregunta si se retira la afirmación más débil.",
+      "result": "La afirmación más débil es que la diferencia sea sobre el mismo predio: no puede probarse con los identificadores reservados. Si se retira esa identidad, permanece una pregunta documental delimitada y suficiente: por qué declaraciones oficiales del mismo declarante, con entradas inmobiliarias de atributos visibles coincidentes, publican cifras tan distintas y qué versión/documento las concilia. El interés público es acotado (trazabilidad de información patrimonial declarada por quien declara un cargo municipal), no una inferencia de irregularidad ni de participación del funcionario."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Verifiqué SHA256 del archivo de borrador revisado.",
+      "result": "sha256sum sobre borradores/marcelo-yubano-guerrero-inmueble-versiones.md devolvió exactamente 1deeeff59b65aaa72bd7641b4effa578248ec08ee1753df12021298f21f807ea."
+    }
+  ],
+  "remaining_questions": [
+    "¿Las tres entradas corresponden al mismo predio? Las primarias abiertas reservan rol, dirección y datos de inscripción.",
+    "¿Qué campo/antecedente motivó la rectificación de 04-04-2024 y qué explica la cifra de 11-12-2024? Las páginas no muestran el oficio ni historial de cambios.",
+    "¿Cuál publicación considera vigente el portal y está completa la secuencia de versiones?"
+  ]
+}
