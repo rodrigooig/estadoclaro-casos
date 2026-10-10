@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "run_id": "20261010T000249Z",
+  "lead_id": "paulina-arriagada-sepulveda-declaraciones-discrepantes",
+  "state": "sin avance",
+  "product": "ficha",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Aportó el oro sincronizado al 2026-10-09 o una nueva lectura de las fuentes primarias evidencia pública que explique los dos avalúos declarados?",
+  "central_claims": [
+    "Las consultas 1–3 repiten las dos cifras y no resuelven qué versión explica la diferencia."
+  ],
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/paulina-arriagada-sepulveda-declaraciones-discrepantes.md"
+  ],
+  "material_progress": "sin avance probatorio: se reprodujo el resultado previo en el oro al corte 2026-10-09T16:06:27Z; sin fuente o explicación nueva"
+}
