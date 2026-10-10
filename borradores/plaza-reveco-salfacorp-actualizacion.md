@@ -37,13 +37,13 @@ El dato de la participación es autodeclarado. Aunque el nombre de la línea sea
 
 ## Sources
 
-[1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087
-    > "Asume el cargo: 01-03-2026"
-[2] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-216-SE25
+[1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087 — InfoProbidad — Declaración 5124087
+    > "Fecha de Asunción en el cargo | 01-03-2026"
+[2] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-216-SE25 — Mercado Público — OC 638-216-SE25
     > "TOTAL OC | $ 25.938.092.545"
-[3] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26
+[3] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26 — Mercado Público — OC 5221-8-SE26
     > "TOTAL OC | $ 99.781.535"
-[4] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=829-23-SE26
+[4] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=829-23-SE26 — Mercado Público — OC 829-23-SE26
     > "TOTAL OC | $ 5.633.725.103"
-[5] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-93-SE26
+[5] http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-93-SE26 — Mercado Público — OC 638-93-SE26
     > "TOTAL OC | $ 2.605.819.687"
