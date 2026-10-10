@@ -2,7 +2,7 @@
 
 - **ID:** `paulina-arriagada-sepulveda-declaraciones-discrepantes`
 - **Categoría:** declaraciones de patrimonio; discrepancia de versión/campo.
-- **Estado vigente:** borrador listo; dos revisiones independientes aprobaron el mismo SHA256 `fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5`.
+- **Estado vigente:** sin avance en esta revisión de continuidad; el caso sigue con PR borrador #118 abierto y las dos revisiones previas siguen ligadas al SHA256 `fa731a75ed3069b219b9b3abaa9deaa0fc1e2a88d4544064a15f79372aa0d4b5`.
 - **Producto/destino:** caso documental; `entrega-2/casos/declaraciones_discrepantes/paulina-arriagada-sepulveda-declaraciones-discrepantes.md` (PR de caso en borrador; Rodrigo decide si lo mergea).
 - **Pregunta:** ¿por qué dos declaraciones de la misma titular, ambas fechadas el 22-09-2026, asignan avalúos fiscales diferentes al mismo inmueble de Chillán Viejo identificado por los campos registrales 3201-33 / 8689 / fojas 12613?
 - **Corte del oro:** `meta.build_date=2026-10-08T05:08:05+00:00`; sincronizado según pre-run. No se abrió el archivo DuckDB directamente; las consultas se ejecutaron con `ec-gold-sql`.
@@ -42,4 +42,9 @@ La doble revisión final ya está completa sobre el mismo SHA; preparar el PR bo
 - **Borrador:** `borradores/paulina-arriagada-sepulveda-declaraciones-discrepantes.md`
 - Consultas: `consultas/paulina-arriagada-sepulveda-declaraciones-discrepantes-1.sql`, `...-2.sql`, `...-3.sql`
 - Medición reproducible: salida resumida en esta ficha; consultas de `ec-gold-sql` guardadas y referenciadas arriba.
-- Fuentes primarias: InfoProbidad IDs 1852043 y 1852198; citas/evidencia verbatim en el borrador.
+- **Fuentes primarias:** InfoProbidad IDs 1852043 y 1852198; citas/evidencia verbatim en el borrador.
+
+## Verificación de continuidad — 2026-10-10
+
+Se reabrieron InfoProbidad 1852043 y 1852198 y se repitieron las consultas 1–3 con `ec-gold-sql` contra el oro sincronizado con `meta.build_date=2026-10-09T16:06:27Z` (salida del pre-run). Las filas de ambos inmuebles conservan los mismos identificadores, fecha de adquisición y avalúos; la consulta 3 devuelve nuevamente dos filas (una por declaración), diferencia CLP 27.382.000.000 y razón 1.000,6718628769434. No hay rectificación, declaración posterior ni explicación nueva en estas fuentes. No cambia el borrador ni el SHA aprobado; PR #118 se observó abierto y borrador contra `main`. Sin avance probatorio. Retomar solo ante historial oficial de versiones, rectificación o fuente pública nueva que explique la relación documental.
+
