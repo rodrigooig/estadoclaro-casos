@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "run_id": "20261010T210200Z",
+  "lead_id": "gustavo-poblete-declaraciones-misma-fecha",
+  "state": "evidencia insuficiente",
+  "product": "triage",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Las declaraciones InfoProbidad 1725592, 1730106 y 1730700 corresponden al mismo inmueble descrito de manera distinta o a más de un derecho/bien?",
+  "central_claims": [],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/gustavo-poblete-declaraciones-misma-fecha.md",
+    "consultas/gustavo-poblete-declaraciones-misma-fecha-20261010.sql",
+    "consultas/gustavo-poblete-declaraciones-misma-fecha-resumen-inmuebles-20261010.sql"
+  ],
+  "material_progress": "Dos SQL independientes reproducen en oro tres declaraciones del mismo día con 1/2/2 líneas inmobiliarias y agregados distintos; las primarias reservan los identificadores que permitirían determinar si se trata del mismo inmueble, por lo que no se prepara caso."
+}
