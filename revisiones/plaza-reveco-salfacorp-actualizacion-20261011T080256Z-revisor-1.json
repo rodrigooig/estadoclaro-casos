@@ -1,0 +1,53 @@
+{
+  "run_id": "20261011T080256Z",
+  "lead_id": "plaza-reveco-salfacorp-actualizacion",
+  "reviewer_id": "plaza-reveco-salfacorp-actualizacion-evidence-20261011T080256Z-reviewer-1",
+  "draft_sha256": "8d4981a778ba4812f6d46514548a9dcea49c54e8f3536a7c00190c72ce8ec39a",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-216-SE25",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=829-23-SE26",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-93-SE26",
+    "https://raw.githubusercontent.com/rodrigooig/estadoclaro-casos/main/casos/negocios_estado/plaza-reveco-salfacorp.md"
+  ],
+  "queries_rerun": [
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-1.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-2.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261010T070712Z-adversarial-periodo.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Reabrí la declaración InfoProbidad 5124087 y comprobé identidad completa, fecha, cargo, línea y campos de la participación",
+      "result": "La declaración identifica a RAFAEL MAURICIO PLAZA REVECO; fecha 24-09-2026; función Abogado Integrante en Poder Judicial y asunción 01-03-2026. La línea es ACCION «SALFACORP», RUT 93.659.000-4, cantidad 1.911, valor CLP 2.425.059, adquisición 28-10-2025, no controlador. Concuerda con la síntesis del borrador y se mantiene como dato autodeclarado, sin inferir título subyacente ni propiedad económica."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Reabrí las cuatro fichas primarias y ejecuté la consulta de listado por persona/declaración/RUT exacto",
+      "result": "El SQL devolvió cuatro filas/códigos únicos, todos con el RUT proveedor 93659000, y enlazados a la declaración de Plaza con RUT 93659000. Fichas: 638-216-SE25, 16-12-2025, CONSTRUCTORA SALFA S.A., RUT 93.659.000-4, CLP 25.938.092.545, Enviada a proveedor; 5221-8-SE26, 30-03-2026, Constructora Salfa (Punta Arenas), mismo RUT, CLP 99.781.535, Aceptada; 829-23-SE26, 19-06-2026, CONSTRUCTORA SALFA S.A., mismo RUT, CLP 5.633.725.103, Enviada a proveedor; 638-93-SE26, 01-07-2026, Constructora Salfa (Punta Arenas), mismo RUT, CLP 2.605.819.687, Aceptada. Compradores/unidades corresponden a SERVIU XII Región, Servicio de Salud Magallanes, Dirección de Arquitectura/DGOP y SERVIU XII Región respectivamente. Las fichas respaldan los montos como TOTAL OC, no como pagos."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Reejecuté la consulta agregada deduplicada y la partición adversarial en torno a la asunción del 01-03-2026",
+      "result": "Consulta agregada: 4 órdenes, CLP 34.277.418.870, UF 858.290,27, 2025-12-16 a 2026-07-01. Consulta temporal: 1 anterior a asunción, CLP 25.938.092.545 / UF 653.839,79; 3 desde o después, CLP 8.339.326.325 / UF 204.450,48, 2026-03-30 a 2026-07-01. Los importes individuales de las cuatro fichas suman el total CLP declarado. Se usó ec-gold-sql en solo lectura; corte actual informado para el oro: 2026-10-09T16:06:27Z."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Abrí el caso publicado vigente en raw y comparé el cambio propuesto en el borrador",
+      "result": "El raw abierto presenta la historia anterior de tres órdenes de marzo-julio 2026 y CLP 8.339.326.325 / UF 204.450,48, con declaración de marzo. El borrador propone reemplazo completo del mismo archivo, actualiza la declaración, añade la OC de diciembre previa a la asunción y corrige a cuatro órdenes/CLP 34.277.418.870/UF 858.290,27; identifica explícitamente que no es caso nuevo. No duplica el historial como nueva historia."
+    },
+    {
+      "claim_id": "c5",
+      "action": "Contrasté límites, estatus, unidades y redacción de inferencias frente a las fuentes primarias reabiertas",
+      "result": "Los estados y códigos coinciden con las fichas; la cifra se describe como montos consignados en órdenes y no como pago, ingreso personal o facturación probada. El texto acota el cruce al RUT declarado y no atribuye intervención, beneficio personal, control ni titularidad económica. La ficha de 638-216-SE25 sí enlaza a licitación pública 638-18-O125; esto respalda solo contexto de origen y el borrador no lo convierte en prueba de actuación individual. La limitación sobre título/propiedad subyacente permanece explícita."
+    }
+  ],
+  "remaining_questions": [
+    "Las fuentes reabiertas no determinan qué título o participación subyacente representa la línea autodeclarada «SALFACORP» ni la propiedad económica.",
+    "Las fichas de orden no establecen por sí solas pagos, recepción final ni actuación individual de Plaza Reveco; el borrador no afirma esos hechos."
+  ]
+}
