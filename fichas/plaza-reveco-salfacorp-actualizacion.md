@@ -1,7 +1,10 @@
 # Rafael Mauricio Plaza Reveco / Constructora Salfa: actualización de órdenes declaradas
 
-## Reevaluación editorial vigente — 2026-10-10 (v3)
+## Reevaluación editorial vigente — 2026-10-11 (v3)
 
+- **Ejecución del paquete:** `20261011T080256Z`. Las dos consultas guardadas y la partición temporal adversarial se reejecutaron con `ec-gold-sql` contra el oro al corte `2026-10-09T16:06:27Z`: cuatro códigos OC distintos, CLP 34.277.418.870 / UF 858.290,27; uno previo a la asunción y tres desde el 01-03-2026. No hay cambio probatorio respecto del borrador revisado.
+- **Revisión vigente:** las revisiones independientes de esta entrega, `revisiones/plaza-reveco-salfacorp-actualizacion-20261011T080256Z-revisor-1.json` y `...-revisor-2.json`, aprobaron el SHA final `8d4981a778ba4812f6d46514548a9dcea49c54e8f3536a7c00190c72ce8ec39a`; permanece idéntico. La verificación de citas se repitió con ledger aislado de cinco fuentes primarias, evidencia adjunta y 59% de cobertura; las siete advertencias de más de tres citas son estilísticas y se inspeccionaron, sin alterar el texto aprobado.
+- **Entrega:** se prepara la actualización del PR borrador #102 vía `ec-inv-pr`; el PR no se mergea. Rodrigo decide publicación.
 - **ID:** `plaza-reveco-salfacorp-actualizacion`
 - **Estado vigente:** correccion lista.
 - **Producto:** corrección del caso publicado `casos/negocios_estado/plaza-reveco-salfacorp.md`; no es caso nuevo.

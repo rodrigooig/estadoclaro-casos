@@ -1,0 +1,59 @@
+{
+  "run_id": "20261011T080256Z",
+  "lead_id": "plaza-reveco-salfacorp-actualizacion",
+  "reviewer_id": "plaza-reveco-salfacorp-actualizacion-adversarial-20261011T080256Z",
+  "draft_sha256": "8d4981a778ba4812f6d46514548a9dcea49c54e8f3536a7c00190c72ce8ec39a",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-216-SE25",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=5221-8-SE26",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=829-23-SE26",
+    "http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=638-93-SE26",
+    "https://raw.githubusercontent.com/rodrigooig/estadoclaro-casos/main/casos/negocios_estado/plaza-reveco-salfacorp.md"
+  ],
+  "queries_rerun": [
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-1.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261008T120620Z-2.sql",
+    "consultas/plaza-reveco-salfacorp-actualizacion-20261010T070712Z-adversarial-periodo.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Reabrí InfoProbidad y ejecuté consulta independiente de oro por nombre completo, fecha de declaración y RUT societario.",
+      "result": "InfoProbidad identifica a RAFAEL MAURICIO PLAZA REVECO, abogado integrante del Poder Judicial, declaración del 24-09-2026 y asunción 01-03-2026. SQL devolvió una línea en la declaración: etiqueta SALFACORP, RUT normalizado 93659000 (ficha primaria lo muestra 93.659.000-4), 1.911 unidades, CLP 2.425.059, adquisición 2025-10-28, controlador=false. Es identidad por nombre completo más dato de declaración/RUT, no una inferencia por semejanza del nombre societario."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Reejecuté consultas guardadas 1 y 2 y abrí las cuatro fichas originales de ChileCompra.",
+      "result": "La consulta de detalle devuelve cuatro order_code únicos, cada uno una fila, todos con RUT proveedor 93659000: 638-216-SE25 (16-12-2025, CLP 25.938.092.545), 5221-8-SE26 (30-03-2026, CLP 99.781.535), 829-23-SE26 (19-06-2026, CLP 5.633.725.103), 638-93-SE26 (01-07-2026, CLP 2.605.819.687). Agregado deduplicado: 4 órdenes, CLP 34.277.418.870 y UF 858.290,27. Cada ficha muestra proveedor CONSTRUCTORA SALFA S.A., RUT 93.659.000-4; la identidad del proveedor en este cruce descansa en el RUT exacto, aunque la línea declarada diga SALFACORP."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Reejecuté SQL de partición por asunción y una consulta independiente por fecha de cada declaración.",
+      "result": "Asunción: 2026-03-01. La OC 638-216-SE25 es anterior (una OC; CLP 25.938.092.545; UF 653.839,79); las otras tres son posteriores (CLP 8.339.326.325; UF 204.450,48). Consulta por snapshots: declaración 2026-03-10 tiene una OC vinculada en esa ventana y declaración 2026-09-24 tiene cuatro. El borrador advierte explícitamente que el total de cuatro cubre la ventana de adquisición declarada a actualización y no equivale a órdenes de todo el período del cargo; comprobado."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Contrasté montos, unidad y estados contra las fichas primarias; evalué duplicación y pago.",
+      "result": "Los totales individuales de las cuatro fichas están expresados en pesos chilenos y coinciden con el oro; la suma agregada CLP cuadra. UF 858.290,27 es la conversión registrada en el artefacto, no el monto fuente de las fichas. Estados observados: Enviada a proveedor, Aceptada, Enviada a proveedor, Aceptada, respectivamente; no equivalen por sí mismos a pagos. Los códigos son distintos, sin duplicados en la consulta de detalle. El texto limita el total a montos consignados en órdenes y niega inferencias de pago/ingreso."
+    },
+    {
+      "claim_id": "c5",
+      "action": "Comparé borrador y caso público anterior; comprobé explicación y límites en las fichas de compra.",
+      "result": "La corrección aporta una rectificación comprobable del conteo/ventana —incluida la OC de diciembre anterior a la asunción— y reemplaza la formulación más concluyente de 'facturaba' por órdenes con estados y límites. Las cuatro fichas indican origen de licitación pública; compradores son SERVIU Magallanes, Servicio de Salud Magallanes y MOP, no Poder Judicial, y las fichas no identifican a Plaza como interviniente. Por ello la adquisición pública competitiva es una explicación legítima suficiente del mecanismo de selección observable; no borra la coincidencia RUT declarada/proveedor, pero no hay base aquí para atribuir intervención, beneficio o propiedad económica. La declaración prueba lo declarado, no la titularidad económica real."
+    },
+    {
+      "claim_id": "draft-integrity",
+      "action": "Calculé SHA256 del borrador leído antes de revisar.",
+      "result": "8d4981a778ba4812f6d46514548a9dcea49c54e8f3536a7c00190c72ce8ec39a; coincide exactamente con SHA solicitado."
+    }
+  ],
+  "remaining_questions": [
+    "¿Qué instrumento/título subyace a la línea declarada SALFACORP y qué significa económicamente esa cantidad? La declaración y el cruce de RUT no lo resuelven; es pregunta de auditoría posterior, no un vacío central porque el borrador lo reconoce y no afirma propiedad económica.",
+    "¿Qué expedientes acreditan ejecución, recepción conforme y pago de las órdenes? Las fichas prueban registros y estados, no pago; pregunta posterior, no central al recuento de órdenes.",
+    "¿Hay evidencia pública de actuación individual de Plaza en los procesos? No aparece en las fichas abiertas y el borrador no se la atribuye ni la requiere para la corrección documental."
+  ]
+}
