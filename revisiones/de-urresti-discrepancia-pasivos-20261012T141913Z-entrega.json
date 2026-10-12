@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "run_id": "20261012T141913Z",
+  "lead_id": "de-urresti-discrepancia-pasivos",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Qué explica que las declaraciones 1168779 y 1172389, atribuidas al mismo nombre completo y fecha, publiquen totales globales de pasivos distintos pese a mostrar el mismo detalle hipotecario?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "e0427ba0b010e99af6bef96a2ae28728018acef04c2a3e53b8daca030f00461d",
+  "destination": "casos/discrepancias_declarativas/de-urresti-discrepancia-pasivos.md",
+  "reviews": [
+    "revisiones/de-urresti-discrepancia-pasivos-20261012T141913Z-revisor-1.json",
+    "revisiones/de-urresti-discrepancia-pasivos-20261012T141913Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/de-urresti-discrepancia-pasivos.md",
+    "borradores/de-urresti-discrepancia-pasivos.md",
+    "consultas/de-urresti-discrepancia-pasivos-20261012.sql",
+    "consultas/de-urresti-discrepancia-pasivos-independiente-20261012.sql",
+    "revisiones/de-urresti-discrepancia-pasivos-20261012T141913Z-revisor-1.json",
+    "revisiones/de-urresti-discrepancia-pasivos-20261012T141913Z-revisor-2.json"
+  ],
+  "material_progress": "Dos primarias oficiales y dos SQL independientes confirman una discrepancia de CLP 2.070.000.000 entre totales globales frente a las mismas tres líneas hipotecarias; dos revisores independientes aprobaron el mismo SHA final."
+}

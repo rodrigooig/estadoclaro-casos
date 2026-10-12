@@ -1,0 +1,25 @@
+{
+  "run_id": "20261012T141913Z",
+  "lead_id": "de-urresti-discrepancia-pasivos",
+  "reviewer_id": "hermes-subagent:gpt-6-luna/openai-codex",
+  "draft_sha256": "e0427ba0b010e99af6bef96a2ae28728018acef04c2a3e53b8daca030f00461d",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1168779",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1172389"
+  ],
+  "queries_rerun": [
+    "consultas/de-urresti-discrepancia-pasivos-20261012.sql",
+    "consultas/de-urresti-discrepancia-pasivos-independiente-20261012.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrí ambas declaraciones completas en InfoProbidad.","result":"Ambas muestran ALFONSO ARTURO DE URRESTI LONGTON, fecha 26-03-2024 y tipo Actualización Periódica (Marzo); una consigna Senado / Senador(A) y la otra Partido Socialista de Chile / Miembro Órgano Ejecutivo."},
+    {"claim_id":"c2","action":"Reejecuté la consulta guardada al oro con ec-gold-sql.","result":"Totales globales CLP 229.825.327 y CLP 2.299.825.327; cada documento tiene tres créditos hipotecarios Banco BCI."},
+    {"claim_id":"c3","action":"Reejecuté la consulta guardada independiente.","result":"Ambas sumas de detalle CLP 229.825.327; diferencia entre totales globales CLP 2.070.000.000."},
+    {"claim_id":"c4","action":"Revisé el encuadre y los límites del texto final.","result":"Limita la conclusión a la diferencia documental; no atribuye prevalencia, causa, saldo real, falsedad ni infracción."},
+    {"action":"Consulté meta del oro y verifiqué SHA y citas.","result":"meta.build_date 2026-10-09T16:06:27+00:00; SHA coincide; gate de citas con evidencia pasó."}
+  ],
+  "remaining_questions": ["Las primarias no aclaran el origen de la diferencia ni cuál total debía prevalecer; se conserva como pregunta abierta, no como bloqueo del hallazgo documental."]
+}

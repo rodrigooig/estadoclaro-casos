@@ -1,0 +1,29 @@
+{
+  "run_id": "20261012T141913Z",
+  "lead_id": "de-urresti-discrepancia-pasivos",
+  "reviewer_id": "gpt-6-luna-subagent",
+  "draft_sha256": "e0427ba0b010e99af6bef96a2ae28728018acef04c2a3e53b8daca030f00461d",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1168779",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1172389"
+  ],
+  "queries_rerun": [
+    "consultas/de-urresti-discrepancia-pasivos-20261012.sql",
+    "consultas/de-urresti-discrepancia-pasivos-independiente-20261012.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrí las dos declaraciones oficiales y comparé identidad, fecha, tipo, organismo y cargo.","result":"Ambas identifican a ALFONSO ARTURO DE URRESTI LONGTON y están fechadas 26-03-2024; son Actualización Periódica (Marzo). Una corresponde al Senado / Senador(A), la otra al Partido Socialista de Chile / Miembro Órgano Ejecutivo."},
+    {"claim_id":"c2","action":"Cotejé los pasivos primarios y reejecuté la consulta SQL.","result":"Totales globales de CLP 229.825.327 y CLP 2.299.825.327; tres créditos hipotecarios Banco BCI en cada documento."},
+    {"claim_id":"c3","action":"Reejecuté las dos consultas y contrasté el detalle.","result":"Tres líneas suman CLP 229.825.327 en ambas declaraciones; diferencia entre totales globales CLP 2.070.000.000. No se combinaron snapshots."},
+    {"claim_id":"c4","action":"Intenté falsar identidad, unidades, duplicación, alcance y explicación.","result":"Nombre completo coincide; campos en pesos; la consulta de control confirma que no hay multiplicación de filas. Los documentos no explican causa ni establecen saldo bancario, prevalencia, falsedad o infracción."},
+    {"action":"Verifiqué meta del artefacto y SHA.","result":"meta.build_date=2026-10-09T16:06:27+00:00 y SHA exacto coincide."},
+    {"action":"Evalué interés público y explicación legítima.","result":"Interés acotado en transparencia de declaraciones oficiales. Explicación legítima más fuerte: funciones institucionales distintas, con posible distinto alcance o error de registro; no hay evidencia para elegir. Si se elimina la frase de que las páginas no explican causa, sigue en pie la comparación documental de totales."}
+  ],
+  "remaining_questions": [
+    "Origen administrativo del total global CLP 2.299.825.327 en la declaración 1172389.",
+    "Si existe historial oficial, rectificación o explicación sobre la relación entre ambas declaraciones."
+  ]
+}
