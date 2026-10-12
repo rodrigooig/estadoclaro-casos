@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "run_id": "20261012T173830Z",
+  "lead_id": "camila-jorquiera-versiones-declaracion-20250331",
+  "state": "evidencia insuficiente",
+  "product": "ficha",
+  "author_id": "estadoclaro-cron",
+  "question": "¿Qué relación documental tienen InfoProbidad 5099580 y 5099347, ambos atribuidos al mismo nombre completo y fechados 31-03-2025?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3"
+  ],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "COLA.md",
+    "fichas/camila-jorquiera-versiones-declaracion-20250331.md",
+    "consultas/camila-jorquiera-versiones-declaracion-20250331-panel-20261012.sql",
+    "consultas/camila-jorquiera-versiones-declaracion-20250331-desglose-20261012.sql"
+  ],
+  "material_progress": "Dos primarias nuevas y dos SQL miden una discrepancia entre declaraciones publicadas; la relación/prelación entre documentos sigue sin establecerse."
+}
