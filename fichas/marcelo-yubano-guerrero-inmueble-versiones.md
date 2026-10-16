@@ -19,3 +19,11 @@
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1219673
 [2] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1219754
 [3] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1287240
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Las cifras coinciden con InfoProbidad: 1219673 (avalúo $6.272.947.362), 1219754 ($60.352.899) y 1287240 ($62.729.473). Pero 6.272.947.362 / 100 = 62.729.473,62, los mismos dígitos que el avalúo corregido en diciembre, lo que es compatible con un error de formato decimal. Las dos versiones posteriores son rectificaciones a requerimiento del órgano fiscalizador, así que el control ya actuó. No queda una pregunta de interés público ligada a la función (pregunta 2 del criterio editorial).
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/130
