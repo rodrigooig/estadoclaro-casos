@@ -1,0 +1,28 @@
+{
+  "run_id": "20261013T192548Z",
+  "lead_id": "javier-arismendi-discrepancia-declaraciones",
+  "reviewer_id": "Revisor de evidencia final 1",
+  "draft_sha256": "6ba79c01592939d7249d283a404a77702878ba0447d304342b1384d2a3031837",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1818514",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1893910"
+  ],
+  "queries_rerun": [
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-1.sql",
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-2.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrí ambas primarias y cotejé identidad, fecha, tipo, organismo y cargo; comprobé corte gold.","result":"Ambas páginas identifican a JAVIER IGNACIO ARISMENDI VALENZUELA, Municipalidad de Frutillar, alcalde, fecha 30-09-2026; 1818514 es Rectificación Voluntaria y 1893910 Actualización Periódica (Septiembre). meta.build_date=2026-10-13T17:02:26+00:00."},
+    {"claim_id":"c2","action":"Cotejé líneas societarias completas en fuentes y ejecuté SQL 1.","result":"Dos sociedades, RUT 76.269.043-8 y 76.142.911-6, coinciden entre ambas primarias; tipo ACCION, cantidades/porcentajes 100 y 50."},
+    {"claim_id":"c3","action":"Cotejé valores y unidad fuente, y ejecuté SQL 2 agrupada antes de comparar.","result":"Las primarias publican 100.000.000 en 1893910 y 1.000.000 en 1818514 para cada sociedad. Tipo de Moneda está vacío en ambas; el valor currency=CLP del oro no prueba unidad primaria. Borrador no asigna CLP."},
+    {"claim_id":"c4","action":"Comprobé conteos, claves, fan-out y límites.","result":"SQL 1 devuelve cuatro filas y SQL 2 dos pares (uno por sociedad/tipo), una cantidad y un valor por declaración, sin fan-out observado. Texto no infiere causa, prevalencia, valor real o intervención."}
+  ],
+  "remaining_questions": [
+    "Qué relación de presentación existe entre los dos documentos y qué campos corregiría la rectificación.",
+    "Qué unidad correspondía a valores cuyo campo está vacío."
+  ],
+  "raw_result": "verdict approve; hash 6ba79c01592939d7249d283a404a77702878ba0447d304342b1384d2a3031837; reabrió primarias completas, repitió ambas consultas guardadas y validó identidad, valores, cantidades, moneda vacía, diferencias entre gold/source y ausencia de fan-out."
+}

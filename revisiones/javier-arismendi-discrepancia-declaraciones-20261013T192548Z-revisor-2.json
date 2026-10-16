@@ -1,0 +1,28 @@
+{
+  "run_id": "20261013T192548Z",
+  "lead_id": "javier-arismendi-discrepancia-declaraciones",
+  "reviewer_id": "revisor-2-adversarial-independiente",
+  "draft_sha256": "6ba79c01592939d7249d283a404a77702878ba0447d304342b1384d2a3031837",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1818514",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1893910"
+  ],
+  "queries_rerun": [
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-1.sql",
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-2.sql"
+  ],
+  "checks": [
+    {"claim_id":"c1","action":"Reabrí ambas fuentes, verifiqué texto de título, nombre y fecha.","result":"Mismo nombre completo, cargo, institución y fecha; una Rectificación Voluntaria y otra Actualización Periódica (Septiembre)."},
+    {"claim_id":"c2","action":"Cotejé fuentes y SQL por RUT de sociedad.","result":"Mismas dos empresas por RUT y tipo ACCION, cantidades 100/50; una línea por sociedad y fuente."},
+    {"claim_id":"c3","action":"Cotejé campo de valor y unidad en fuentes originales.","result":"Las dos primarias muestran 100.000.000 vs 1.000.000 para cada sociedad. Tipo de Moneda vacío; gold=CLP no sustituye evidencia primaria."},
+    {"claim_id":"c4","action":"Reejecuté dos consultas guardadas y SQL propio; probé límites y explicación alternativa.","result":"Sin fan-out; discrepancia numérica documental subsiste. La etiqueta de rectificación puede ser explicación, pero no aclara relación. La historia útil sobrevive sin asignar unidad, causa, prevalencia, valor real o intervención."}
+  ],
+  "remaining_questions": [
+    "Qué relación de presentación existe entre ambos documentos y qué campos corrigió la rectificación.",
+    "Qué unidad correspondía a valores con campo de moneda vacío."
+  ],
+  "raw_result": "verdict approve; hash 6ba79c01592939d7249d283a404a77702878ba0447d304342b1384d2a3031837; verificación primaria y SQL independiente confirmaron observación; unidad vacía claramente separada de CLP procesado; sin vacíos centrales restantes para la descripción limitada."
+}

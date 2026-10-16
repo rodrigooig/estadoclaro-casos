@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "run_id": "20261013T192548Z",
+  "lead_id": "javier-arismendi-discrepancia-declaraciones",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "openai-codex/gpt-6-luna",
+  "question": "¿Qué relación de presentación existe entre las declaraciones InfoProbidad 1818514 y 1893910, ambas fechadas 30-09-2026, y qué unidad corresponde a los valores de las dos participaciones societarias?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "6ba79c01592939d7249d283a404a77702878ba0447d304342b1384d2a3031837",
+  "destination": "casos/patrimonio_pasivos/javier-arismendi-discrepancia-declaraciones.md",
+  "reviews": [
+    "revisiones/javier-arismendi-discrepancia-declaraciones-20261013T192548Z-revisor-1.json",
+    "revisiones/javier-arismendi-discrepancia-declaraciones-20261013T192548Z-revisor-2.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "fichas/javier-arismendi-discrepancia-declaraciones.md",
+    "borradores/javier-arismendi-discrepancia-declaraciones.md",
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-1.sql",
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-2.sql",
+    "consultas/javier-arismendi-discrepancia-declaraciones-20261013-3.sql",
+    "revisiones/javier-arismendi-discrepancia-declaraciones-20261013T192548Z-revisor-1.json",
+    "revisiones/javier-arismendi-discrepancia-declaraciones-20261013T192548Z-revisor-2.json"
+  ],
+  "material_progress": "Dos primarias, dos consultas SQL independientes y revisiones independientes verifican una diferencia numérica documental para las mismas dos participaciones; siguen sin determinarse unidad, causa y relación formal entre declaraciones."
+}
