@@ -1,0 +1,56 @@
+{
+  "run_id": "20261013T001443Z",
+  "lead_id": "giovanna-paredes-castillo-empresa-discrepante",
+  "reviewer_id": "adversarial-gp-20261013-final3",
+  "draft_sha256": "b5785e3bd9c0f2b8cbf032c698f897b373c8fa388e34abfaf0bae26f235e869b",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4", "c5"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1017370",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1017105",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1023480",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1217224"
+  ],
+  "queries_rerun": [
+    "consultas/giovanna-paredes-castillo-empresa-20261013-1.sql",
+    "consultas/giovanna-paredes-castillo-empresa-20261013-2.sql",
+    "consultas/giovanna-paredes-castillo-empresa-20261013-3.sql",
+    "consultas/giovanna-paredes-castillo-review-adversarial-final3-20261013.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Opened full InfoProbidad declaration pages 1017370 and 1017105; reran query 1 and independent query.",
+      "result": "Both primary pages identify GIOVANNA PAREDES CASTILLO, date 29-03-2023, cargo Consejero Regional, and Gobierno Regional Del Maule. Gold query 1 returned exactly two rows, one per source ID; adversarial aggregation also found exactly two same-day filings for this full name (IDs 1017105 and 1017370)."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Compared the full company-entry sections of primary pages 1017370 and 1017105 and reran SQL queries 1 and 3.",
+      "result": "Both pages show AGRICOLA LOS DEL MONTE LTDA, RUT 76.035.861-4, quantity/percentage 2.5, controller NO, and blank Tipo de Moneda. The value field is 6.288.303 in 1017370 versus 1.000.000.000 in 1017105. SQL query 3 returned one matching row per side and difference 993.711.697. This verifies a difference in displayed declared fields, not economic value or actual ownership percentage interpretation."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Reran all three saved gold queries against ec-gold-sql at the stated cutoff and executed independently designed query consultas/giovanna-paredes-castillo-review-adversarial-final3-20261013.sql.",
+      "result": "Query 1: 2 rows. Query 2: 6 records in the series, including both same-day IDs and later IDs 1023480 and 1217224. Query 3: 1 comparison row, periodic_rows=1, rectification_rows=1, difference=993711697. Independent query: 4 rows for the four exact source IDs; each has exactly 1 target-company row, no duplicate target company line, matching name and company RUT, quantity 2.5, and implausible_flag=False. The independent query returned three declared asset rows in each 2023-03-29 filing and four in each later declaration overall; target company still occurs once per declaration."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Opened full primary declaration pages 1023480 and 1217224 and checked SQL query 2 plus independent SQL.",
+      "result": "1023480 is dated 30-03-2023 and 1217224 is dated 02-04-2024; each full company entry shows AGRICOLA LOS DEL MONTE LTDA, RUT 76.035.861-4, quantity/percentage 2.5, and 1.000.000.000. These are later repetitions of the published figure, not independent confirmation of its correctness."
+    },
+    {
+      "claim_id": "c5",
+      "action": "Inspected the two same-day primary pages for the explanation/precedence issue and reviewed the current draft's revised wording in its full text.",
+      "result": "The full pages provide separate declaration fields and type labels, but no explanation of why the values differ and no statement identifying which same-day entry supersedes the other. The current draft's claim is properly scoped to what these two pages explain/do not explain; it does not make a generalized negative-search claim. The public-interest framing is limited to traceability and consistency of an official's public asset-declaration record, and does not allege wrongdoing. The discrepancy remains intact if later documents are excluded: IDs 1017370 and 1017105 alone show the different values."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Adversarial unit and temporal checks: compared primary blank currency fields with gold output and reviewed the statement about later records.",
+      "result": "Both relevant primary pages leave Tipo de Moneda blank; the artifact's currency=CLP/currency_reading=local is processing metadata, not a currency expressly stated in those source entries. The draft preserves the raw displayed figures and leaves the 993.711.697 difference without an assigned currency. The dates and distinct source IDs identify separate snapshots; the text does not portray the arithmetic as an economic change occurring on 29 March, does not infer which record prevailed, and does not infer continuation of status from the later filings."
+    }
+  ],
+  "remaining_questions": [
+    "What documentary basis or valuation method supports each same-day entry, and what exact subject did the requested rectification address? The declarations themselves do not resolve this; it is a bounded follow-up question, not a defect in the stated discrepancy."
+  ]
+}
