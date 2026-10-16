@@ -56,5 +56,3 @@ Todos los datos de patrimonio provienen de declaraciones autodeclaradas por el p
 - Aclarar con la Subsecretaría de Relaciones Exteriores o con el propio declarante el origen del crédito hipotecario declarado por CLP 160.528.863.763 que Estado Claro marca como implausible, para determinar si corresponde a un error de digitación.
 - Confirmar con la Subsecretaría de Relaciones Exteriores el país y cargo en que Rivano presta funciones actualmente, dato que esta revisión no pudo establecer con una fuente pública vigente.
 - Solicitar al Registro de Empresas y Sociedades o a la propia Amulen SpA la nómina completa de socios y su historial societario, para establecer si existe algún vínculo familiar o societario entre Rivano y quienes controlan la empresa.
-
-
