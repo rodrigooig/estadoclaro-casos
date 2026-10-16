@@ -1,14 +1,14 @@
 # Índice de investigaciones EstadoClaro
 
 
-Desde 06-10-2026 rige [METODO_INVESTIGACION.md](METODO_INVESTIGACION.md) v3 y la [cola autónoma](COLA.md). Estados adicionales: `lista para verificacion`, `bloqueada por acceso`, `correccion lista`. Las aprobaciones finales exigen dos revisores automáticos; no confundir barrera documental con validación humana genérica.
+Desde 16-10-2026 rige [METODO_INVESTIGACION.md](METODO_INVESTIGACION.md) v4: el pre-run del cron arma la selección de cada corrida (la cola `COLA.md` se retiró), cada pista se entrega con `ec-inv-pr` y un editor decide si un borrador se publica en `main` (estados `publicado`, `descartada`, o `lista para verificacion` cuando lo devuelve).
 
 Una fila por pista. Léelo antes de abrir una nueva para no duplicar trabajo; actualiza la fila
 cada vez que tocas su ficha. Las fichas viven en `fichas/<id>.md`; los borradores de caso que
 cumplen el estándar, en `borradores/<id>.md`; las consultas que sostienen cada hecho, en `consultas/<id>-<n>.sql`. Es la bitácora de trabajo (rama `investigacion`, pública), no casos publicados: un caso solo llega a
 `main` tras la revisión de Rodrigo.
 
-Estados: `abierta` · `en curso` · `evidencia insuficiente` · `requiere humano` · `borrador listo` · `descartada`.
+Estados: ver la tabla de [METODO_INVESTIGACION.md](METODO_INVESTIGACION.md#estados-de-una-ficha).
 
 | id | categoría | estado | última actualización | próxima acción |
 |---|---|---|---|---|
