@@ -87,3 +87,11 @@ Reabrir solo ante ese documento o evidencia pública nueva; si no aparece, no re
 [13] https://www.conservador.cl/portal/gp — CBRS: certificado de hipotecas, gravámenes y prohibiciones
     > "Es un certificado que incluye los gravámenes que afectan a un bien raíz como hipotecas, servidumbres, usufructos, etc."
     > "El costo asociado a este documento es de $6.600."
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Se reabrieron en InfoProbidad las declaraciones 946845, 962376, 1092281, 1170324, 1412441 y 1703401. El crédito hipotecario con el acreedor escrito «BANCO ITAHU» figura en $141.091.528 y $141.228.175 (2023), $13.711.534.231 (2024), $133.221.540 (2025) y $42.667.234.500 (2026). Los valores de 2023 y 2025 forman una serie descendente coherente; los de 2024 y 2026 no encajan en ella, y el borrador omitía los puntos de 2023. La serie es compatible con errores de ingreso del declarante. Sin otra pregunta ligada a la función, no cumple la pregunta 2 del criterio editorial.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/106
