@@ -94,3 +94,13 @@ No contactaré a las personas ni al banco, ni solicitaré información privada.
 [7] https://www.ceacgr.cl/CEA/pdf/recursos-educativos/capacitacion-webinario-DIP/MANUAL_DIP.pdf
 [8] https://www.bcn.cl/leychile/navegar?idNorma=1086062
 [9] https://www.cmfchile.cl/portal/prensa/625/w4-article-102984.html
+
+## Decisión editorial (2026-10-16): abierta
+
+Publicada. Se reabrieron en InfoProbidad las declaraciones 1651879, 1458933, 1358306 y 1358323. Las cuatro consignan el crédito hipotecario con acreedor «BANCO EDWARDS»; la vigente, por $160.528.863.763. El artefacto conserva ese acreedor literal y lo normaliza como «BANCO DE CHILE», tal como describe el texto corregido. El cambio es correcto contra la fuente y no afirma equivalencia bancaria ni saldo real. Antes del merge se quitaron las dos líneas en blanco finales que agregaba el PR.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+**Seguimiento:** Corrección pendiente del caso publicado rivano-aravena-amulen-serviu-maule. (1) Según un extracto del Diario Oficial citado en la ficha, que es fuente secundaria, la propiedad de Amulen SpA podría no ser «minoritaria» como dice el caso. Hay que conseguir el ejemplar oficial y verificar socios y porcentajes, sin afirmar parentesco. (2) La frase «el panel reporta pasivos en 0 UF» ya no calza con el artefacto: liabilities_uf es 4.029.165 y liabilities_adjusted_uf es 0. Hay que corregir esa descripción.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/112
