@@ -38,3 +38,11 @@ La explicación legítima más fuerte es que el global incluya una obligación q
 ## Decisión y retorno
 
 La discrepancia publicada entre total global y dos partidas visibles en 1343468 es concreta, primaria y reproducible; el umbral para un caso documental acotado se cumple. La mención de 1582061 se presenta solo como registro separado que repite los campos, no como rectificación demostrada de 1343468. El borrador del caso no tiene PR: `ec-inv-pr --dry-run` rechazó la entrega al detectar cambios ajenos de otras pistas en `INDICE.md`; no se alteraron ni publicaron esas diferencias y no se ejecutó el helper en modo de escritura. Próxima acción: reintentar la misma entrega por `ec-inv-pr` cuando la bitácora esté libre de cambios ajenos. Rodrigo decide el merge del caso. Retomar la investigación solo si aparece una fuente oficial que identifique qué presentación rectifica 1582061 o explique cómo se compuso el total global; no reabrir por repetición cosmética ni inferir causa o saldo real.
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. En la declaración InfoProbidad 1343468 (28-03-2025), el total de pasivos es $2.357.990.116 y las dos partidas suman $235.799.016: es la misma cifra con un «1» repetido. Las declaraciones de 09-2024, 09-2025 y 03-2026 cuadran exactamente con su detalle. La rectificación 1582061 repite el contenido de marzo, y su página no indica que se refiera a los pasivos. Un total con un dígito de más cuyo detalle suma la cifra menor es un probable error de registro, no un caso (pregunta 2 del criterio editorial). Además, la categoría propuesta no existe en `main`.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/139
