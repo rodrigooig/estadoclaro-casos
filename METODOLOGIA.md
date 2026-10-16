@@ -160,6 +160,61 @@ cruce acredita una declaración sin sucesora, no la última venta: la sociedad t
 de compra continuas desde 2020 hasta septiembre de 2026, sin ninguna concentración en torno a
 las fechas de sus declaraciones. Quedan 61 casos.
 
+## Corrección del 7 de octubre de 2026
+
+Estado Claro acredita cada declaración desde el día en que se presenta hasta la siguiente,
+o por un año si no le sigue otra, y llama a ese tiempo «durante el cargo». No sabe si la
+persona seguía en el puesto: una autoridad que pierde una elección deja de serlo el día del
+cambio de mando —el 28 de junio de 2021 y el 6 de diciembre de 2024 en los municipios—, pero
+su última declaración sigue en vigor, y una rectificación que el órgano fiscalizador le pida
+después sobre esa declaración la extiende otra vez. El 7 de octubre, preparando una
+capacitación sobre el caso de Cabildo, se contrastó cada caso con las fechas reales de cada
+cargo —actas de instalación de los concejos, sentencias de proclamación de los tribunales
+electorales, prensa— y con las declaraciones que hoy publica InfoProbidad.
+
+**Dos casos de autocontratación se retiraron.** Alberto Patricio Aliaga Díaz fue alcalde de
+Cabildo entre 2012 y el 27 de junio de 2021 —el cargo de «Jefe de Servicio» de su declaración
+de 2017 es el del propio alcalde, no otro— y volvió a serlo el 6 de diciembre de 2024. Las 26
+órdenes de su ferretería a la municipalidad, de abril de 2022 a junio de 2024, son todas del
+período de su sucesor; el cruce las atribuía a su declaración de 2017 porque la siguiente es de
+julio de 2024. Dino Lotito Flores dejó la alcaldía de Santo Domingo el 6 de diciembre de 2024
+y las dos órdenes de su ferretería son de marzo de 2025: el propio caso ya lo decía, pero
+quedaba abierta la posibilidad de ventas durante su gestión, y desde 2020 —donde empiezan los
+datos— la sociedad tiene solo tres órdenes, todas de 2025. Ninguno de los dos es ya un caso de
+autocontratación.
+
+**Tres casos de negocios con el Estado se corrigieron en sus cifras**, porque la mayor parte de
+lo que se les atribuía ocurrió después de que la persona dejara el concejo: Omar Luz Hidalgo
+(Copiapó), de UF 36.798 a UF 21.661, porque una orden de Fonasa de 450 millones de pesos es de
+ocho días después del cambio de mando de 2021; Carlos Castillo Cortés (Monte Patria), que ya no
+integra el concejo 2024-2028, de 2.770 a 203 millones de pesos durante su período; y Jorge
+Vaccaro Collao (Chillán), de UF 9.869 a UF 1.333, porque terminó su período en junio de 2021 y
+sus declaraciones posteriores son rectificaciones de la de concejal.
+
+**Una marca de las actividades declaradas se leyó al revés, y en ocho casos.** El formulario
+de InfoProbidad separa las «Actividades en que haya participado en los últimos 12 meses» de las
+«Actividades que realiza o en que participa a la fecha de la declaración», y Estado Claro guarda
+esa diferencia en una marca que vale «no» para las segundas. Ocho casos leyeron ese «no» como
+una actividad terminada. En el de la jueza Ingrid Hernández Román, que registra sus actividades
+remuneradas en Cencosud Retail y EFE entre las que realiza a la fecha de la declaración, la
+lectura se corrigió en el texto. En los otros siete —Morales Ceroni, Pérez Uribe, Torres Torres,
+Arancibia Salazar y Sanhueza Cruzat en puerta giratoria; Hartwig en negocios con el Estado;
+Sepúlveda Sepúlveda en autocontratación— una nota al comienzo advierte el error, y la
+corrección de su texto queda pendiente. Que una actividad figure en esa sección no establece
+por sí solo que se ejerza en paralelo al cargo: es frecuente que quien asume declare ahí la
+profesión que traía.
+
+**Otros casos quedan en revisión.** La misma revisión encontró, sin verificarlos todavía con la
+misma profundidad, casos cuyas cifras podrían cambiar por la misma causa: el de Manuel Godoy
+Velásquez (Queilén) cuenta órdenes desde su declaración de candidato, meses antes de asumir;
+el de María Verónica Chahin Sarah (INDISA) cuenta órdenes posteriores a su última declaración;
+el de Danisa Astudillo Peiretti suma órdenes de años en que no ejercía cargo público, y dos de
+las declaraciones que cita no se pueden consultar hoy en InfoProbidad. El de Esmirna Vidal
+Moraga cruza su RUT personal, no el de una sociedad. Varios más describen en presente un cargo
+que la persona ya no tiene, o llaman «vigente» a una declaración que solo es la última
+disponible. La revisión de González Barrientos (redes societarias) no concluyó. Quedan 59
+casos.
+
 ## Qué reglas siguen los casos publicados
 
 Las mismas que ya sigue el agente de Estado Claro en producción:
