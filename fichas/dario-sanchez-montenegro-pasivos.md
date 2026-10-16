@@ -146,3 +146,11 @@ No se afirma que se haya localizado o descartado una explicación legítima comp
 [15] https://www.conservadorarica.cl/solicitudes/indices/indices.php?libro=Hipoteca_Propiedad
     > "Buscar por Nombre"
     > "Índices Hipoteca Propiedad"
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Se reabrieron en InfoProbidad las declaraciones 846768, 926505, 969843 y 1144876. El crédito hipotecario con Banco de Chile figura en $81.457.863 (2022), $88.253.566 (14-03-2023) y $88.520.142.777 (18-03-2024). Las primeras ocho cifras del valor de 2024 continúan la serie anterior, y el mismo formulario declara un inmueble con avalúo de $27.740.685 y un vehículo con avalúo de $15.234.360. La serie es compatible con un error de ingreso del declarante. Sin otra pregunta ligada a la función, no cumple la pregunta 2 del criterio editorial.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/104
