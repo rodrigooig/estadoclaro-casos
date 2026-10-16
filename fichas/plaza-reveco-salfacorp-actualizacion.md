@@ -147,3 +147,13 @@ Sin revisor humano independiente en esta corrida. Sin borrador de caso ni PR a `
 [18] https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=bd1qUWHYOn+IwfnXpPJgXg%3D%3D
 [21] https://www.todolicitaciones.cl/licitacion/638-18-O125/const-macro-urbanizacion-puh-punta-arenas
 [24] https://salfacorp.com/compania/reconocimientos
+
+## Decisión editorial (2026-10-16): abierta
+
+Descartada. Las cuatro órdenes de compra y su suma (CLP 34.277.418.870) coinciden con Mercado Público, pero la corrección empeora el caso. El 76% del nuevo total es la OC 638-216-SE25 (16-12-2025), anterior a la primera declaración que informa la tenencia (5109772, 10-03-2026), y la regla de ventana vigente no la cuenta. «Precede la asunción» también es engañoso: la declaración 5099047 ya lo registraba como abogado integrante con asunción el 01-03-2025. La declaración lista nemotécnicos bursátiles comprados el mismo día, y la CMF asigna «SALFACORP» a SalfaCorp S.A. (RUT 96.885.880-7): el RUT 93.659.000-4 declarado es probablemente un error de registro, así que no hay una pregunta pública que justifique ampliar la cifra. El borrador además eliminaba la explicación legítima e incluía metadatos internos.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+**Seguimiento:** Revisar el caso publicado plaza-reveco-salfacorp por el mismo motivo. Si «SALFACORP» es la acción bursátil SalfaCorp S.A. (RUT 96.885.880-7) y el RUT 93.659.000-4 de Constructora Salfa S.A. es un error de registro del declarante, el cruce con las órdenes de compra no se sostiene. En ese caso corresponde una corrección o un retiro, redactado como probable error de registro. Verificar con la CMF y con declaraciones de otros declarantes que tengan SALFACORP.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/102
