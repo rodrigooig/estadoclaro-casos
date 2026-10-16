@@ -192,3 +192,11 @@ La memoria municipal de la Pasarela Lo Curro dice que equipos técnicos iniciaro
 [40] https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf — Municipalidad de Vitacura, Personal Municipal Honorarios febrero 2021; fila de Allard, prestación 01-01-2020 a 31-12-2020, pago de boleta diciembre 2020.
 [41] https://bucket.vitacura.cl/transparencia/pdf/regimen/2023/3.-personal_municipal_honorarios_mayo_2023.pdf — Municipalidad de Vitacura, nómina de honorarios mayo 2023, consultada directamente; búsqueda exacta de nombre completo sin coincidencia.
 [42] https://vitacura.cl/app/uploads/2024/05/Memoria_trabajo_Pas_Lo_Curro.pdf — Municipalidad de Vitacura, memoria de trabajo Pasarela Lo Curro; análisis municipal del sector iniciado en 2020.
+
+## Decisión editorial (2026-10-16): lista para verificacion
+
+Devuelto. La declaración 912542 y la OC 2659-252-SE23 coinciden con InfoProbidad y Mercado Público: RUT societario 76.598.791-1, 20% y controlador, trato directo por 995 UTM. Pero la 912542 es una rectificación pedida por el órgano fiscalizador sobre el período asumido el 01-01-2021 (la 703246 ya declaraba la sociedad), y solo esa rectificación deja la orden «durante» el cargo. No hay actualizaciones de marzo de 2022 ni de 2023, el artefacto lo marca presunto cesado y la nómina de honorarios de Vitacura de mayo de 2023 no lo incluye. Falta: (1) acreditar su situación al 02-05-2023 en las nóminas de honorarios, planta y contrata de 2021 a abril de 2023; (2) incorporar su función a honorarios de 2020, «anteproyectos de movilidad sobre el cauce del río Mapocho», que es la pregunta de fondo; (3) intentar obtener el Dec. Alc. 10/66 y la Res. 29 citados en la orden, o dejarlos como límite explícito; (4) elegir con eso la categoría (autocontratación o puerta giratoria); (5) corregir la forma: titular sin presente implícito, «emitida» en vez de «emitió y aceptó», sin metadatos internos y con una sección «Fuentes».
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/108
