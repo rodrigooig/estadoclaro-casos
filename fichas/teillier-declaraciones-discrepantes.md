@@ -72,3 +72,11 @@ Reabrir ante historial oficial de versiones, anotación de expediente, rectifica
     > "| Organismo | Partido Comunista De Chile |"
     > "| Cargo o función | Miembro Órgano Ejecutivo |"
     > "Declaración completa de GUILLERMO LEÓN TEILLIER DEL VALLE"
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Se reabrieron en InfoProbidad las declaraciones 669568, 669760, 710408, 855824 y 1048633. Las dos del 28-03-2021 difieren solo en el cargo y en el APV de Confuturo: $184.722.186 frente a $184.722.186.286, la misma cifra con tres dígitos más. Los valores de 2022 ($219.087.342) y 2023 ($244.483.837) sitúan el APV en el orden de $185 millones. Es un probable error de carga, sin pregunta ligada al ejercicio del cargo ni a un monto material (pregunta 2 del criterio editorial). Que la rectificación de abril de 2021 lo mantuviera es un asunto de calidad del registro, no un caso.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/123
