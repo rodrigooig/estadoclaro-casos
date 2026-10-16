@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "run_id": "20261016T004503Z",
+  "lead_id": "eugenio-tuma-campana-autoproveedor",
+  "state": "abierta",
+  "product": "ficha",
+  "author_id": "estadoclaro-cron-190483942d6b",
+  "question": "¿El libro definitivo de Servel registra un gasto de CLP 1.500.000 de la campaña de Eugenio Tuma Zedan a la sociedad cuyo RUT coincide con la declarada por él como participación del 92,5% y control, y cuál es el resultado de auditoría?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "fichas/eugenio-tuma-campana-autoproveedor.md",
+    "consultas/eugenio-tuma-campana-autoproveedor-20261016-1.sql"
+  ],
+  "material_progress": "Cotejo de una línea del reporte definitivo de Servel, incluyendo gasto pagado y rechazado, por RUT con la participación de control declarada por Tuma 26 días antes; pendiente esclarecer fundamento del rechazo y continuidad de la participación."
+}
