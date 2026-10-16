@@ -39,3 +39,11 @@
 ## Decisión y retorno
 
 El núcleo satisface el criterio documental de declaraciones: dos documentos primarios comparables por identidad, cargo y fecha difieren materialmente sobre un campo de pasivo; la historia queda limitada a lo publicado. La intervención personal y el saldo bancario no son afirmaciones del texto y no se requieren para esta pregunta. Entregar como PR borrador a `main`; Rodrigo decide merge/publicación. Reabrir la incertidumbre solo ante historial oficial de versiones, rectificación o documento público que explique la relación entre 820453 y 835335. No repetir búsquedas generales.
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Las cifras coinciden con InfoProbidad: la 820453 informa un hipotecario de $10.021.845.366 y la 835335 no informa pasivos. Pero 10.021.845.366 / 100 = 100.218.453,66, en línea con los hipotecarios de $103,5 a $108 millones que el mismo declarante informa desde junio de 2022 y con un inmueble de avalúo de $74 millones. La versión periódica del mismo día tampoco incluye ese inmueble, lo que apunta a dos formularios preparados por separado más que a un pasivo omitido. No queda una pregunta de interés público ligada a la función ni a un monto material (pregunta 2 del criterio editorial).
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/125
