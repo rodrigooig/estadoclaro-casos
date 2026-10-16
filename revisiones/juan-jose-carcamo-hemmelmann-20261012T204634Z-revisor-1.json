@@ -1,0 +1,51 @@
+{
+  "run_id": "20261012T204634Z",
+  "lead_id": "juan-jose-carcamo-hemmelmann-pasivos",
+  "reviewer_id": "deleg_83ae09cb/task-0",
+  "draft_sha256": "032fb4ea4e6c6c7ec3916c891638eb1b71e2a3b84905e1c610277c5d65d41367",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1343468",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1582061",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1275606",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1546788",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1628230",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1842943"
+  ],
+  "queries_rerun": [
+    "consultas/juan-jose-carcamo-hemmelmann-review-evidence-20261012.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Reabrí InfoProbidad 1343468, expandí la declaración completa y comparé con consulta propia al oro.",
+      "result": "Nombre completo JUAN JOSÉ CÁRCAMO HEMMELMANN; fecha 28-03-2025; cargo Jefe Superior De Servicio, Instituto De Prevision Social; tipo Actualización Periódica (Marzo). El portal publica monto global de pasivos $2.357.990.116 pesos. Las dos partidas, crédito hipotecario $191.477.178 y crédito de consumo $44.321.838, suman CLP 235.799.016 en el oro; diferencia global-detalle CLP 2.122.191.100."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Reabrí InfoProbidad 1582061, expandí la declaración completa y comparé con consulta propia al oro.",
+      "result": "Nombre, cargo, organización, total global de $2.357.990.116 pesos y partidas hipotecaria $191.477.178 y consumo $44.321.838 vuelven a aparecer; fecha 01-12-2025; tipo Rectificación A Requerimiento De Órgano Fiscalizador. El oro devuelve 2 líneas por declaración, suma CLP 235.799.016 y diferencia CLP 2.122.191.100. La página no identifica en los campos examinados cuál presentación rectifica ni explica la diferencia; no inferí que rectifique la de marzo."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Reabrí las declaraciones 1275606, 1546788 y 1628230 completas y las consulté como snapshots separados en el oro.",
+      "result": "12-09-2024: global $249.444.257; dos partidas $197.305.819 y $52.138.438, suma CLP 249.444.257. 29-09-2025: global $205.970.150; dos partidas $184.952.509 y $21.017.641, suma CLP 205.970.150. 11-03-2026: global $172.982.891; una partida hipotecaria por ese mismo monto. Las fechas, cargo y nombre coinciden; no sumé declaraciones entre sí."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Reabrí InfoProbidad 1842943 completa y contrasté sus nueve partidas con el detalle agregado por declaración en el oro.",
+      "result": "17-09-2026; nombre completo y cargo Jefe Superior De Servicio del Instituto De Prevision Social; tipo Actualizacion Periodica (Septiembre). El total global publicado es $163.150.917 pesos. Nueve partidas suman CLP 162.008.524 en el oro; diferencia CLP 1.142.393, por debajo de la diferencia en 1343468/1582061."
+    },
+    {
+      "claim_id": "c1-c4",
+      "action": "Ejecuté consultas independientes con ec-gold-sql contra el artefacto read-only; verifiqué metadata y estructura de la consulta.",
+      "result": "meta.build_date = 2026-10-09T16:06:27+00:00. La SQL retorna exactamente seis filas para el nombre completo; agrupa liability por declaration_id antes de unir panel; ambos registros clave tienen 2 líneas y panel coincide con detalle sumado. También comprobé las seis fechas/tipos/posiciones y discrepancias por snapshot. No hay suma de snapshots ni multiplicación de filas."
+    }
+  ],
+  "remaining_questions": [
+    "¿A cuál presentación corresponde la rectificación de 01-12-2025? InfoProbidad no lo aclara en la página revisada.",
+    "¿Cómo se compuso el monto global de pasivos de $2.357.990.116 en 1343468 y 1582061? Las páginas revisadas no explican la diferencia; el borrador la presenta como pregunta, no como deuda efectiva o falsedad."
+  ]
+}

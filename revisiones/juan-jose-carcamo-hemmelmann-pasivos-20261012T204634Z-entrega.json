@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "run_id": "20261012T204634Z",
+  "lead_id": "juan-jose-carcamo-hemmelmann-pasivos",
+  "state": "borrador listo",
+  "product": "caso",
+  "author_id": "openai-codex/gpt-6-luna",
+  "question": "¿Qué explica el total global de pasivos publicado en InfoProbidad 1343468 y repetido en el registro 1582061, y a qué presentación se refiere esta rectificación?",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "032fb4ea4e6c6c7ec3916c891638eb1b71e2a3b84905e1c610277c5d65d41367",
+  "destination": "casos/discrepancias_declarativas/juan-jose-carcamo-hemmelmann-pasivos.md",
+  "reviews": [
+    "revisiones/juan-jose-carcamo-hemmelmann-20261012T204634Z-revisor-1.json",
+    "revisiones/juan-jose-carcamo-hemmelmann-20261012T204634Z-revisor-2.json"
+  ],
+  "files": [
+    "COLA.md",
+    "INDICE.md",
+    "fichas/juan-jose-carcamo-hemmelmann-pasivos.md",
+    "borradores/juan-jose-carcamo-hemmelmann-pasivos.md",
+    "consultas/juan-jose-carcamo-hemmelmann-pasivos-20261012-1.sql",
+    "consultas/juan-jose-carcamo-hemmelmann-pasivos-20261012-2.sql",
+    "consultas/juan-jose-carcamo-hemmelmann-pasivos-20261012-3.sql",
+    "consultas/juan-jose-carcamo-hemmelmann-review-evidence-20261012.sql",
+    "consultas/juan-jose-carcamo-hemmelmann-review-adversarial-20261012.sql",
+    "revisiones/juan-jose-carcamo-hemmelmann-20261012T204634Z-revisor-1.json",
+    "revisiones/juan-jose-carcamo-hemmelmann-20261012T204634Z-revisor-2.json"
+  ],
+  "material_progress": "Nueva discrepancia primaria y repetida documentada en dos registros; seis primarias, oro al corte 2026-10-09, dos SQL independientes y dos revisiones independientes del mismo SHA. La causa y relación de la rectificación siguen sin determinarse."
+}
