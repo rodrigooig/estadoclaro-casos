@@ -48,3 +48,10 @@ La doble revisión final ya está completa sobre el mismo SHA; preparar el PR bo
 
 Se reabrieron InfoProbidad 1852043 y 1852198 y se repitieron las consultas 1–3 con `ec-gold-sql` contra el oro sincronizado con `meta.build_date=2026-10-09T16:06:27Z` (salida del pre-run). Las filas de ambos inmuebles conservan los mismos identificadores, fecha de adquisición y avalúos; la consulta 3 devuelve nuevamente dos filas (una por declaración), diferencia CLP 27.382.000.000 y razón 1.000,6718628769434. No hay rectificación, declaración posterior ni explicación nueva en estas fuentes. No cambia el borrador ni el SHA aprobado; PR #118 se observó abierto y borrador contra `main`. Sin avance probatorio. Retomar solo ante historial oficial de versiones, rectificación o fuente pública nueva que explique la relación documental.
 
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Se reabrieron en InfoProbidad las declaraciones 1852043 y 1852198, ambas del 22-09-2026. El inmueble de Chillán Viejo figura con avalúo de $27.409.390.988 en una y de $27.390.988 en la otra, y todos los demás campos y bienes de ambas declaraciones son idénticos. La cifra mayor es la menor con tres dígitos intercalados, y la otra versión del mismo día trae el valor plausible. Es un probable error de carga sin otra pregunta de interés público (pregunta 2 del criterio editorial). Además, la categoría propuesta no existe en `main`.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/118
