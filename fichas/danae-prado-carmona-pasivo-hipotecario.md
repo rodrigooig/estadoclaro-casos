@@ -66,3 +66,11 @@ La relevancia pública posible es la integridad de una declaración de pasivos d
     > "Monto adeudado en pesos | $ 231.188.715"
 [31] https://coresantiago.cl/consejeros/danae-prado-carmona
     > "Soy Consejera Regional Metropolitana y represento a las comunas de la Circunscripción Santiago V: La Florida, Macul, San Joaquín, La Granja y Peñalolén."
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Se reabrieron en InfoProbidad las declaraciones 1191158, 1323797, 1398572, 1722006, 1729357 y 1745780. El crédito hipotecario con Banco Santander figura en $217.781.527 (2024 y febrero de 2025) y en $231.188.715 (30-03-2025). Las dos rectificaciones del 30-03-2026 repiten los campos de la declaración de 2025, incluidos la renta y el inmueble, así que no describen la deuda del día anterior. La actualización del 31-03-2026 consigna $39.668.996.400 frente a una renta bruta mensual de $2.179.139 y un único inmueble al 50% con avalúo de $103.141.568. Su monto global ($39.674.996.400) además no coincide con su única obligación. La serie es compatible con un error de ingreso de la declarante. Sin otra pregunta ligada a la función, no cumple la pregunta 2 del criterio editorial.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/99
