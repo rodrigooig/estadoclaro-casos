@@ -1,0 +1,52 @@
+{
+  "run_id": "20261012T204634Z",
+  "lead_id": "juan-jose-carcamo-hemmelmann-pasivos",
+  "reviewer_id": "hermes-session-20261012_205709_0cd51c",
+  "draft_sha256": "032fb4ea4e6c6c7ec3916c891638eb1b71e2a3b84905e1c610277c5d65d41367",
+  "verdict": "approve",
+  "blocking_issues": [],
+  "verified_claims": ["c1", "c2", "c3", "c4"],
+  "sources_opened": [
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1343468",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1582061",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1275606",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1546788",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1628230",
+    "https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1842943"
+  ],
+  "queries_rerun": [
+    "consultas/juan-jose-carcamo-hemmelmann-review-adversarial-20261012.sql"
+  ],
+  "checks": [
+    {
+      "claim_id": "c1",
+      "action": "Abrí y desplegué las declaraciones primarias 1343468 y 1582061; contrasté con consulta independiente al oro.",
+      "result": "Ambas declaran exactamente a JUAN JOSÉ CÁRCAMO HEMMELMANN, en Instituto de Previsión Social como Jefe Superior de Servicio. 1343468 fecha 28-03-2025 y es Actualización Periódica (Marzo); 1582061 fecha 01-12-2025 y es Rectificación A Requerimiento De Órgano Fiscalizador. La coincidencia de nombre completo es fuerte, pero no la traté como prueba aislada: también coinciden organismo, función y la secuencia de declaraciones que exhibe el portal."
+    },
+    {
+      "claim_id": "c2",
+      "action": "Ejecuté ec-gold-sql en solo lectura con consulta nueva que agrega líneas liability por declaration_id y compara por fuente, sin combinar snapshots.",
+      "result": "Para 1343468 y 1582061: total_global_clp 2,357,990,116; 2 partidas (hipotecario 191,477,178 y consumo 44,321,838); suma 235,799,016; diferencia 2,122,191,100 en cada registro. Los valores son CLP en los campos publicados. La consulta conserva los documentos como filas separadas."
+    },
+    {
+      "claim_id": "c3",
+      "action": "Abrí las declaraciones posteriores 1546788, 1628230 y 1842943, y verifiqué las seis filas en la consulta SQL independiente.",
+      "result": "29-09-2025: global/detalle 205,970,150 (2 partidas; diferencia 0). 11-03-2026: 172,982,891 (1; diferencia 0). 17-09-2026: global 163,150,917 frente a 9 partidas por 162,008,524; diferencia 1,142,393. Son snapshots separados, no prueba de saldo o continuidad. La diferencia menor de septiembre de 2026 está correctamente cuantificada."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Leí el texto completo y contrasté la página de rectificación con los registros anteriores y posteriores, buscando falsar atribución o causalidad.",
+      "result": "La primaria 1582061 identifica el tipo como rectificación requerida por órgano fiscalizador, pero no nombra en su contenido a cuál declaración corrige ni explica el total; repetir cifras no establece vínculo con 1343468. Es legítimo que el global comprenda una obligación no mostrada, que haya diferencia de alcance/registro o un error de transcripción/publicación; no hay evidencia para escoger causa. Las declaraciones posteriores normales debilitan cualquier lectura de persistencia, pero no eliminan la discrepancia publicada en 1343468 ni la repetición separada en 1582061. No atribuyo acción individual, deuda efectiva, saldo, falsedad ni causa."
+    },
+    {
+      "claim_id": "c4",
+      "action": "Prueba adversarial de la formulación y la afirmación más débil.",
+      "result": "La afirmación más débil es la relevancia narrativa del registro de rectificación: el tipo de 1582061 no permite vincularla a 1343468. El borrador declara expresamente que no afirma sustitución y propone identificar qué presentación rectifica, por lo que no convierte ese vacío en hecho. Si se elimina la referencia a 1582061, todavía queda una historia documental verificable: en 1343468 el monto global excede en 2,122,191,100 CLP la suma de sus dos pasivos visibles; tiene interés público acotado como inconsistencia en una declaración de un jefe superior de servicio, sin afirmar su causa o saldo real."
+    }
+  ],
+  "remaining_questions": [
+    "¿A qué presentación concreta se refiere la rectificación 1582061 y qué alcance documental tenía?",
+    "¿Cómo se compuso el total global de pasivos de 2,357,990,116 CLP en 1343468 y 1582061? Las fuentes públicas abiertas no permiten decidir entre obligación omitida en el detalle, diferencia de alcance/registro u otra explicación legítima.",
+    "La diferencia menor de septiembre de 2026 también queda sin explicación; no altera materialmente el hallazgo separado de marzo de 2025."
+  ]
+}
