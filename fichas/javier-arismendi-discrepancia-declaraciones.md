@@ -36,3 +36,11 @@ La rectificación voluntaria podría ser una explicación legítima para que los
 ## Decisión y retorno
 
 La evidencia sostiene un borrador documental factual, no acusatorio y acotado; no requiere afirmar cuál declaración es correcta. Próxima acción: ejecutar `ec-inv-pr --dry-run` para el paquete y no alterar cambios ajenos ya presentes en `COLA.md`/`INDICE.md`. Si el helper rechaza esos archivos compartidos, preservar el borrador y revisiones y reintentar la entrega cuando la bitácora esté libre, sin repetir la investigación. Reabrir investigación solo si aparece historial oficial o explicación pública del alcance de la rectificación, o unidad oficial de esos valores. Rodrigo decide el merge/publicación de cualquier PR a `main`.
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Las declaraciones InfoProbidad 1893910 (actualización) y 1818514 (rectificación voluntaria), ambas del 30-09-2026, registran $100.000.000 y $1.000.000 como valor de las mismas dos participaciones. La rectificación también cambia los pasivos de cifras redondas a cifras exactas, lo que encaja con una corrección del mismo trámite. En declaraciones anteriores, el valor de esas participaciones ya osciló entre 100.000.000, 25.000.000, 0 y 1.000.000, y en el artefacto estas sociedades no tienen órdenes de compra con el Estado. Dos versiones del mismo día que difieren en un campo, sin monto material ni nexo con la función, no son un caso (pregunta 2 del criterio editorial).
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/142
