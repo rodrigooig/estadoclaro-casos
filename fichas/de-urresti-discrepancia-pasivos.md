@@ -36,3 +36,11 @@ La explicación legítima más fuerte es que las declaraciones responden a funci
 ## Próxima acción
 
 Entrega por `ec-inv-pr` como `borrador listo`; verificar por separado el PR integrado de bitácora y el PR de caso, que debe permanecer borrador abierto contra `main`. Rodrigo decide el merge. Retomar la pregunta pendiente solo ante historial, rectificación o fuente pública nueva.
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Las cifras coinciden con InfoProbidad: la declaración ante el Senado (1168779) informa un total de $229.825.327 y la del Partido Socialista (1172389), $2.299.825.327. Ambas traen las mismas tres líneas hipotecarias, que suman $229.825.327. El total mayor tiene un 9 de más, y la misma declaración trae otra diferencia de tecleo en un avalúo ($91.992.756 frente a $91.922.756). Los pares de 2022, 2023 y 2025 concuerdan. Es compatible con un error de transcripción, sin otra pregunta de interés público (pregunta 2 del criterio editorial). Además, la categoría propuesta no existe en `main`.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/136
