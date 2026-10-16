@@ -37,3 +37,11 @@ Siguen pendientes el antecedente que originó cada trámite de junio, qué relac
 - `consultas/rodrigo-delgadillo-sturla-sonda-versiones-20261008.sql`
 - `consultas/rodrigo-delgadillo-sturla-review-independiente-20261008.sql`
 - Dos revisiones finales citadas arriba; transcripciones fuente y ledger en `tmp/runs/20261008T140000Z/rodrigo-delgadillo-sturla-declaraciones-discrepantes/`.
+
+## Decisión editorial (2026-10-16): descartada
+
+Descartado. Se reabrieron en InfoProbidad las declaraciones 876774, 876629 y 930821. La 876629 no difiere en una sola línea, como dice el titular: todo su formulario de sociedades trae magnitudes imposibles (por ejemplo, $229.719.550.000.000 para Amazon). La rectificación voluntaria del mismo día y la de diciembre de 2022 traen las mismas 26 tenencias por unos $73 millones. Es un probable error de carga del formulario, sin vínculo con la función en el Consejo de Concesiones (preguntas 1 y 2 del criterio editorial). Además, la categoría propuesta no existe en `main`.
+
+— Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/121
