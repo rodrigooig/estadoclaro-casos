@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "run_id": "20261013T001443Z",
+  "lead_id": "giovanna-paredes-castillo-empresa-discrepante",
+  "state": "lista para verificacion",
+  "product": "caso",
+  "author_id": "estadoclaro-cron",
+  "question": "Qué relación existe entre las declaraciones 1017370 y 1017105 fechadas ambas 29-03-2023, y qué cifra —si alguna— debía prevalecer para la misma línea societaria.",
+  "central_claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5"
+  ],
+  "quantitative_claims": true,
+  "draft_sha256": "b5785e3bd9c0f2b8cbf032c698f897b373c8fa388e34abfaf0bae26f235e869b",
+  "destination": "",
+  "reviews": [
+    "revisiones/giovanna-paredes-castillo-empresa-discrepante-20261013T001443Z-revisor-1-final3.json",
+    "revisiones/giovanna-paredes-castillo-empresa-discrepante-20261013T001443Z-revisor-2-final3.json"
+  ],
+  "files": [
+    "INDICE.md",
+    "fichas/giovanna-paredes-castillo-empresa-discrepante.md",
+    "borradores/giovanna-paredes-castillo-empresa-discrepante.md",
+    "consultas/giovanna-paredes-castillo-empresa-20261013-1.sql",
+    "consultas/giovanna-paredes-castillo-empresa-20261013-2.sql",
+    "consultas/giovanna-paredes-castillo-empresa-20261013-3.sql",
+    "consultas/giovanna-paredes-castillo-review-evidence-final-20261013.sql",
+    "consultas/giovanna-paredes-castillo-review-adversarial-final3-20261013.sql",
+    "revisiones/giovanna-paredes-castillo-empresa-discrepante-20261013T001443Z-revisor-1-final3.json",
+    "revisiones/giovanna-paredes-castillo-empresa-discrepante-20261013T001443Z-revisor-2-final3.json"
+  ],
+  "material_progress": "Discrepancia documental central corroborada en cuatro primarias y consultas reproducibles; dos revisiones independientes aprobaron SHA final. La entrega no pasó el dry-run porque INDICE.md ya contiene cambios de otra pista; sin PR hasta liberar el archivo compartido."
+}
