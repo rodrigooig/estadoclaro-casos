@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "run_id": "20261017T133700Z",
+  "lead_id": "arnaldo-recabarren-essbio-trato-directo-2026",
+  "state": "abierta",
+  "product": "ficha",
+  "author_id": "190483942d6b",
+  "question": "¿Los tratos directos municipales a ESSBIO de septiembre-octubre de 2026 se conectan de manera documentable con las competencias de la DOH o con una intervención del Director Nacional, más allá de servicios sanitarios ordinarios?",
+  "central_claims": [],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "fichas/arnaldo-recabarren-essbio-trato-directo-2026.md",
+    "consultas/arnaldo-recabarren-essbio-trato-directo-2026-1.sql"
+  ],
+  "material_progress": "Se verificó la coincidencia exacta por RUT entre una acción no controladora declarada (CLP 7.119) y cinco órdenes municipales únicas de trato directo; las primarias muestran compras de agua/servicios sanitarios y ubican una ruta acotada para revisar expedientes sin atribuir intervención personal."
+}
