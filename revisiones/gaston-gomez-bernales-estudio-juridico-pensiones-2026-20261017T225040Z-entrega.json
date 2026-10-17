@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "run_id": "20261017T225040Z",
+  "lead_id": "gaston-gomez-bernales-estudio-juridico-pensiones-2026",
+  "state": "abierta",
+  "product": "ficha",
+  "author_id": "estadoclaro-investigacion",
+  "question": "¿Qué actos y antecedentes respaldan tres tratos directos recientes de la Superintendencia de Pensiones a un estudio jurídico cuyo controlador declarado era consejero vigente del CNTV, y quién prestó los servicios?",
+  "central_claims": [
+    "La declaración InfoProbidad de 14-04-2026 registra que Gómez Bernales poseía 55% y calidad de controlador de GÓMEZ & GARCÍA LIMITADA.",
+    "Mercado Público registra tres órdenes por trato directo a la sociedad por UF 485, UF 650 y UF 960, total nominal UF 2.095, entre diciembre de 2025 y mayo de 2026.",
+    "Las descripciones de las órdenes corresponden a servicios jurídicos; las fichas indican como causal alto grado de especialización.",
+    "No hay evidencia en las fuentes abiertas revisadas de intervención personal ni de nexo funcional entre el cargo CNTV y las compras de la Superintendencia de Pensiones."
+  ],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "fichas/gaston-gomez-bernales-estudio-juridico-pensiones-2026.md",
+    "consultas/gaston-gomez-bernales-estudio-juridico-pensiones-2026-1.sql"
+  ],
+  "material_progress": "Se confirmó en InfoProbidad la participación controladora declarada en la sociedad proveedora y se contrastaron tres órdenes recientes con sus fichas primarias, objetos, montos nominales y causal; quedó delimitada como brecha la falta de actos/anexos y de identificación del trabajo individual."
+}
