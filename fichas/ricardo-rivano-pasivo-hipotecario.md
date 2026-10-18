@@ -3,7 +3,7 @@
 ## Reevaluación editorial vigente — 2026-10-07
 
 - **ID:** `ricardo-rivano-pasivo-hipotecario`
-- **Estado vigente:** correccion lista; doble revisión automática del mismo SHA final, sin vacíos centrales.
+- **Estado vigente:** lista para verificacion; seguimiento editorial del 2026-10-18 pendiente de revisión independiente y de localizar el aviso oficial.
 - **Producto:** corrección del caso existente, no un segundo caso.
 - **Alcance:** precisión de acreedor declarado frente a normalización del artefacto; mantiene el monto primario en CLP y no acredita saldo bancario.
 
@@ -102,5 +102,15 @@ Publicada. Se reabrieron en InfoProbidad las declaraciones 1651879, 1458933, 135
 — Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
 
 **Seguimiento:** Corrección pendiente del caso publicado rivano-aravena-amulen-serviu-maule. (1) Según un extracto del Diario Oficial citado en la ficha, que es fuente secundaria, la propiedad de Amulen SpA podría no ser «minoritaria» como dice el caso. Hay que conseguir el ejemplar oficial y verificar socios y porcentajes, sin afirmar parentesco. (2) La frase «el panel reporta pasivos en 0 UF» ya no calza con el artefacto: liabilities_uf es 4.029.165 y liabilities_adjusted_uf es 0. Hay que corregir esa descripción.
+
+## Seguimiento editorial — 2026-10-18
+
+**Resultado:** corrección factual preparada para verificación independiente; no proponer publicación todavía. La consulta reproducible `consultas/ricardo-rivano-pasivo-hipotecario-evidence.sql` devuelve una fila CLP de 160.528.863.763 para la declaración InfoProbidad 1651879, con acreedor literal «BANCO EDWARDS» y normalización «BANCO DE CHILE». La consulta `consultas/ricardo-rivano-pasivo-hipotecario-independent.sql` concilia detalle y totales, y registra `liabilities_uf=4.029.164,99997992` y `liabilities_adjusted_uf=0` en el oro con corte `2026-10-16T22:31:27+00:00`. El dato de 0 UF se refiere al pasivo ajustado; no al pasivo bruto ni al saldo bancario.
+
+La declaración primaria consigna «ACCION» y «Cantidad / Porcentaje: 28», sin especificar si 28 significa acciones nominales o porcentaje de capital. No se localizó el ejemplar oficial del aviso societario: el índice del Diario Oficial consultado para 05-02-2026 no presentó registros en la ruta probada; la transcripción secundaria existente no permite verificar por sí sola socios y porcentajes. Por tanto, retirar «minoritaria» como hecho y limitar el texto a «participación declarada», sin afirmar una proporción ni control individual.
+
+**Cambios propuestos al caso publicado:** (a) sustituir la frase de que el panel reporta pasivos en 0 UF por la distinción entre `liabilities_uf` (~4.029.165 UF) y `liabilities_adjusted_uf` (0 UF); (b) distinguir «BANCO EDWARDS» declarado de «BANCO DE CHILE» normalizado; (c) eliminar «minoritaria» y expresar que el campo de la declaración no aclara la proporción. La copia de trabajo está en `borradores/ricardo-rivano-pasivo-hipotecario-correccion.md`; falta verificación independiente de la forma y de que los pasajes propuestos se integren sin cambiar otros hechos.
+
+**Incertidumbre/retorno:** encontrar y abrir el PDF oficial del aviso 2765719 de 05-02-2026 para verificar socios y porcentajes; si no está disponible, mantener recortada la afirmación sobre «minoritaria». La evidencia del oro sí permite corregir el enunciado sobre pasivos aunque esa búsqueda societaria siga abierta.
 
 PR: https://github.com/rodrigooig/estadoclaro-casos/pull/112

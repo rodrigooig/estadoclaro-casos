@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "run_id": "20261018T111023Z",
+  "lead_id": "ricardo-rivano-pasivo-hipotecario",
+  "state": "lista para verificacion",
+  "product": "correccion",
+  "author_id": "Hermes Agent (cron 190483942d6b, profile estadoclaro)",
+  "question": "¿Qué correcciones factuales exige la diferencia entre pasivo declarado, pasivo UF bruto/ajustado del oro y la etiqueta de participación accionaria?",
+  "central_claims": [
+    "La declaración 1651879 consigna crédito hipotecario CLP 160.528.863.763 y acreedor literal BANCO EDWARDS; la normalización del oro es BANCO DE CHILE.",
+    "En el panel del oro liabilities_uf es aproximadamente 4.029.165 y liabilities_adjusted_uf es 0; 0 UF no describe el pasivo bruto.",
+    "La declaración consigna ACCION y cantidad/porcentaje 28 sin precisar en ese campo si es número de acciones o proporción del capital; no debe llamarse minoritaria sin otra prueba."
+  ],
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "fichas/ricardo-rivano-pasivo-hipotecario.md",
+    "consultas/ricardo-rivano-pasivo-hipotecario-evidence.sql",
+    "consultas/ricardo-rivano-pasivo-hipotecario-independent.sql",
+    "consultas/ricardo-rivano-pasivo-hipotecario-followup.sql",
+    "borradores/ricardo-rivano-pasivo-hipotecario-correccion.md"
+  ],
+  "material_progress": "La SQL reproducible confirma que el campo de pasivo ajustado en 0 UF coexiste con 4.029.165 UF brutas y permite acotar la corrección; la primaria de InfoProbidad deja explícita la ambigüedad de cantidad/porcentaje 28."
+}
