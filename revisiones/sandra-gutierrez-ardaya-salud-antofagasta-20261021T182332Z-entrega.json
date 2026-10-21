@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "run_id": "20261021T182332Z",
+  "lead_id": "sandra-gutierrez-ardaya-salud-antofagasta",
+  "state": "abierta",
+  "product": "ficha",
+  "author_id": "cron_190483942d6b",
+  "question": "¿La entrega señalada como pendiente ya está integrada en la bitácora y requiere algún cambio?",
+  "central_claims": [
+    "La entrega a la que apunta la selección ya está integrada como PR #163.",
+    "No se añadió nueva evidencia ni se modificó la ficha en esta corrida."
+  ],
+  "quantitative_claims": false,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "fichas/sandra-gutierrez-ardaya-salud-antofagasta.md",
+    "consultas/sandra-gutierrez-ardaya-salud-antofagasta-1.sql",
+    "consultas/sandra-gutierrez-ardaya-salud-antofagasta-2.sql"
+  ],
+  "material_progress": "Confirmada la integración previa; se evitó duplicar la fila local del índice y no se repitió la entrega."
+}
