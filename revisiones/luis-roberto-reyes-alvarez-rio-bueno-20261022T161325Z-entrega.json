@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261022T161325Z",
+  "lead_id": "luis-roberto-reyes-alvarez-rio-bueno",
+  "state": "abierta",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/luis-roberto-reyes-alvarez-rio-bueno.md"
+  ],
+  "origen": "a demanda"
+}
