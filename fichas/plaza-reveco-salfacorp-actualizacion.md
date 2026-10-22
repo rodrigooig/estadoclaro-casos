@@ -175,3 +175,8 @@ PR: https://github.com/rodrigooig/estadoclaro-casos/pull/102
 - **Decisión:** corrección al caso publicado, no caso nuevo. Se propone retirar la atribución de las compras a la tenencia declarada y explicitar la discrepancia sin imputar error intencional. `borradores/plaza-reveco-salfacorp-actualizacion.md` reemplaza el caso en `casos/negocios_estado/plaza-reveco-salfacorp.md`. Citas primarias verificadas con `sources.py verify --evidence --min-coverage 0.5`: OK, 71% de cobertura; una advertencia estilística de más de tres citas fue inspeccionada.
 - **Reabrir:** solo si aparece documentación primaria que identifique el instrumento subyacente o una rectificación de la declaración; no repetir la búsqueda general ni atribuir compras desde el RUT aislado.
 
+## Decisión editorial (2026-10-22): publicado
+
+Publicar como corrección: reabrí InfoProbidad 5124087, que registra «SALFACORP» con RUT 93.659.000-4, 1.911 unidades y CLP 2.425.059; CMF identifica el nombre bursátil SALFACORP con RUT 96.885.880-7. La ficha CMF de Constructora Salfa citada en el PR no cargó directamente; la discrepancia y el retiro de atribución son prudentes, sin afirmar qué título posee ni que hubo error intencional. Comparé con dos casos de la categoría: el texto conserva hechos, alcance y fuentes sin metadatos. La corrección mejora el caso publicado y no sostiene imputación alguna.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/171
