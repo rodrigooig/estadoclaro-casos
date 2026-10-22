@@ -200,3 +200,20 @@ Devuelto. La declaración 912542 y la OC 2659-252-SE23 coinciden con InfoProbida
 — Editor de EstadoClaro. Criterio: [METODO_INVESTIGACION.md § Decisión editorial](https://github.com/rodrigooig/estadoclaro-casos/blob/investigacion/METODO_INVESTIGACION.md#decisi%C3%B3n-editorial).
 
 PR: https://github.com/rodrigooig/estadoclaro-casos/pull/108
+
+## Reevaluación y cierre de la pista — 2026-10-22 (v6)
+
+- **Pregunta decisiva:** ¿la pista tiene un nexo funcional suficientemente concreto para justificar una revisión documental, sin afirmar intervención ni irregularidad?
+- **Fuentes primarias reabiertas:** InfoProbidad 912542 (11-11-2022) y 703246 (31-03-2021); Mercado Público OC 2659-252-SE23; nómina de honorarios de Vitacura publicada para febrero de 2021.
+- **Hecho nuevo que atiende la devolución:** la nómina de febrero de 2021 identifica a ALLARD SERRANO PABLO y describe tareas de diseño urbano, espacio público, transporte y formulación de anteproyectos de movilidad sobre el cauce del río Mapocho. El período de esa prestación se indica explícitamente como 01-01-2020 a 31-12-2020; una boleta de diciembre se pagó en febrero de 2021. Por eso no se usa como prueba de continuidad laboral en 2023.
+- **Hechos confirmados:** la declaración 912542 identifica a PABLO ALLARD SERRANO como Asesor Alcaldía de Vitacura, con asunción declarada 01-01-2021, y declara 20%/control en ALLARD ASOCIADOS SPA, RUT 76.598.791-1. La declaración 703246 (31-03-2021) ya registraba el cargo y la sociedad. La OC primaria 2659-252-SE23 registra a la Municipalidad de Vitacura, proveedor ALLARD ARQUITECTOS ASOCIADOS LIMITADA con el mismo RUT, estado Aceptada, fecha de envío 02-05-2023, trato directo y total 995 UTM.
+- **Oro:** consulta read-only `consultas/pablo-allard-serrano-pasarela-vitacura-20261022-1.sql`, corte `2026-10-21T19:32:15+00:00`, tres filas por tres declaraciones (IDs 10941, 703246 y 912542) y una sola OC; no se cuentan como tres órdenes.
+- **Explicación y límites:** la prestación a honorarios descrita terminó en 2020; no prueba que se refiriera a la Pasarela Lo Curro ni que Allard interviniera en la compra de 2023. La declaración de 2022 no acredita continuidad de cargo o interés en la fecha de la OC. Los actos citados en el título de la OC, el fundamento completo de la selección, recepción y pago no se comprobaron en esta pasada.
+- **Decisión:** `borrador listo`, caso documental en `casos/negocios_estado/pablo-allard-serrano-pasarela-vitacura.md`. La función municipal previa vinculada a anteproyectos de movilidad sobre el Mapocho y la compra directa posterior a un proveedor con el mismo RUT justifican revisión por el editor; el texto distingue explícitamente que la conexión temática no demuestra identidad de proyecto, continuidad ni intervención personal. El PR #108 había sido cerrado sin merge tras devolución; se abre una nueva entrega con el hecho primario solicitado.
+- **Reproducibilidad:** se volvió a ejecutar la SQL nueva y se cotejaron los campos de la declaración, la orden y la nómina primaria. Búsqueda en el código de `main` por el nombre completo y comprobación de las categorías devolvió ningún caso existente con ese nombre; `negocios_estado` existe en `main`.
+
+## Sources
+
+[43] https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf — Municipalidad de Vitacura, Personal Municipal Honorarios febrero 2021.
+[44] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=703246 — InfoProbidad, declaración de actualización periódica, 31-03-2021.
+
