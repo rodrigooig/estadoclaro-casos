@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "run_id": "20261022T040049Z",
+  "lead_id": "luis-roberto-reyes-alvarez-rio-bueno",
+  "state": "abierta",
+  "product": "ficha",
+  "author_id": "estadoclaro-investigacion",
+  "question": "¿Qué muestran sus declaraciones, sociedades, campaña y antecedentes públicos de contratación/Contraloría?",
+  "quantitative_claims": true,
+  "destination": "",
+  "files": [
+    "INDICE.md",
+    "fichas/luis-roberto-reyes-alvarez-rio-bueno.md"
+  ],
+  "material_progress": "Se revisaron 22 declaraciones indexadas, sociedad/proveedor/campaña en oro, prensa reciente sobre formalización y medidas cautelares, y antecedentes públicos de auditorías y Contraloría; se delimitaron brechas de cotejo primario.",
+  "completed_at": "2026-10-22T04:00:49Z",
+  "identity": "Luis Roberto Reyes Álvarez, alcalde de Río Bueno",
+  "sources": [
+    "EstadoClaro gold via ec-gold-sql: person, declaration, company, company_supply, composition, asset, activity, campaign, campaign_income, campaign_expense",
+    "InfoProbidad public declaration page",
+    "Servel final 2024 income/expense report",
+    "El Mostrador 2026-10-20",
+    "BioBioChile 2026-10-21",
+    "T13 2026-10-21",
+    "La Tercera 2026-10-21",
+    "Municipalidad de Río Bueno 2024-12-07",
+    "Contraloría Juzgado de Cuentas entry for Informe 709/2016",
+    "BioBioChile and local press reports 2022-2023 on audits, Cuentas Corrientes and procurement"
+  ],
+  "artifacts": {
+    "ficha": "fichas/luis-roberto-reyes-alvarez-rio-bueno.md",
+    "resumen": "tmp/runs/20261022T040049Z/luis-roberto-reyes-alvarez-rio-bueno/resumen.md"
+  },
+  "limitations": [
+    "Not a conviction; press describes ongoing criminal proceedings and defense denies allegations",
+    "No primary complete court, prosecutor, CDE, Contraloría or audit files reviewed",
+    "Society/declaration and campaign figures extracted from gold; primary documents should be checked",
+    "No link established from campaign suppliers to public contracts",
+    "Servel official primary election result not directly extracted"
+  ]
+}
