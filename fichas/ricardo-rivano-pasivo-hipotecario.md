@@ -129,3 +129,8 @@ PR: https://github.com/rodrigooig/estadoclaro-casos/pull/112
 
 **Verificación editorial:** el cambio es una corrección factual del caso ya publicado, no un caso nuevo; el pasaje sustituto se cotejó con InfoProbidad. Se mantiene el borrador en el formato del caso y se conservan el monto, la cronología y la explicación legítima que no dependen de la cuota accionaria. Destino: `casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md`. PR #112 solo modificó la descripción del pasivo/acreedor; diff y estado MERGED revisados en esta corrida.
 
+## Decisión editorial (2026-10-22): publicado
+
+Publicar como corrección: reabrí InfoProbidad 1651879; consigna «BANCO EDWARDS» y CLP 160.528.863.763, sin acreditar saldo real. Mercado Público 653-96-SE18 identifica a Amulen SpA (RUT 76.073.952-9) y una orden aceptada por CLP 2.838.800.173; confirma el contexto del caso, no la deuda. El cambio distingue acreedor literal de normalización del artefacto y separa pasivo bruto de ajustado, sin alterar cifras ni inferir equivalencia. Revisé el formato contra dos casos de negocios con el Estado: es compatible y no duplica otro caso.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/169
