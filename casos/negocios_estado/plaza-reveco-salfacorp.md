@@ -14,7 +14,7 @@ Se retira la atribución de las órdenes de Constructora Salfa a la participaci�
 
 La identidad del instrumento o participación no queda establecida por la declaración ni por las fichas societarias citadas.[1][2][3] La diferencia de razón social y RUT queda descrita como discrepancia no resuelta, no como prueba de falsedad o intención.
 
-## Sources
+## Fuentes
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5124087 — InfoProbidad, declaración 5124087
 [2] https://www.cmfchile.cl/institucional/mercados/entidad.php?mercado=V&rut=96885880&tipoentidad=RVEMI&vig=VI&control=svs&pestania=1 — CMF, SalfaCorp S.A.
