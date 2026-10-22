@@ -13,6 +13,16 @@ Por separado, la consulta al oro EstadoClaro encuentra 22 declaraciones indexada
 
 La cuenta Servel de la campaña municipal 2024 aparece aprobada, con libro contable, gastos por $18.856.000 (496,59 UF en el registro), aportes partidarios $4.000.000, aportes con publicidad $4.500.000, aportes menores $50.000, aportes en especie de terceros $1.200.000 y aporte propio $300.000. Entre los gastos registrados constan $952.000 a Aserradero Don Luis SpA (RUT 77.769.749) y $1.699.826 + $879.910 + $1.575.560 a Comunicaciones Lucía Sáez EIRL (RUT 76.872.890). Son datos declarados/aprobados de campaña, no evidencia de irregularidad ni de vínculo con contratos municipales.
 
+## Actualización a demanda — 22-10-2026
+
+La ficha ya estaba abierta; esta entrega actualiza el mismo lead y no crea un expediente duplicado. BioBioChile y La Tercera informan que el 21-10-2026 el Juzgado de Garantía de Río Bueno decretó prisión preventiva para Reyes tras formalizarlo por cohecho agravado reiterado y lavado de activos. Esto es una medida cautelar y no una condena.[2][3] Según la cobertura de BioBioChile, la Fiscalía atribuye al alcalde al menos CLP 36.360.000 en beneficios económicos presuntamente indebidos, incluidos CLP 27.860.000 atribuidos a Héctor Meza; también reporta cerca de CLP 90 millones en depósitos en efectivo cuyo origen no había sido identificado por Fiscalía.[2] Montos nominales según prensa/audiencia, sin conversión UF ni actualización monetaria.
+
+T13 había reportado el 15-10-2026 que el CDE atribuyó formalmente a cohecho CLP 26,2 millones, dentro de 196 transferencias investigadas por CLP 134,8 millones entre 2017 y 2024.[6] Esta cifra difiere del total de CLP 36,36 millones divulgado después a partir de la audiencia y no debe sumarse ni asumirse equivalente: faltan las querellas y resoluciones íntegras para conciliar períodos, transferencias y categorías.[2][6] T13 también informó que Contraloría se abstuvo de pronunciarse sobre una denuncia en agosto de 2026 por criterios de priorización; falta verificar la respuesta y los informes primarios.[5]
+
+Consulta de control al gold del 22-10-2026 por identidad completa (no apellido suelto): 22 declaraciones entre 30-03-2017 y 30-09-2025 y cero filas enlazadas en `company` y `company_supply`. Esto describe el alcance actual del cruce, no acredita inexistencia de sociedades o incumplimiento declarativo. No se incorpora como hecho una publicación social sobre arriendos municipales: aún no se ha verificado un acto o expediente primario ni su relación con la causa penal.
+
+**Siguiente trabajo:** localizar RUC/RIT y revisar querella CDE y resolución de cautelares; obtener identificación legal/RUT de proveedores nombrados en los antecedentes; cruzar licitaciones, evaluaciones, contratos, pagos, multas y recepciones; obtener denuncias/respuestas/informes de Contraloría; cotejar JSON íntegros de InfoProbidad solo después de identificar entidades y períodos. Mantener imputaciones como tales y la ficha abierta.
+
 ## Hechos y fuentes
 
 ### Declaraciones de patrimonio e intereses
