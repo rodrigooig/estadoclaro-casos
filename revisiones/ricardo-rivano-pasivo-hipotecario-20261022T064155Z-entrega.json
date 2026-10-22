@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261022T064155Z",
+  "lead_id": "ricardo-rivano-pasivo-hipotecario",
+  "state": "correccion lista",
+  "product": "correccion",
+  "destination": "casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md",
+  "draft_sha256": "3b57649924a0b940c1887d81641424f8040f86657a6775b3b536756d4aa03353",
+  "files": [
+    "INDICE.md",
+    "borradores/ricardo-rivano-pasivo-hipotecario.md",
+    "fichas/ricardo-rivano-pasivo-hipotecario.md"
+  ],
+  "origen": "cron"
+}
