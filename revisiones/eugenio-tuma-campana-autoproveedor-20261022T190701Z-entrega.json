@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261022T190701Z",
+  "lead_id": "eugenio-tuma-campana-autoproveedor",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/eugenio-tuma-campana-autoproveedor.md",
+  "draft_sha256": "a58ec1928cfc75c6e9555668cbc420b5d94ca99ab1ac9eec759d06a0a25304b4",
+  "files": [
+    "INDICE.md",
+    "borradores/eugenio-tuma-campana-autoproveedor.md",
+    "consultas/eugenio-tuma-campana-autoproveedor-20261022-1.sql",
+    "fichas/eugenio-tuma-campana-autoproveedor.md"
+  ],
+  "origen": "cron"
+}
