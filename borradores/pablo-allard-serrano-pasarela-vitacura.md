@@ -1,54 +1,39 @@
-# Vitacura emitió en 2023 una orden por 995 UTM a una empresa que un asesor municipal declaró controlar en 2022
+# Una empresa que un asesor de Vitacura declaró controlar figura como proveedora de la Municipalidad en una orden por la Pasarela Lo Curro
 
 ## Síntesis
 
-La declaración rectificatoria de Pablo Allard Serrano, fechada el 11 de noviembre de 2022, lo identifica como «Asesor Alcaldía» de la Municipalidad de Vitacura.[1] En esa declaración informó un 20% y calidad de controlador en ALLARD ASOCIADOS SPA, cuyo giro consignado era «asesorías en arquitectura y urbanismo».[1] La sección de actividades vigentes a la fecha de esa declaración registra además una actividad profesional remunerada de director, iniciada en 2016, bajo el nombre ALLARD Y ASOCIADOS SPA; esa entrada y la participación declarada comparten el RUT 76.598.791-1, aunque el nombre no es idéntico.[1]
+La declaración de Pablo Allard Serrano en InfoProbidad lo identifica como «Asesor Alcaldía» de la Municipalidad de Vitacura y registra un 20% y calidad de controlador en ALLARD ASOCIADOS SPA, RUT 76.598.791-1.[1] La declaración está fechada el 11 de noviembre de 2022 y consigna como fecha de asunción del cargo el 1 de enero de 2021; es una fotografía declarativa, no prueba por sí sola la continuidad del cargo hasta 2023.[1]
 
-El 2 de mayo de 2023, la Municipalidad de Vitacura emitió y aceptó la orden 2659-252-SE23 a ALLARD ARQUITECTOS ASOCIADOS LIMITADA, para ejecutar el proyecto de arquitectura y espacio público de la Pasarela Lo Curro, por 995 UTM mediante trato directo.[2] La declaración y la ficha de la orden muestran el mismo RUT societario, 76.598.791-1, aunque usan nombres societarios distintos.[1][2]
+Una nómina municipal de honorarios publicada para febrero de 2021 registra a Allard Serrano con una prestación cuyo período indicado fue del 1 de enero al 31 de diciembre de 2020. Entre sus tareas figuraba formular anteproyectos de movilidad sobre el cauce del río Mapocho y gestionar su aprobación.[3] Ese antecedente acredita una función previa relacionada temáticamente con movilidad y espacio público, pero no identifica la Pasarela Lo Curro como proyecto encargado a Allard ni demuestra que participara en su contratación posterior.[3]
 
-La consulta reproducible al oro de EstadoClaro, corte `meta.build_date=2026-10-06T15:56:08Z`, devuelve una fila para el nombre completo, la declaración 912542, el RUT societario y esa orden.[1][2] La coincidencia de identificador no prueba que la participación o el cargo siguieran vigentes el día de la compra, ni que Allard interviniera en la contratación.[1][2]
+La orden de compra 2659-252-SE23 de la Municipalidad de Vitacura, enviada el 2 de mayo de 2023 y registrada como aceptada, identifica a ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT 76.598.791-1, como proveedor de un servicio de ejecución del proyecto de arquitectura y espacio público de la Pasarela Lo Curro. La ficha consigna trato directo y un total de 995 UTM.[2] La coincidencia se establece por el RUT publicado, aunque la razón social de la orden difiere de la declarada.[1][2]
 
-La secuencia plantea una pregunta documental acotada sobre una contratación municipal y un interés societario declarado meses antes; no demuestra conflicto de interés, intervención individual, incumplimiento ni pago efectivo.[1][2]
+Los documentos muestran una relación societaria declarada, una prestación municipal anterior con una conexión temática y una compra posterior al mismo RUT societario. No establecen que Allard siguiera ejerciendo el cargo o controlando la sociedad en mayo de 2023, que interviniera en la selección o ejecución del contrato, ni que hubiera irregularidad o pago efectivo.[1][2][3]
 
 ## Cronología y hechos documentales
 
-- **11-11-2022:** la declaración rectificatoria 912542 registra a Allard como Asesor Alcaldía de Vitacura.[1] La sección de sociedades declara 20% y calidad de controlador en ALLARD ASOCIADOS SPA, cuyo giro es asesorías en arquitectura y urbanismo.[1] La sección de actividades a la fecha de declaración registra un cargo remunerado de director iniciado el 15-10-2016 bajo el nombre ALLARD Y ASOCIADOS SPA; ambas entradas publican el RUT 76.598.791-1, pero el nombre societario difiere.[1]
-- **02-05-2023:** la Municipalidad de Vitacura emitió la OC 2659-252-SE23 a ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT 76.598.791-1. La orden está aceptada, identifica el procedimiento como trato directo y consigna el servicio de ejecución del proyecto de arquitectura y espacio público de la Pasarela Lo Curro, por 995 UTM.[2]
-- **Coincidencia registral:** ambas fichas primarias muestran el RUT societario 76.598.791-1; la primera nombra ALLARD ASOCIADOS SPA y la segunda ALLARD ARQUITECTOS ASOCIADOS LIMITADA.[1][2]
+- **2020:** según la nómina municipal publicada en febrero de 2021, el período de la prestación a honorarios de Allard Serrano fue del 1 de enero al 31 de diciembre de 2020. La descripción incluye asesoría en diseño urbano, espacio público y transporte y la formulación de anteproyectos de movilidad sobre el cauce del río Mapocho.[3]
+- **31-03-2021:** la declaración 703246 registra a Allard como Asesor Alcaldía de Vitacura, con fecha de asunción declarada 01-01-2021. La ficha de InfoProbidad señala que es una actualización periódica.[4]
+- **11-11-2022:** la declaración rectificatoria 912542 vuelve a identificar el cargo y registra 20% y condición de controlador en ALLARD ASOCIADOS SPA, RUT 76.598.791-1.[1]
+- **02-05-2023:** Mercado Público registra la orden 2659-252-SE23, en estado «Aceptada», emitida por la Municipalidad de Vitacura al proveedor ALLARD ARQUITECTOS ASOCIADOS LIMITADA, con el mismo RUT 76.598.791-1, por 995 UTM mediante trato directo.[2]
 
-## Medición reproducible
+## Alcance, explicación legítima y límites
 
-Se ejecutó en solo lectura `consultas/pablo-allard-serrano-pasarela-vitacura-20261007-1.sql` con `ec-gold-sql` contra el artefacto sincronizado (corte `2026-10-06T15:56:08Z`).[1][2] La consulta exige nombre completo, declaración ID 912542, RUT societario 76598791 y código OC 2659-252-SE23; devolvió una fila.[1][2] La salida del artefacto consigna fecha 02-05-2023, comprador Municipalidad de Vitacura, proveedor Allard Partners, estado «Aceptada» y la etiqueta de ruta «Servicios especializados inferiores a 1000 UTM».[2] La fuente primaria, no una conversión del artefacto, es la base para informar el monto de 995 UTM.[2]
+Una explicación legítima compatible con los registros es que la prestación a honorarios descrita correspondía a trabajo de planificación anterior, con período expresamente terminado en 2020, mientras que la compra documentada es de mayo de 2023.[2][3] Aunque existe relación temática entre movilidad sobre el Mapocho y una pasarela peatonal/ciclista, las fuentes citadas no prueban que se trate del mismo proyecto ni que Allard haya intervenido en él.[2][3]
 
-## Alcance, incertidumbres y explicaciones
-
-La declaración es una fotografía de lo informado al 11-11-2022; no demuestra por sí sola que el cargo, la participación, el control o la actividad remunerada continuaran vigentes el 02-05-2023.[1] La orden acredita lo que el comprador registró —proveedor, objeto, procedimiento y monto—, no quién propuso, autorizó, evaluó, administró o recibió el servicio.[2]
-
-La ficha de la orden nombra el Decreto Alcaldicio Sec. 4.ª N.º 10/66, de 02-05-2023, y la Resolución N.º 29, de 10-03-2023, y ofrece un apartado «Ver Anexos».[2] Esta revisión no tuvo a la vista el texto de esos actos ni sus anexos; por tanto, no atribuye una causal jurídica específica ni evalúa la justificación de la selección.[2]
-
-Una explicación legítima compatible con los documentos es que el municipio contrató un servicio relacionado con arquitectura y espacio público para un proyecto de infraestructura municipal.[1][2] Ese contexto no establece por qué se eligió a este proveedor, si había alternativas, ni si la persona tuvo un papel en el proceso.[1][2]
+La declaración de 2022 no acredita por sí sola que el cargo ni la participación societaria siguieran vigentes en la fecha de la orden.[1] La ficha de la orden registra el proveedor, el procedimiento, el objeto y el monto; no identifica a las personas que definieron, seleccionaron, autorizaron, administraron o recibieron el servicio, ni permite evaluar el fundamento completo del trato directo.[2] Tampoco se afirma que la orden aceptada equivalga a pago.[2]
 
 ## Preguntas acotadas para un investigador o auditor
 
-1. ¿Qué disponen el Decreto Alcaldicio Sec. 4.ª N.º 10/66 y la Resolución N.º 29 citados en la orden, y qué antecedentes sustentan el procedimiento y la selección del proveedor?[2]
-2. ¿Qué funciones y vínculo municipal tenía Allard el 02-05-2023, si alguno, y quién intervino en la definición, selección, autorización, administración y recepción del servicio?[1][2]
-3. ¿Qué título societario exacto representa la coincidencia de RUT entre ALLARD ASOCIADOS SPA, la actividad registrada bajo ALLARD Y ASOCIADOS SPA y el proveedor de la orden, y qué información pública permite establecer la vigencia de esa participación en la fecha de compra?[1][2]
+1. ¿Qué disponen el Decreto Alcaldicio Sec. 4.ª N.º 10/66 y la Resolución N.º 29 que la ficha de la orden cita, y qué antecedentes sustentaron el procedimiento y la selección del proveedor?[2]
+2. ¿Qué vínculo municipal y qué participación societaria tenía Allard el 2 de mayo de 2023, si alguno, y quiénes intervinieron en la definición, selección, autorización, administración y recepción del servicio?[1][2]
+3. ¿Qué documentos permiten determinar si la asesoría previa sobre anteproyectos de movilidad en el Mapocho guardaba relación con la Pasarela Lo Curro, sin asumir que eran el mismo proyecto?[2][3]
 
-Este texto describe registros públicos y deja las preguntas abiertas.[1][2] No formula un juicio legal, no afirma actuación individual y no equipara una orden aceptada con pago realizado.[1][2]
+Este caso documenta una coincidencia societaria y una conexión temática que justifican comprobación documental; no concluye conflicto de interés, intervención individual, ilegalidad ni conducta impropia.[1][2][3]
 
 ## Sources
 
-[1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=912542 — InfoProbidad, declaración rectificatoria ID 912542
-    > "Asesor Alcaldía Municipalidad De Vitacura"
-    > "Cantidad / Porcentaje	20"
-    > "Giro registrado en SII	ASESORIAS EN ARQUITECTURA Y URBANISMO"
-    > "Fecha inicio	15-10-2016"
-    > "Nombre o Razón Social	ALLARD ASOCIADOS SPA"
-    > "Tiene Calidad de Controlador	SI"
-    > "Nombre o Razón Social	ALLARD Y ASOCIADOS SPA"
-[2] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2659-252-SE23 — Mercado Público, orden de compra 2659-252-SE23
-    > "Estado de la Orden de Compra	Aceptada"
-    > "Fecha de Envío	02-05-2023"
-    > "TRATO DIRECTO CON LA EMPRESA ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT: 76.598.791-1, PARA CONTRATAR EL SERVICIO DE EJECUCIÓN DEL PROYECTO DE ARQUITECTURA Y ESPACIO PÚBLICO PASARELA LO CURRO, POR UN MONTO TOTAL DE 995 UTM"
-    > "Razón Social	I MUNICIPALIDAD DE VITACURA"
-    > "TOTAL OC	UTM 995,0000"
+[1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=912542
+[2] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2659-252-SE23
+[3] https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf
+[4] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=703246 — InfoProbidad declaración 703246

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261022T125202Z",
+  "lead_id": "pablo-allard-serrano-pasarela-vitacura",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/pablo-allard-serrano-pasarela-vitacura.md",
+  "draft_sha256": "4089926dd2b769f56682c04bc44dabae11b69171358693587695b1a5922b2d3f",
+  "files": [
+    "INDICE.md",
+    "borradores/pablo-allard-serrano-pasarela-vitacura.md",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-20261022-1.sql",
+    "fichas/pablo-allard-serrano-pasarela-vitacura.md"
+  ],
+  "origen": "cron"
+}
