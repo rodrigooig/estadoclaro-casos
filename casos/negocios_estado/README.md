@@ -6,7 +6,7 @@ Participaciones societarias declaradas por autoridades en empresas que facturan 
 
 | Caso | Monto de referencia (CLP) |
 |---|---|
-| [Ricardo Igor Rivano Aravena declaró una acción en la constructora que vendió más de UF 1.016.647 al Estado entre 2020 y 2026](rivano-aravena-amulen-serviu-maule.md) | $32.611.961.615 |
+| [Ricardo Igor Rivano Aravena declaró participación en la constructora que vendió más de UF 1.016.647 al Estado entre 2020 y 2026](rivano-aravena-amulen-serviu-maule.md) | $32.611.961.615 |
 | [Verónica Rossat Arriagada, alcaldesa de Hijuelas, declara un derecho en una empresa de seguridad que facturó $19.336.896.295 al Estado entre 2021 y 2026](rossat-arriagada-municipalidad-hijuelas.md) | $19.336.896.295 |
 | [María Verónica Chahin Sarah declaró acciones de INDISA mientras la empresa vendía al Estado por sobre $16.365 millones](chahin-sarah-indisa-fonasa.md) | $16.364.906.708 |
 | [Rafael Plaza Reveco, abogado integrante del Poder Judicial, declaró una acción de Salfacorp mientras la constructora facturaba al Estado por más de UF 204 mil](plaza-reveco-salfacorp.md) | $8.339.326.325 |
