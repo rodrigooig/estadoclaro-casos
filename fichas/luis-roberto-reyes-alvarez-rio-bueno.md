@@ -1,0 +1,83 @@
+# Luis Roberto Reyes Álvarez — declaraciones, campaña y antecedentes de contratación pública
+
+- **ID:** `luis-roberto-reyes-alvarez-rio-bueno`
+- **Estado:** abierta
+**Identificación:** alcalde de Río Bueno; la Municipalidad informa asunción el 06-12-2024. No confundir con homónimos.  
+**Pregunta:** ¿Qué muestran sus declaraciones de intereses y patrimonio y su campaña, y qué antecedentes públicos existen sobre contratos municipales, auditorías y causas?
+
+## Resumen ejecutivo
+
+Hay antecedentes públicos de riesgo material que ameritan escrutinio, sin que equivalgan a una condena: Fiscalía formalizó a Reyes por cohecho agravado reiterado y lavado de activos en relación con licitaciones, contratos y pagos municipales, y el Juzgado de Garantía decretó prisión preventiva el 21-10-2026 según prensa nacional. La investigación atribuye pagos indebidos por al menos $36.360.000 (pesos nominales de los hechos reportados), además de cerca de $90 millones en depósitos en efectivo cuyo origen Fiscalía no habría identificado. La defensa rechaza las imputaciones y sostiene que hay explicaciones para movimientos cuestionados.
+
+Por separado, la consulta al oro EstadoClaro encuentra 22 declaraciones indexadas entre 2017 y 2025. Las búsquedas no devuelven sociedades ni participaciones societarias declaradas por Reyes en esas declaraciones; la actualización más reciente visible (30-09-2025) declara un vehículo/mueble valorizado en $24.070.643 (609,60 UF según oro), sin otros activos en la tabla agregada de activos, y no aparecen actividades declaradas en `activity`. Esto no demuestra por sí solo omisión: debe cotejarse con JSON/constancia primaria y alcance legal de cada campo.
+
+La cuenta Servel de la campaña municipal 2024 aparece aprobada, con libro contable, gastos por $18.856.000 (496,59 UF en el registro), aportes partidarios $4.000.000, aportes con publicidad $4.500.000, aportes menores $50.000, aportes en especie de terceros $1.200.000 y aporte propio $300.000. Entre los gastos registrados constan $952.000 a Aserradero Don Luis SpA (RUT 77.769.749) y $1.699.826 + $879.910 + $1.575.560 a Comunicaciones Lucía Sáez EIRL (RUT 76.872.890). Son datos declarados/aprobados de campaña, no evidencia de irregularidad ni de vínculo con contratos municipales.
+
+## Hechos y fuentes
+
+### Declaraciones de patrimonio e intereses
+
+- La tabla `declaration` de EstadoClaro gold identifica 22 declaraciones para LUIS ROBERTO REYES ÁLVAREZ: 2017-03-30, 2018-10-03, 2019-03-06, 2019-03-29, 2020-03-31, 2021-01-07, 2021-01-09, 2021-01-11, 2021-02-15, 2021-07-30, 2022-03-22, 2022-11-10, dos rectificaciones 2023-03-24, 2023-06-12, 2024-03-26, 2024-07-09, 2024-07-15 (candidatura 2024), 2024-08-06, 2025-01-27 (asunción), 2025-03-31 y 2025-09-30. Las últimas tres son como alcalde 2024-2028. El listado de InfoProbidad muestra fechas y tipos coincidentes y atribuye su cargo a alcalde/concejal y candidatura Servel.
+- La extracción de tabla `company` enlazada a todas sus declaraciones da cero filas; `company_supply` también da cero filas. Por tanto, con estos datos no hay sociedades declaradas ni participaciones atribuibles por este cruce. No inferir inexistencia de empresas no declaradas o de participaciones indirectas.
+- En declaración 2025-09-30, la composición agregada registra solo un activo de tipo mueble por $24.070.643, equivalente a 609,6048 UF en el oro. `activity` no arroja registros para esa declaración. No se identifica en ese corte inmueble, activo financiero, sociedad ni pasivo declarado en los agregados consultados. No se sostiene que el total patrimonial sea exactamente ese activo sin cotejo de la declaración primaria completa y valoración de obligaciones.
+- InfoProbidad ofrece la página pública y JSON descargable: https://www.infoprobidad.cl/Declaracion/BuscarDeclaracion?declaracion=f5038acafa63d4f626824a0edc18ab70 . Resultado indexado del sitio para declaración 07-01-2021 informa profesión Pedagogía en Educación Física y declara familiares; esos datos no se reproducen aquí por no ser relevantes a la pregunta patrimonial/societaria.
+
+### Sociedades y negocios con el Estado
+
+- No hay sociedades asociadas a Reyes en las tablas societarias extraídas de sus declaraciones; en consecuencia, no es posible hacer un cruce respaldado «sociedad declarada → proveedor del Estado» desde estas declaraciones.
+- Esta ausencia no descarta proveedores relacionados por terceros, familiares, sociedades no declaradas ni atribuciones indirectas. La cobertura histórica de Mercado Público y la identidad de beneficiarios finales deben consultarse por separado.
+- Prensa sobre la causa penal reporta empresas constructoras vinculadas a un empresario que se adjudicaron proyectos municipales y presuntos pagos al alcalde. Los artículos revisados no permiten confirmar que esas empresas sean sociedades de Reyes. No confundir las sociedades de proveedores imputados con sociedades declaradas por el alcalde.
+
+### Campaña Servel 2024
+
+- EstadoClaro gold: candidatura municipal 2024 a alcalde por Río Bueno, nombre LUIS REYES ALVAREZ, independiente en pacto Chile Vamos; cuenta `aprueba`, libro contable disponible, gasto total $18.856.000 = 496,59 UF, fuente: planilla definitiva de Servel (agosto 2025). Resultado electoral reportado por Emol/medios: 9.241 votos, 39,17%; la Municipalidad confirma que asumió el 06-12-2024.
+- Resumen de ingresos indexado: aporte propio en especie/servicio $300.000; UDI $4.000.000; contribuciones públicas nominales $4.500.000 de tres aportantes visibles; aporte menor $50.000; aportes en especie/servicios de terceros $1.200.000; reembolso fiscal $8.806.000. El resumen agrega registros de la campaña y no implica que el reembolso sea aporte de tercero.
+- Gastos visibles que merecen cotejo documental, sin alerta por sí mismos: Aserradero Don Luis SpA, RUT 77.769.749, $952.000 por servicios campaña; Comunicaciones Lucía Sáez EIRL, RUT 76.872.890, por $1.699.826, $879.910 y $1.575.560; otros gastos incluyen impresión/merchandising, radioemisoras, servicios y brigadistas. El proveedor de campaña no prueba relación con contratación municipal ni con conducta ilícita.
+- Fuente primaria agregada: https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx . No se encontró/abrió en esta revisión la ficha individual primaria Servel completa; votos y porcentajes se corroboran con noticia/resultados publicados.
+
+### Fiscalía y medidas cautelares: hechos imputados, no condena
+
+- El Mostrador, 20-10-2026, reporta que Fiscalía Regional de Los Ríos formalizó a Reyes por cohecho agravado reiterado y lavado de activos. Conforme a los antecedentes atribuidos a Fiscalía expuestos en audiencia: al menos $36.360.000 en pagos/beneficios de empresarios y contratistas por actuaciones relativas a licitaciones, contratos y pagos de obras entre 2017 y 2022; desglosa $27.860.000 de un empresario constructor, $3.000.000 del representante de una productora adjudicataria de $85 millones para Semana Riobuenina 2020 y $5.500.000 atribuidos a otro constructor. Fiscalía investigaría además unos $90 millones depositados en efectivo en cuenta personal, de origen no identificado hasta esa etapa.
+- BioBioChile, T13 y La Tercera, 21-10-2026, informan prisión preventiva para Reyes y el empresario constructor Héctor Meza, atendida la petición fiscal y los riesgos cautelares; la decisión no es veredicto de culpabilidad. T13 cifra en $27.860.000 la parte atribuida a Meza. Diferencia relevante a resolver: El Agora recoge querella del CDE que atribuiría formalmente al cohecho $26,2 millones, mientras reportes de audiencia hablan de $36,36 millones. Son marcos/etapas y atribuciones de distintas fuentes, no montos intercambiables.
+- La defensa, según El Mostrador, rechaza los cargos, habla de motivaciones políticas y sostiene que transferencias tienen explicaciones de aportes de campaña, asuntos familiares y servicios profesionales. Pendiente contrastar con argumentos y resolución judicial íntegros.
+
+### Contraloría, auditorías y contratación
+
+- El Mostrador 20-10-2026, citando reportaje de T13, indica que Chile Transparente denunció en abril 2023 posibles irregularidades en licitaciones, concentración de contratos en proveedores y antecedentes tributarios de una empresa; Contraloría habría dicho que evaluaría incorporar antecedentes a futuras auditorías. El mismo artículo informa denuncia anónima de mayo 2026 que señaló 27 órdenes/licitaciones por unos $3.000 millones; Contraloría se abstuvo el 03-08-2026 de pronunciarse por priorización/recursos. Añade que desde 2022 hubo auditorías sobre adquisiciones, cuentas y contratos de obras, algunas con antecedentes remitidos al Ministerio Público. No se ha localizado aquí el expediente íntegro de esas auditorías; atribución secundaria a T13/Contraloría.
+- Antecedente distinto: en 2017 Río Bueno contrató a Gestión Global SpA para asesoría de cuentas corrientes, contrato reportado en prensa por $78 millones y firmado durante administración de Reyes. En 2023 RioBuenoNoticias reportó que el propietario Rodrigo Carmona era investigado en el caso Cuentas Corrientes; su artículo cita a la entonces alcaldesa diciendo que el contrato fue de la administración de Reyes y que este habría reconocido reuniones con el propietario, no registradas en Lobby. Esto es contexto periodístico, no prueba de delito ni de participación individual en la contratación. Fuentes: https://www.riobuenonoticias.cl/2023/09/concejales-de-rio-bueno-declaran-ante.html ; https://www.diarioriobueno.cl/noticia/actualidad/2023/06/arcas-municipales-de-rio-bueno-bajo-la-lupa-ex-administrador-confirma-denuncias-por-malversacion .
+- Auditoría externa reportada por BioBioChile en noviembre 2022 habría detectado falencias en contratación a honorarios de asesor comunicacional y en licitación de arriendo de oficinas DIDECO: contrato a ocho años y renta mensual superior a $4,6 millones; falta de evaluación/control de contratos y competencia de proveedores. Los artículos indicaron recomendación de remitir antecedentes a Contraloría/Mercado Público/Fiscalía y una querella posterior de concejales. La cobertura no permite atribuir responsabilidad penal personal a Reyes. Fuente: https://www.riobuenonoticias.cl/2022/11/en-ex-administracion-detectan-irregularidades-en-contrataciones-y-licitaciones-en-rio-bueno/ ; BioBioChile https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2023/04/17/rio-bueno-concejales-aguardan-avances-tras-ingreso-de-querella-por-malversacion-de-caudales-publicos.shtml .
+- Hay una página oficial de Contraloría/Juzgado de Cuentas sobre Informe Final de Investigación Especial N°709/2016, relativo a viajes internacionales de concejales autorizados en 2014; menciona al alcalde Reyes como cuentadante y describe un reparo por detrimento municipal. El resultado de búsqueda no basta para afirmar el resultado final o la responsabilidad individual: requiere descargar y revisar sentencia íntegra. https://www.contraloria.cl/transopencgrapp/publicadorJuicio/verSentenciaEjecutoria?idDocumento=a8a8253e-644d-485820220408084505 .
+- Otros antecedentes periodísticos 2023: una licitación del proyecto Talud Beauchef en la administración siguiente recibió reparos de Contraloría; no atribuirla a gestión de Reyes (periodo 2021-24 era alcaldesa Carolina Silva). Se menciona solo como contexto institucional para separar casos y evitar confundir administraciones.
+
+## Alertas e hipótesis (no conclusiones)
+
+1. **Alta prioridad, judicial:** presuntos pagos de proveedores municipales coincidentes con adjudicaciones/actos públicos bajo investigación fiscal. La existencia de formalización y prisión preventiva sí es verificable por medios consultados; las conductas concretas siguen siendo imputaciones y no condena firme.
+2. **Nexo proveedor–funcionario por verificar:** auditorías/reportes previos describen contratos de Gestión Global y concentraciones/falencias de contratación, pero faltan expedientes primarios, actos administrativos, trazabilidad de decisiones, órdenes de compra y relación temporal precisa para conectar pagos imputados con cada contrato.
+3. **Declaraciones societarias:** oro indexa cero sociedades/participaciones declaradas, pese a reportes de Fiscalía sobre sociedades de proveedores. No hay base para tratarlo como omisión intencional sin declaraciones primarias, prueba de titularidad y análisis del deber legal en la fecha pertinente.
+4. **Campaña:** proveedores y aportes están visibles en la cuenta Servel aprobada. Ninguno de los nombres/RUT extraídos está cruzado aquí con adjudicaciones municipales, ni hay prueba de que esos montos expliquen depósitos investigados. No inferir.
+5. **Contraloría/cuentas:** causa antigua de viajes y auditorías relacionadas con gestión municipal requieren lectura del fallo/informes para saber hallazgos finales y medidas; no mezclar con el proceso penal actual.
+
+## Qué falta para confirmar o descartar
+
+- Descargar y cotejar JSON completos de InfoProbidad, en especial declaraciones 2025-01-27, 2025-03-31, 2025-09-30 y rectificaciones 2023/2024; identificar contenido societario, anexos, fechas de adquisición, intereses, pasivos y rectificaciones solicitadas por fiscalizador.
+- Consultar Mercado Público por razón social/RUT de cada proveedor mencionado en formalización una vez identificados en causa; recuperar licitaciones, evaluaciones, adjudicaciones, contratos, multas, pagos, trato directo y beneficiarios finales. Comparar con nómina completa de sociedades que hayan sido declaradas por Reyes, que hoy no aparece en el oro.
+- Recuperar expediente de Fiscalía y resolución de medidas cautelares (RIT/RUC, hechos precisos, cuentas/fechas, partes y fundamentos), y querella del CDE para conciliar montos y períodos. Confirmar evolución de cautelares, no confundir con condena.
+- Obtener informes Contraloría desde 2022 y expediente de la causa Informe 709/2016; leer sentencia ejecutoriada y determinaciones individuales. Recuperar también informe externo 2022 mencionado en prensa.
+- Descargar el libro definitivo Servel 2024, verificar contabilización de proveedores/gastos e identificar adjudicaciones públicas de los mismos RUT únicamente como pista de cruce, sin atribución impropia.
+
+## Fuentes principales
+
+- EstadoClaro gold, solo lectura, consultado 2026-10-22: `person`, `declaration`, `company`, `company_supply`, `composition`, `asset`, `activity`, `campaign`, `campaign_income`, `campaign_expense`.
+- InfoProbidad, CGR/CPLT, declaración id `f5038acafa63d4f626824a0edc18ab70`: https://www.infoprobidad.cl/Declaracion/BuscarDeclaracion?declaracion=f5038acafa63d4f626824a0edc18ab70
+- Servel, Reporte de Ingresos y Gastos Definitivas 2024: https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx
+- El Mostrador, «Formalizan a alcalde de Río Bueno por cohecho y lavado de dinero», 20-10-2026: https://www.elmostrador.cl/aqui-los-rios/2026/10/20/formalizan-a-alcalde-de-rio-bueno-por-cohecho-y-lavado-de-dinero/
+- T13, prisión preventiva y formalización, 21-10-2026: https://www.t13.cl/noticia/nacional/prision-preventiva-para-alcalde-rio-bueno-fue-formalizado-delitos-corrupcion-21-10-2026
+- BioBioChile, prisión preventiva, 21-10-2026: https://www.biobiochile.cl/noticias/nacional/region-de-los-rios/2026/10/21/alcalde-de-rio-bueno-luis-reyes-queda-en-prision-preventiva-por-delitos-de-corrupcion.shtml
+- La Tercera, prisión preventiva/licitaciones, 21-10-2026: https://www.latercera.com/nacional/noticia/alcalde-luis-reyes-de-rio-bueno-queda-en-prision-preventiva-tras-ser-formalizado-por-corrupcion-en-licitaciones/
+- Municipalidad de Río Bueno, asunción y nombre oficial, 07-12-2024: https://muniriobueno.cl/2024/12/07/luis-reyes-asume-nuevamente-como-alcalde-de-la-comuna-de-rio-bueno/
+- Contraloría, Juzgado de Cuentas, expediente sobre Informe 709/2016: https://www.contraloria.cl/transopencgrapp/publicadorJuicio/verSentenciaEjecutoria?idDocumento=a8a8253e-644d-485820220408084505
+- Prensa local y BioBioChile sobre auditorías 2022, Cuentas Corrientes y querella de concejales: enlaces citados en la sección correspondiente.
+
+## Reproducción de datos
+
+Las consultas se ejecutaron con `ec-gold-sql`; la cuenta Servel cita como fuente la planilla definitiva de 2024. Importes en CLP nominales al periodo reportado; no se actualizaron por inflación. La UF se cita solo donde está disponible en los datos de campaña/declaración. El oro no devuelve votos en esta candidatura, por lo que se cita el resultado publicado por medios y falta cotejar acta electoral primaria.
