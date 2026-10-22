@@ -114,3 +114,18 @@ La declaración primaria consigna «ACCION» y «Cantidad / Porcentaje: 28», si
 **Incertidumbre/retorno:** encontrar y abrir el PDF oficial del aviso 2765719 de 05-02-2026 para verificar socios y porcentajes; si no está disponible, mantener recortada la afirmación sobre «minoritaria». La evidencia del oro sí permite corregir el enunciado sobre pasivos aunque esa búsqueda societaria siga abierta.
 
 PR: https://github.com/rodrigooig/estadoclaro-casos/pull/112
+
+## Cierre de corrida — 2026-10-22
+
+**Estado:** `correccion lista`. La corrección anterior del pasivo fue aceptada y publicada en el caso por PR #112 (merge 2026-10-16); esta entrega es distinta: corrige en ese mismo caso las afirmaciones «participación minoritaria» / «la participación es minoritaria» y el titular «declaró una acción».
+
+**Hecho comprobado:** InfoProbidad, declaración 1651879 de Ricardo Igor Rivano Aravena, muestra una participación tipo «ACCION» y el campo «Cantidad / Porcentaje: 28». El dato no aclara en sí mismo si 28 representa acciones nominales o porcentaje del capital. El texto publicado dice «minoritaria» y el título dice «una acción»; ninguna de esas precisiones se deduce de ese campo. La ficha del caso y su borrador corregido mantienen la declaración como tal, con la ambigüedad explícita, y no afirman porcentaje ni control.
+
+**Fuente primaria reabierta:** https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1651879 (vista extraída en esta corrida; identifica a RICARDO IGOR RIVANO ARAVENA y una «ACCION» entre sus sociedades declaradas). Las anotaciones de extracción directa de la ficha previa registran literalmente «Cantidad / Porcentaje: 28».
+
+**Búsqueda del aviso oficial 2765719 (05-02-2026):** no localizado. Repetí búsqueda exacta en web, busqué por la razón social y fecha, consulté búsquedas restringidas al dominio oficial y probé la ruta de publicación del Diario Oficial; las consultas directas al portal oficial respondieron HTTP 403. La copia de Dequienes es secundaria y no se usa para atribuir porcentaje individual. No se afirma que el documento no exista. Reabrir si se obtiene el ejemplar oficial o documento societario primario accesible.
+
+**Explicación alternativa y límites:** el registro de EstadoClaro `is_controlling=false` puede reflejar su clasificación del artefacto, pero no demuestra por sí solo la cuota en el capital. El registro societario copiado por terceros atribuye el 100% colectivamente a varias personas, sin repartir porcentajes, y no se trata como fuente primaria. El reemplazo elimina los calificativos no demostrados, conserva el hecho declarado y no sugiere irregularidad.
+
+**Verificación editorial:** el cambio es una corrección factual del caso ya publicado, no un caso nuevo; el pasaje sustituto se cotejó con InfoProbidad. Se mantiene el borrador en el formato del caso y se conservan el monto, la cronología y la explicación legítima que no dependen de la cuota accionaria. Destino: `casos/negocios_estado/rivano-aravena-amulen-serviu-maule.md`. PR #112 solo modificó la descripción del pasivo/acreedor; diff y estado MERGED revisados en esta corrida.
+
