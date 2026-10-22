@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261022T160149Z",
+  "lead_id": "giovanna-paredes-castillo-empresa-discrepante",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/patrimonio_pasivos/giovanna-paredes-castillo-empresa-discrepante.md",
+  "draft_sha256": "b5785e3bd9c0f2b8cbf032c698f897b373c8fa388e34abfaf0bae26f235e869b",
+  "files": [
+    "INDICE.md",
+    "fichas/giovanna-paredes-castillo-empresa-discrepante.md"
+  ],
+  "origen": "cron"
+}

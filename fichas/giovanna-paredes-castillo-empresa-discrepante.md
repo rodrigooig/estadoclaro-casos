@@ -2,7 +2,7 @@
 
 - **ID:** `giovanna-paredes-castillo-empresa-discrepante`
 - **Producto:** caso documental sobre dos declaraciones del mismo día.
-- **Estado:** `lista para verificacion` — paquete y doble revisión final preservados; `ec-inv-pr --dry-run` se detuvo porque el índice contiene cambios de otra pista. No hay PR verificado. Reintentar entrega cuando la bitácora esté libre, sin repetir investigación.
+- **Estado:** `borrador listo` — paquete revisado y listo para decisión editorial; las primarias sustentan la discrepancia documental, con las limitaciones de moneda y prevalencia descritas abajo.
 - **Pregunta decisiva:** ¿Qué relación existe entre la actualización periódica 1017370 y la rectificación 1017105, fechadas ambas 29-03-2023, y qué cifra —si alguna— debía prevalecer en la misma línea societaria?
 - **Núcleo:** las dos primarias atribuidas al nombre completo coincidente muestran para AGRICOLA LOS DEL MONTE LTDA. (RUT societario 76.035.861-4) la misma cantidad numérica 2.5 en el campo combinado «Cantidad / Porcentaje», pero valores distintos en «Valor Corriente en plazo o Valor Libro»: 6.288.303 y 1.000.000.000. El campo «Tipo de Moneda» aparece vacío; la resta aritmética es 993.711.697 sin unidad atribuible. La moneda CLP/local del artefacto es interpretación del procesamiento, no una unidad explícita de la primaria.
 - **Evidencia y corte:** InfoProbidad 1017370 y 1017105; contexto de posteriores 1023480 (30-03-2023) y 1217224 (02-04-2024). Gold en solo lectura por `ec-gold-sql`, `meta.build_date=2026-10-09T16:06:27Z`. Consultas 1–3 y consultas independientes de revisión. No se mezclaron snapshots ni se contaron filas duplicadas; cada ID principal tiene una línea de sociedad.
