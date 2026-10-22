@@ -9,7 +9,7 @@ Participaciones societarias declaradas por autoridades en empresas que facturan 
 | [Ricardo Igor Rivano Aravena declaró participación en la constructora que vendió más de UF 1.016.647 al Estado entre 2020 y 2026](rivano-aravena-amulen-serviu-maule.md) | $32.611.961.615 |
 | [Verónica Rossat Arriagada, alcaldesa de Hijuelas, declara un derecho en una empresa de seguridad que facturó $19.336.896.295 al Estado entre 2021 y 2026](rossat-arriagada-municipalidad-hijuelas.md) | $19.336.896.295 |
 | [María Verónica Chahin Sarah declaró acciones de INDISA mientras la empresa vendía al Estado por sobre $16.365 millones](chahin-sarah-indisa-fonasa.md) | $16.364.906.708 |
-| [Rafael Plaza Reveco, abogado integrante del Poder Judicial, declaró una acción de Salfacorp mientras la constructora facturaba al Estado por más de UF 204 mil](plaza-reveco-salfacorp.md) | $8.339.326.325 |
+| [La declaración de Rafael Plaza Reveco no permite vincular su acción «SALFACORP» con Constructora Salfa](plaza-reveco-salfacorp.md) | n/d |
 | [Mauricio Martin Hartwig, concejal de La Reina, declaró controlar una empresa que facturó UF 88.185 al Estado](hartwig-la-reina-rmh-chile.md) | $3.414.217.935 |
 | [Javier Etcheberry Celhay declaró acciones en Multicaja e ISwitch mientras esas empresas facturaban a Fonasa y a la Armada](etcheberry-celhay-multicaja-iswitch-fonasa-armada.md) | $2.580.677.387 |
 | [Notaria de Coquimbo declaró una participación en la empresa que vendió maquinaria al municipio de La Serena por UF 64.040](rojas-morales-notaria-coquimbo-maquinarias-olmue.md) | $2.313.943.023 |
