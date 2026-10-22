@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261022T221048Z",
+  "lead_id": "arnaldo-recabarren-essbio-trato-directo-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/arnaldo-recabarren-essbio-trato-directo-2026.md"
+  ],
+  "origen": "cron"
+}

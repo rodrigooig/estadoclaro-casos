@@ -1,6 +1,6 @@
 # Arnaldo Recabarren Pau, participación declarada en ESSBIO y compras municipales de servicios sanitarios
 
-> **Ficha de investigación; no es un caso publicable ni una afirmación de conducta irregular.** Estado: **abierta**. Última revisión: 2026-10-17. RUT personal omitido.
+> **Ficha de investigación; no es una afirmación de conducta irregular.** Estado: **descartada**. Revisión final: 2026-10-22. RUT personal omitido.
 
 ## §0. Resultado ejecutivo
 
@@ -65,3 +65,19 @@ La coincidencia entre una participación declarada y órdenes de una empresa no 
 [3] Mercado Público, órdenes: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=4494-687-TD26 ; https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3037-11-TD26 ; https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=4080-30-TD26 ; https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3594-611-TD26 ; https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1393-469-TD26
 [4] DOH/MOP, nombramiento y funciones descritas: https://doh.mop.gob.cl/arnaldo-recabarren-pau-asume-como-nuevo-director-nacional-de-obras-hidraulicas-del-mop/ ; funciones de la DOH: https://doh.mop.gob.cl/productos
 [5] ESSBIO, territorio operacional: https://www.essbio.cl/nosotros/somos/areas-concesion
+[6] DOH/MOP, productos y servicios sanitarios rurales: https://doh.mop.gob.cl/productos/ (la fuente describe supervisión/regulación de servicios sanitarios rurales).
+[7] Ley del Lobby, audiencia del 29-08-2023, identificador AM007AW1393016: https://www.leylobby.gob.cl/instituciones/AM007/audiencias/2023/559052/645931. El registro nombra a «Arnaldo Recabarren» como gestor de intereses, representa a Aguas del Valle S.A. y trata disponibilidad de recursos hídricos en la cuenca del Limarí; no consigna segundo apellido ni permite atribuirlo con seguridad a Arnaldo Recabarren Pau.
+[8] ESVAL, información de inversionistas y filial Aguas del Valle: https://www.esval.cl/personas/nosotros/inversionistas/.
+
+## 5. Revisión final y decisión (2026-10-22)
+
+Se reabrieron las fuentes primarias. InfoProbidad confirma la participación ESSBIO coincidente: 6.625 acciones, CLP 7.119 declarados, no controlador; y consigna servicios profesionales a ESVAL y Aguas del Valle hasta enero de 2026. El anuncio MOP confirma que Recabarren asumió la dirección de la DOH el 26-08-2026 y le atribuye prioridades de agua potable y saneamiento rural.[1][4] La DOH describe que su Subdirección de Servicios Sanitarios Rurales supervisa y regula esos servicios.[6]
+
+La consulta reproducible, ejecutada nuevamente sobre el oro `2026-10-21T19:32:15+00:00`, devuelve cinco órdenes municipales por trato directo a ESSBIO (RUT 76.833.300-9), CLP 192.036.168 / 4.696,73 UF en total; todas son de municipalidades y ninguna corresponde a la DOH. Las fichas primarias de Penco y Lolol exponen causal, objeto, valor y el texto «Ver Anexos», pero en la página pública el texto no es enlace ni control descargable. No se pudo acceder a los actos y anexos; no se afirma su fundamento más allá de lo que muestran las fichas.[2][3]
+
+Como posible pista adicional, el registro Ley del Lobby de 2023 identifica a un «Arnaldo Recabarren» como gestor por Aguas del Valle ante la DOH, en una audiencia sobre seguridad hídrica del Limarí.[7] No indica «Pau» ni otro identificador que permita distinguirlo de un homónimo. Por tanto, no se atribuye ese registro a esta persona ni se usa como hecho del caso. Que Aguas del Valle sea filial de ESVAL sí está documentado por la propia empresa; eso no verifica la identidad del asistente del registro de lobby.[8]
+
+**Decisión: descartada.** El solapamiento sectorial entre las funciones de la DOH, servicios previos declarados y una participación no controladora de monto declarado mínimo no acredita intervención, beneficio material ni decisión de la autoridad. Las órdenes observadas fueron emitidas por municipios a la sanitaria en compras de agua/servicios ordinarios; la mayor alude a un convenio y contrato ya firmado. La existencia de trato directo y la cercanía temporal no bastan para una historia publicable sin nexo concreto. La limitación de acceso a anexos no cambia este cierre porque las fichas corroboran que los compradores no fueron la DOH y no hay evidencia de intervención individual.
+
+**Qué reabriría la pista:** acto/anexo oficial que documente una actuación de Recabarren o de la DOH en una de esas compras; prueba primaria que vincule al Arnaldo Recabarren del registro de lobby con Recabarren Pau y permita establecer participación/función al momento; o evidencia de un beneficio económico material o de una decisión regulatoria/contractual que lo afecte personalmente. No basta encontrar otro contrato de ESSBIO con un municipio.
+
