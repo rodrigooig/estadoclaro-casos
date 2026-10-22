@@ -7,7 +7,7 @@ pistas se descartan o quedan con evidencia insuficiente, y eso también se docum
 haya encontrado evidencia no prueba que algo no exista, y que una pista esté aquí no sugiere que
 la persona haya hecho algo indebido.
 
-- `METODO_INVESTIGACION.md`: el protocolo vigente (v5): qué cuenta como evidencia, cuándo una pista llega a caso y cómo decide el editor.
+- `METODO_INVESTIGACION.md`: el protocolo vigente (v6): qué cuenta como evidencia, cuándo una pista llega a caso y cómo decide el editor.
 - `INDICE.md`: una fila por pista, con su estado y la próxima acción.
 - `fichas/<id>.md`: la ficha de cada pista.
 - `consultas/<id>-<n>.sql`: la consulta reproducible detrás de cada hecho, sobre el artefacto
