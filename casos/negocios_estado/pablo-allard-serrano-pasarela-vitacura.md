@@ -6,7 +6,7 @@ La declaración de Pablo Allard Serrano en InfoProbidad lo identifica como «Ase
 
 Una nómina municipal de honorarios publicada para febrero de 2021 registra a Allard Serrano con una prestación cuyo período indicado fue del 1 de enero al 31 de diciembre de 2020. Entre sus tareas figuraba formular anteproyectos de movilidad sobre el cauce del río Mapocho y gestionar su aprobación.[3] Ese antecedente acredita una función previa relacionada temáticamente con movilidad y espacio público, pero no identifica la Pasarela Lo Curro como proyecto encargado a Allard ni demuestra que participara en su contratación posterior.[3]
 
-La orden de compra 2659-252-SE23 de la Municipalidad de Vitacura, enviada el 2 de mayo de 2023 y registrada como aceptada, identifica a ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT 76.598.791-1, como proveedor de un servicio de ejecución del proyecto de arquitectura y espacio público de la Pasarela Lo Curro. La ficha consigna trato directo y un total de 995 UTM.[2] La coincidencia se establece por el RUT publicado, aunque la razón social de la orden difiere de la declarada.[1][2]
+La orden de compra 2659-252-SE23 de la Municipalidad de Vitacura, enviada el 2 de mayo de 2023 y registrada como aceptada, identifica a ALLARD ARQUITECTOS ASOCIADOS LIMITADA, RUT 76.598.791-1, como proveedor de un servicio de ejecución del proyecto de arquitectura y espacio público de la Pasarela Lo Curro. La ficha consigna trato directo y un total de 995 UTM (equivalentes a $62.758.630, aproximadamente 1.749,87 UF al 2 de mayo de 2023).[2][5] La coincidencia se establece por el RUT publicado, aunque la razón social de la orden difiere de la declarada.[1][2]
 
 Los documentos muestran una relación societaria declarada, una prestación municipal anterior con una conexión temática y una compra posterior al mismo RUT societario. No establecen que Allard siguiera ejerciendo el cargo o controlando la sociedad en mayo de 2023, que interviniera en la selección o ejecución del contrato, ni que hubiera irregularidad o pago efectivo.[1][2][3]
 
@@ -37,3 +37,4 @@ Este caso documenta una coincidencia societaria y una conexión temática que ju
 [2] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2659-252-SE23
 [3] https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf
 [4] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=703246 — InfoProbidad declaración 703246
+[5] https://www.sii.cl/valores_y_fechas/utm/utm2023.htm — Servicio de Impuestos Internos, UTM de mayo de 2023; https://www.sii.cl/valores_y_fechas/uf/uf2023.htm — UF del 2 de mayo de 2023
