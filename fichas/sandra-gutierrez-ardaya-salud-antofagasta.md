@@ -1,9 +1,9 @@
 # Sandra Gutiérrez Ardaya y órdenes de servicios médicos al Servicio de Salud Antofagasta
 
-**Estado:** abierta  
+**Estado:** descartada (cron 2026-10-23)  
 **Pregunta:** ¿Qué documentación primaria establece los términos y la participación funcional de la profesional Sandra Vanessa Gutiérrez Ardaya en las contrataciones con su empleador público de servicios médicos a través de la EIRL que aparece en sus declaraciones?
 
-## Señal inicial — no es una conclusión
+## Señal inicial — no es una conclusión (registro previo, supersedido por la reevaluación)
 
 La consulta al oro del 2026-10-20 cruza declaraciones con órdenes de Mercado Público por RUT societario. Devuelve cuatro órdenes del Servicio de Salud Antofagasta asociadas a `SALUDSANDRAVANESSAGUTIERREZ ARDAYAE.I.R.L.`: una orden de CLP 27.000.000 (20-10-2017; licitación 769-78-LQ16) y tres órdenes de emergencia del Hospital Carlos Cisternas, enviadas el 06-07-2018, por CLP 489.583, CLP 498.333 y CLP 489.583. Los estados visibles son Aceptada. Total nominal: CLP 28.477.499. No se han actualizado estos pesos a valor presente.
 
@@ -25,11 +25,25 @@ La orden de 2017 dice «Addendum de contrato», proviene de licitación pública
 4. El oro registra dos órdenes más del mismo día y comprador, ambas aceptadas, por CLP 498.333 (2215-2107-SE18) y CLP 489.583 (2215-2111-SE18). Sus fichas primarias aún deben cotejarse.
 5. La consulta agregada `declared_supply` marca cuatro órdenes con mismo organismo y `is_direct_award` en tres; sin embargo, la orden de CLP 27.000.000 es licitación pública y las tres restantes son órdenes de emergencia. «Emergencia/urgencia/imprevisto» en la ficha no se interpreta aquí como trato directo confirmado.
 
-## Próxima acción concreta
+## Reevaluación y decisión — corrida 2026-10-23
 
-1. Localizar y abrir en InfoProbidad las declaraciones primarias 2017-03-24 y 2018-04-02 de Sandra Vanessa Gutiérrez Ardaya; cotejar nombre completo, entidad/cargo, fecha y participación societaria/RUT.
-2. Abrir las fichas de 2215-2107-SE18 y 2215-2111-SE18 y sus anexos; recuperar también la licitación 769-78-LQ16, su adjudicación y el addendum. Registrar causal y fundamento, objeto, prestador, fechas y firmantes.
-3. Solo continuar hacia atribución funcional si un documento primario identifica a la titular como prestadora/participante o acredita competencia relevante. No presentar la coincidencia societaria y temporal como intervención individual.
+### Hechos comprobados en fuentes primarias
+
+- InfoProbidad, declaraciones [ID 56585](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=56585) (24-03-2017) e [ID 216905](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=216905) (02-04-2018): ambas identifican a SANDRA VANESSA GUTIERREZ ARDAYA, Servicio de Salud Antofagasta, cargo “Medicos”, asunción 31-08-2015. En ambas declara 100% y calidad de controladora de SALUDSANDRAVANESSAGUTIERREZ ARDAYA E.I.R.L., RUT 76.587.467-K; giro de profesionales de salud. La consulta del oro coincide en los campos y ambos IDs.
+- La [licitación pública 769-78-LQ16](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=769-78-LQ16) fue publicada el 16-08-2016 y adjudicada el 27-09-2016 para servicios profesionales de médicos generales; requería CV del equipo y certificado del título del médico que ejecutaría las prestaciones. La ficha pública no identifica en la parte accesible a la profesional que prestó el servicio ni permite verificar el anexo de oferta/adjudicación.
+- La OC [769-1920-SE17](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=769-1920-SE17), enviada 20-10-2017, aceptada y vinculada a esa licitación, identifica como proveedor a la EIRL (RUT 76.587.467-K) y registra CLP 27.000.000 por nueve unidades mensuales de CLP 3.000.000; descripción: prestación de servicios médicos generales para Hospital Carlos Cisternas, por un profesional médico.
+- Las OCs [2215-2107-SE18](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2215-2107-SE18), [2215-2109-SE18](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2215-2109-SE18) y [2215-2111-SE18](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2215-2111-SE18), enviadas 06-07-2018, aceptadas y emitidas por emergencia/urgencia/imprevisto, identifican a la misma EIRL. Suman CLP 1.477.499: prestaciones médicas en fechas concretas de diciembre de 2017 y marzo/abril de 2018, con horas registradas; ninguna ficha extraída nombra al profesional que las realizó. “Ver Anexos” aparece en las fichas, pero los documentos no quedaron accesibles en la ruta pública consultada.
+- Total nominal único de las cuatro OCs: CLP 28.477.499 (pesos de cada fecha, no actualizados; consulta reproducible en `consultas/sandra-gutierrez-ardaya-salud-antofagasta-2.sql`). La licitación documenta convocatoria abierta, y su ficha recoge como requisito una declaración jurada de no estar afecto al artículo 4 inciso 6 de la Ley 19.886, cuyo texto allí se refiere a funcionarios directivos. La declaración de Gutiérrez solo la describe como “Medicos”; no se halló evidencia de que fuera directiva ni de que interviniera en las compras.
+
+### Evaluación y cierre
+
+La coincidencia es real y relevante para escrutinio: la titular declaró control total de una EIRL proveedora y el Servicio donde ejercía contrató a esa sociedad por el monto indicado, mediante una licitación y tres compras de emergencia. Pero la evidencia primaria accesible no identifica a Gutiérrez como el médico ejecutor, no acredita intervención o decisión de su parte y tampoco muestra una irregularidad. La explicación legítima más sólida es la compra de cobertura médica para cubrir brechas asistenciales, documentada en la descripción de la licitación; esta fue competitiva, mientras que las OCs de 2018 describen prestaciones puntuales por emergencia.
+
+**Decisión: descartada.** La pista exigía continuar solo si una fuente identificaba intervención o prestación personal. Las fichas, bases accesibles y declaraciones confirman cargo, control societario y pagos a la empresa, pero no esa atribución individual; sin ella, narrar la compra como caso personal excedería la prueba. Reabrir solo si se obtiene por ruta oficial accesible el expediente de adjudicación/anexos que identifique a Gutiérrez como prestadora o documente su intervención en la contratación. No se revisó Servel ni CMF: la pista no contiene un eje electoral o financiero distinto del patrimonio declarado y las compras.
+
+## Próxima acción
+
+Sin acción pendiente en el cron. Una reapertura requiere el documento primario especificado arriba.
 
 ## Fuentes
 

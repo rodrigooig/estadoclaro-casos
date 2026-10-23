@@ -1,5 +1,5 @@
 -- Declaraciones y participación societaria cruzada en el oro.
--- Ejecutar con ec-gold-sql; corte meta.build_date: 2026-10-20T14:25:46+00:00
+-- Ejecutar con ec-gold-sql; corte meta.build_date: 2026-10-21T19:32:15+00:00
 SELECT d.declaration_date, d.start_date, d.institution, d.position, d.is_current,
        c.legal_name, c.company_rut, c.is_controlling, c.type, c.quantity
 FROM declaration d
