@@ -47,6 +47,6 @@ Sin acción pendiente en el cron. Una reapertura requiere el documento primario 
 
 ## Fuentes
 
-- InfoProbidad, portal oficial de declaraciones: [https://www.infoprobidad.cl/](https://www.infoprobidad.cl/) — declaración exacta pendiente de localizar y abrir.
-- Mercado Público, fichas primarias enlazadas arriba.
-- EstadoClaro gold, corte `meta.build_date = 2026-10-20T14:25:46+00:00`; consultas solo por `ec-gold-sql`. Reproducción en `consultas/sandra-gutierrez-ardaya-salud-antofagasta-1.sql`.
+- InfoProbidad: declaraciones primarias [ID 56585](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=56585) y [ID 216905](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=216905).
+- Mercado Público: licitación y cuatro fichas de OC enlazadas en la reevaluación; los anexos no quedaron accesibles desde las fichas consultadas.
+- EstadoClaro gold, corte `meta.build_date = 2026-10-21T19:32:15+00:00`; consultas solo por `ec-gold-sql`: `consultas/sandra-gutierrez-ardaya-salud-antofagasta-1.sql`, `-2.sql` y `-3.sql`.
