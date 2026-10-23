@@ -25,10 +25,6 @@ La fuente patrimonial es una declaración del propio candidato fechada 26 días 
 - ¿La participación declarada por Tuma seguía vigente el 14-09-2025 y cuál era entonces la razón social y forma jurídica registral de la entidad con ese RUT?
 - ¿Hubo restitución, ajuste o impugnación posterior de este gasto?
 
-## Consultas reproducibles
-
-La consulta `consultas/eugenio-tuma-campana-autoproveedor-20261022-1.sql` reproduce la línea en el oro, la declaración asociada por RUT y las métricas agregadas de la campaña. Corte del oro: `2026-10-21T19:32:15+00:00`.
-
 ## Sources
 
 [1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1504762
