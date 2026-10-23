@@ -1,8 +1,9 @@
-# Gastón Gómez Bernales y tres tratos directos del estudio jurídico que declaró controlar — pista abierta
+# Gastón Gómez Bernales y tres tratos directos del estudio jurídico que declaró controlar — descartada
 
 - **ID:** `gaston-gomez-bernales-estudio-juridico-pensiones-2026`
 - **Categoría:** compras/relaciones con el Estado; patrimonio e intereses; actividades/cargos/temporalidad
-- **Estado:** abierta
+- **Estado:** descartada
+- **Cierre:** 2026-10-23
 - **Apertura:** 2026-10-17
 - **Pregunta decisiva:** ¿qué actos, propuestas y antecedentes respaldan la contratación directa recurrente de GÓMEZ & GARCÍA LIMITADA por la Superintendencia de Pensiones, y qué profesionales identificados prestaron los servicios, dado que su controlador declarado era consejero vigente del CNTV?
 - **Qué confirmaría o falsaría el interés público:** los anexos y actos de las tres órdenes podrían confirmar que el estudio, con especialización documentada y selección justificada, ejecutó servicios jurídicos para la Superintendencia; también podrían identificar al abogado que los prestó, el fundamento de la modalidad y eventuales roles institucionales pertinentes. La falta de relación funcional entre CNTV y la Superintendencia, o que el declarante no interviniera en esos servicios ni en decisiones sobre la contraparte, puede reducir o descartar el nexo público.
@@ -39,9 +40,15 @@ La repetición y cuantía de contratos públicos pueden justificar una revisión
 
 **Próxima acción:** abrir los enlaces «Ver Anexos» en las tres fichas y localizar las resoluciones/decretos de trato directo, propuesta del proveedor, informes o causas concretas y constancias de quiénes prestaron/firmaron el servicio; contrastar el fundamento de la causal de especialización con los antecedentes publicados. No contactar a la Superintendencia, al proveedor ni a terceros. Si esos documentos solo confirman servicios jurídicos ordinarios sin vincular al consejero personalmente ni con funciones del CNTV, cerrar la pista como contratación societaria declarada sin nexo funcional acreditado. No evaluar legalidad con la información actual.
 
+La ficha de InfoProbidad abierta inicialmente con ID 1466207 era una versión anterior, fechada 10-06-2025, no la actualización indicada en la pista. La consulta reproducible `consultas/gaston-gomez-bernales-estudio-juridico-pensiones-2026-2.sql` recupera cuatro declaraciones para la sociedad por el mismo RUT; la más reciente es 14-04-2026, source_id 1756141, y registra 55%, control, adquisición 27-03-2023 y valor declarado CLP 40.000.000. El oro confirma las tres OCs y, además, captura los IDs de trato directo que generan cada OC (2580-204-FTD25, 2580-27-FTD26 y 2580-51-FTD26).
+
+La inspección de las tres páginas públicas en navegador no encontró hipervínculo de descarga para «Ver Anexos» (solo texto); web_extract confirma idéntica limitación en el contenido legible. No se accedió a resoluciones ni expedientes equivalentes. La fuente primaria sí confirma proveedor, causal, objeto y UF de cada orden; no identifica a los profesionales ejecutores. La hipótesis de servicios jurídicos ordinarios especializados sigue siendo la explicación legítima mejor respaldada por la causal y las descripciones. El CNTV y la Superintendencia de Pensiones son organismos distintos y no aparece nexo funcional entre el cargo de consejero y estas compras.
+
+**Decisión: descartada.** La repetición y el importe nominal agregado (UF 2.095) describen compras públicas de materialidad, pero no pasan la prueba editorial de relevancia ligada a la función: no hay evidencia de intervención personal, beneficio personal individualizado ni competencia del CNTV sobre esas contrataciones. Además, el expediente determinante para atribuir prestadores y justificar selección no está accesible en las fichas consultadas. Reabrir solo si aparece copia oficial de los actos/anexos que documente intervención o beneficio personal, o una relación funcional concreta con decisiones de CNTV.
+
 ## Fuentes
 
-[1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1466207 — InfoProbidad, GASTÓN ALFONSO GÓMEZ BERNALES, actualización periódica de 14-04-2026; vista «Mostrar declaración completa». Extractos: «Cantidad / Porcentaje 55», «GÓMEZ & GARCÍA LIMITADA», «Fecha de adquisición 27-03-2023», «SERVICIOS DE ASESORAMIENTO Y REPRESENTACIÓN JURÍDICA», «Valor Corriente en plazo o Valor Libro 40.000.000», «Tiene Calidad de Controlador true».
+[1] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1756141 — InfoProbidad, GASTÓN ALFONSO GÓMEZ BERNALES, actualización periódica de 14-04-2026; declaración completa. Extractos verificados también en el oro: «Cantidad / Porcentaje 55», «GÓMEZ & GARCÍA LIMITADA», «Fecha de adquisición 27-03-2023», «SERVICIOS DE ASESORAMIENTO Y REPRESENTACIÓN JURÍDICA», valor declarado CLP 40.000.000 y calidad de controlador true. La versión anterior ID 1466207 era de 10-06-2025.
 
 [2] https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2580-1378-TD25 — Mercado Público, OC 2580-1378-TD25; consultada 2026-10-17. Extractos: «TOTAL OC UF 485,0000»; «Contratación de un estudio jurídico para la elaboración de un informe en Derecho»; causal «Proveedor con alto grado de especialización».
 
