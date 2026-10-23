@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261023T164652Z",
+  "lead_id": "carlos-campos-saigg-radio-core",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/carlos-campos-saigg-radio-core.md",
+  "draft_sha256": "2c4db74e953fd91d62a35d795c98637b85460e7ccdb64e563c150bf25eaecf16",
+  "files": [
+    "INDICE.md",
+    "borradores/carlos-campos-saigg-radio-core.md",
+    "consultas/carlos-campos-saigg-radio-core-1.sql",
+    "fichas/carlos-campos-saigg-radio-core.md"
+  ],
+  "origen": "cron"
+}
