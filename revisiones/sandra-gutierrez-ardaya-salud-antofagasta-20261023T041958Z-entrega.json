@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261023T041958Z",
+  "lead_id": "sandra-gutierrez-ardaya-salud-antofagasta",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/sandra-gutierrez-ardaya-salud-antofagasta-2.sql",
+    "consultas/sandra-gutierrez-ardaya-salud-antofagasta-3.sql",
+    "fichas/sandra-gutierrez-ardaya-salud-antofagasta.md"
+  ],
+  "origen": "cron"
+}
