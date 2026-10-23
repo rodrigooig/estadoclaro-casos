@@ -35,3 +35,9 @@ La pregunta acotada es por qué la campaña registró como pagado un gasto a una
 3. Servel, Control de la contabilidad electoral: https://www.servel.cl/campanas-electorales-introduccion/control-de-la-contabilidad-electoral/
 4. Oro EstadoClaro (corte `2026-10-21T19:32:15+00:00`): consulta adjunta; la UF se expresa según `campaign_expense.amount_uf`.
 5. Servel, noticia de publicación de datos electorales 2025: https://www.servel.cl/2026/01/23/ingresos-y-gastos-de-campana-de-las-elecciones-parlamentarias-y-presidenciales-2025-ya-son-publicos/
+
+## Decisión editorial (2026-10-23): publicado
+
+Publicar en autocontratación. Verifiqué InfoProbidad 1504762 (19-08-2025): Eugenio Tuma Zedan declara 92,5% y control de la sociedad con RUT 76.445.700-5; el reporte definitivo de Servel registra en Formulario 103 n.º 55 un gasto de $1.500.000 el 14-09-2025 a ese RUT, con resultado «Gasto rechazado», y el auxiliar lo marca pagado. Servel no publica en el reporte el fundamento individual del rechazo; «Registro de Vehículos» es el detalle, no su causal. La coincidencia es por RUT, no acredita control vigente al gasto ni beneficio personal o infracción; el borrador conserva esos límites.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/180
