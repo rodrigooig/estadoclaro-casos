@@ -217,3 +217,8 @@ PR: https://github.com/rodrigooig/estadoclaro-casos/pull/108
 [43] https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf — Municipalidad de Vitacura, Personal Municipal Honorarios febrero 2021.
 [44] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=703246 — InfoProbidad, declaración de actualización periódica, 31-03-2021.
 
+## Decisión editorial (2026-10-23): publicado
+
+Publicar. Verifiqué InfoProbidad 703246/912542: nombre completo, cargo declarado de Asesor Alcaldía, participación de 20% y control del RUT 76.598.791-1; la nómina municipal delimita la prestación previa a 2020 y la función sobre anteproyectos de movilidad del Mapocho. Mercado Público confirma una OC aceptada de 02-05-2023, por trato directo y 995 UTM, al mismo RUT. La conexión es temática y temporal, no prueba mismo proyecto, continuidad del cargo/interés ni intervención; el borrador lo limita expresamente y plantea revisión documental.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/173
