@@ -1,7 +1,7 @@
 # Luis Roberto Reyes Álvarez — declaraciones, campaña y antecedentes de contratación pública
 
 - **ID:** `luis-roberto-reyes-alvarez-rio-bueno`
-- **Estado:** abierta
+- **Estado:** descartada
 **Identificación:** alcalde de Río Bueno; la Municipalidad informa asunción el 06-12-2024. No confundir con homónimos.  
 **Pregunta:** ¿Qué muestran sus declaraciones de intereses y patrimonio y su campaña, y qué antecedentes públicos existen sobre contratos municipales, auditorías y causas?
 
@@ -74,6 +74,16 @@ Consulta de control al gold del 22-10-2026 por identidad completa (no apellido s
 - Recuperar expediente de Fiscalía y resolución de medidas cautelares (RIT/RUC, hechos precisos, cuentas/fechas, partes y fundamentos), y querella del CDE para conciliar montos y períodos. Confirmar evolución de cautelares, no confundir con condena.
 - Obtener informes Contraloría desde 2022 y expediente de la causa Informe 709/2016; leer sentencia ejecutoriada y determinaciones individuales. Recuperar también informe externo 2022 mencionado en prensa.
 - Descargar el libro definitivo Servel 2024, verificar contabilización de proveedores/gastos e identificar adjudicaciones públicas de los mismos RUT únicamente como pista de cruce, sin atribución impropia.
+
+## Cierre cron — 23-10-2026
+
+Se cierra como **descartada**, no por refutar la acusación sino por insuficiencia de fuente primaria para este paquete. Se verificó en la página de T13 que publicó el 21-10-2026 que informó la formalización del alcalde por cohecho agravado reiterado y lavado de activos y que el Juzgado de Garantía decretó prisión preventiva; la cifra de CLP 36.360.000 y la atribución a proveedores se presentan como antecedentes de Fiscalía. BioBioChile reportó hechos similares y cerca de CLP 90 millones en depósitos en efectivo. Son reportes periodísticos de actuaciones procesales, no las resoluciones ni las imputaciones completas.
+
+Se buscaron documentos/identificadores oficiales del caso en sitios de Fiscalía de Chile, Poder Judicial y CDE; no se localizó expediente, RIT/RUC, resolución íntegra ni querella primaria accesible. Sin ello no es posible verificar el hecho central ni conciliar el total informado por prensa (CLP 36.360.000) con cifras de distinto alcance anotadas previamente. Tampoco se identificaron razón social/RUT de proveedores para cotejar las compras con Mercado Público. Por tanto, la historia no está lista para editor bajo el estándar de la corrida, aun cuando tiene alto interés público y materialidad potencial.
+
+Control reproducible del oro (`consultas/luis-roberto-reyes-alvarez-rio-bueno-1.sql`): por identidad completa, 22 declaraciones entre 2017-03-30 y 2025-09-30, cero RUT societarios declarados en `company` y cero proveedores enlazados en `company_supply`. Esto mide el alcance del cruce disponible, no la inexistencia de sociedades ni la ausencia de conducta investigada. Corte `meta.build_date`: `2026-10-21T19:32:15+00:00`.
+
+**Reabrir** si aparece resolución judicial/fiscal o querella íntegra identificable y accesible, junto con RUT/razones sociales o expedientes de compra que permitan corroborar el nexo proveedores–licitaciones–función. La cautelar no es condena y esta decisión no valida ni refuta el fondo de la imputación.
 
 ## Fuentes principales
 

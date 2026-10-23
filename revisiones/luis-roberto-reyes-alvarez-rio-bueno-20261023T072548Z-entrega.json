@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261023T072548Z",
+  "lead_id": "luis-roberto-reyes-alvarez-rio-bueno",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/luis-roberto-reyes-alvarez-rio-bueno-1.sql",
+    "fichas/luis-roberto-reyes-alvarez-rio-bueno.md"
+  ],
+  "origen": "cron"
+}
