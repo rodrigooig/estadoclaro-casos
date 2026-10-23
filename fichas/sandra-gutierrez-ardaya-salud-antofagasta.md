@@ -19,10 +19,10 @@ La orden de 2017 dice «Addendum de contrato», proviene de licitación pública
 
 ## Hechos verificados y límites
 
-1. InfoProbidad contiene declaraciones indexadas en el oro para la persona; el oro atribuye declaraciones de 24-03-2017 y 02-04-2018 al Servicio de Salud Antofagasta, cargo «MEDICOS». La ficha oficial de declaración correspondiente aún no ha sido identificada; por ello, la participación en la empresa y el texto exacto declarado quedan pendientes de cotejo primario.
+1. Las dos declaraciones primarias se identificaron y cotejaron en esta corrida: InfoProbidad IDs 56585 (24-03-2017) y 216905 (02-04-2018). Ambas presentan a la misma persona, Servicio de Salud Antofagasta, cargo “Medicos” y la participación/control de la EIRL descrita abajo.
 2. Mercado Público, OC [769-1920-SE17](http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=769-1920-SE17): enviada 20-10-2017, aceptada, proveedor `SALUDSANDRAVANESSAGUTIERREZARDAYAE.I.R.L.`, RUT societario 76.587.467-K, comprador Servicio de Salud Antofagasta, total CLP 27.000.000; indica licitación 769-78-LQ16 y «Addendum de contrato».
 3. Mercado Público, OC [2215-2109-SE18](http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2215-2109-SE18): enviada 06-07-2018, aceptada, proveedor con el mismo nombre y RUT societario, comprador Hospital Carlos Cisternas/Servicio de Salud Antofagasta; CLP 489.583; la ficha dice «COMPRA DE SERVICIOS MEDICOS EN ANEXO» y 19 h 35 min trabajadas el 04-04-2018; ruta emergencia/urgencia/imprevisto.
-4. El oro registra dos órdenes más del mismo día y comprador, ambas aceptadas, por CLP 498.333 (2215-2107-SE18) y CLP 489.583 (2215-2111-SE18). Sus fichas primarias aún deben cotejarse.
+4. Las tres órdenes de emergencia 2215-2107-SE18, 2215-2109-SE18 y 2215-2111-SE18 se cotejaron en las fichas primarias, cuyos detalles y límites se consignan en la reevaluación de esta corrida.
 5. La consulta agregada `declared_supply` marca cuatro órdenes con mismo organismo y `is_direct_award` en tres; sin embargo, la orden de CLP 27.000.000 es licitación pública y las tres restantes son órdenes de emergencia. «Emergencia/urgencia/imprevisto» en la ficha no se interpreta aquí como trato directo confirmado.
 
 ## Reevaluación y decisión — corrida 2026-10-23
