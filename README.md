@@ -39,7 +39,7 @@ llevan una nota mientras se corrigen. Quedan 59 casos, varios aún en revisión.
 
 ## Índice por categoría
 
-### [Autocontratación](casos/autocontratacion/) — 6 casos
+### [Autocontratación](casos/autocontratacion/) — 7 casos
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
 ### [Negocios con el Estado](casos/negocios_estado/) — 19 casos
