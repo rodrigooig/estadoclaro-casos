@@ -11,3 +11,9 @@
 - **Rutas realizadas:** cotejo literal de cuatro declaraciones InfoProbidad; serie de seis registros en el oro por nombre completo y RUT societario; consulta independiente por IDs exactos; control de filas/duplicación y diferencia aritmética. No se investigó Mercado Público porque no es parte necesaria de la pregunta documental acotada y el borrador no atribuye intervención en compras o decisiones.
 - **Archivos reproducibles:** `borradores/giovanna-paredes-castillo-empresa-discrepante.md`; `consultas/giovanna-paredes-castillo-empresa-20261013-{1,2,3}.sql`; `consultas/giovanna-paredes-castillo-review-evidence-final-20261013.sql`; `consultas/giovanna-paredes-castillo-review-adversarial-final3-20261013.sql`; extractos literales y resultados SQL en `tmp/runs/20261013T001443Z/giovanna-paredes-castillo/`.
 - **Retorno/acción:** entregar el paquete con `ec-inv-pr` cuando el `INDICE.md` compartido esté libre de cambios de otras pistas. No reabrir la investigación por formato o por el mismo bloqueo. Reabrir solo ante historial o acto oficial que explique el alcance de la rectificación, o evidencia primaria nueva sobre la base del valor. No afirmar cuál cifra prevalece, moneda, valor económico real, error deliberado, infracción o intervención.
+
+## Decisión editorial (2026-10-23): descartada
+
+Descartar. Reabrí las dos declaraciones InfoProbidad del 29-03-2023: ambas identifican a Giovanna Paredes Castillo, la misma sociedad y RUT 76.035.861-4, cantidad/porcentaje 2,5 y moneda vacía; el campo de valor difiere entre 6.288.303 y 1.000.000.000. La fuente acredita la discrepancia, pero no su unidad monetaria, cuál registro debía prevalecer ni una diferencia económica real; las rectificaciones posteriores repiten una cifra sin resolverlo. La propuesta no supera el umbral de interés público por una discrepancia declarativa aislada y además no encaja en la categoría de pasivos desproporcionados.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/177
