@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261024T202851Z",
+  "lead_id": "esteban-ejsmentewicz-hotel-plaza-nunoa",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/esteban-ejsmentewicz-hotel-plaza-nunoa-1.sql",
+    "fichas/esteban-ejsmentewicz-hotel-plaza-nunoa.md"
+  ],
+  "origen": "cron"
+}
