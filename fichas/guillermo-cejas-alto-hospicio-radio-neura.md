@@ -34,3 +34,12 @@ Pista nueva de la pantalla `trato_directo` del pre-run 2026-10-24. Se eligió a 
 - Revisado INDICE.md y `origin/main`: no se encontró Cejas, Talon de Vaca, Fuerza Iquique ni Radio Neura como caso previo.
 - Búsquedas web sobre el programa y el candidato no identificaron corroboración utilizable; resultados generales o no relacionados. No se hizo búsqueda de Servel de resultados electorales ni se consultaron campañas. No se afirma que el cargo esté verificado por Servel: aquí consta en InfoProbidad.
 - No se revisaron adjuntos/actos administrativos enlazados desde las órdenes, ni evidencia de pago, recepción conforme para todas las órdenes, audiencia del programa, titularidad/administración de Radio Neura o intervención de Cejas.
+
+## Decisión editorial (2026-10-24): descartada
+
+Reabrí InfoProbidad ID 506299 y las OCs 3447-392-SE19 y 3447-2350-SE19: coinciden el proveedor/RUT, comprador, programa, causal, fecha y montos observados; la primera está aceptada y la segunda enviada al proveedor.
+La declaración registra a Cejas como concejal de Iquique y actividad no remunerada en Radio Neura, pero las órdenes son de Alto Hospicio y ninguna fuente revisada vincula “Fuerza Iquique” con Radio Neura o con Cejas.
+Tampoco se acredita que el declarante controlara la sociedad durante las órdenes, ni aceptación/pago para cinco órdenes del patrón.
+Descarto: hay reiteración de compras, pero con la evidencia disponible falla el nexo de interés público necesario para elevarla como caso; no infiero irregularidad.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/201
