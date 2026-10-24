@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261024T050150Z",
+  "lead_id": "carlos-carvajal-pozo-almonte-actividad-declarada",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/carlos-carvajal-pozo-almonte-actividad-declarada.md",
+  "draft_sha256": "fcf78125a2ca56c433cb68475a406028cb9369519f008b0da9b5c66bb9c8489a",
+  "files": [
+    "INDICE.md",
+    "borradores/carlos-carvajal-pozo-almonte-actividad-declarada.md",
+    "consultas/carlos-carvajal-pozo-almonte-actividad-declarada-1.sql",
+    "fichas/carlos-carvajal-pozo-almonte-actividad-declarada.md"
+  ],
+  "origen": "cron"
+}
