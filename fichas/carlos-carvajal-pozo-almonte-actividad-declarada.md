@@ -17,9 +17,18 @@
 
 ## Decisión editorial (2026-10-24): lista para verificacion
 
-Reabrí InfoProbidad ID 1091667 y las OCs 2591-655-AG23 y 2591-1011-SE24: identidad/RUT proveedor, fechas, estados, montos y causales coinciden; la declaración registra 95% de control y actividad remunerada en Pozo Almonte «a la fecha» del 12-11-2023.
+Reabrí InfoProbidad ID 1091667 y las OCs 2591-655-AG23 y 2591-1011-SE24: identidad/RUT proveedor, fechas, estados, montos y causales coinciden; la declaración registra 95% de control y actividad remunerada en Pozo Almonte «a la fecha» del 12-11-2023. La OC de 2023 identifica como razón social ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA (RUT 77.167.947-1); no debe confundirse la razón social con el nombre de fantasía TARAPACA SPORT LTDA.
 La BCN sitúa el empleo en 2020–2022, y la OC de 2024 es posterior; la fuente primaria consultada no establece si la actividad seguía vigente el 27-09-2023 ni sus funciones concretas.
 El expediente de compras y una fecha primaria de término/funciones permitirían evaluar si existe una conexión funcional material; hoy no puede afirmarse.
 Devuelvo para confirmar esos dos puntos antes de sostener el nexo.
 
 PR: https://github.com/rodrigooig/estadoclaro-casos/pull/198
+
+## Cierre investigador (2026-10-24)
+
+**Estado: descartada.** Las primarias reabiertas confirman una sola orden previa a la fecha declarativa que interesa: el 27-09-2023, por $639.934 CLP (17,68 UF), aceptada, a ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1. InfoProbidad declara 95% de control y actividad profesional remunerada en Pozo Almonte «a la fecha» de su declaración del 12-11-2023, pero no fija término ni función; la BCN resume el empleo como jefe de Deportes y Recreación hasta 2022. La segunda OC es del 23-09-2024, fuera de ese período laboral conocido. La compra de 2023 registra causal de compra bajo 30 UTM y seis cotizantes; la evidencia disponible no acredita rol del concejal/empleado en el proceso, ni nexo funcional verificable. La única compra del período posible es de monto acotado, y la orden posterior no salva la falta de nexo. El patrón no alcanza materialidad/interés público para presentar un caso al editor.
+
+**Qué reabriría:** un documento primario que establezca que Carvajal seguía trabajando para Pozo Almonte al 27-09-2023 y describa funciones pertinentes a la compra, o antecedentes del expediente que documenten participación suya en requerimiento, evaluación o autorización. Esta revisión no consultó el expediente ni anexos de las órdenes.
+
+Fuentes revisadas: InfoProbidad [declaración 12-11-2023](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1091667) y [02-07-2024](https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1235014); Mercado Público [OC 2591-655-AG23](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2591-655-AG23) y [OC 2591-1011-SE24](https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2591-1011-SE24); [reseña BCN](https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Jos%C3%A9_Carvajal_Gallardo). Consulta del oro: `consultas/carlos-carvajal-pozo-almonte-actividad-declarada-1.sql`; corte `2026-10-23T14:20:50+00:00`.
+
