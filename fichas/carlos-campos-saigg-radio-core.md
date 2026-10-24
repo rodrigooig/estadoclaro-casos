@@ -12,11 +12,14 @@
 - **Consulta reproducible:** `consultas/carlos-campos-saigg-radio-core-1.sql`.
 - **Corte del oro:** `meta.build_date = 2026-10-23T14:20:50+00:00`.
 
-## Decisión editorial (2026-10-24): lista para verificacion
+## Decisión editorial (2026-10-24): descartada
 
-Reabrí InfoProbidad ID 546600, la OC 868-225-SE21 y la nómina del GORE: nombre/RUT, cargo 2018–2022, monto $250.000, fecha, estado y objeto coinciden.
-La declaración acredita control del 50% en junio de 2020, pero ninguna fuente revisada acredita esa tenencia el 24-11-2021; el extracto societario citado es posterior.
-El borrador explicita el límite y no atribuye intervención, pero el nexo societario temporal es central para la pregunta pública.
-Devuelvo para obtener antecedente societario primario de la participación a la fecha de la orden y revisar la Resolución Exenta 1425/anexos sobre solicitud y autorización.
+Reabrí InfoProbidad ID 546600, la OC 868-225-SE21, la nómina institucional del CORE y el extracto del Diario Oficial. Se confirman nombre/RUT, período de cargo 2018–2022, orden de $250.000 (8,15 UF), fecha 24-11-2021, estado Recepción Conforme y objeto radial. InfoProbidad acredita que Campos declaró control del 50% en 2020; el extracto publicado el 18-02-2022 da cuenta de escritura del 24-01-2022 y tampoco prueba la tenencia el día de la OC.
 
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/193
+La página primaria de Mercado Público especifica que la coordinación, fechas, pautas, recepción conforme y autorización de pago correspondían a la encargada de la Unidad de Comunicaciones. No aparece evidencia de intervención individual de Campos. La causal consignada fue costo de evaluación desproporcionado y monto inferior a 100 UTM. La explicación legítima —compra de difusión radial de bajo monto con coordinación administrativa ordinaria— es consistente con lo que muestra la OC.
+
+Descarto: no pude comprobar el nexo societario en la fecha exacta ni intervención, y el monto aislado es bajo; el dato remanente no supera la pregunta de interés público/materialidad de la decisión editorial. Una revisión web con "Res. Exta. Nº 1425" y búsqueda de publicación societaria oficial anterior no encontró una fuente que cierre esos vacíos. El PR #193 ya está cerrado; no hay PR abierto bajo revisión.
+
+**Qué la reabriría:** antecedente societario primario que pruebe participación vigente al 24-11-2021, y/o expediente/resolución/anexos que acrediten propuesta, selección, autorización o intervención de Campos, especialmente junto con otros contratos materiales del mismo período.
+
+PR devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/193
