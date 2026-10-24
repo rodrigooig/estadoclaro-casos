@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261024T080849Z",
+  "lead_id": "julio-angulo-serviu-servicios-cbr-2020",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/julio-angulo-serviu-servicios-cbr-2020-1.sql",
+    "consultas/julio-angulo-serviu-servicios-cbr-2020-2.sql",
+    "fichas/julio-angulo-serviu-servicios-cbr-2020.md"
+  ],
+  "origen": "cron"
+}
