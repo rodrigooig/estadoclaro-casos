@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261024T111346Z",
+  "lead_id": "guillermo-cejas-alto-hospicio-radio-neura",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/guillermo-cejas-alto-hospicio-radio-neura.md",
+  "draft_sha256": "c86bcbca0d31d4d42e756654a227682f44a2be6f78f4fc7f265ec86027a48ed7",
+  "files": [
+    "INDICE.md",
+    "borradores/guillermo-cejas-alto-hospicio-radio-neura.md",
+    "consultas/guillermo-cejas-alto-hospicio-radio-neura-1.sql",
+    "fichas/guillermo-cejas-alto-hospicio-radio-neura.md"
+  ],
+  "origen": "cron"
+}
