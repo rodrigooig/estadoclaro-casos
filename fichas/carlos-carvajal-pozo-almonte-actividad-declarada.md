@@ -14,3 +14,12 @@
 - **Decisión:** `borrador listo` para el editor. El hecho central está respaldado por dos OCs primarias y declaraciones primarias que identifican la misma sociedad/RUT y participación controladora; hay una pregunta acotada y material sobre la superposición temporal de actividad en el organismo comprador. La afirmación más débil es que el empleo seguía vigente el 27-09-2023: se declara “a la fecha” semanas después, pero BCN indica fin en 2022. Se explicita como incertidumbre, no como hecho probado.
 - **Consulta reproducible:** `consultas/carlos-carvajal-pozo-almonte-actividad-declarada-1.sql`.
 - **Corte del oro:** `meta.build_date = 2026-10-23T14:20:50+00:00`.
+
+## Decisión editorial (2026-10-24): lista para verificacion
+
+Reabrí InfoProbidad ID 1091667 y las OCs 2591-655-AG23 y 2591-1011-SE24: identidad/RUT proveedor, fechas, estados, montos y causales coinciden; la declaración registra 95% de control y actividad remunerada en Pozo Almonte «a la fecha» del 12-11-2023.
+La BCN sitúa el empleo en 2020–2022, y la OC de 2024 es posterior; la fuente primaria consultada no establece si la actividad seguía vigente el 27-09-2023 ni sus funciones concretas.
+El expediente de compras y una fecha primaria de término/funciones permitirían evaluar si existe una conexión funcional material; hoy no puede afirmarse.
+Devuelvo para confirmar esos dos puntos antes de sostener el nexo.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/198
