@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261024T233516Z",
+  "lead_id": "david-cortez-godoy-arquitika-trato-directo-marchigue",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/david-cortez-godoy-arquitika-trato-directo-marchigue-1.sql",
+    "fichas/david-cortez-godoy-arquitika-trato-directo-marchigue.md"
+  ],
+  "origen": "cron"
+}
