@@ -11,3 +11,12 @@
 - **Decisión:** `borrador listo` para el editor. La pregunta funcional es concreta y está respaldada por orden y cargo primarios; el borrador informa la diferencia temporal en prueba de propiedad y no ofrece conclusiones legales. La afirmación más débil es la tenencia exacta en la fecha de la orden; se formula como evidencia próxima y como pregunta pendiente, no como hecho probado.
 - **Consulta reproducible:** `consultas/carlos-campos-saigg-radio-core-1.sql`.
 - **Corte del oro:** `meta.build_date = 2026-10-23T14:20:50+00:00`.
+
+## Decisión editorial (2026-10-24): lista para verificacion
+
+Reabrí InfoProbidad ID 546600, la OC 868-225-SE21 y la nómina del GORE: nombre/RUT, cargo 2018–2022, monto $250.000, fecha, estado y objeto coinciden.
+La declaración acredita control del 50% en junio de 2020, pero ninguna fuente revisada acredita esa tenencia el 24-11-2021; el extracto societario citado es posterior.
+El borrador explicita el límite y no atribuye intervención, pero el nexo societario temporal es central para la pregunta pública.
+Devuelvo para obtener antecedente societario primario de la participación a la fecha de la orden y revisar la Resolución Exenta 1425/anexos sobre solicitud y autorización.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/193
