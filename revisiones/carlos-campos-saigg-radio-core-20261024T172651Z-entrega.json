@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261024T172651Z",
+  "lead_id": "carlos-campos-saigg-radio-core",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/carlos-campos-saigg-radio-core.md"
+  ],
+  "origen": "cron"
+}
