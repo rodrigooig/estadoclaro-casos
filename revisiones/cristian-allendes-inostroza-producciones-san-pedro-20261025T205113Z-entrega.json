@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261025T205113Z",
+  "lead_id": "cristian-allendes-inostroza-producciones-san-pedro",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/cristian-allendes-inostroza-producciones-san-pedro-1.sql",
+    "consultas/cristian-allendes-inostroza-producciones-san-pedro-2.sql",
+    "fichas/cristian-allendes-inostroza-producciones-san-pedro.md"
+  ],
+  "origen": "cron"
+}
