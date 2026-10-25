@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261025T235449Z",
+  "lead_id": "waldo-valderrama-salazar-sociedad-nuevo-norte",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/waldo-valderrama-salazar-sociedad-nuevo-norte-1.sql",
+    "consultas/waldo-valderrama-salazar-sociedad-nuevo-norte-2.sql",
+    "fichas/waldo-valderrama-salazar-sociedad-nuevo-norte.md"
+  ],
+  "origen": "cron"
+}
