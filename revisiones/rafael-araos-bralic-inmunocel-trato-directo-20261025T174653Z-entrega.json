@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261025T174653Z",
+  "lead_id": "rafael-araos-bralic-inmunocel-trato-directo",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/rafael-araos-bralic-inmunocel-trato-directo-1.sql",
+    "fichas/rafael-araos-bralic-inmunocel-trato-directo.md"
+  ],
+  "origen": "cron"
+}
