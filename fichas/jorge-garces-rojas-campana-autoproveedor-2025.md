@@ -41,3 +41,12 @@ Pedir a quien continúe que ubique la resolución o fundamento individual de Ser
 
 - Borrador: `borradores/jorge-garces-rojas-campana-autoproveedor-2025.md`
 - Consulta: `consultas/jorge-garces-rojas-campana-autoproveedor-2025-1.sql`
+
+## Decisión editorial (2026-10-26): publicado
+
+Verifiqué InfoProbidad: la declaración del 20-08-2025 atribuye a JORGE LUIS OMAR GARCES ROJAS la calidad de controlador de INVERSIONES CP & J-A SPA, RUT 76.214.007-1; el campo informa “90”, no lo describo como porcentaje.
+El reporte definitivo de Servel registra $5.413.334 pagados a ese RUT en Formulario 103 y seis documentos distintos (267–272), por $6.441.868, rotulados “Gasto rechazado”; no precisa el fundamento ni establece solapamiento.
+Revisé órdenes oficiales de Mercado Público 1230851-13-SE23 y 1230845-9-SE24: confirman al proveedor por RUT y arriendos de camionetas anteriores a la candidatura declarada.
+El texto separa los registros y explicita límites; pasa verdad, relevancia, justicia, forma y novedad. Publicar en autocontratación, sin afirmar porcentaje, titularidad actual ni irregularidad.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/215
