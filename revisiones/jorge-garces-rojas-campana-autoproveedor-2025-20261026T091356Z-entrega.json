@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "run_id": "20261026T091356Z",
+  "lead_id": "jorge-garces-rojas-campana-autoproveedor-2025",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/autocontratacion/jorge-garces-rojas-campana-autoproveedor-2025.md",
+  "draft_sha256": "c2da3cdbd0eb79f1a898824c6e60ab46548f2003425ca9be290951d4440bf838",
+  "files": [
+    "INDICE.md",
+    "borradores/jorge-garces-rojas-campana-autoproveedor-2025.md",
+    "consultas/jorge-garces-rojas-campana-autoproveedor-2025-1.sql",
+    "consultas/jorge-garces-rojas-campana-autoproveedor-2025-2.sql",
+    "consultas/jorge-garces-rojas-campana-autoproveedor-2025-3.sql",
+    "consultas/jorge-garces-rojas-campana-autoproveedor-2025-4.sql",
+    "consultas/jorge-garces-rojas-campana-autoproveedor-2025-5.sql",
+    "fichas/jorge-garces-rojas-campana-autoproveedor-2025.md"
+  ],
+  "origen": "cron"
+}
