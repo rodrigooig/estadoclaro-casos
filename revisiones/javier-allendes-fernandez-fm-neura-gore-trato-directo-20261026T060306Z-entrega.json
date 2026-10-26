@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261026T060306Z",
+  "lead_id": "javier-allendes-fernandez-fm-neura-gore-trato-directo",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/javier-allendes-fernandez-fm-neura-gore-trato-directo-1.sql",
+    "fichas/javier-allendes-fernandez-fm-neura-gore-trato-directo.md"
+  ],
+  "origen": "cron"
+}
