@@ -1,4 +1,4 @@
-# Jorge Garces Rojas: Servel registra pagos y gastos rechazados a una sociedad que declaró controlar
+# Jorge Garcés Rojas: Servel registra pagos y gastos rechazados a una sociedad que declaró controlar
 
 El reporte definitivo de Servel de la campaña parlamentaria de 2025 registra un pago de **$5.413.334** de la candidatura de Jorge Garces Rojas a INVERSIONES CP & J-A SPA, RUT 76.214.007-1.[2]
 
@@ -32,15 +32,11 @@ La línea de Formulario 103 y los seis documentos rechazados son registros disti
 
 Las órdenes previas muestran que la sociedad ya era proveedor de arriendo de camionetas, una explicación comercial ordinaria; no documentan intervención de Garces en esas compras.[3][4][5]
 
-
 El cruce exacto por RUT en el oro también encuentra **seis órdenes de Mercado Público** a la empresa, por CLP $57.596.000 (1.588,58 UF), enviadas entre marzo de 2023 y enero de 2024 por las corporaciones municipales de Cultura y Deporte de Talca.[3][4][5]
 
 Son arriendos de camioneta: las órdenes de 2023 y una de enero de 2024 vienen de licitaciones públicas; otras dos de enero de 2024 se identifican como prórrogas.[3][4][5]
 
 El cargo que Garces informó en la declaración consultada es de candidato, con fecha de asunción 11-03-2026, posterior a esas compras.[1]
-
-La consulta de oro reproducible acota el listado a ese proveedor y corte.
-
 
 ## Preguntas para seguimiento
 
@@ -48,10 +44,6 @@ La consulta de oro reproducible acota el listado a ese proveedor y corte.
 - ¿Los seis gastos corresponden a vehículos provistos por la sociedad y se relacionan con el pago de $5.413.334 informado en Formulario 103?
 - ¿La participación/control declarado seguía vigente en las fechas de gasto y cuál era entonces la forma societaria registral?
 - ¿Hubo ajustes, devoluciones o revisiones posteriores de esos gastos?
-
-## Consultas reproducibles
-
-La consulta está en `consultas/jorge-garces-rojas-campana-autoproveedor-2025-1.sql` (gastos de Servel, oro en solo lectura; corte `2026-10-23T14:20:50+00:00`). Las consultas complementarias están en los archivos `-2.sql` a `-5.sql`, incluida la búsqueda por RUT del proveedor en Mercado Público.
 
 ## Sources
 
