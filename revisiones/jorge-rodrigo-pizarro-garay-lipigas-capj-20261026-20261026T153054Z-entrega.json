@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261026T153054Z",
+  "lead_id": "jorge-rodrigo-pizarro-garay-lipigas-capj-20261026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/jorge-rodrigo-pizarro-garay-lipigas-capj-20261026-1.sql",
+    "consultas/jorge-rodrigo-pizarro-garay-lipigas-capj-20261026-2.sql",
+    "fichas/jorge-rodrigo-pizarro-garay-lipigas-capj-20261026.md"
+  ],
+  "origen": "cron"
+}
