@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261026T025849Z",
+  "lead_id": "daniel-linares-zegarra-impresiones-mas-color",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/daniel-linares-zegarra-impresiones-mas-color-1.sql",
+    "fichas/daniel-linares-zegarra-impresiones-mas-color.md"
+  ],
+  "origen": "cron"
+}
