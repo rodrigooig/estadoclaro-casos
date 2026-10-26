@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261026T214352Z",
+  "lead_id": "pamela-saldivia-ministerio-publico-transportes-pinar-20261026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pamela-saldivia-ministerio-publico-transportes-pinar-20261026-1.sql",
+    "fichas/pamela-saldivia-ministerio-publico-transportes-pinar-20261026.md"
+  ],
+  "origen": "cron"
+}
