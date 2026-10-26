@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261026T122348Z",
+  "lead_id": "mauricio-martin-hartwig-rmh-sin-nexo-la-reina-20261026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/mauricio-martin-hartwig-rmh-sin-nexo-la-reina-20261026-1.sql",
+    "fichas/mauricio-martin-hartwig-rmh-sin-nexo-la-reina-20261026.md"
+  ],
+  "origen": "cron"
+}
