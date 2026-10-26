@@ -7,9 +7,6 @@
   "destination": "",
   "draft_sha256": "",
   "files": [
-    "INDICE.md",
-    "consultas/esteban-martinez-rubio-peumo-oc-20261026-1.sql",
-    "consultas/esteban-martinez-rubio-peumo-oc-20261026-2.sql",
     "fichas/esteban-martinez-rubio-peumo-oc-20261026.md"
   ],
   "origen": "cron"
