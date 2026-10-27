@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261027T185848Z",
+  "lead_id": "rossat-protec-ley-21659-correccion-20261027",
+  "state": "correccion lista",
+  "product": "correccion",
+  "destination": "casos/negocios_estado/rossat-arriagada-municipalidad-hijuelas.md",
+  "draft_sha256": "438f4827073be96294ce65ef89aaa8a6892f447f41470e6a8066d46ec5988808",
+  "files": [
+    "INDICE.md",
+    "borradores/rossat-protec-ley-21659-correccion-20261027.md",
+    "consultas/rossat-protec-ley-21659-correccion-20261027-1.sql",
+    "fichas/rossat-protec-ley-21659-correccion-20261027.md"
+  ],
+  "origen": "cron"
+}
