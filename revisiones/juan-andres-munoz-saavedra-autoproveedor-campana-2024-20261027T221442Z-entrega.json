@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261027T221442Z",
+  "lead_id": "juan-andres-munoz-saavedra-autoproveedor-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/juan-andres-munoz-saavedra-autoproveedor-campana-2024-1.sql",
+    "consultas/juan-andres-munoz-saavedra-autoproveedor-campana-2024-2.sql",
+    "fichas/juan-andres-munoz-saavedra-autoproveedor-campana-2024.md"
+  ],
+  "origen": "cron"
+}
