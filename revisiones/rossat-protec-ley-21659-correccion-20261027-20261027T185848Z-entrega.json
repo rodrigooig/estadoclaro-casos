@@ -5,12 +5,9 @@
   "state": "correccion lista",
   "product": "correccion",
   "destination": "casos/negocios_estado/rossat-arriagada-municipalidad-hijuelas.md",
-  "draft_sha256": "438f4827073be96294ce65ef89aaa8a6892f447f41470e6a8066d46ec5988808",
+  "draft_sha256": "0d49492fb6b443d804c02ef53cc1d1a69dfe6ff0f495f4dc42df58fa86679072",
   "files": [
-    "INDICE.md",
-    "borradores/rossat-protec-ley-21659-correccion-20261027.md",
-    "consultas/rossat-protec-ley-21659-correccion-20261027-1.sql",
-    "fichas/rossat-protec-ley-21659-correccion-20261027.md"
+    "borradores/rossat-protec-ley-21659-correccion-20261027.md"
   ],
   "origen": "cron"
 }
