@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261028T042449Z",
+  "lead_id": "boris-oportus-servicio-salud-concepcion-hospital-lota-2017",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/boris-oportus-servicio-salud-concepcion-hospital-lota-2017.md",
+  "draft_sha256": "ad41478cb9a5f08a3efbe786b62c36f7e39e5741cbb617cfac85c6187b992fd7",
+  "files": [
+    "INDICE.md",
+    "borradores/boris-oportus-servicio-salud-concepcion-hospital-lota-2017.md",
+    "consultas/boris-oportus-servicio-salud-concepcion-hospital-lota-2017-1.sql",
+    "fichas/boris-oportus-servicio-salud-concepcion-hospital-lota-2017.md"
+  ],
+  "origen": "cron"
+}
