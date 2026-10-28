@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261028T134558Z",
+  "lead_id": "boris-oportus-servicio-salud-concepcion-hospital-lota-2017",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/boris-oportus-servicio-salud-concepcion-hospital-lota-2017.md"
+  ],
+  "origen": "cron"
+}
