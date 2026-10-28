@@ -49,11 +49,11 @@ La afirmación más débil que debe revisar el editor es el alcance funcional ex
 - Mercado Público, OCs 4640-1898-SE17, 4640-2104-SE17 y 4640-2987-SE17 (URLs arriba).
 - Ley Chile, Ley 19.886, versión histórica: https://www.bcn.cl/leychile/navegar?idNorma=213004&idVersion=2017-01-01
 
-## Decisión editorial (2026-10-28): lista para verificacion
+## Reevaluación y cierre (2026-10-28)
 
-InfoProbidad ID 81752 confirma nombre, cargo declarado como «Directivo», Servicio de Salud Concepción y derecho de 80% en Servicios Médicos e Inversiones Dr. Oportus Ltda., RUT 77.987.610-1.
-Reabrí la licitación 4640-3-LE17 y las OCs 4640-1898-SE17, 4640-2104-SE17 y 4640-2987-SE17; comprador, proveedor, fechas y montos coinciden.
-Pero las bases citan la prohibición para directivos del mismo órgano; no dicen que alcance a directivos de todo el Servicio ni a sociedades de estos, como afirma el borrador.
-Devolver: falta el expediente de elegibilidad y un antecedente primario que precise la función/jefatura y el órgano de Oportus para evaluar el nexo legal.
-
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/229
+- **Primarias reabiertas:** InfoProbidad 81752 confirma a Boris Gastón Oportus Ortiz, declaración de 31-03-2017, cargo declarado «Directivo» del Servicio de Salud Concepción, y derecho del 80% en SERVICIOS MEDICOS E INVERSIONES DR. OPORTUS LTDA (RUT 77.987.610-1). Mercado Público confirma las tres OCs al mismo RUT, por CLP $26.314.713 (986,48 UF), todas provenientes de licitación pública; la 4640-3-LE17 se adjudicó el 09-02-2017.
+- **Nueva comprobación primaria:** una nota oficial del MINSAL del 09-09-2017 identifica a Oportus como subdirector médico del Hospital Guillermo Grant Benavente. No lo sitúa en el Hospital de Lota ni acredita función en evaluación, adjudicación o autorización de estas compras: https://www.minsal.cl/personal-de-la-torre-paciente-critico-conmemoro-los-dos-anos-de-su-puesta-en-marcha-con-celebracion-ecumenica-de-accion-de-gracias/.
+- **Pregunta decisiva y explicación legítima:** la base de la licitación formula la prohibición para funcionarios directivos del mismo órgano; la declaración solo consigna «Directivo» y el organismo Servicio de Salud Concepción. Aunque la fuente oficial acredita un cargo directivo en un hospital de esa red y las OCs son del Hospital de Lota, no se obtuvo documentación primaria sobre la dependencia orgánica aplicable al proceso, el expediente de elegibilidad ni intervención individual. La contratación se efectuó mediante procesos abiertos y el objeto fue prestación de servicios médicos ordinarios. No se puede concluir infracción, intervención ni beneficio personal.
+- **Decisión:** descartada. La pista no supera el umbral editorial: la coincidencia patrimonial y contractual es real, pero el nexo funcional y la aplicación de la prohibición al órgano comprador no están acreditados con las primarias disponibles; sin ese eslabón, el caso propuesto no puede sostener la pregunta de elegibilidad. Reabrir solo si aparece el expediente de la licitación/declaración jurada del proveedor o un acto primario que establezca el cargo, dependencia orgánica y relación con este proceso.
+- **Corte del oro:** `2026-10-27T15:25:49+00:00`. Se reejecutó `consultas/boris-oportus-servicio-salud-concepcion-hospital-lota-2017-1.sql`: 3 órdenes y los importes citados arriba.
+- **Antecedente anterior:** PR editorial devuelto, https://github.com/rodrigooig/estadoclaro-casos/pull/229; no se abrió PR al editor al cierre.
