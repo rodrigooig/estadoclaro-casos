@@ -45,3 +45,12 @@ El editor puede publicar la corrección como actualización factual y dejar pend
 - Resultado: 89 filas hasta 22-10-2026, CLP $3.591.498.356, 89.825,72 UF y 20 compradores; 87 filas hasta 15-10 y 2 entre 16-10 y 22-10.
 - Las fichas oficiales de las cuatro órdenes representativas se revisaron en su URL por código de OC.
 - El borrador de corrección pasó `sources.py verify --evidence --min-coverage 0.5`.
+
+## Decisión editorial (2026-10-28): publicado
+
+Verifiqué InfoProbidad ID 1898473: Rossat Arriagada, alcaldesa de Hijuelas, declara 75% en Sociedad Profesionales de la Seguridad Ltda., RUT 79.840.520-9.
+Reabrí en Mercado Público las OCs 2271-237-SE25 y 1351-55-SE26: fechas, proveedor/RUT, servicios de seguridad y montos del texto coinciden.
+La Ley 21.659 y la petición de la Cámara sustentan una pregunta pública; el borrador distingue órdenes de contratos perfeccionados y no afirma infracción ni beneficio personal.
+Publicar como actualización: la incertidumbre temporal y la falta de pronunciamiento final están explícitas; corregir solo presentación y retirar la ruta interna de consulta.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/225
