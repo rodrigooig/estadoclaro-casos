@@ -48,3 +48,12 @@ La afirmación más débil que debe revisar el editor es el alcance funcional ex
 - Mercado Público, licitación 4640-151-LE14: https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4640-151-LE14
 - Mercado Público, OCs 4640-1898-SE17, 4640-2104-SE17 y 4640-2987-SE17 (URLs arriba).
 - Ley Chile, Ley 19.886, versión histórica: https://www.bcn.cl/leychile/navegar?idNorma=213004&idVersion=2017-01-01
+
+## Decisión editorial (2026-10-28): lista para verificacion
+
+InfoProbidad ID 81752 confirma nombre, cargo declarado como «Directivo», Servicio de Salud Concepción y derecho de 80% en Servicios Médicos e Inversiones Dr. Oportus Ltda., RUT 77.987.610-1.
+Reabrí la licitación 4640-3-LE17 y las OCs 4640-1898-SE17, 4640-2104-SE17 y 4640-2987-SE17; comprador, proveedor, fechas y montos coinciden.
+Pero las bases citan la prohibición para directivos del mismo órgano; no dicen que alcance a directivos de todo el Servicio ni a sociedades de estos, como afirma el borrador.
+Devolver: falta el expediente de elegibilidad y un antecedente primario que precise la función/jefatura y el órgano de Oportus para evaluar el nexo legal.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/229
