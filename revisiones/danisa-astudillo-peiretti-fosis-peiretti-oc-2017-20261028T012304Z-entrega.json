@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261028T012304Z",
+  "lead_id": "danisa-astudillo-peiretti-fosis-peiretti-oc-2017",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/danisa-astudillo-peiretti-fosis-peiretti-oc-2017-1.sql",
+    "fichas/danisa-astudillo-peiretti-fosis-peiretti-oc-2017.md"
+  ],
+  "origen": "cron"
+}
