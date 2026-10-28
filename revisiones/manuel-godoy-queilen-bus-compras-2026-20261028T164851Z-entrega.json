@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261028T164851Z",
+  "lead_id": "manuel-godoy-queilen-bus-compras-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/manuel-godoy-queilen-bus-compras-2026-1.sql",
+    "fichas/manuel-godoy-queilen-bus-compras-2026.md"
+  ],
+  "origen": "cron"
+}
