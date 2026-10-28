@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261028T230451Z",
+  "lead_id": "pedro-jose-duran-sanhueza-serv-el-autoproveedor-20261028",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pedro-jose-duran-sanhueza-serv-el-autoproveedor-20261028-1.sql",
+    "fichas/pedro-jose-duran-sanhueza-serv-el-autoproveedor-20261028.md"
+  ],
+  "origen": "cron"
+}
