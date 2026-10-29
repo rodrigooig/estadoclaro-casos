@@ -7,8 +7,7 @@
   "destination": "",
   "draft_sha256": "",
   "files": [
-    "INDICE.md",
-    "fichas/diego-san-martin-genypterus-taltal-20261029.md"
+    "consultas/diego-san-martin-genypterus-taltal-20261029-1.sql"
   ],
   "origen": "cron"
 }
