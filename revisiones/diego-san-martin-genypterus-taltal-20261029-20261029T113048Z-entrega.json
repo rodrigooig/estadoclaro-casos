@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261029T113048Z",
+  "lead_id": "diego-san-martin-genypterus-taltal-20261029",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/diego-san-martin-genypterus-taltal-20261029.md"
+  ],
+  "origen": "cron"
+}
