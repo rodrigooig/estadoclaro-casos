@@ -24,3 +24,12 @@ Enviar como pieza factual para auditoría: una candidatura registró un gasto po
 - `consultas/ruben-vittorio-canessa-caru-arriendo-campana-2025-1.sql` — consulta unificada de la declaración, el gasto Servel y `meta.build_date`.
 - Excel oficial Servel descargado a `tmp/servelcanessa/report.xlsx`, convertido con `xlsx2csv -a` (sin cargar XML en Python); líneas de respaldo: `FORMULARIO 87 Y 88.csv`, `FORMULARIO AUXILIAR 107.csv`, `FORMULARIO AUXILIAR 102.csv`, `Resultado Auditoria Cuentas.csv`.
 - Corte del oro: `2026-10-27T15:25:49+00:00`.
+
+## Decisión editorial (2026-10-29): publicado
+
+Verifiqué InfoProbidad 1505263: Rubén Vittorio Canessa Morales declaró 56,25% de derechos en CARU, RUT 77.713.010-2, y que no era controlador.
+En el reporte definitivo oficial de SERVEL 2025, la línea 584611 registra $1.500.000 el 14-11-2025 a ese RUT, como gasto rechazado en “Registro de Sedes”; el auxiliar 107 lo describe como arriendo por dos meses.
+El auxiliar refiere reembolso solicitado, no prueba pago; la auditoría de la candidatura figura “Rechaza” y no se publica la causal específica.
+La coincidencia por RUT y los límites están expuestos; el caso es consistente con el precedente publicado de Tuma y no hallé duplicado en la categoría.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/239
