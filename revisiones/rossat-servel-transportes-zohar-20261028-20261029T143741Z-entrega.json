@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261029T143741Z",
+  "lead_id": "rossat-servel-transportes-zohar-20261028",
+  "state": "correccion lista",
+  "product": "correccion",
+  "destination": "casos/negocios_estado/rossat-arriagada-municipalidad-hijuelas.md",
+  "draft_sha256": "b577dd50dc1d029ad8d51ee301757c3b9ae5a2e320ed8f7620b173de5b59e47c",
+  "files": [
+    "INDICE.md",
+    "borradores/rossat-servel-transportes-zohar-20261028.md",
+    "fichas/rossat-servel-transportes-zohar-20261028.md"
+  ],
+  "origen": "cron"
+}
