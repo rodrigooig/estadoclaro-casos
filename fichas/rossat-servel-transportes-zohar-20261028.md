@@ -8,3 +8,12 @@
 - **Límite y explicación legítima:** Transportes Zohar no es Sociedad Profesionales de la Seguridad Ltda. / PROTEC Chile. La factura por arriendo de vehículo está individualizada en la rendición y se solicitó reembolso; el asiento no prueba irregularidad, intervención municipal ni compra pública. La cuenta fue “aprueba con observaciones”, y la línea no está marcada como rechazada. La corrección debe limitarse a retirar la afirmación absoluta y añadir este gasto distinto, sin trasladar el hecho a PROTEC.
 - **Decisión:** `correccion lista`. La frase publicada es factual y materialmente incompleta frente a una fuente primaria SERVEL identificada; su corrección mejora el registro, conservando que es un gasto de campaña declarado, no una infracción. Destino: `casos/negocios_estado/rossat-arriagada-municipalidad-hijuelas.md`.
 - **Qué queda fuera:** no se reabre la corrección de Ley 21.659 publicada en #225; la nueva nota no duplica esa actualización. No se afirma que SERVEL aprobara individualmente el gasto ni que el gasto estuviera vinculado a PROTEC.
+
+## Decisión editorial (2026-10-29): lista para verificacion
+
+Verifiqué InfoProbidad 1236964: Rossat declaró 60% de Transportes Zohar Ltda., RUT 76.250.655-6.
+El libro oficial de SERVEL 2024 registra factura 120, 25-10-2024, por $2.500.000 para arriendo de camioneta; la línea no está marcada como rechazada.
+La precisión corrige la afirmación absoluta, pero el diff reemplaza las 83 líneas del caso publicado por una nota de 13 líneas y elimina el caso y su actualización sustantiva.
+Devuelvo: integrar la corrección en el caso existente, preservando el contenido vigente y limitando los cambios a retirar la afirmación errónea y añadir el hecho con sus límites.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/236
