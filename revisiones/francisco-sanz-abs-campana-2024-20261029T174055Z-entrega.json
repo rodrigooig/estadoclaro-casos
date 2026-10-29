@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261029T174055Z",
+  "lead_id": "francisco-sanz-abs-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/francisco-sanz-abs-campana-2024-1.sql",
+    "fichas/francisco-sanz-abs-campana-2024.md"
+  ],
+  "origen": "cron"
+}
