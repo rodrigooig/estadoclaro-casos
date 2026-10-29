@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261029T051741Z",
+  "lead_id": "pier-karlezi-don-pedro-campana-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pier-karlezi-don-pedro-campana-2025-1.sql",
+    "fichas/pier-karlezi-don-pedro-campana-2025.md"
+  ],
+  "origen": "cron"
+}
