@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261029T082052Z",
+  "lead_id": "robin-araya-rayse-longavi-20261029",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/robin-araya-rayse-longavi-20261029-1.sql",
+    "fichas/robin-araya-rayse-longavi-20261029.md"
+  ],
+  "origen": "cron"
+}
