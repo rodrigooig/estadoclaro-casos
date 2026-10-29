@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261029T204601Z",
+  "lead_id": "angela-cabezon-ac-impresiones-campana-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/angela-cabezon-ac-impresiones-campana-2025-1.sql",
+    "fichas/angela-cabezon-ac-impresiones-campana-2025.md"
+  ],
+  "origen": "cron"
+}
