@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261029T235046Z",
+  "lead_id": "juan-carlos-sepulveda-hospital-san-fernando-servicios-medicos-2020",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/juan-carlos-sepulveda-hospital-san-fernando-servicios-medicos-2020-1.sql",
+    "fichas/juan-carlos-sepulveda-hospital-san-fernando-servicios-medicos-2020.md"
+  ],
+  "origen": "cron"
+}
