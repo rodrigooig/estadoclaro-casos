@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261029T020947Z",
+  "lead_id": "ruben-vittorio-canessa-caru-arriendo-campana-2025",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/autocontratacion/ruben-vittorio-canessa-caru-arriendo-campana-2025.md",
+  "draft_sha256": "353a3dde931a57c8ab0507f5b71692c0ad0964f53728377d876c2f6eaa3e805f",
+  "files": [
+    "INDICE.md",
+    "borradores/ruben-vittorio-canessa-caru-arriendo-campana-2025.md",
+    "consultas/ruben-vittorio-canessa-caru-arriendo-campana-2025-1.sql",
+    "fichas/ruben-vittorio-canessa-caru-arriendo-campana-2025.md"
+  ],
+  "origen": "cron"
+}
