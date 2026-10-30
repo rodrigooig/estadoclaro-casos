@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261030T061555Z",
+  "lead_id": "jose-antonio-kast-rist-banco-chile-campana-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/jose-antonio-kast-rist-banco-chile-campana-2025-1.sql",
+    "fichas/jose-antonio-kast-rist-banco-chile-campana-2025.md"
+  ],
+  "origen": "cron"
+}
