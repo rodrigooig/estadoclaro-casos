@@ -25,3 +25,12 @@ La devolución editorial llegó en el PR #244, que cerró el PR #236 y pidió pr
 Verificación independiente de fuentes: InfoProbidad muestra en la declaración completa de 09-07-2024 la sociedad TRANSPORTES ZOHAR LTDA, RUT 76.250.655-6, 60%, adquirida 18-01-2013. La consulta de solo lectura `consultas/rossat-servel-transportes-zohar-20261028-1.sql` devuelve para campaña 2024 la factura 120, 25-10-2024, CLP $2.500.000 / 65,85 UF, no rechazada, reembolso directo solicitado; estado general de auditoría «aprueba con observaciones». Corte de oro `2026-10-27T15:25:49+00:00`. El libro oficial y registro societario coinciden por RUT; Transportes Zohar es distinta de PROTEC Chile.
 
 **Decisión de cierre:** `correccion lista`, destino `casos/negocios_estado/rossat-arriagada-municipalidad-hijuelas.md`. Motivo: el caso publicado contiene una afirmación absoluta incorrecta y corregible, y la primaria respalda la precisión. Se conserva toda la historia existente y se limita el cambio a la sección SERVEL; ni el asiento ni la participación prueban infracción, intervención municipal, pago o beneficio individual. No queda una explicación legítima que elimine la inexactitud factual, aunque sí limita lo que puede inferirse.
+
+## Decisión editorial (2026-10-30): publicado
+
+Publicar la corrección: InfoProbidad 1236964 registra que Verónica Paz María Rossat Arriagada declaró 60% de Transportes Zohar Ltda., RUT 76.250.655-6.
+El reporte oficial de Servel 2024 registra en la campaña de Rossat la factura 120, del 25-10-2024, por $2.500.000 para arriendo de camioneta, con reembolso directo solicitado.
+El asiento no está marcado como rechazado en el reporte y la cuenta figura «Aprueba con observaciones»; eso no acredita aprobación individual ni pago.
+La adición corrige la afirmación absoluta sobre ausencia de gastos, distingue Transportes Zohar de PROTEC Chile y preserva el caso existente y sus límites.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/246
