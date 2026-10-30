@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261030T220437Z",
+  "lead_id": "fernando-ponce-castro-servicios-medicos-hsf-20261030",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/fernando-ponce-castro-servicios-medicos-hsf-20261030-1.sql",
+    "consultas/fernando-ponce-castro-servicios-medicos-hsf-20261030-2.sql",
+    "fichas/fernando-ponce-castro-servicios-medicos-hsf-20261030.md"
+  ],
+  "origen": "cron"
+}
