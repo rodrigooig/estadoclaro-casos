@@ -8,7 +8,6 @@
   "draft_sha256": "",
   "files": [
     "INDICE.md",
-    "consultas/jose-antonio-kast-rist-banco-chile-campana-2025-1.sql",
     "fichas/jose-antonio-kast-rist-banco-chile-campana-2025.md"
   ],
   "origen": "cron"
