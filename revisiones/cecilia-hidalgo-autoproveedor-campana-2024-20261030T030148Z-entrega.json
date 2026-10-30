@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261030T030148Z",
+  "lead_id": "cecilia-hidalgo-autoproveedor-campana-2024",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/autocontratacion/cecilia-hidalgo-autoproveedor-campana-2024.md",
+  "draft_sha256": "d6902c6f22ddc32c654dd87f64a2e29007745e0b3d1a9eb556f44dfff8ce1e2b",
+  "files": [
+    "INDICE.md",
+    "borradores/cecilia-hidalgo-autoproveedor-campana-2024.md",
+    "consultas/cecilia-hidalgo-autoproveedor-campana-2024-1.sql",
+    "consultas/cecilia-hidalgo-autoproveedor-campana-2024-2.sql",
+    "fichas/cecilia-hidalgo-autoproveedor-campana-2024.md"
+  ],
+  "origen": "cron"
+}
