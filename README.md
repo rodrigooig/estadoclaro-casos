@@ -42,7 +42,7 @@ llevan una nota mientras se corrigen. Quedan 59 casos, varios aún en revisión.
 ### [Autocontratación](casos/autocontratacion/) — 10 casos
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
-### [Negocios con el Estado](casos/negocios_estado/) — 19 casos
+### [Negocios con el Estado](casos/negocios_estado/) — 20 casos
 Participaciones societarias de autoridades en empresas que facturan al Estado, con foco
 en participación controladora y en la que enumera el artículo 4 de la Ley 19.886.
 
