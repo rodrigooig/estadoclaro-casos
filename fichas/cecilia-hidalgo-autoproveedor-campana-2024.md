@@ -45,3 +45,12 @@ La empresa se dedica a radiodifusión y el gasto fue reportado como propaganda r
 - Servel, Reporte definitivo de ingresos y gastos electorales 2024: https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx
 - Mercado Público: OC 4061-242-SE20, 4061-306-SE20, 4053-825-SE20 y 509149-8-AG23, enlazadas en las consultas guardadas.
 - Corte del oro: `2026-10-27T15:25:49+00:00`.
+
+## Decisión editorial (2026-10-30): publicado
+
+Publicar: InfoProbidad 1249848 identifica a Cecilia Hidalgo Labbe y registra el RUT 76.317.272-4, giro radioemisora, 100 en cantidad/porcentaje y calidad de controladora.
+El reporte oficial de Servel 2024 registra el 22-10-2024 la factura 478 al mismo RUT por $285.600, propaganda radial, con reembolso directo al candidato solicitado.
+El gasto es una fracción material de la cuenta según el reporte; el ingreso agregado de reembolso no prueba que esta factura se haya pagado ni que la sociedad recibiera fondos.
+El borrador acota la pregunta de auditoría, expone la explicación comercial y no atribuye intervención, sobreprecio ni infracción; no encontré duplicado en la categoría.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/251
