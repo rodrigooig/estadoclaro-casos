@@ -44,3 +44,12 @@ La afirmación más débil es la relación entre el rol médico de Urzúa y la d
 ## Antecedente de investigación previa
 
 El índice ya tenía una investigación distinta sobre Urzúa y el avalúo de un vehículo, en estado `evidencia insuficiente` (2026-10-04). Esta pista se abrió por un hecho nuevo —la contratación estatal de la sociedad declarada—, no por la diferencia patrimonial previamente investigada.
+
+## Decisión editorial (2026-10-30): publicado
+
+Publicar: InfoProbidad 38403 identifica a Alfonso Iván Urzúa Gavilán como médico cirujano del Servicio de Salud Metropolitano Occidente y declara controlador de ALFONSO URZUA Y CIA. LTDA., RUT 76.069.151-8.
+Mercado Público registra la OC 1641-4482-SE17, emitida el 23-05-2017 al mismo RUT por $6.000.000, para servicios médicos de apoyo a maternidad, con mecanismo de confianza y experiencia.
+La compra concreta a una sociedad controlada y el vínculo médico con el servicio comprador sustentan una pregunta de auditoría; la declaración no acredita función directiva ni intervención en la compra.
+El borrador mantiene esos límites, reconoce la justificación clínica plausible y no afirma pago, beneficio personal ni irregularidad.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/257
