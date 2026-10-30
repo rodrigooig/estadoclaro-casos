@@ -2,7 +2,7 @@
 
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
-9 casos.
+10 casos.
 
 | Caso | Monto de referencia (CLP) |
 |---|---|
@@ -15,3 +15,4 @@ Autoridades o funcionarios cuya sociedad declarada le vendió a su propia instit
 | [Canessa declaró 56,25% de sociedad que facturó arriendo de sede a su campaña](ruben-vittorio-canessa-caru-arriendo-campana-2025.md) | $1.500.000 |
 | [Un médico del Servicio de Salud O'Higgins declaró el control de una sociedad que le vendió al Hospital de San Fernando](ponce-castro-servicio-salud-ohiggins.md) | $1.140.768 |
 | [Esmirna Vidal Moraga: un depósito a plazo declarado a su nombre y dos órdenes de compra del Poder Judicial en 2021](vidal-moraga-poder-judicial-deposito-a-plazo.md) | $650.000 |
+| [Cecilia Hidalgo: su campaña registró un gasto radial a una sociedad que declaró controlar](cecilia-hidalgo-autoproveedor-campana-2024.md) | $285.600 |
