@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261030T124621Z",
+  "lead_id": "alfonso-urzua-hospital-san-juan-de-dios-2017",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/alfonso-urzua-hospital-san-juan-de-dios-2017.md",
+  "draft_sha256": "f9015b85e9db0b4ea31b0e94806395b113e8fe723b5d3e5da825103b7a899b28",
+  "files": [
+    "INDICE.md",
+    "borradores/alfonso-urzua-hospital-san-juan-de-dios-2017.md",
+    "consultas/alfonso-urzua-hospital-san-juan-de-dios-2017-1.sql",
+    "fichas/alfonso-urzua-hospital-san-juan-de-dios-2017.md"
+  ],
+  "origen": "cron"
+}
