@@ -27,6 +27,15 @@ FROM purchase_order
 WHERE regexp_replace(replace(supplier_rut, '.', ''), '-[0-9kK]$', '') = '96800570'
   AND sent_date BETWEEN DATE '2017-03-21' AND DATE '2026-10-23';
 
+-- Cambio del indicador de control en las dos declaraciones primarias.
+SELECT d.declaration_date, d.source_id, c.legal_name, c.company_rut, c.type,
+       c.quantity, c.value_clp, c.is_controlling
+FROM company c JOIN declaration d USING (declaration_id)
+WHERE d.person_id = '5a79022d3e4098818912e7de8355b309'
+  AND c.company_rut = '96800570'
+  AND d.source_id IN (45151, 1797522)
+ORDER BY d.declaration_date;
+
 -- Órdenes primarias ilustrativas citadas en la ficha.
 SELECT order_code, url, sent_date, status, route, is_direct_award,
        buyer_name, supplier_rut, supplier_name, amount_clp, amount_uf
