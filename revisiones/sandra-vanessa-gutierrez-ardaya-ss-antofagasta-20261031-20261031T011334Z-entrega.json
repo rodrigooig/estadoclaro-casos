@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261031T011334Z",
+  "lead_id": "sandra-vanessa-gutierrez-ardaya-ss-antofagasta-20261031",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/sandra-vanessa-gutierrez-ardaya-ss-antofagasta-20261031-1.sql",
+    "consultas/sandra-vanessa-gutierrez-ardaya-ss-antofagasta-20261031-2.sql",
+    "fichas/sandra-vanessa-gutierrez-ardaya-ss-antofagasta-20261031.md"
+  ],
+  "origen": "cron"
+}
