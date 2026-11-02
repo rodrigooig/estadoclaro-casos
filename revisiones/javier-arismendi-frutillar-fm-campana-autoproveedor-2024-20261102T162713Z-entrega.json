@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261102T162713Z",
+  "lead_id": "javier-arismendi-frutillar-fm-campana-autoproveedor-2024",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/autocontratacion/javier-arismendi-frutillar-fm-campana-autoproveedor-2024.md",
+  "draft_sha256": "ee6e1f1b691bbdc92d94580c6ad7bf7cbaf48a1b021e242ab6703d34a12a4629",
+  "files": [
+    "INDICE.md",
+    "borradores/javier-arismendi-frutillar-fm-campana-autoproveedor-2024.md",
+    "consultas/javier-arismendi-frutillar-fm-campana-autoproveedor-2024-1.sql",
+    "consultas/javier-arismendi-frutillar-fm-campana-autoproveedor-2024-2.sql",
+    "fichas/javier-arismendi-frutillar-fm-campana-autoproveedor-2024.md"
+  ],
+  "origen": "cron"
+}
