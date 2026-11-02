@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261102T224939Z",
+  "lead_id": "arturo-jara-carrasco-radio-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/arturo-jara-carrasco-radio-campana-2024-1.sql",
+    "fichas/arturo-jara-carrasco-radio-campana-2024.md"
+  ],
+  "origen": "cron"
+}
