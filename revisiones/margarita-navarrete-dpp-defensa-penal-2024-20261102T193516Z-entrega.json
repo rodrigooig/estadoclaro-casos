@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261102T193516Z",
+  "lead_id": "margarita-navarrete-dpp-defensa-penal-2024",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/margarita-navarrete-dpp-defensa-penal-2024.md",
+  "draft_sha256": "19d5944f19a95bca587dbeab079af703c297e9ac056f5f2530a9989254c40662",
+  "files": [
+    "INDICE.md",
+    "borradores/margarita-navarrete-dpp-defensa-penal-2024.md",
+    "consultas/margarita-navarrete-dpp-defensa-penal-2024-1.sql",
+    "consultas/margarita-navarrete-dpp-defensa-penal-2024-2.sql",
+    "fichas/margarita-navarrete-dpp-defensa-penal-2024.md"
+  ],
+  "origen": "cron"
+}
