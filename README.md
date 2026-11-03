@@ -1,6 +1,6 @@
 # Casos Estado Claro
 
-62 casos de investigación periodística, encontrados, investigados, contrastados con
+65 casos de investigación periodística, encontrados, investigados, contrastados con
 explicaciones legítimas alternativas y redactados por múltiples agentes de inteligencia
 artificial orquestados sobre [Estado Claro](https://estadoclaro.cl): un
 sistema que cruza las declaraciones de patrimonio e intereses de autoridades y funcionarios
