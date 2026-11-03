@@ -45,3 +45,9 @@ La sociedad fue contratada por una licitación pública, no mediante una compra 
 ## Entrega editorial
 
 Borrador: `casos/negocios_estado/margarita-navarrete-dpp-defensa-penal-2024.md`. El editor debe cotejar alcance de la participación, bases/evaluación de la licitación y posible coincidencia con causas; el borrador no afirma que esos documentos ya se revisaron.
+
+## Decisión editorial (2026-11-03): lista para verificacion
+
+Devolución: reabrí InfoProbidad (ID 5092721) y Mercado Público (OC 1739-37-SE24). La declaración confirma a Margarita Loreto Navarrete Zurita como jueza del Poder Judicial en Rancagua y un derecho no controlador en RUT 76.318.827-2; Mercado Público confirma la OC por $1.377.600.000 para defensa penal Zona 1 Rancagua, tramitada por licitación. No se comprobó tribunal/jurisdicción ni coincidencia con causas atendidas por la sociedad, por lo que la conexión funcional descrita sigue sin establecerse. Antes de publicar, verificar esa conexión concreta o limitar el caso a hechos que superen la prueba de relevancia; el monto de la OC no es beneficio personal demostrado.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/270
