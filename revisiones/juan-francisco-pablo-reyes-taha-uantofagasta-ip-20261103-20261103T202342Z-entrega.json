@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "run_id": "20261103T202342Z",
+  "lead_id": "juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103.md",
+  "draft_sha256": "fd815656faeda43beb013fb10d367650875f725ac57d907584e8750aaec76d5a",
+  "files": [
+    "INDICE.md",
+    "borradores/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103.md",
+    "consultas/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103-1.sql",
+    "consultas/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103-2.sql",
+    "consultas/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103-3.sql",
+    "fichas/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103.md"
+  ],
+  "origen": "cron"
+}
