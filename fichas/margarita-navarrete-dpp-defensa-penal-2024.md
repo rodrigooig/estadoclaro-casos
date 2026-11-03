@@ -1,7 +1,7 @@
 # Margarita Loreto Navarrete Zurita y contrato de defensa penal de Rancagua
 
 - **ID:** `margarita-navarrete-dpp-defensa-penal-2024`
-- **Estado:** borrador listo
+- **Estado:** descartada
 - **Categoría:** compras/relaciones con el Estado; patrimonio e intereses
 - **Corte del oro:** `2026-10-30T15:53:06+00:00`
 - **Pregunta decisiva:** ¿La coincidencia entre un derecho societario declarado por una jueza del Poder Judicial en Rancagua y un contrato material de la misma proveedora para defensa penal en Rancagua justifica revisar jurisdicción, causas y alcance económico?
@@ -24,14 +24,9 @@ La ventana es temporalmente estrecha: declaración el 26-12-2024, compra al día
 
 La sociedad fue contratada por una licitación pública, no mediante una compra atribuida a la jueza; su derecho aparece como no controlador en la declaración. La Defensoría Penal Pública y el Poder Judicial son entidades distintas. Estos hechos permiten una explicación ordinaria de proveedor de servicio contratado por competencia pública y no prueban intervención individual, incompatibilidad, pago personal ni beneficio particular. No se obtuvo el expediente de evaluación ni se identificó a los profesionales que prestaron el servicio.
 
-## Desafío y decisión
+## Evaluación inicial (supersedida por revisión final)
 
-- **Identidad/primaria:** nombre completo, RUT de sociedad y proveedor, fecha y monto de OC se reabrieron en InfoProbidad y Mercado Público primarios.[1][2]
-- **Materialidad y nexo:** una compra por CLP $1.377.600.000 (35.868,66 UF) para defensa penal en la Zona 1 Rancagua, dentro de un día de una declaración que consigna cargo de jueza en Rancagua, es una pregunta de interés público para una revisión documental. La relevancia es la posible coincidencia jurisdiccional, no una imputación.[1][2]
-- **Refutación más fuerte:** la licitación fue pública, el derecho no es controlador, el comprador no es el empleador y no hay evidencia de que la jueza interviniera o conociera casos del proveedor.[1][2][3]
-- **Afirmación más débil:** el enlace entre esa función judicial local y los servicios contratados; faltan tribunal/jurisdicción precisos, asignaciones de causas, nómina de profesionales y expediente de compra.
-
-**Decisión: `borrador listo`.** Hay un hecho verificable y material, con una pregunta concreta para comprobar jurisdicción/causas y una explicación legítima explícita; el borrador se limita a esa pregunta. No concluye irregularidad. Reabrir/corregir si el expediente o el cotejo de causas confirma o descarta esa conexión, o si se demuestra que la línea de proveedor no corresponde a la sociedad declarada.
+La evaluación inicial propuso `borrador listo` por la coincidencia de fecha, ciudad y servicio. La revisión final que sigue descartó esa propuesta: las fuentes abiertas no acreditan el nexo jurisdiccional penal requerido y el monto contratado es de la sociedad, no un beneficio personal demostrado. El borrador anterior queda como antecedente de la devolución, no como recomendación vigente.
 
 ## Fuentes primarias
 
@@ -46,8 +41,22 @@ La sociedad fue contratada por una licitación pública, no mediante una compra 
 
 Borrador: `casos/negocios_estado/margarita-navarrete-dpp-defensa-penal-2024.md`. El editor debe cotejar alcance de la participación, bases/evaluación de la licitación y posible coincidencia con causas; el borrador no afirma que esos documentos ya se revisaron.
 
-## Decisión editorial (2026-11-03): lista para verificacion
+## Revisión final y decisión (2026-11-03)
 
-Devolución: reabrí InfoProbidad (ID 5092721) y Mercado Público (OC 1739-37-SE24). La declaración confirma a Margarita Loreto Navarrete Zurita como jueza del Poder Judicial en Rancagua y un derecho no controlador en RUT 76.318.827-2; Mercado Público confirma la OC por $1.377.600.000 para defensa penal Zona 1 Rancagua, tramitada por licitación. No se comprobó tribunal/jurisdicción ni coincidencia con causas atendidas por la sociedad, por lo que la conexión funcional descrita sigue sin establecerse. Antes de publicar, verificar esa conexión concreta o limitar el caso a hechos que superen la prueba de relevancia; el monto de la OC no es beneficio personal demostrado.
+Reabrí las fuentes primarias. InfoProbidad 5092721 (26-12-2024) identifica a Margarita Loreto Navarrete Zurita, consigna cargo «Juez», Poder Judicial, Rancagua, y un «DERECHO» en RUT 76.318.827-2, adquirido el 20-12-2022, valor declarado CLP $400.000 (10,42 UF al 26-12-2024), controlador «false»; el campo de cantidad/porcentaje dice «1», sin unidad que permita interpretarlo como porcentaje.[1] Mercado Público confirma que la OC 1739-37-SE24 fue enviada el 27-12-2024 desde licitación pública 1739-3-LR24, en recepción conforme, para defensa penal Zona 1 Rancagua: proveedor con el mismo RUT, CLP $1.377.600.000 (35.868,66 UF al 27-12-2024).[2]
 
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/270
+La ficha oficial del Poder Judicial para el nombre completo registra que obtuvo el cargo de secretaria titular del Segundo Juzgado Civil de Rancagua, tras desempeñarse allí como secretaria interina; la nota se actualizó el 28-01-2021.[7] Es un antecedente oficial de trayectoria en tribunal civil, no acredita por sí solo su destino o función precisa el 27-12-2024. La declaración de marzo de 2025 consigna «Secretario» y en actividades de los últimos 12 meses «JUEZ», pero no especifica tribunal ni jurisdicción.[4] No hallé en las fuentes oficiales consultadas una asignación judicial penal concreta ni una causa atendida por la proveedora que pueda vincularse con la declarante.
+
+**Decisión: `descartada`.** La hipótesis de conexión funcional penal no se confirma: Rancagua coincide como comuna/zona, pero el antecedente oficial disponible sitúa su carrera en un juzgado civil, no acredita ejercicio en jurisdicción penal al tiempo de la OC, y no se identificaron causas de la sociedad ante ella. Además, la contratación provino de licitación pública, la participación se declaró no controladora y no hay evidencia de intervención individual ni de beneficio personal. El alto monto corresponde a la OC de la sociedad, no a ingresos de la declarante; por sí solo no subsana la falta de nexo funcional. La pista no pasa la pregunta editorial de relevancia ligada a la función y no procede mantener un borrador que sugiere esa comprobación como caso.
+
+Reabrir solo si aparece evidencia primaria de que Navarrete ejercía jurisdicción penal sobre la Zona 1 en la fecha relevante y de que conoció o debía conocer causas atendidas por la sociedad, o evidencia documental de intervención/beneficio personal en el procedimiento. Si no, la coincidencia geográfica, declarativa y contractual no basta.
+
+## Fuentes primarias
+
+- [1] InfoProbidad, declaración 5092721, 26-12-2024: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5092721
+- [2] Mercado Público, OC 1739-37-SE24: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=1739-37-SE24
+- [3] BCN, Ley 19.718: https://www.bcn.cl/leychile/navegar?idNorma=182755
+- [4] InfoProbidad, declaración 5098572, 29-03-2025: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5098572
+- [5] Consulta de semilla y órdenes: `consultas/margarita-navarrete-dpp-defensa-penal-2024-1.sql` (solo `ec-gold-sql`).
+- [6] Conversión UF: `consultas/margarita-navarrete-dpp-defensa-penal-2024-2.sql` (solo `ec-gold-sql`).
+- [7] Poder Judicial, ficha oficial de NAVARRETE ZURITA, MARGARITA LORETO; nota sobre incorporación al escalafón y desempeño como Secretaria del Segundo Juzgado Civil de Rancagua, actualizada 28-01-2021: https://www.pjud.cl/post/navarrete-zurita,-margarita-loreto
