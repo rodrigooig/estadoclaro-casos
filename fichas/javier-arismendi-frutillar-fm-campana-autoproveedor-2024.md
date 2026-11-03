@@ -27,3 +27,9 @@ Las cuatro filas describen servicios de publicidad radial para la campaña; apar
 2. Servel, Reporte definitivo de ingresos y gastos municipales/regionales 2024, hojas «INGRESOS Y GASTOS» y «Resultado Auditoria Cuentas»: https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx
 3. EstadoClaro oro, build 2026-10-30T15:53:06+00:00; SQL anteriores. Valores de UF preservan la fecha de cada fuente.
 4. Municipalidad de Frutillar, nombramiento y juramento para el período 2024–2028: https://munifrutillar.cl/javier-arismendi-valenzuela-juro-como-alcalde-de-frutillar-para-el-periodo-2024-2028/
+
+## Decisión editorial (2026-11-03): lista para verificacion
+
+Devolución: reabrí InfoProbidad (ID 1241721) y el reporte definitivo de Servel (reporte anual 2024, Formulario Auxiliar 107). La declaración confirma 50%, control y RUT 77.560.167-1; Servel confirma cuatro facturas por $2.624.399 con reembolso al candidato, pero sus glosas dicen «PUBLICIDAD ELECTORAL 2024», no identifican por sí solas publicidad radial ni su clasificación como «Propaganda en radioemisoras». La pregunta de trazabilidad es pertinente, pero falta sostén primario para esa caracterización concreta: aportar el respaldo oficial del rubro/servicio o retirar esa afirmación en una nueva entrega. No se afirma pago efectivo.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/268
