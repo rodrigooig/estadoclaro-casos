@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "run_id": "20261103T080338Z",
+  "lead_id": "arturo-jara-carrasco-radio-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md"
+  ],
+  "origen": "cron"
+}
