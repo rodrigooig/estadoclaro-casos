@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "run_id": "20261103T234241Z",
+  "lead_id": "victor-isla-norte-verde-autoproveedor-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md"
+  ],
+  "origen": "cron"
+}
