@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261103T015736Z",
+  "lead_id": "erwin-david-perez-eirl-campana-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/erwin-david-perez-eirl-campana-2025-1.sql",
+    "fichas/erwin-david-perez-eirl-campana-2025.md"
+  ],
+  "origen": "cron"
+}
