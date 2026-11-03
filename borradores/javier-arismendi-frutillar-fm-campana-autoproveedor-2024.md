@@ -1,6 +1,6 @@
 # La campaña de Javier Arismendi pidió reembolso por publicidad radial contratada a una sociedad que declaró controlar
 
-El reporte definitivo de ingresos y gastos electorales de Servel registra cuatro facturas por **$2.624.399 (69,13 UF, según el oro de EstadoClaro)** emitidas por FRUTILLAR FM SPA (RUT 77.560.167-1) a la candidatura de Javier Arismendi Valenzuela a alcalde de Frutillar en 2024.[1] Las cuatro filas clasifican el gasto como propaganda en radioemisoras y solicitan «Reembolso directo al candidato».[1]
+El reporte definitivo de ingresos y gastos electorales de Servel registra cuatro facturas por **$2.624.399 (69,13 UF, según el oro de EstadoClaro)** emitidas por FRUTILLAR FM SPA (RUT 77.560.167-1) a la candidatura de Javier Arismendi Valenzuela a alcalde de Frutillar en 2024.[1] En la hoja «INGRESOS Y GASTOS», las cuatro filas llevan el rubro «Propaganda en radioemisoras» y solicitan «Reembolso directo al candidato»; sus descripciones especifican paquetes de frases y entrevistas (115 frases/2 entrevistas, 72/6, 72/3 y 48/4).[1]
 
 En una declaración voluntaria fechada el 16 de julio de 2024, Javier Ignacio Arismendi Valenzuela declaró que tenía el 50% de FRUTILLAR FM SPA, que la controlaba, y que su giro era publicidad.[2] El RUT y su dígito verificador coinciden con el proveedor que aparece en las cuatro facturas de Servel.[1][2]
 
@@ -24,9 +24,8 @@ Las filas describen publicidad radial de campaña y están incluidas en la rendi
 - ¿Servel pagó efectivamente el reembolso solicitado por las cuatro facturas, y en qué monto final?[1]
 - ¿La sociedad prestó los servicios descritos en las facturas y cómo se documentó la prestación dentro de la rendición?[1]
 
-
 ## Sources
 
-[1] https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx
-[2] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1241721
-[3] https://munifrutillar.cl/javier-arismendi-valenzuela-juro-como-alcalde-de-frutillar-para-el-periodo-2024-2028
+[1] https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx — Servel, Reporte definitivo de ingresos y gastos 2024
+[2] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1241721 — InfoProbidad, declaración de Javier Ignacio Arismendi Valenzuela
+[3] https://munifrutillar.cl/javier-arismendi-valenzuela-juro-como-alcalde-de-frutillar-para-el-periodo-2024-2028 — Municipalidad de Frutillar, juramento como alcalde
