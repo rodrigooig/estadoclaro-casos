@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261104T024442Z",
+  "lead_id": "carlos-roberto-toloza-soto-nacimiento-constructor-oc-20261104",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/carlos-roberto-toloza-soto-nacimiento-constructor-oc-20261104-1.sql",
+    "fichas/carlos-roberto-toloza-soto-nacimiento-constructor-oc-20261104.md"
+  ],
+  "origen": "cron"
+}
