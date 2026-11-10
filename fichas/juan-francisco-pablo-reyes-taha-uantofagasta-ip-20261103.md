@@ -36,3 +36,12 @@ Corte del oro: `2026-11-03T17:05:25+00:00`.
 [5] Universidad de Antofagasta, “Avanza innovador proyecto de cultivo de perlas de abalón…” (08-11-2023): https://www.uantof.cl/prensa/avanza-innovador-proyecto-de-cultivo-de-perlas-de-abalon-en-la-universidad-de-antofagasta
 
 Nota Servel: búsqueda web por el nombre completo no devolvió un registro específico pertinente a esta contratación; no se usa como hallazgo ni como negativo exhaustivo.
+
+## Decisión editorial (2026-11-10): lista para verificacion
+
+Verifiqué InfoProbidad: la declaración del 21-09-2026 registra a Juan Francisco Pablo Reyes Taha como abogado integrante y declara 50% controlador en Sociedad Contreras y Reyes Limitada, RUT 76.691.069-6; Mercado Público confirma que el mismo RUT recibió una orden aceptada por $13.000.000 para asesoría jurídica en patentes vinculada a Perlas de Atacama.
+El Diario Oficial confirma que fue socio fundador en 2017, pero no aclara el cambio declarado de un tercio a 50%; la explicación universitaria de innovación y transferencia es plausible.
+No hay respaldo independiente de vigencia del cargo al 02-11-2026 ni evidencia de quién ejecutó el servicio o de un asunto judicial relacionado; la proximidad temática por sí sola no acredita un nexo funcional concreto.
+Devuelvo para verificar esos puntos y aportar un vínculo documentado entre la función judicial y la contratación antes de valorar publicación.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/281
