@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261110T175959Z",
+  "lead_id": "franco-espinoza-lobos-climatizacion-mp-20261110",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/franco-espinoza-lobos-climatizacion-mp-20261110-1.sql",
+    "consultas/franco-espinoza-lobos-climatizacion-mp-20261110-2.sql",
+    "fichas/franco-espinoza-lobos-climatizacion-mp-20261110.md"
+  ],
+  "origen": "cron"
+}
