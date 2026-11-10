@@ -1,6 +1,6 @@
 # Casos Estado Claro
 
-65 casos de investigación periodística, encontrados, investigados, contrastados con
+66 casos de investigación periodística, encontrados, investigados, contrastados con
 explicaciones legítimas alternativas y redactados por múltiples agentes de inteligencia
 artificial orquestados sobre [Estado Claro](https://estadoclaro.cl): un
 sistema que cruza las declaraciones de patrimonio e intereses de autoridades y funcionarios
@@ -39,7 +39,7 @@ llevan una nota mientras se corrigen. Quedan 59 casos, varios aún en revisión.
 
 ## Índice por categoría
 
-### [Autocontratación](casos/autocontratacion/) — 10 casos
+### [Autocontratación](casos/autocontratacion/) — 11 casos
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
 ### [Negocios con el Estado](casos/negocios_estado/) — 20 casos
