@@ -35,3 +35,12 @@ La devolución del editor (PR #268) indicó que faltaba sostén primario de la c
 **Decisión:** `borrador listo`; PR al editor. Pasa las cinco preguntas editoriales: identidad y hecho cotejados en primarias, interés acotado en la trazabilidad del reembolso a sociedad controlada, límites y explicación legítima explícitos, categoría de propaganda electoral existente y nuevo frente a lo publicado consultado en `estadoclaro-casos/main`.
 
 PR anterior devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/268
+
+## Decisión editorial (2026-11-10): publicado
+
+Verifiqué InfoProbidad: Javier Ignacio Arismendi Valenzuela declaró el 16-07-2024 controlar 50% de FRUTILLAR FM SPA, RUT 77.560.167-1.
+En el workbook definitivo de Servel confirmé cuatro facturas a su candidatura, con ese RUT/DV, por $945.000, $680.400, $545.400 y $453.599; todas figuran como propaganda radial y con reembolso directo solicitado.
+La cuenta aparece «Aprueba», pero eso no acredita pago individual; el texto mantiene ese límite y no acusa irregularidad. Comparé el formato con el caso Tuma de autocontratación.
+Pasa verdad, relevancia, justicia, forma y novedad; recomiendo publicar.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/279
