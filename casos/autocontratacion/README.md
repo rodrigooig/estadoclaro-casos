@@ -2,7 +2,7 @@
 
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
-10 casos.
+11 casos.
 
 | Caso | Monto de referencia (CLP) |
 |---|---|
@@ -11,6 +11,7 @@ Autoridades o funcionarios cuya sociedad declarada le vendió a su propia instit
 | [Esteban Martínez Rubio declaró una empresa de publicidad a su nombre que recibió 12 órdenes de compra por trato directo de la Municipalidad de Peumo entre 2021 y 2024](martinez-rubio-municipalidad-peumo.md) | $6.062.770 |
 | [La empresa que declaró un funcionario de la Municipalidad de Maule le vendió equipamiento médico a esa misma municipalidad](opazo-encina-municipalidad-maule.md) | $5.950.000 |
 | [Juan Carlos Sepúlveda Sepúlveda, jefe de unidad en el Servicio de Salud O'Higgins, declaró una empresa que en junio de 2020 vendió por trato directo al Hospital de San Fernando](sepulveda-sepulveda-servicio-salud-ohiggins.md) | $2.643.840 |
+| [La campaña de Javier Arismendi pidió reembolso por publicidad radial contratada a una sociedad que declaró controlar](javier-arismendi-frutillar-fm-campana-autoproveedor-2024.md) | $2.624.399 |
 | [Eugenio Tuma Zedan: campaña pagó a una sociedad que declaró controlar; Servel rechazó el gasto](eugenio-tuma-campana-autoproveedor.md) | $1.500.000 |
 | [Canessa declaró 56,25% de sociedad que facturó arriendo de sede a su campaña](ruben-vittorio-canessa-caru-arriendo-campana-2025.md) | $1.500.000 |
 | [Un médico del Servicio de Salud O'Higgins declaró el control de una sociedad que le vendió al Hospital de San Fernando](ponce-castro-servicio-salud-ohiggins.md) | $1.140.768 |
