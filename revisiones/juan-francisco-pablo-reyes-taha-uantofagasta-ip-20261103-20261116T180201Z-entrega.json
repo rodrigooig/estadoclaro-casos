@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261116T180201Z",
+  "lead_id": "juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/juan-francisco-pablo-reyes-taha-uantofagasta-ip-20261103.md"
+  ],
+  "origen": "cron"
+}
