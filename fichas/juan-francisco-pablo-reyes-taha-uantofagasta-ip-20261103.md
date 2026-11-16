@@ -37,6 +37,25 @@ Corte del oro: `2026-11-03T17:05:25+00:00`.
 
 Nota Servel: búsqueda web por el nombre completo no devolvió un registro específico pertinente a esta contratación; no se usa como hallazgo ni como negativo exhaustivo.
 
+## Reevaluación de cierre (2026-11-16)
+
+### Hechos reexaminados y fuentes
+
+- InfoProbidad, declaración completa del 21-09-2026, vuelve a identificar a Reyes Taha como abogado integrante del Poder Judicial y registra 50% controlador en Sociedad Contreras y Reyes Limitada (RUT 76.691.069-6): https://www.infoprobidad.cl/Declaracion/BuscarDeclaracion?declaracion=230ea94ae8cf7b77754a387e6f5c3ca4
+- Mercado Público, OC 4291-1878-TD26, registra envío el 02-11-2026, estado aceptada, proveedor SHEN CONTRERAS Y REYES LTDA., mismo RUT, monto CLP $13.000.000 (315,09 UF según UF del 02-11-2026: $41.258,26), servicio de asesoría jurídica en patentes y propiedad intelectual para “Perlas de Atacama”, causal de universidades estatales para investigación, innovación o transferencia tecnológica (art. 38 N°3 Ley 21.094): https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=4291-1878-TD26
+- El Diario Oficial, CVE 1472838 (04-10-2018), resuelve la variación societaria que quedaba sin explicar: Tzu-Hsin Shen cedió un sexto a Reyes Taha y otro sexto a Constanza Contreras; desde entonces quedaron como socios al 50% cada uno, cambió la razón social de “Shen Contreras y Reyes Limitada” a “Sociedad Contreras y Reyes Limitada” y cada socio podía representar individualmente a la sociedad. Es consistente con el 50% declarado en 2026; no es una discrepancia: https://www.diariooficial.interior.gob.cl/publicaciones/2018/10/04/42172/05/1472838.pdf
+- La Universidad de Antofagasta describe el proyecto de perlas de abalón como desarrollo científico-universitario y tecnología patentada por la propia universidad; es una explicación compatible con contratar asesoría especializada de propiedad intelectual: https://www.uantof.cl/prensa/avanza-innovador-proyecto-de-cultivo-de-perlas-de-abalon-en-la-universidad-de-antofagasta
+- Búsquedas por el nombre completo, “Perlas de Atacama”, patente/propiedad intelectual y la sociedad en resultados públicos del Poder Judicial, Diario Oficial y web no localizaron causa, litigio ni decisión universitaria donde Reyes Taha haya intervenido. La búsqueda no es exhaustiva y no prueba inexistencia. El registro de NIC Chile lo identifica además con práctica profesional en propiedad intelectual, lo que refuerza la explicación de especialidad, no el nexo judicial: https://www.nic.cl/controversias/arbitros/reyes.html
+- Se repitieron las consultas al oro usando exclusivamente `ec-gold-sql`: el RUT exacto enlaza la declaración y la OC; esta figura como aceptada, CLP $13.000.000 y 315,09 UF. Las declaraciones disponibles incluyen 2025-08-16, dos registros fechados 2026-03-15/2026-09-21, todos con 50% controlador y cargo declarado. Corte del oro: `2026-11-16T15:59:26+00:00`.
+
+### Explicación legítima y límites
+
+La universidad compró un servicio jurídico especializado para un proyecto universitario de innovación y una tecnología patentada por ella; la ficha de la OC cita una causal legal específica de investigación/innovación/transferencia. No se encontró evidencia de intervención de Reyes Taha en el proceso de compra, de ejecución personal, pago efectivo, litigio relacionado, integración de una sala en esa materia ni de recusación o salvaguarda omitida. La profesión y el cargo son hechos separados; no hay base para inferir que la función judicial benefició a la sociedad o incidió en la contratación. Servel no aporta un ángulo pertinente a esta compra y la consulta nominal previa no identificó registro relacionado.
+
+### Decisión de cierre
+
+**Descartada.** La declaración, sociedad, proveedor y servicio se sostienen en fuentes primarias y el cambio de un tercio a 50% está explicado por el extracto oficial de 2018. Sin embargo, la conexión entre el servicio universitario de patentes y la función como abogado integrante permanece como mera hipótesis temática: no apareció una causa o decisión donde el asunto de la universidad, el proyecto o la patente se cruzara con una sala integrada por Reyes Taha. La OC además declara una causal legal específica y es coherente con la especialidad profesional. No pasa el umbral de interés público funcional para PR editorial con la evidencia encontrada. Reabrir solo ante expediente o causa concreta que documente intervención judicial de Reyes Taha y vínculo material con la universidad, el proyecto, la patente o la sociedad; también si aparece evidencia primaria de intervención en la selección/contratación.
+
 ## Decisión editorial (2026-11-10): lista para verificacion
 
 Verifiqué InfoProbidad: la declaración del 21-09-2026 registra a Juan Francisco Pablo Reyes Taha como abogado integrante y declara 50% controlador en Sociedad Contreras y Reyes Limitada, RUT 76.691.069-6; Mercado Público confirma que el mismo RUT recibió una orden aceptada por $13.000.000 para asesoría jurídica en patentes vinculada a Perlas de Atacama.
