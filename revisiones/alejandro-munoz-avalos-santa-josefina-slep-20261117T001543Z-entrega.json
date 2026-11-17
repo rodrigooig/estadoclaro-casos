@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261117T001543Z",
+  "lead_id": "alejandro-munoz-avalos-santa-josefina-slep",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/alejandro-munoz-avalos-santa-josefina-slep-1.sql",
+    "fichas/alejandro-munoz-avalos-santa-josefina-slep.md"
+  ],
+  "origen": "cron"
+}
