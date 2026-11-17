@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "run_id": "20261117T064453Z",
+  "lead_id": "alemparte-psd-san-joaquin-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md"
+  ],
+  "origen": "cron"
+}
