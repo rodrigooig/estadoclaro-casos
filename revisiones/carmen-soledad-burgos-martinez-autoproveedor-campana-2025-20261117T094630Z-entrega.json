@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261117T094630Z",
+  "lead_id": "carmen-soledad-burgos-martinez-autoproveedor-campana-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/carmen-soledad-burgos-martinez-autoproveedor-campana-2025-1.sql",
+    "fichas/carmen-soledad-burgos-martinez-autoproveedor-campana-2025.md"
+  ],
+  "origen": "cron"
+}
