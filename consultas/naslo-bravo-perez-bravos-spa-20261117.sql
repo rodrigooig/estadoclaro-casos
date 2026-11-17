@@ -31,3 +31,13 @@ ORDER BY sent_date, order_code;
 SELECT campaign_id, election_year, name, office, territory, audit_status, outcome, source_uri
 FROM campaign
 WHERE person_id = 'efa302c4236dadf4b31b0aae00fa2533';
+
+-- Búsqueda explícita de ventas al mismo organismo declarado en ventana de cargo (0 filas).
+SELECT order_code, buyer_name, buyer_key, sent_date, status, amount_clp, same_institution
+FROM declared_supply_order
+WHERE person_id = 'efa302c4236dadf4b31b0aae00fa2533'
+  AND supplier_rut = 76958669
+  AND is_primary_for_person
+  AND timing = 'during'
+  AND (buyer_name ILIKE '%PODER JUDICIAL%' OR buyer_key ILIKE '%PODER JUDICIAL%')
+ORDER BY sent_date, order_code;
