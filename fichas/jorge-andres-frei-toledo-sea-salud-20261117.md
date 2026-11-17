@@ -34,3 +34,12 @@ Materialidad del patrón: siete órdenes de cinco compradores por CLP $49,7 mill
 **Corte gold:** `meta.build_date = 2026-11-16T20:17:26+00:00`. Consultar únicamente por `ec-gold-sql`. Montos en CLP de las órdenes y UF asociada del oro.
 
 **Qué queda para el auditor/editor:** buscar asignaciones y causas de Frei Toledo relacionadas con los cinco compradores o con los prestadores acreditados; revisar actos/anexos de las causales y respaldos de prestación y pago; determinar las reglas aplicables a abogados integrantes con intereses societarios en entidades proveedoras de hospitales.
+
+## Decisión editorial (2026-11-17): lista para verificacion
+
+La declaración InfoProbidad 5020958 (26-09-2018) confirma que Jorge Andrés Frei Toledo declaró 85% y control de Sea Salud Ltda. (RUT 76.120.802-0), además de representarla y gestionarla; la ficha de la Superintendencia confirma razón social, RUT y representante legal.
+Reabrí las siete órdenes de Mercado Público enlazadas: identifican al proveedor por el mismo RUT; cinco indican trato directo y dos provienen de licitación pública.
+La suma de los totales publicados en esas siete órdenes es CLP $49.764.200, no los $49.742.600 del borrador; las cinco directas suman $32.584.200, no $32.562.600. En ambos casos la diferencia es $21.600.
+La discrepancia afecta la cifra central del caso y no corresponde corregirla editorialmente: devuelvo para cotejar el desglose por OC, moneda/unidad y conversión a UF antes de una nueva entrega.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/291
