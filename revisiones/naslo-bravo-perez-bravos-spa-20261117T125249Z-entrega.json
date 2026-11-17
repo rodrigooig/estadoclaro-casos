@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261117T125249Z",
+  "lead_id": "naslo-bravo-perez-bravos-spa",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/naslo-bravo-perez-bravos-spa-20261117.sql",
+    "fichas/naslo-bravo-perez-bravos-spa.md"
+  ],
+  "origen": "cron"
+}
