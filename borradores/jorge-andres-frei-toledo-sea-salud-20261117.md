@@ -2,9 +2,9 @@
 
 En la declaración de intereses y patrimonio del 26 de septiembre de 2018, Jorge Andrés Frei Toledo informó ser abogado integrante del Poder Judicial y haber asumido el cargo el 1 de marzo de 2017. En esa misma declaración registró un derecho del 85% en Servicios de Acreditación de Salud Limitada, “Sea Salud Ltda.” (RUT 76.120.802-0), marcó que era controlador y declaró ser su representante legal, socio y gestor.[1]
 
-Entre el 12 de octubre de 2018 y el 25 de junio de 2019, Mercado Público registra siete órdenes de compra asociadas al mismo RUT, de cinco compradores, por **CLP $49.742.600 (1.803,32 UF)**.[2][3]
+Entre el 12 de octubre de 2018 y el 25 de junio de 2019, Mercado Público registra siete órdenes de compra asociadas al mismo RUT, de cinco compradores, por **CLP $49.764.200 (1.804,10 UF)**.[2][3]
 
-Cinco órdenes, por **CLP $32.562.600 (1.181,40 UF)**, se cursaron por trato directo: una por proveedor único, dos por derechos de propiedad intelectual y dos por confianza y experiencia del proveedor.[2][3]
+Cinco órdenes, por **CLP $32.584.200 (1.182,19 UF)**, se cursaron por trato directo: una por proveedor único, dos por derechos de propiedad intelectual y dos por confianza y experiencia del proveedor.[2][3]
 
 Dos de esas cinco fueron posteriores, en 2019, con causales de derechos de propiedad intelectual y confianza/experiencia.[6][7] Las otras dos órdenes, por CLP $17.180.000 (621,92 UF), proceden de licitaciones públicas.[5][8]
 

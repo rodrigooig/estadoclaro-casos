@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261117T160136Z",
+  "lead_id": "jorge-andres-frei-toledo-sea-salud-20261117",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/salud_publica/jorge-andres-frei-toledo-sea-salud-20261117.md",
+  "draft_sha256": "6a14136724fcf05a37a0821d169fe0100a309deafd94ed9b047a13f9a8402233",
+  "files": [
+    "INDICE.md",
+    "borradores/jorge-andres-frei-toledo-sea-salud-20261117.md",
+    "consultas/jorge-andres-frei-toledo-sea-salud-20261117-1.sql",
+    "consultas/jorge-andres-frei-toledo-sea-salud-20261117-2.sql",
+    "fichas/jorge-andres-frei-toledo-sea-salud-20261117.md"
+  ],
+  "origen": "cron"
+}
