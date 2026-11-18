@@ -47,3 +47,12 @@ La discrepancia afecta la cifra central del caso y no corresponde corregirla edi
 Reabrí la primaria de Mercado Público 1155-3213-SE18: registra 150 UTM, con valor unitario CLP $48.160 y total publicado CLP $7.224.000. El oro reproducía $7.202.400, una diferencia de $21.600. Actualicé las consultas: prevalece el total de la primaria y recalculé UF como CLP dividido por el valor UF de la fecha de envío. Los siete pedidos del período suman ahora CLP $49.764.200 (1.804,10 UF), cinco directos por CLP $32.584.200 (1.182,19 UF) y dos licitaciones por CLP $17.180.000 (621,92 UF). La identidad, las órdenes y la pregunta de revisión acotada se sostienen; no se atribuye intervención ni infracción. Decisión: `borrador listo`.
 
 PR anterior devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/291 (cerrado).
+
+## Decisión editorial (2026-11-18): lista para verificacion
+
+Reabrí InfoProbidad 5020958: declara 85% y control de Sea Salud (RUT 76.120.802-0), y como actividad ser representante legal, socio y gestor; la Superintendencia confirma la entidad y al representante.
+Reabrí las primarias de Mercado Público: el proveedor coincide por RUT, siete OC entre octubre de 2018 y junio de 2019, cinco directas y dos de licitación; la OC 1155-3213-SE18 informa 150 UTM = $7.224.000.
+El total de $49.764.200 coincide con el desglose entregado; las órdenes describen acreditación/reacreditación, sin acreditar pago ni intervención de Frei.
+Devuelvo: falta documentar un nexo funcional concreto —causas o asuntos relacionados con compradores/prestadores y reglas judiciales de resguardo aplicables— para sustentar la relevancia; sin eso, la conexión es hipotética.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/298
