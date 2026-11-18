@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261118T201356Z",
+  "lead_id": "carolina-rossi-pantoja-health-consulting-hospitales-2026",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/carolina-rossi-pantoja-health-consulting-hospitales-2026.md",
+  "draft_sha256": "2a6f09bc8dc91b76f9e7b5334912874617aeb2d3e92e1cb7261779a5d5744e78",
+  "files": [
+    "INDICE.md",
+    "borradores/carolina-rossi-pantoja-health-consulting-hospitales-2026.md",
+    "fichas/carolina-rossi-pantoja-health-consulting-hospitales-2026.md"
+  ],
+  "origen": "cron"
+}
