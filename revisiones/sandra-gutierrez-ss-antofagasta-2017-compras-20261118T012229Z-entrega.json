@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "run_id": "20261118T012229Z",
+  "lead_id": "sandra-gutierrez-ss-antofagasta-2017-compras",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md"
+  ],
+  "origen": "cron"
+}
