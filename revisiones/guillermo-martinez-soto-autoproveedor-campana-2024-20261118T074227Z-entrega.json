@@ -7,8 +7,7 @@
   "destination": "",
   "draft_sha256": "",
   "files": [
-    "INDICE.md",
-    "fichas/guillermo-martinez-soto-autoproveedor-campana-2024.md"
+    "consultas/guillermo-martinez-soto-autoproveedor-campana-2024-1.sql"
   ],
   "origen": "cron"
 }
