@@ -55,4 +55,27 @@ Reabrí las primarias de Mercado Público: el proveedor coincide por RUT, siete 
 El total de $49.764.200 coincide con el desglose entregado; las órdenes describen acreditación/reacreditación, sin acreditar pago ni intervención de Frei.
 Devuelvo: falta documentar un nexo funcional concreto —causas o asuntos relacionados con compradores/prestadores y reglas judiciales de resguardo aplicables— para sustentar la relevancia; sin eso, la conexión es hipotética.
 
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/298
+PR devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/298
+
+## Cierre del investigador (2026-11-18): descartada
+
+**Pregunta decisiva reevaluada:** ¿hay una causa concreta que conecte las funciones de abogado integrante de Frei con Sea Salud, un prestador comprador o la acreditación contratada, de modo que la participación societaria y las órdenes justifiquen un caso para auditoría?
+
+### Hechos y verificación
+
+- InfoProbidad, declaración 5020958 (26-09-2018), identifica a Jorge Andrés Frei Toledo como abogado integrante del Poder Judicial y registra el 85%/control de Sea Salud Ltda. y su actividad de representante legal, socio y gestor: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=5020958
+- La ficha de la Superintendencia identifica Sea Salud (RUT 76.120.802-0) como acreditadora y a Frei como representante legal: https://www.superdesalud.gob.cl/registro/sea-salud-limitada/
+- Reabrí Mercado Público 874750-506-SE18, 1155-3213-SE18 y 1155-507-SE19. Las páginas primarias confirman proveedor y RUT, fechas, objeto de acreditación/reacreditación, causales registradas, compradores y montos. En particular, la OC 1155-3213-SE18 expresa 150 UTM a CLP $48.160 y totaliza UTM 150, equivalente a CLP $7.224.000 (07-11-2018); el total del oro sin corrección quedaba corto en CLP $21.600.
+- Las consultas reproducidas en `consultas/jorge-andres-frei-toledo-sea-salud-20261117-1.sql` y `-2.sql`, ejecutadas con `ec-gold-sql`, devuelven once órdenes totales en la tabla (nueve compradores), de las cuales siete caen en el período acreditado por la declaración (cinco compradores): CLP $49.764.200 (1.804,10 UF), cinco marcadas trato directo por CLP $32.584.200 (1.182,19 UF) y dos de licitación por CLP $17.180.000 (621,92 UF). El corte vigente es `meta.build_date = 2026-11-17T18:25:42+00:00`.
+
+### Nexo funcional y explicación legítima
+
+El Código Orgánico de Tribunales, art. 198, aplica a los abogados integrantes las causales de implicancia/recusación de los jueces y añade la causal de patrocinar negocios en que se ventile la misma cuestión que debe resolver el tribunal (texto BCN: https://www.bcn.cl/leychile/Navegar?idNorma=25563&idParte=9783151&idVersion=2025-02-07). Es una regla ligada a negocios determinados; por sí sola no acredita ni permite inferir que la compra a un hospital genere una causa judicial relacionada. La explicación legítima más fuerte sigue siendo prestación especializada por una entidad acreditadora autorizada: las primarias describen acreditación/reacreditación, dos órdenes proceden de licitación, y las causales declaradas en las otras no prueban irregularidad.
+
+Busqué el nombre exacto con `site:pjud.cl` y variantes junto a “abogado integrante”, “Corte de Apelaciones” y los años 2018–2019; no hallé una causa o integración atribuible con certeza a la identidad. Apareció un resultado oficial con el nombre “Jorge Frei Toledo” en un decreto que lo identifica como Subsecretario de Justicia, pero no trae “Andrés” ni un identificador que permita confirmar que es la misma persona; no lo atribuyo. Tampoco hay en la ficha de Mercado Público evidencia de intervención de Frei en la contratación; las órdenes prueban compras de la sociedad, no decisión judicial, pago efectivo ni conducta impropia.
+
+### Decisión
+
+**Descartada.** Aunque el cruce de identidad, control declarado y contratación pública es verificable y económicamente material, falla el nexo funcional concreto exigido para una historia justa y publicable: no se identificó causa, asunto judicial, prestación individual ni intervención que conecte a Frei con los compradores o los prestadores; el propio marco de recusación es específico a cada negocio. Reabrir únicamente si se identifica una causa con participación documentada de Frei y vínculo concreto con Sea Salud, uno de los compradores/prestadores o la misma cuestión acreditada en un negocio que patrocinó.
+
+Fuentes primarias reabiertas: InfoProbidad; Superintendencia de Salud; Mercado Público (OC 874750-506-SE18, 1155-3213-SE18, 1155-507-SE19); BCN, Código Orgánico de Tribunales art. 198. Búsqueda judicial exacta en pjud.cl sin resultado concluyente.
