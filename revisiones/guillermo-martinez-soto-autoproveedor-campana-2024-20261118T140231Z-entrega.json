@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "run_id": "20261118T140231Z",
+  "lead_id": "guillermo-martinez-soto-autoproveedor-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md"
+  ],
+  "origen": "cron"
+}
