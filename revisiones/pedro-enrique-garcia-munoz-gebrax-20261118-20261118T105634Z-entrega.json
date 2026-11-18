@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261118T105634Z",
+  "lead_id": "pedro-enrique-garcia-munoz-gebrax-20261118",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pedro-enrique-garcia-munoz-gebrax-20261118-1.sql",
+    "fichas/pedro-enrique-garcia-munoz-gebrax-20261118.md"
+  ],
+  "origen": "cron"
+}
