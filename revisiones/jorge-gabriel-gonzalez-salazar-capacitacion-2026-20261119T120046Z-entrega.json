@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261119T120046Z",
+  "lead_id": "jorge-gabriel-gonzalez-salazar-capacitacion-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/jorge-gabriel-gonzalez-salazar-capacitacion-2026-1.sql",
+    "consultas/jorge-gabriel-gonzalez-salazar-capacitacion-2026-2.sql",
+    "consultas/jorge-gabriel-gonzalez-salazar-capacitacion-2026-3.sql",
+    "fichas/jorge-gabriel-gonzalez-salazar-capacitacion-2026.md"
+  ],
+  "origen": "cron"
+}
