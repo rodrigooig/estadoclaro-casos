@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261119T152835Z",
+  "lead_id": "josue-paredes-madariaga-aljibes-galvarino-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/josue-paredes-madariaga-aljibes-galvarino-2026.md"
+  ],
+  "origen": "cron"
+}
