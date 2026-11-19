@@ -47,3 +47,12 @@ La posible repetición de mayo es una lectura literal de dos fichas oficiales, n
 - Mercado Público, OCs 1057489-6998-TD26, 1057489-7455-TD26 y 1057489-8165-TD26: enlaces en `borradores/carolina-rossi-pantoja-health-consulting-hospitales-2026.md`.
 - Diario Oficial, Decreto 42/2026 (nombramiento): https://www.diariooficial.interior.gob.cl/publicaciones/2026/08/13/44524/01/2850793.pdf
 - MinCiencia, Definiciones estratégicas: https://www.minciencia.gob.cl/el-ministerio/definiciones-estrategicas/
+
+## Decisión editorial (2026-11-19): descartada
+
+InfoProbidad 1793014 confirma que Carolina Pía Rossi Pantoja declaró el 19-05-2026 500 acciones no controladoras de Health Consulting Partners SpA (RUT 76.539.813-4); las tres órdenes verificadas registran al mismo proveedor y al Hospital del Salvador, por $6.696.604, $6.783.549 y $6.815.723.
+Las órdenes 1057489-7455-TD26 y 1057489-8165-TD26 describen ambas servicio para mayo de 2026 bajo el proceso 1057489-163-FTD25; sus fichas no prueban duplicidad de pago.
+Descarto por duplicación: ya está publicado en `entrega-2/casos/declaraciones_incompletas/rossi-pantoja-health-consulting-partners-subsecretaria-ciencia.md` un caso sobre la misma persona, la misma sociedad y el mismo interés declarado, con la relación de HCP con hospitales y municipios.
+El nuevo borrador no agrega un nexo funcional acreditado ni una historia diferenciada que supere ese caso existente.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/311
