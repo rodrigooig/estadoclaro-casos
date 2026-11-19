@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261119T055034Z",
+  "lead_id": "maria-alejandra-torres-vazquez-indap-silvoagropecuaria-20261119",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/maria-alejandra-torres-vazquez-indap-silvoagropecuaria-20261119-1.sql",
+    "fichas/maria-alejandra-torres-vazquez-indap-silvoagropecuaria-20261119.md"
+  ],
+  "origen": "cron"
+}
