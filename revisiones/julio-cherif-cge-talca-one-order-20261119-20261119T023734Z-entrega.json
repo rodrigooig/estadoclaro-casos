@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261119T023734Z",
+  "lead_id": "julio-cherif-cge-talca-one-order-20261119",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/julio-cherif-cge-talca-one-order-20261119-1.sql",
+    "consultas/julio-cherif-cge-talca-one-order-20261119-2.sql",
+    "fichas/julio-cherif-cge-talca-one-order-20261119.md"
+  ],
+  "origen": "cron"
+}
