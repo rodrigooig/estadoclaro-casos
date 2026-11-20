@@ -7,8 +7,7 @@
   "destination": "",
   "draft_sha256": "",
   "files": [
-    "INDICE.md",
-    "consultas/jesus-orellana-agrocomercial-campana-2024-1.sql",
+    "consultas/jesus-orellana-agrocomercial-campana-2024-2.sql",
     "fichas/jesus-orellana-agrocomercial-campana-2024.md"
   ],
   "origen": "cron"
