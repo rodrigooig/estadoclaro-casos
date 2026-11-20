@@ -19,6 +19,6 @@ La cuenta describe el uso como arriendo de vehículos y el auxiliar lo registra 
 Reabrir solo si Servel objeta/rechaza específicamente el documento 407883, aparece una solicitud o pago de reembolso público no reflejada aquí, se identifican pagos adicionales al mismo RUT que eleven materialmente la operación, o un antecedente primario vincula el gasto con una contratación municipal/decisión pública o con una prestación no realizada.
 
 ## Consultas y artefactos
-- SQL reproducible: `consultas/jesus-orellana-agrocomercial-campana-2024-1.sql` (solo `ec-gold-sql`; corte arriba).
+- SQL reproducible de selección de semillas: `consultas/jesus-orellana-agrocomercial-campana-2024-2.sql`; devuelve 18 pares sociedad/candidato e incluye este lead. SQL de detalle verificador: `consultas/jesus-orellana-agrocomercial-campana-2024-1.sql` (solo `ec-gold-sql`; corte arriba).
 - Servel XLSX descargado y exportado con `xlsx2csv -a` para verificar las filas primarias; evidencia temporal local en `tmp/runs/20261120T040636Z/jesus-orellana-agrocomercial-campana-2024/evidence/`.
 - La selección y candidatos descartados de vistazo constan en `tmp/runs/20261120T040636Z/triage.md`.
