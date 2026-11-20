@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261120T163436Z",
+  "lead_id": "julio-marileo-mapufolil-conadi-2026-actualizacion",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/julio-marileo-mapufolil-conadi-2026-actualizacion.md"
+  ],
+  "origen": "cron"
+}
