@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261120T040636Z",
+  "lead_id": "jesus-orellana-agrocomercial-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/jesus-orellana-agrocomercial-campana-2024-1.sql",
+    "fichas/jesus-orellana-agrocomercial-campana-2024.md"
+  ],
+  "origen": "cron"
+}
