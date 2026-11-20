@@ -30,3 +30,12 @@ La Contraloría, Oficio E69939/2025, indica que el capítulo VII de la Ley 19.88
 ## Reabrir / investigar
 
 Verificar bases, oferta y acta de adjudicación; identidad de evaluadores, recepción y autorizaciones; condiciones del procedimiento previo y alcance temporal de la prohibición para cada OC posterior a 11-12-2023; cargo/dependencia de Díaz Reyes en 2023–24. Si las OC posteriores eran mero cumplimiento de contrato anterior, explicar el fundamento y concluir; si formalizaron nuevas contrataciones, comprobar si procedía excepción y quién autorizó.
+
+## Decisión editorial (2026-11-20): lista para verificacion
+
+La declaración InfoProbidad del 11-04-2023 identifica a Nancy Marisol Díaz Reyes en la Municipalidad de Los Sauces y registra la EIRL RUT 76.490.266-1; Mercado Público confirma el mismo proveedor y RUT en las OCs 3705-760-SE23, 3705-3-SE24 y 3705-92-SE24, por $800.000 cada una, dos aceptadas y una enviada a proveedor.
+La ficha de la licitación 3705-127-LE22 indica convocatoria abierta, adjudicación el 06-02-2023 y formalización del contrato mediante orden de compra; la Ley 21.634 y el Oficio CGR E69939/2025 sitúan la vigencia del art. 35 quáter desde el 11-12-2023.
+Devuelvo: falta obtener y cotejar bases, adjudicación, contrato y actos de recepción/autorización para establecer si las OCs posteriores formalizaron contratos nuevos o ejecutaron el procedimiento previo, y documentar si Díaz Reyes seguía siendo personal del municipio en esas fechas.
+La pregunta de probidad está respaldada por la coincidencia de identidad/RUT, comprador y fechas, pero sin esos antecedentes no se puede resolver el alcance temporal ni la situación funcional; no se afirma intervención personal ni infracción.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/322
