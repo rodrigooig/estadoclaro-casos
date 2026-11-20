@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261120T132931Z",
+  "lead_id": "nancy-marisol-diaz-reyes-radiodifusion-los-sauces-20261120",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "borradores/nancy-marisol-diaz-reyes-radiodifusion-los-sauces-20261120.md",
+    "fichas/nancy-marisol-diaz-reyes-radiodifusion-los-sauces-20261120.md"
+  ],
+  "origen": "cron"
+}
