@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261120T194245Z",
+  "lead_id": "julio-marileo-calfuqueo-mapufolil",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/julio-marileo-calfuqueo-mapufolil.md"
+  ],
+  "origen": "cron"
+}
