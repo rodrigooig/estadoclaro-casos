@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261120T102541Z",
+  "lead_id": "maria-veronica-chahin-instituto-diagnostico-20261120",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/maria-veronica-chahin-instituto-diagnostico-20261120-1.sql",
+    "fichas/maria-veronica-chahin-instituto-diagnostico-20261120.md"
+  ],
+  "origen": "cron"
+}
