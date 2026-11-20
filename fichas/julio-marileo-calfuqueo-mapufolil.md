@@ -1,4 +1,4 @@
-# Mapufolil, Julio Marileo y compras de CONADI en ventana de cargo regional — evidencia insuficiente
+# Mapufolil, Julio Marileo y compras de CONADI en ventana de cargo regional — descartada
 
 - **ID:** `julio-marileo-calfuqueo-mapufolil`
 - **Categoría:** compras/relaciones con el Estado; actividad/cargo/temporalidad
@@ -108,3 +108,22 @@ El avance incremental de esta pasada es la secuencia 2024–2026 medida y su tem
 [29] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1461048
     > "Asume el cargo: 06-01-2025"
     > "Cantidad / Porcentaje 100"
+
+## Cierre de la pista — 2026-11-20
+
+- **Estado:** descartada. Oro al corte `meta.build_date = 2026-11-20T17:45:38+00:00`.
+- La ficha oficial de Mercado Público de la licitación 765-12-LP23 confirma que fue adjudicada por CONADI para cursos de inmersión lingüística; su OC 765-206-SE23 identifica al proveedor Mapufolil, RUT 76.266.117-9, CLP $80.000.000 y recepción conforme. La fuente oficial confirma contratación societaria, no atribución personal de decisión.
+- La pista había exigido acta/expediente oficial legible y fuente oficial de competencia del cargo regional sobre compras CONADI. La página oficial de licitación es legible, pero la copia del acta de evaluación que se localizó está alojada en Interferencia, no en una fuente oficial. Las normas generales del gobierno regional revisadas en BCN no acreditan competencia directa del consejero regional de La Araucanía en esta compra de CONADI. La declaración 1461048 de InfoProbidad sitúa la asunción el 06-01-2025, posterior a la licitación de mayo de 2023.
+- Consulta al oro vigente: cuatro órdenes únicas durante la vigencia declarada, todas licitaciones públicas de CONADI: 807-40-SE25 (CLP $80.000.000; 2.042,55 UF), 807-43-SE25 (CLP $40.000.000; 1.020,55 UF), 805-25-SE25 (CLP $100.000.000; 2.551,21 UF) y 807-26-SE26 (CLP $80.000.000; 1.961,38 UF). Suma: CLP $300.000.000; 7.575,69 UF al corte del oro. Esto demuestra recurrencia contractual de la sociedad, pero no intervención personal ni nexo funcional. `same_institution = NULL` se interpreta «no se pudo determinar».
+- El informe de Contraloría N° 728-A hallado en búsqueda trata licitaciones distintas (entre ellas 807-8-LP23, adjudicada a Chikawal) y no se atribuye a 765-12-LP23 ni a Marileo.
+- **Decisión:** descartada por no superar el umbral del nexo función–beneficio pese a compras societarias materiales. Reabrir solo con un acto oficial que documente intervención de Marileo o una competencia concreta de su función regional directamente pertinente a estas compras.
+- Consultas reproducibles: [`consultas/julio-marileo-calfuqueo-mapufolil-1.sql`](../consultas/julio-marileo-calfuqueo-mapufolil-1.sql) y [`consultas/julio-marileo-conadi-oc-2026-actualizacion-1.sql`](../consultas/julio-marileo-conadi-oc-2026-actualizacion-1.sql).
+
+Fuentes revisadas en esta pasada:
+
+[30] Mercado Público, licitación 765-12-LP23 (ficha oficial): https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=765-12-LP23
+[31] Mercado Público, OC 765-206-SE23 (ficha oficial): https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=765-206-SE23
+[32] InfoProbidad, declaración 1461048: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1461048
+[33] BCN, DFL 1-19.175, Ley Orgánica Constitucional sobre Gobierno y Administración Regional: https://www.bcn.cl/leychile/navegar?idNorma=243771
+[34] Interferencia, copia de acta de 765-12-LP23 (fuente secundaria, no usada como acta oficial): https://interferencia.cl/sites/default/files/acta_admisibilidad_y_evaluacion_licitacion_id.765-12-lp23.pdf
+[35] Contraloría General de la República, Informe Final N° 728-A/2023 CONADI (procedimientos distintos): https://www.conadi.gob.cl/gobiernotransparente/transparencia/2024/AUDITORIA/informe_728.pdf
