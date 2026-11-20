@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261120T224854Z",
+  "lead_id": "robin-araya-acevedo-rayse-longavi-2018",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/robin-araya-acevedo-rayse-longavi-2018-1.sql",
+    "fichas/robin-araya-acevedo-rayse-longavi-2018.md"
+  ],
+  "origen": "cron"
+}
