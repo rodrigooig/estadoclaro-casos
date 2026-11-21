@@ -40,11 +40,20 @@ Las cinco líneas describen gastos de publicidad radial e impresos de campaña y
 - Excel oficial Servel 2024 descargado a `tmp/milla-campaign-servl/servel-2024.xlsx` y convertido con `xlsx2csv -a`; líneas comprobadas en `INGRESOS Y GASTOS.csv`, `FORMULARIO AUXILIAR 107.csv` y `Resultado Auditoria Cuentas.csv`.
 - Corte del oro: `meta.build_date = 2026-11-20T17:45:38+00:00`.
 
-## Decisión editorial (2026-11-21): lista para verificacion
+## Reevaluación tras devolución editorial (2026-11-21)
 
-No publicar todavía: InfoProbidad 913148 confirma que Magaly Malvina Milla Montaño declaró el 16-11-2022 control y los RUT 78.320.420-7 y 76.427.324-9; InfoProbidad 906761 vincula en red familiar a Maglio Honorio Cicardini Neyra. La atribución queda limitada a lo declarado en 2022.
-No pude reabrir y cotejar en la fuente primaria Servel el libro definitivo 2024: la extracción devolvió bytes XLSX y el navegador abortó la descarga. Quedan sin verificación independiente las cinco facturas, montos/fechas, identidad del proveedor por RUT, solicitudes de reembolso y resultado de auditoría.
-Falta concreto: validar esas filas y los auxiliares 107 en una copia consultable del reporte Servel; el texto correctamente no afirma pago efectivo ni titularidad vigente en 2024.
-Comparé el formato con los casos Tuma y Ponce Castro de autocontratación; el interés público es acotado pero material si se confirman las líneas. No publico sin ese cotejo primario.
+La devolución del PR #335 se fundó en que no se había cotejado la fuente primaria Servel. Reabrí el archivo oficial **Reporte_Ingresos_Gastos_Definitivas2024.xlsx** desde el mismo URL citado en el borrador (descargado el 2026-11-21; 59.867.767 bytes; `Last-Modified: 10-08-2026`) y lo convertí con `xlsx2csv -a`. En `INGRESOS Y GASTOS.csv` cotejé las cinco líneas de MAGLIO HONORIO CICARDINI NEYRA, candidatura a alcalde por Copiapó, con RUT de proveedor, fechas, montos, facturas y tipo de gasto: los IDs 57905, 57938, 57941, 57944 (Comercial Los Incas, RUT 78.320.420-7) y 1832 (Sociedad Festiva, RUT 76.427.324-9), total CLP $22.736.021. Las cinco indican «Reembolso directo al candidato». En las filas del reporte atribuibles al candidato y a esos proveedores no aparecen como gastos rechazados.
 
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/335
+En el `FORMULARIO AUXILIAR 107.csv` cotejé las cinco entradas con los mismos proveedores, folios y montos, bajo «Reembolso hacia el mismo candidato». `Resultado Auditoria Cuentas.csv` muestra para la candidatura «Aprueba con Observaciones»; es un resultado global y no determina el pago de estas solicitudes ni que las observaciones las afecten.
+
+Reabrí también InfoProbidad 913148: su fuente primaria muestra a Magaly Malvina Milla Montaño como concejal de Copiapó en su declaración del 16-11-2022, con control declarado sobre los RUT 78.320.420-7 (50%) y 76.427.324-9 (41,67%) y cónyuge escrito como Maglio Honorio Cicardini Neira. InfoProbidad 906761 identifica a Maglio Honorio Cicardini Neyra como familiar directo de Magaly, y la ficha de declaración de 2022 distingue expresamente la grafía NEIRA. La titularidad/control queda limitada a lo autodeclarado en 2022: no comprobé que siguiera vigente en octubre de 2024.
+
+**Decisión: borrador listo para el editor.** El cotejo primario resuelve la carencia concreta que motivó la devolución. La suma solicitada —CLP $22.736.021 (598,83 UF en la métrica del oro)— es material para revisar una solicitud de reembolso electoral relacionada con sociedades que la cónyuge del candidato había declarado controlar. Explicación legítima: facturas de publicidad radial e impresa; el expediente revisado no prueba irregularidad, pago efectivo ni control societario vigente en 2024. La afirmación más débil es la continuidad del control; el borrador la limita de forma expresa a la declaración de 2022.
+
+## Consultas reproducibles
+
+- `consultas/magaly-milla-cicardini-campana-reembolsos-2024-1.sql` — InfoProbidad/oro: declaración y sociedades por RUT; corte `meta.build_date = 2026-11-20T17:45:38+00:00`.
+- `consultas/magaly-milla-cicardini-campana-reembolsos-2024-2.sql` — cálculo en el oro de cinco líneas, solicitudes, monto y rechazos.
+- Servel: `https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx`; pestañas `INGRESOS Y GASTOS`, `FORMULARIO AUXILIAR 107` y `Resultado Auditoria Cuentas`, consultadas en el archivo definitivo descargado el 2026-11-21.
+
+PR devuelto y cerrado: https://github.com/rodrigooig/estadoclaro-casos/pull/335
