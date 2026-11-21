@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261121T015838Z",
+  "lead_id": "pamela-saldivia-pinar-ministerio-publico",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pamela-saldivia-pinar-ministerio-publico-1.sql",
+    "fichas/pamela-saldivia-pinar-ministerio-publico.md"
+  ],
+  "origen": "cron"
+}
