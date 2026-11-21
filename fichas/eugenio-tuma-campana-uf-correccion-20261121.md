@@ -24,17 +24,21 @@ El reporte de Servel proporciona el monto en pesos y fecha, no una cifra UF; la 
 
 **Corrección lista.** La versión en `borradores/eugenio-tuma-campana-uf-correccion-20261121.md` conserva íntegro el caso publicado y sustituye solamente 37,84 UF por 37,99 UF al valor del día del gasto, explicando la base de cálculo. Es una corrección numérica exacta contra una fuente primaria de UF y no modifica ninguna imputación o inferencia.
 
+## Verificación de devolución (2026-11-21, run 20261121T145540Z)
+
+Reabrí las tres primarias relevantes:
+- InfoProbidad, declaración 1504762, fechada 19-08-2025: Eugenio Tuma Zedan declara 92,5% y calidad de controlador de INMOBILIARIA E INVERSIONES NUEVAS RAICES S.A., RUT 76.445.700-5. Esto acredita lo declarado en esa fecha, no un registro societario independiente al día del gasto.
+- Servel, XLSX definitivo 2025, hoja «FORMULARIO 87 Y 88», sección GASTO: la fila de EUGENIO TUMA ZEDAN registra RUT 76.445.700-5, Formulario 103, 14-09-2025, CLP $1.500.000, factura exenta n.º 55, código 601 «Gasto rechazado» y detalle «Registro de Vehículos». Cotejo hecho con `xlsx2csv -a` sobre el archivo oficial descargado del URL indicado abajo; fila CSV 39113. El estado general de la candidatura figura «Aprueba con observaciones», no es aprobación particular de este gasto.
+- Diario Oficial, CVE 2698185: el valor UF del 14-09-2025 es CLP $39.485,65; CLP $1.500.000 / $39.485,65 = 37,988..., redondeado a 37,99 UF.
+- Oro, consulta ejecutada: devuelve el mismo registro, amount_uf 37,84, RUT 76445700, fecha 2025-09-14, monto 1.500.000, rechazado; al recalcular por la UF oficial resulta 37,99, diferencia +0,15 UF. SQL reproducible: `consultas/eugenio-tuma-campana-uf-correccion-20261121-1.sql`.
+
+La explicación legítima se mantiene: el gasto puede corresponder a un servicio real de vehículos y el rechazo a falta de acreditación u otra causa administrativa; el reporte no publica la razón específica. El cambio no altera monto en CLP, rechazo, identidad documental ni inferencias. Afirmación débil reconocida: no consta el motivo individual del rechazo, por lo que no se atribuye.
+
 ## Sources
 
 - Caso publicado (PR #180): https://github.com/rodrigooig/estadoclaro-casos/pull/180
-- Servel, reporte definitivo 2025: https://www-doc.servel.cl/2026/09/Reporte%20Ingresos%20y%20Gastos%20Electorales%202025%20-%20Definitivas%20Presidenciales%20y%20Parlamentarias.xlsx
-- Banco Central, tabla UF septiembre-octubre 2025, Diario Oficial: https://www.diariooficial.interior.gob.cl/publicaciones/2025/09/09/44246/01/2698185.pdf
+- Servel, reporte definitivo 2025 (hojas 87/88 y auxiliar 103): https://www-doc.servel.cl/2026/09/Reporte%20Ingresos%20y%20Gastos%20Electorales%202025%20-%20Definitivas%20Presidenciales%20y%20Parlamentarias.xlsx
+- InfoProbidad, declaración 1504762: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1504762
+- Banco Central, tabla UF septiembre-octubre 2025, Diario Oficial, CVE 2698185: https://www.diariooficial.interior.gob.cl/publicaciones/2025/09/09/44246/01/2698185.pdf
 
-## Decisión editorial (2026-11-21): lista para verificacion
-
-No publicar todavía: reabrí InfoProbidad 1504762 y el Diario Oficial (CVE 2698185); la declaración confirma 92,5%/control del RUT 76.445.700-5 y la UF oficial del 14-09-2025 es $39.485,65, que convierte $1.500.000 en 37,99 UF.
-El enlace de Servel al reporte definitivo descarga un XLSX, pero web_extract falló y el navegador abortó al descargar; no pude cotejar de nuevo la fila 55, su fecha, monto y clasificación de rechazo.
-Falta concreto: facilitar una versión consultable del reporte o confirmar en la fuente primaria esos cuatro campos; luego puede cerrarse esta corrección numérica.
-Comparé formato y materialidad con los casos Tuma y Ponce Castro de autocontratación; el cambio propuesto es acotado y coherente, pero no sustituyo el cotejo primario requerido.
-
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/333
+PR anterior devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/333
