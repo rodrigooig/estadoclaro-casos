@@ -29,3 +29,12 @@ El reporte de Servel proporciona el monto en pesos y fecha, no una cifra UF; la 
 - Caso publicado (PR #180): https://github.com/rodrigooig/estadoclaro-casos/pull/180
 - Servel, reporte definitivo 2025: https://www-doc.servel.cl/2026/09/Reporte%20Ingresos%20y%20Gastos%20Electorales%202025%20-%20Definitivas%20Presidenciales%20y%20Parlamentarias.xlsx
 - Banco Central, tabla UF septiembre-octubre 2025, Diario Oficial: https://www.diariooficial.interior.gob.cl/publicaciones/2025/09/09/44246/01/2698185.pdf
+
+## Decisión editorial (2026-11-21): lista para verificacion
+
+No publicar todavía: reabrí InfoProbidad 1504762 y el Diario Oficial (CVE 2698185); la declaración confirma 92,5%/control del RUT 76.445.700-5 y la UF oficial del 14-09-2025 es $39.485,65, que convierte $1.500.000 en 37,99 UF.
+El enlace de Servel al reporte definitivo descarga un XLSX, pero web_extract falló y el navegador abortó al descargar; no pude cotejar de nuevo la fila 55, su fecha, monto y clasificación de rechazo.
+Falta concreto: facilitar una versión consultable del reporte o confirmar en la fuente primaria esos cuatro campos; luego puede cerrarse esta corrección numérica.
+Comparé formato y materialidad con los casos Tuma y Ponce Castro de autocontratación; el cambio propuesto es acotado y coherente, pero no sustituyo el cotejo primario requerido.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/333
