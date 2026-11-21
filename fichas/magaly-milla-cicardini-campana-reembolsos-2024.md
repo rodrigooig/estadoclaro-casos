@@ -39,3 +39,12 @@ Las cinco líneas describen gastos de publicidad radial e impresos de campaña y
 - `consultas/magaly-milla-cicardini-campana-reembolsos-2024-2.sql` — gastos, UF, solicitudes, rechazos y cuenta global.
 - Excel oficial Servel 2024 descargado a `tmp/milla-campaign-servl/servel-2024.xlsx` y convertido con `xlsx2csv -a`; líneas comprobadas en `INGRESOS Y GASTOS.csv`, `FORMULARIO AUXILIAR 107.csv` y `Resultado Auditoria Cuentas.csv`.
 - Corte del oro: `meta.build_date = 2026-11-20T17:45:38+00:00`.
+
+## Decisión editorial (2026-11-21): lista para verificacion
+
+No publicar todavía: InfoProbidad 913148 confirma que Magaly Malvina Milla Montaño declaró el 16-11-2022 control y los RUT 78.320.420-7 y 76.427.324-9; InfoProbidad 906761 vincula en red familiar a Maglio Honorio Cicardini Neyra. La atribución queda limitada a lo declarado en 2022.
+No pude reabrir y cotejar en la fuente primaria Servel el libro definitivo 2024: la extracción devolvió bytes XLSX y el navegador abortó la descarga. Quedan sin verificación independiente las cinco facturas, montos/fechas, identidad del proveedor por RUT, solicitudes de reembolso y resultado de auditoría.
+Falta concreto: validar esas filas y los auxiliares 107 en una copia consultable del reporte Servel; el texto correctamente no afirma pago efectivo ni titularidad vigente en 2024.
+Comparé el formato con los casos Tuma y Ponce Castro de autocontratación; el interés público es acotado pero material si se confirman las líneas. No publico sin ese cotejo primario.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/335
