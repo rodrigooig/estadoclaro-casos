@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261121T115038Z",
+  "lead_id": "pablo-enrique-garcia-gonzalez-egp-consultores-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pablo-enrique-garcia-gonzalez-egp-consultores-2026-1.sql",
+    "fichas/pablo-enrique-garcia-gonzalez-egp-consultores-2026.md"
+  ],
+  "origen": "cron"
+}
