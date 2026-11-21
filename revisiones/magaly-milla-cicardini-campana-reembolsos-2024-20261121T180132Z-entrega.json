@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261121T180132Z",
+  "lead_id": "magaly-milla-cicardini-campana-reembolsos-2024",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/autocontratacion/magaly-milla-cicardini-campana-reembolsos-2024.md",
+  "draft_sha256": "55c1a11e4537fdaa339a767082925c857b2af66c54edd986c09e00d795139f4f",
+  "files": [
+    "INDICE.md",
+    "borradores/magaly-milla-cicardini-campana-reembolsos-2024.md",
+    "fichas/magaly-milla-cicardini-campana-reembolsos-2024.md"
+  ],
+  "origen": "cron"
+}
