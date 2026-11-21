@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "run_id": "20261121T211241Z",
+  "lead_id": "diego-antonio-san-martin-taltal-radio-2018",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/diego-antonio-san-martin-taltal-radio-2018.md",
+  "draft_sha256": "177b4700d5bf6de00046d937d38231ef126ced28e10a505311c250826cc09b99",
+  "files": [
+    "INDICE.md",
+    "borradores/diego-antonio-san-martin-taltal-radio-2018.md",
+    "consultas/diego-antonio-san-martin-taltal-radio-2018-1.sql",
+    "consultas/diego-antonio-san-martin-taltal-radio-2018-2.sql",
+    "consultas/diego-antonio-san-martin-taltal-radio-2018-3.sql",
+    "fichas/diego-antonio-san-martin-taltal-radio-2018.md"
+  ],
+  "origen": "cron"
+}
