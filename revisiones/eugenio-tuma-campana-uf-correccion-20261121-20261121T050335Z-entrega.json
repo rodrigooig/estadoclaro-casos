@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261121T050335Z",
+  "lead_id": "eugenio-tuma-campana-uf-correccion-20261121",
+  "state": "correccion lista",
+  "product": "correccion",
+  "destination": "casos/autocontratacion/eugenio-tuma-campana-autoproveedor.md",
+  "draft_sha256": "a9966cda007f6697afec8a31b320b6c9031ec82d26a6c3e5c973e29bb46d6d88",
+  "files": [
+    "INDICE.md",
+    "borradores/eugenio-tuma-campana-uf-correccion-20261121.md",
+    "consultas/eugenio-tuma-campana-uf-correccion-20261121-1.sql",
+    "fichas/eugenio-tuma-campana-uf-correccion-20261121.md"
+  ],
+  "origen": "cron"
+}
