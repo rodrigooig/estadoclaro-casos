@@ -24,3 +24,12 @@ Las dos órdenes describen servicios de publicidad y difusión radial para la co
 - Selección exploratoria: `consultas/diego-antonio-san-martin-taltal-radio-2018-1.sql`.
 - Declaración y activos: `consultas/diego-antonio-san-martin-taltal-radio-2018-2.sql`.
 - Órdenes únicas por código: `consultas/diego-antonio-san-martin-taltal-radio-2018-3.sql`.
+
+## Decisión editorial (2026-11-22): lista para verificacion
+
+InfoProbidad 204739 confirma el control autodeclarado de San Martín sobre el RUT 76.349.892-1 el 29-03-2018; Mercado Público confirma dos órdenes directas de Taltal por CLP $4.400.000 y $4.800.000, con la causal de costo de evaluación y umbral bajo 100 UTM.
+La fuente oficial de autoridades consultada está fechada 21-01-2019; no acredita continuidad del control societario al 21-02-2019, y la primera orden precede la declaración por 17 días.
+Falta evidencia concreta del vínculo temporal entre participación declarada y órdenes; las compras por sí solas no prueban control vigente ni intervención del concejal.
+Devolver para que se verifique control societario en las fechas de las órdenes y el cargo vigente en cada fecha antes de decidir publicación.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/344
