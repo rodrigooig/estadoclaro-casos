@@ -2,10 +2,11 @@
 
 Autoridades o funcionarios cuya sociedad declarada le vendió a su propia institución.
 
-11 casos.
+12 casos.
 
 | Caso | Monto de referencia (CLP) |
 |---|---|
+| [Maglio Cicardini pidió reembolsar gastos de campaña a sociedades que su cónyuge declaró controlar](magaly-milla-cicardini-campana-reembolsos-2024.md) | $22.736.021 |
 | [Nancy Marisol Díaz Reyes declaró una empresa que vendió diez órdenes de compra a la Municipalidad de Los Sauces](diaz-reyes-municipalidad-de-los-sauces.md) | $8.000.000 |
 | [Jorge Garcés Rojas: Servel registra pagos y gastos rechazados a una sociedad que declaró controlar](jorge-garces-rojas-campana-autoproveedor-2025.md) | $6.441.868 |
 | [Esteban Martínez Rubio declaró una empresa de publicidad a su nombre que recibió 12 órdenes de compra por trato directo de la Municipalidad de Peumo entre 2021 y 2024](martinez-rubio-municipalidad-peumo.md) | $6.062.770 |
