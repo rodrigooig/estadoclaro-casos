@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261122T222237Z",
+  "lead_id": "carlos-ramos-garcia-serviu-comunicaciones-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/carlos-ramos-garcia-serviu-comunicaciones-2025-1.sql",
+    "fichas/carlos-ramos-garcia-serviu-comunicaciones-2025.md"
+  ],
+  "origen": "cron"
+}
