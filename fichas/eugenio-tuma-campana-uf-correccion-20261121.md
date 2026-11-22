@@ -42,3 +42,12 @@ La explicación legítima se mantiene: el gasto puede corresponder a un servicio
 - Banco Central, tabla UF septiembre-octubre 2025, Diario Oficial, CVE 2698185: https://www.diariooficial.interior.gob.cl/publicaciones/2025/09/09/44246/01/2698185.pdf
 
 PR anterior devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/333
+
+## Decisión editorial (2026-11-22): publicado
+
+La declaración de InfoProbidad 1504762 identifica a Eugenio Tuma Zedan y el RUT societario; Servel confirma Formulario 103 n.º 55, 14-09-2025, CLP $1.500.000 y gasto rechazado.
+El Diario Oficial fija la UF de esa fecha en CLP $39.485,65: la equivalencia recalculada es 37,99 UF, no 37,84.
+La corrección conserva el monto, el rechazo y los límites del caso; no altera la inferencia ni atribuye una causa que Servel no publicó.
+Publicar la corrección numérica.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/340
