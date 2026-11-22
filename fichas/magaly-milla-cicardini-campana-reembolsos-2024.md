@@ -57,3 +57,12 @@ Reabrí también InfoProbidad 913148: su fuente primaria muestra a Magaly Malvin
 - Servel: `https://www-doc.servel.cl/2025/08/Reporte_Ingresos_Gastos_Definitivas2024.xlsx`; pestañas `INGRESOS Y GASTOS`, `FORMULARIO AUXILIAR 107` y `Resultado Auditoria Cuentas`, consultadas en el archivo definitivo descargado el 2026-11-21.
 
 PR devuelto y cerrado: https://github.com/rodrigooig/estadoclaro-casos/pull/335
+
+## Decisión editorial (2026-11-22): publicado
+
+InfoProbidad 913148 confirma que Magaly Malvina Milla Montaño declaró en 2022 ser cónyuge de Maglio (grafía NEIRA) y controlar Comercial Los Incas y Sociedad Festiva por los RUT indicados.
+El reporte definitivo Servel 2024 y el auxiliar 107 confirman las cinco facturas y solicitudes de reembolso por CLP $22.736.021; la auditoría global dice «Aprueba con Observaciones» y no acredita pago.
+El texto limita el control a lo declarado en 2022, explicita la explicación ordinaria y no afirma irregularidad ni desembolso.
+El hecho tiene interés de auditoría y el borrador es justo y acotado; publicar.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/342
