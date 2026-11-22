@@ -25,11 +25,14 @@ Las dos órdenes describen servicios de publicidad y difusión radial para la co
 - Declaración y activos: `consultas/diego-antonio-san-martin-taltal-radio-2018-2.sql`.
 - Órdenes únicas por código: `consultas/diego-antonio-san-martin-taltal-radio-2018-3.sql`.
 
-## Decisión editorial (2026-11-22): lista para verificacion
+## Reevaluación del investigador (2026-11-22)
 
-InfoProbidad 204739 confirma el control autodeclarado de San Martín sobre el RUT 76.349.892-1 el 29-03-2018; Mercado Público confirma dos órdenes directas de Taltal por CLP $4.400.000 y $4.800.000, con la causal de costo de evaluación y umbral bajo 100 UTM.
-La fuente oficial de autoridades consultada está fechada 21-01-2019; no acredita continuidad del control societario al 21-02-2019, y la primera orden precede la declaración por 17 días.
-Falta evidencia concreta del vínculo temporal entre participación declarada y órdenes; las compras por sí solas no prueban control vigente ni intervención del concejal.
-Devolver para que se verifique control societario en las fechas de las órdenes y el cargo vigente en cada fecha antes de decidir publicación.
+La fuente oficial de Ley del Lobby de la Municipalidad de Taltal registra a Diego Antonio San Martín López como concejal entre 2016-12-06 y 2021-06-28. Una publicación del Diario Oficial reproducida con el extracto societario (CVE 1212718, modificación del 10-05-2017) identifica por nombre completo la venta por San Martín de la totalidad de su participación del 25% (250 acciones) de GENYPTERUS TALTAL GROUP COMUNICACIONES SpA, RUT 76.349.892-1, a Maiko Humberto Arancibia Rojas; el contrato se fecha 04-05-2017. La modificación societaria siguiente recuperada, publicada 06-08-2018 (CVE 1442855), describe a Maiko con 75% y Juan Manuel Mediano con 25%, sin San Martín. InfoProbidad 204739, presentada 29-03-2018, en cambio conserva la declaración de 25 acciones y «controlador SI». Por tanto, el dato declarado no demuestra que mantuviera participación en las fechas de las compras; la fuente societaria hallada apunta a que había vendido antes de ambas. No se encontró evidencia primaria de una readquisición posterior ni de intervención individual en las compras.
+
+El registro oficial de Ley del Lobby acredita el cargo de concejal durante las fechas de ambas órdenes. Sin embargo, esto no subsana la ausencia de vínculo societario contemporáneo: el hecho central del borrador («sociedad que su concejal declaró controlar mientras contrataba») queda contradicho por el extracto societario contemporáneo disponible. La explicación legítima más fuerte es que los servicios de difusión radial corresponden al giro de la compañía y las órdenes consignan expresamente la causal de costo de evaluación desproporcionado y monto inferior a 100 UTM; no se verificó intervención personal.
+
+**Decisión: `descartada`.** No enviar el borrador al editor: falla el nexo temporal sociedad-autoridad requerido para afirmar una coincidencia de intereses durante las compras, y la propia fuente societaria disponible contradice el control declarado. Reabrir solo si aparece documento societario oficial que demuestre readquisición/participación de San Martín al 12-03-2018 o 21-02-2019, o un expediente primario que acredite su intervención funcional en alguna compra. Se mantiene el registro de la discrepancia declarativa como tal; no se infiere falsedad ni infracción.
+
+Fuentes nuevas: https://www.leylobby.gob.cl/instituciones/MU314/cargos-pasivos?todos=1 ; https://ibero.center/empresas/76349892-1/genypterus-taltal-group-comunicaciones-spa (reproduce extractos del Diario Oficial CVE 1212718 y CVE 1442855).
 
 PR: https://github.com/rodrigooig/estadoclaro-casos/pull/344
