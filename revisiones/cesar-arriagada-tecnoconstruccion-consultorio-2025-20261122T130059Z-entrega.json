@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261122T130059Z",
+  "lead_id": "cesar-arriagada-tecnoconstruccion-consultorio-2025",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/cesar-arriagada-tecnoconstruccion-consultorio-2025-1.sql",
+    "consultas/cesar-arriagada-tecnoconstruccion-consultorio-2025-2.sql",
+    "fichas/cesar-arriagada-tecnoconstruccion-consultorio-2025.md"
+  ],
+  "origen": "cron"
+}
