@@ -10,6 +10,7 @@ SELECT
   c.legal_name,
   c.type,
   c.is_controlling,
+  c.quantity,
   c.value_clp,
   c.business_activity,
   so.order_code,
