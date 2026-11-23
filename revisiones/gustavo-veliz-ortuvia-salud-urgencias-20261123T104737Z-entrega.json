@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261123T104737Z",
+  "lead_id": "gustavo-veliz-ortuvia-salud-urgencias",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/gustavo-veliz-ortuvia-salud-urgencias-1.sql",
+    "fichas/gustavo-veliz-ortuvia-salud-urgencias.md"
+  ],
+  "origen": "cron"
+}
