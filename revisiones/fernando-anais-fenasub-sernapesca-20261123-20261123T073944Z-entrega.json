@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261123T073944Z",
+  "lead_id": "fernando-anais-fenasub-sernapesca-20261123",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/fernando-anais-fenasub-sernapesca-20261123-1.sql",
+    "fichas/fernando-anais-fenasub-sernapesca-20261123.md"
+  ],
+  "origen": "cron"
+}
