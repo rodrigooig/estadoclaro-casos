@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261123T135147Z",
+  "lead_id": "piero-carrillanca-hidalgo-slep-lafken-2026",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/piero-carrillanca-hidalgo-slep-lafken-2026.md",
+  "draft_sha256": "75872dec1ce740966326b408c649614b71cc579d3f16eddd71ed586c930c997d",
+  "files": [
+    "INDICE.md",
+    "borradores/piero-carrillanca-hidalgo-slep-lafken-2026.md",
+    "consultas/piero-carrillanca-hidalgo-slep-lafken-2026-1.sql",
+    "consultas/piero-carrillanca-hidalgo-slep-lafken-2026-2.sql",
+    "fichas/piero-carrillanca-hidalgo-slep-lafken-2026.md"
+  ],
+  "origen": "cron"
+}
