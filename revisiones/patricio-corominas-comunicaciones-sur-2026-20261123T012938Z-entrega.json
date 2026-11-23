@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261123T012938Z",
+  "lead_id": "patricio-corominas-comunicaciones-sur-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/patricio-corominas-comunicaciones-sur-2026-1.sql",
+    "fichas/patricio-corominas-comunicaciones-sur-2026.md"
+  ],
+  "origen": "cron"
+}
