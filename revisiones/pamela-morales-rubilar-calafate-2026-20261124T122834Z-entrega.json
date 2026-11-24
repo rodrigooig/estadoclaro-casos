@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261124T122834Z",
+  "lead_id": "pamela-morales-rubilar-calafate-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pamela-morales-rubilar-calafate-2026-1.sql",
+    "fichas/pamela-morales-rubilar-calafate-2026.md"
+  ],
+  "origen": "cron"
+}
