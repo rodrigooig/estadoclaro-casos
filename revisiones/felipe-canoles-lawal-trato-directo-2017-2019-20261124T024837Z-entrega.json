@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261124T024837Z",
+  "lead_id": "felipe-canoles-lawal-trato-directo-2017-2019",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/felipe-canoles-lawal-trato-directo-2017-2019-1.sql",
+    "fichas/felipe-canoles-lawal-trato-directo-2017-2019.md"
+  ],
+  "origen": "cron"
+}
