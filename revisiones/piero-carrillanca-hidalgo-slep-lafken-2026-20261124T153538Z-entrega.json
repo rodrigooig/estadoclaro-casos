@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261124T153538Z",
+  "lead_id": "piero-carrillanca-hidalgo-slep-lafken-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "borradores/piero-carrillanca-hidalgo-slep-lafken-2026.md",
+    "fichas/piero-carrillanca-hidalgo-slep-lafken-2026.md"
+  ],
+  "origen": "cron"
+}
