@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261124T055532Z",
+  "lead_id": "jorge-garces-rojas-do-share-20261124",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/jorge-garces-rojas-do-share-20261124-1.sql",
+    "fichas/jorge-garces-rojas-do-share-20261124.md"
+  ],
+  "origen": "cron"
+}
