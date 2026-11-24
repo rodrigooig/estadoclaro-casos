@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261124T090132Z",
+  "lead_id": "carlos-silva-montes-ats-cne-panel-20261124",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/carlos-silva-montes-ats-cne-panel-20261124.md",
+  "draft_sha256": "9f4638c285968149b17ce3a99e136ca73d0499f21d3d05d565604e7eb738bc15",
+  "files": [
+    "INDICE.md",
+    "borradores/carlos-silva-montes-ats-cne-panel-20261124.md",
+    "consultas/carlos-silva-montes-ats-cne-panel-20261124-1.sql",
+    "consultas/carlos-silva-montes-ats-cne-panel-20261124-2.sql",
+    "fichas/carlos-silva-montes-ats-cne-panel-20261124.md"
+  ],
+  "origen": "cron"
+}
