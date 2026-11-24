@@ -1,6 +1,6 @@
 # PIERO SERGIO DIEGO CARRILLANCA HIDALGO — SLEP LLANQUIHUE / CONSULTORA LAFKEN
 
-**Estado:** borrador listo para el editor. Caso nuevo, no veredicto.
+**Estado inicial:** borrador listo para el editor; devuelto en PR #360. **Cierre de corrida 2026-11-24: descartada** por no poder comprobar en fuentes primarias el vínculo de personal vigente y su dependencia respecto de la jefatura superior del comprador en fechas de compra.
 
 ## Pregunta decisiva
 
@@ -29,9 +29,28 @@ La afirmación más débil y central es que la declaración pruebe que Carrillan
 
 ## Decisión y control editorial
 
-Enviar al editor como `borrador listo`: identidad, sociedad declarada/control, órdenes, comprador, cronología, importes y norma se sostienen en primarias; el potencial nexo empleador–comprador es directo, reiterado y posterior a la entrada en vigor de la norma. El caso es justo y no acusatorio; distingue el hecho declarado, el dato de compra, la inferencia y lo que no está probado. La explicación legítima e incertidumbre están expresas.
+Decisión anterior: devolver al editor, pues la declaración identifica actividad remunerada en el SLEP y control de Lafken, pero no prueba estatus del personal en las fechas de compra. La segunda revisión confirma que las primarias disponibles no resuelven esa bisagra, por lo que esta corrida cierra `descartada` en vez de mantener un estado intermedio. No se afirma infracción.
 
-Para publicar no se debe afirmar inhabilidad hasta documentar que la relación de personal comprendía las fechas concretas y comprobar si existió excepción fundada. Revisión acotada sugerida: (1) nómina/contrato o acto de nombramiento y unidad empleadora para las cuatro fechas, resolver la fecha 2017; (2) expedientes y cotizaciones de las cuatro órdenes para precisar quién intervino y cómo se seleccionó a Lafken; (3) resolución excepcional, si la hubo, y comunicaciones obligatorias. El borrador queda con estas preguntas explícitas y la decisión final corresponde al editor.
+Lo que se comprobó: InfoProbidad registra el 31-03-2025 la actividad laboral remunerada para el SLEP y fija su inicio declarado en 01-03-2017; declara también acciones/control de Lafken. La DEP indica que el SLEP inició la entrega del servicio educacional en 2021. Las cuatro fichas de Mercado Público confirman compras del SLEP a Lafken, y Contraloría interpreta la prohibición del artículo 35 quáter para personal dependiente de la autoridad o jefatura superior del organismo comprador. Estos documentos no identifican el empleador contractual que explica el período desde 2017, la continuidad o traspaso, ni la relación de dependencia respecto de la jefatura superior en las fechas relevantes. Las órdenes no atribuyen intervención individual.
+
+La explicación legítima más fuerte sigue abierta: la fecha 2017 podría corresponder a una relación anterior a la puesta en marcha del SLEP, con cambio institucional/traspaso o con un campo que no describe el vínculo vigente durante cada orden. No encontré acto de nombramiento, contrato, nómina oficial identificada o expediente de compra que permita elegir entre esas posibilidades. El portal de Transparencia Activa del SLEP incluye secciones de personal y remuneraciones, pero la búsqueda pública realizada no aportó un registro nominativo que resolviera el vínculo. Búsquedas exactas de nombre en web, portal SLEP y portal de transparencia tampoco encontraron documento primario identificable; las referencias en redes sociales a que es profesor no establecen empleador ni fechas y no se usan para afirmar el nexo.
+
+La consulta reproducible en oro devuelve cuatro órdenes por CLP 715.393 (18,63 UF al corte), pero su cuantía acotada no suple el nexo funcional. Servel: la consulta devuelve cero gastos/autosuministro atribuibles a Lafken en la elección municipal 2024; auditoría global «aprueba con observaciones», dato que no acredita la compra estatal.
+
+**Motivo de descarte:** con primarias accesibles, la posible incompatibilidad depende de hechos no documentados sobre la situación de empleo y dependencia legalmente pertinente. Las cinco preguntas editoriales no pasan la materialidad/relevancia probada, pues el hecho central es una relación no verificada para las fechas y la ley requiere establecer dependencia. No se infiere que el vínculo no existiera, ni se imputa incumplimiento.
+
+**Qué la reabriría:** acto/contrato o nómina oficial del empleador que aclare la fecha 2017 y el estatus de Carrillanca en cada fecha de orden; documento que establezca dependencia respecto de la autoridad superior del SLEP; y, para valorar el procedimiento, expedientes de compra que identifiquen participación y eventual excepción fundada. Sin ese antecedente, no reabrir por mera repetición de la misma declaración y órdenes.
+
+## Fuentes comprobadas en esta reevaluación
+
+- InfoProbidad, declaración de 31-03-2025: https://www.infoprobidad.cl/Declaracion/BuscarDeclaracion?declaracion=f5b61a4acd2e513d88f6fe54ddef0a08
+- Mercado Público: OC 1126922-1096-AG24, 1126922-2015-AG24, 1126922-2705-AG24 y 1126922-1630-AG25 (enlaces arriba).
+- DEP, inicio del servicio educativo SLEP Llanquihue desde 2021: https://dep.gob.cl/sin-categoria/mas-de-11-mil-estudiantes-componen-el-nuevo-servicio-local-de-educacion-de-llanquihue/
+- Contraloría General, Oficio E69939/2025: https://www.chilecompra.cl/wp-content/uploads/2025/04/CGR_Dictamen_35_quarter_19_886__1745887880.pdf
+- Portal de Transparencia Activa SLEP Llanquihue (estructura orgánica; el índice lista secciones de personal): https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/AJ028
+- Servel, consulta en oro: `consultas/piero-carrillanca-hidalgo-slep-lafken-2026-2.sql`.
+
+PR anterior devuelto: https://github.com/rodrigooig/estadoclaro-casos/pull/360
 
 ## Fuentes
 
