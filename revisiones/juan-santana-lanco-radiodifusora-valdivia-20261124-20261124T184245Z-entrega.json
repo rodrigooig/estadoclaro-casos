@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261124T184245Z",
+  "lead_id": "juan-santana-lanco-radiodifusora-valdivia-20261124",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/juan-santana-lanco-radiodifusora-valdivia-20261124-1.sql",
+    "consultas/juan-santana-lanco-radiodifusora-valdivia-20261124-2.sql",
+    "fichas/juan-santana-lanco-radiodifusora-valdivia-20261124.md"
+  ],
+  "origen": "cron"
+}
