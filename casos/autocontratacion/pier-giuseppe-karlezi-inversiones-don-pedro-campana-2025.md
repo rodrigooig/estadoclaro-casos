@@ -1,4 +1,4 @@
-# La campaña de Pier Karlezi declaró un arriendo a una empresa que él reportó controlar
+# La campaña de Pier Karlezi registró un reembolso por arriendo de una sociedad que declaró controlar
 
 En su declaración voluntaria del 19 de agosto de 2025, como candidato a diputado, Pier Giuseppe Karlezi Hazleby declaró una participación de 50 acciones y calidad de controlador en Inversiones Don Pedro SpA (RUT 77.741.416-K), además de una actividad remunerada en la misma empresa.[1] Karlezi asumió como diputado para el período 2026–2030, según la reseña parlamentaria de la Biblioteca del Congreso.[3]
 
