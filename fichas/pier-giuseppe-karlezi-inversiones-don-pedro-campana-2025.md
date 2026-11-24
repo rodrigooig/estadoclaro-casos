@@ -30,3 +30,9 @@ La revisión depende de la conexión exacta entre dos fuentes primarias mediante
 [1] InfoProbidad, declaración 1504512: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1504512
 [2] Servel, Reporte definitivo de ingresos y gastos electorales 2025 (hojas FORMULARIO 87 Y 88, FORMULARIO AUXILIAR 107 y Resultado Auditoria Cuentas): https://www-doc.servel.cl/2026/09/Reporte%20Ingresos%20y%20Gastos%20Electorales%202025%20-%20Definitivas%20Presidenciales%20y%20Parlamentarias.xlsx
 [3] Biblioteca del Congreso Nacional, reseña biográfica: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Pier_Giuseppe_Karlezi_Hazleby
+
+## Decisión editorial (2026-11-24): publicado
+
+Publico: InfoProbidad 1504512 atribuye a Pier Giuseppe Karlezi Hazleby la declaración voluntaria de 19-08-2025, 50 acciones y control de Inversiones Don Pedro SpA, RUT 77.741.416-K. En la planilla oficial definitiva de Servel, el Formulario Auxiliar 107 registra la factura 22 por $2.768.409 como diferencia sin otra fuente de financiamiento y otra línea por $4.760.000 como reembolso al mismo candidato; la auditoría general dice «Aprueba», no acredita por sí sola pago ni autorización de esta línea. Mantener la discrepancia y esos límites explícitos: no inferir beneficio personal o irregularidad.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/363
