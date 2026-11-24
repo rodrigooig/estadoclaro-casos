@@ -43,3 +43,9 @@ Para publicar no se debe afirmar inhabilidad hasta documentar que la relación d
 [6] Contraloría General, Oficio E69939/2025: https://www.chilecompra.cl/wp-content/uploads/2025/04/CGR_Dictamen_35_quarter_19_886__1745887880.pdf
 [7] Dirección de Educación Pública, SLEP Llanquihue: https://dep.gob.cl/sin-categoria/mas-de-11-mil-estudiantes-componen-el-nuevo-servicio-local-de-educacion-de-llanquihue/
 [8] Dirección de Educación Pública, qué es un SLEP: https://dep.gob.cl/que-es-un-slep/
+
+## Decisión editorial (2026-11-24): lista para verificacion
+
+Devuelvo el caso: InfoProbidad sí registra la actividad remunerada en el SLEP y el control declarado de Lafken; Mercado Público confirma las compras al mismo RUT. Pero la declaración fija el inicio laboral en 2017 y la DEP informa que el SLEP Llanquihue presta el servicio desde 2021, sin que estas fuentes establezcan continuidad, empleador contractual ni dependencia del personal respecto de la jefatura compradora en las fechas de las órdenes. Antes de sostener la relevancia bajo el artículo 35 quáter, falta acto/contrato o antecedente oficial que resuelva ese vínculo y, si corresponde, la excepción.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/360
