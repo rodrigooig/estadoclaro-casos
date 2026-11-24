@@ -56,3 +56,9 @@ Qué debe mirar el editor: que las fuentes y montos se cotejen, que el título s
 - Portal del Investigador ANID, perfil de Carlos Silva Montes: https://investigadores.anid.cl/en/public_search/researcher?id=21463
 
 Resumen de cierre: [`tmp/runs/20261124T090132Z/carlos-silva-montes-ats-cne-panel-20261124/resumen.md`](../tmp/runs/20261124T090132Z/carlos-silva-montes-ats-cne-panel-20261124/resumen.md).
+
+## Decisión editorial (2026-11-24): descartada
+
+Descarto por duplicación: en main ya está publicado en entrega-2/casos/regulador_y_regulado/silva-montes-panel-expertos-ats-energia-cne.md un caso sobre Carlos Silva Montes y ATS Energía, con las mismas compras de la CNE, incluido el estudio COMA de $70.000.000, y la coincidencia con su período en el Panel. La versión existente documenta más contexto primario, entre ello la tramitación posterior de discrepancias; este PR no aporta un hecho central distinto y no debe republicarse en otra categoría.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/368
