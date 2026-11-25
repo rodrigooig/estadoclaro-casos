@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261125T164553Z",
+  "lead_id": "marcos-jose-gatica-rio-claro-campana-2024",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/marcos-jose-gatica-rio-claro-campana-2024-1.sql",
+    "fichas/marcos-jose-gatica-rio-claro-campana-2024.md"
+  ],
+  "origen": "cron"
+}
