@@ -7,7 +7,7 @@
   "destination": "",
   "draft_sha256": "",
   "files": [
-    "INDICE.md",
+    "consultas/esmirna-vidal-moraga-autocontratacion-poder-judicial-2021-1.sql",
     "fichas/esmirna-vidal-moraga-autocontratacion-poder-judicial-2021.md"
   ],
   "origen": "cron"
