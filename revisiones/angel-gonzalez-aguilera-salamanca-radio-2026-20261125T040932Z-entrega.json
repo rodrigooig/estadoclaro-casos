@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261125T040932Z",
+  "lead_id": "angel-gonzalez-aguilera-salamanca-radio-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/angel-gonzalez-aguilera-salamanca-radio-2026-1.sql",
+    "consultas/angel-gonzalez-aguilera-salamanca-radio-2026-2.sql",
+    "fichas/angel-gonzalez-aguilera-salamanca-radio-2026.md"
+  ],
+  "origen": "cron"
+}
