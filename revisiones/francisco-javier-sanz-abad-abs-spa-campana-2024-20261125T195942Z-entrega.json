@@ -2,16 +2,13 @@
   "version": 1,
   "run_id": "20261125T195942Z",
   "lead_id": "francisco-javier-sanz-abad-abs-spa-campana-2024",
-  "state": "borrador listo",
-  "product": "caso",
-  "destination": "casos/autocontratacion/francisco-javier-sanz-abad-abs-spa-campana-2024.md",
-  "draft_sha256": "df5d962f2e96c549ad713938d3e1281fa8e8fd543a0ea6f1177355b295a1268c",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
   "files": [
     "INDICE.md",
     "borradores/francisco-javier-sanz-abad-abs-spa-campana-2024.md",
-    "consultas/francisco-javier-sanz-abad-abs-spa-campana-2024-1.sql",
-    "consultas/francisco-javier-sanz-abad-abs-spa-campana-2024-2.sql",
-    "consultas/francisco-javier-sanz-abad-abs-spa-campana-2024-3.sql",
     "fichas/francisco-javier-sanz-abad-abs-spa-campana-2024.md"
   ],
   "origen": "cron"
