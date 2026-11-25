@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261125T071733Z",
+  "lead_id": "rabindranath-acuna-via-libre-trato-directo-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/rabindranath-acuna-via-libre-trato-directo-2026-1.sql",
+    "fichas/rabindranath-acuna-via-libre-trato-directo-2026.md"
+  ],
+  "origen": "cron"
+}
