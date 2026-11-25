@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261125T195942Z",
+  "lead_id": "camila-cardenas-oyarzun-metalpro-mop-2023",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/camila-cardenas-oyarzun-metalpro-mop-2023-1.sql",
+    "consultas/camila-cardenas-oyarzun-metalpro-mop-2023-2.sql",
+    "fichas/camila-cardenas-oyarzun-metalpro-mop-2023.md"
+  ],
+  "origen": "cron"
+}
