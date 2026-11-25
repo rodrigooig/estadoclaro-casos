@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261125T232741Z",
+  "lead_id": "claus-lindemann-vierth-cafra-frutillar-2017-2018",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/claus-lindemann-vierth-cafra-frutillar-2017-2018-1.sql",
+    "fichas/claus-lindemann-vierth-cafra-frutillar-2017-2018.md"
+  ],
+  "origen": "cron"
+}
