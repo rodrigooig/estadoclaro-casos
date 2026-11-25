@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261125T010553Z",
+  "lead_id": "patricio-mena-spc-consultores-dpp-2022",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/patricio-mena-spc-consultores-dpp-2022-1.sql",
+    "consultas/patricio-mena-spc-consultores-dpp-2022-2.sql",
+    "fichas/patricio-mena-spc-consultores-dpp-2022.md"
+  ],
+  "origen": "cron"
+}
