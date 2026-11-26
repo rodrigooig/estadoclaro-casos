@@ -1,6 +1,6 @@
 # Pantalla regional de DIP y órdenes — Región de Valparaíso, 26-11-2026
 
-**Estado:** abierta; barrido de datos para selección de pistas. No es una conclusión sobre infracciones.
+**Estado:** descartada como caso regional único. La pista de Hijuelas/Kude queda separada en su ficha propia; este cierre no concluye que sus órdenes fueran ilegales ni atribuye intervención a Aliaga.
 
 ## Corte y método (solo fuentes integradas en EstadoClaro)
 
@@ -48,9 +48,10 @@ La pantalla de `campaign_self_supply` para Valparaíso encontró 3 filas agregad
 - Se excluyen órdenes personales como persona natural, relaciones sin RUT coincidente, compras anteriores/siguientes a la ventana declarada y vínculos de nombre sin identidad confirmada.
 - Las fechas/status de cargo son las derivadas de declaraciones y del modelo de EstadoClaro, no un padrón de nombramientos perfecto. `same_institution` NULL siempre significa no determinable, no “distinto”.
 
-## Próximos pasos
+## Decisión y cierre
 
-1. Priorizar para Aliaga los cuatro expedientes de compra (tres en la ventana de declaración y uno anterior a la presentación), documentación de urgencia/cotizaciones/recepción, y buscar si existe acto, fondo o voto del CORE/GORE relacionado con la compra de Hijuelas. Cerrar si no aparece nexo funcional/intervención; abrir caso solo con evidencia primaria que lo sostenga.
-2. No abrir investigación de Alberto Aliaga por el nexo histórico de compras a Cabildo sin una fuente del gold que establezca cargo vigente/intervención entre 2022 y 2024. Si se investiga patrimonio, tratar la serie 2026 separadamente como revisión de versiones y valores.
-3. Mantener Paulina Yáñez y Javier Álamos en baja prioridad; reabrir solo ante una conexión funcional concreta, contrato relevante o intervención documentada.
-4. No usar esta pantalla como auditoría exhaustiva de toda autoridad o de todos los campos de las declaraciones. Actualizarla cuando cambie el gold o aparezcan declaraciones/órdenes nuevas.
+La pantalla regional como objeto agregado no pasa a caso editorial: las coincidencias cruzan personas, organismos y períodos distintos. Su señal más concreta es José Ricardo Aliaga Cruz, CORE, socio del 50% no controlador declarado de Sociedad Kude Ltda. (RUT 77.603.470-3), y cuatro órdenes de la Municipalidad de Hijuelas a la misma sociedad por mantenimiento de jardines/áreas verdes, cada una CLP $6.168.000; tres son posteriores a la DIP del 28-03-2022. Mercado Público identifica los cuatro pedidos como emergencia/urgencia/imprevisto. La unidad de compra fue la Secretaría Comunal de Planificación municipal, no el GORE. **Hechos de compra y participación no acreditan que Aliaga interviniera, que hubiera fondos GORE, ni que el municipio lo favoreciera por su cargo.** El servicio recurrente de mantención es la explicación legítima más fuerte; el fundamento y los antecedentes de los anexos de las OCs siguen siendo el punto a verificar.
+
+Cotejo primario complementario para el cierre: InfoProbidad, declaraciones de Aliaga (IDs 818055, 860370 y 1056896: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=818055 ; https://www.infoprobidad.cl/Declaracion/Declaracion?ID=860370 ; https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1056896); Mercado Público, órdenes 3775-28-SE22, 3775-30-SE22, 3775-43-SE22 y 3775-48-SE22 (las páginas originales citan sociedad, RUT, comprador, ítem, fecha, monto y categoría de emergencia). El barrido general consignado arriba usó el gold 2026-11-24; esta verificación reproducible de persona/sociedad/órdenes utilizó el corte más reciente de la corrida, `meta.build_date=2026-11-26T01:01:56+00:00` (consulta `consultas/jose-ricardo-aliaga-kude-hijuelas-1.sql`).
+
+Por ser una línea distinta, no se incorpora a esta ficha regional un caso sobre Aliaga: su ficha individual permanece separada para el cierre de esa pista. Reabrir esta pantalla solo ante un nexo documental específico entre una decisión/fondo del GORE y las compras municipales, o un documento primario que atribuya intervención del CORE; las otras comunas también requieren expedientes propios. Las señales secundarias Alberto Aliaga–Cabildo y Paulina Yáñez–Viña no justifican casos con la evidencia disponible. Esta pantalla no fue un censo exhaustivo y no descarta alertas pendientes de investigación individual.
