@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": "20261126T190838Z",
+  "lead_id": "esteban-martinez-rubio-peumo-medios-municipales-2021",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/esteban-martinez-rubio-peumo-medios-municipales-2021-1.sql",
+    "consultas/esteban-martinez-rubio-peumo-medios-municipales-2021-2.sql",
+    "fichas/esteban-martinez-rubio-peumo-medios-municipales-2021.md"
+  ],
+  "origen": "cron"
+}
