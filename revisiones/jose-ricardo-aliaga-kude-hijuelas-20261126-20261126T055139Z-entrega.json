@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "run_id": "20261126T055139Z",
+  "lead_id": "jose-ricardo-aliaga-kude-hijuelas-20261126",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "fichas/jose-ricardo-aliaga-kude-hijuelas-20261126.md"
+  ],
+  "origen": "cron"
+}

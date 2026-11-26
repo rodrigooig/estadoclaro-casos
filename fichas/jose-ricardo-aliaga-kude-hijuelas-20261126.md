@@ -1,31 +1,31 @@
-# José Ricardo Aliaga Cruz — Sociedad KUDE y órdenes de Hijuelas
+# José Ricardo Aliaga Cruz — Sociedad Kude y órdenes de Hijuelas
 
-**Estado:** abierta; pista de cruce patrimonial–compras, no caso verificado.
+**Estado: descartada.** Se verificó una participación societaria declarada y cuatro órdenes municipales al RUT exacto; no se encontró nexo entre la función de CORE y las compras, que fueron de una municipalidad distinta del GORE. No se acredita intervención, beneficio personal ni financiamiento regional.
 
-## Hechos del gold de EstadoClaro
+## Pregunta decisiva
 
-- Gold build: `2026-11-24T20:08:20Z`. La tabla de compras tiene corte `2026-11-24`; el máximo `sent_date` visto para Región de Valparaíso es `2026-11-23`.
-- InfoProbidad registró a José Ricardo Aliaga Cruz como consejero regional del Gobierno Regional de Valparaíso. En declaraciones 818055 (28-03-2022), 860370 (07-04-2022) y 1056896 (10-04-2023), aparece con 50 % de derechos no controladores en SOCIEDAD KUDE LIMITADA, RUT 76.603.470, participación que declara adquirida el 14-05-2001.[1][2]
-- ChileCompra contiene cuatro órdenes de compra de la Municipalidad de Hijuelas al proveedor con RUT 76.603.470 entre 18-03-2022 y 03-06-2022. Cada una es por CLP $6.168.000; juntas suman CLP $24.672.000 (768,78 UF, calculada por EstadoClaro usando la UF de la fecha de cada orden). Las cuatro están marcadas por ChileCompra como trato directo, con causal registrada “Emergencia, urgencia o imprevisto”, y rubro principal “Artículos para estructuras, obras y construcciones”. Tres figuran “Aceptada”; la orden 3775-48-SE22, de 03-06-2022, figura “Enviada a proveedor”.[3][4][5][6]
-- La declaración ante el GORE registra inicio del cargo el 11-03-2022. Tres OCs (05-04, 03-05 y 03-06) son posteriores a la declaración de asunción presentada el 28-03-2022 y caen dentro de la ventana válida del cruce: CLP $18.504.000 (574,13 UF). La primera OC, del 18-03, cae después de la fecha de inicio declarada del cargo, pero antes de la primera declaración GORE del 28-03; el modelo la deja fuera de la ventana probada por declaración. Mantener explícita esa diferencia de cobertura/temporalidad.
-- El comprador es la Municipalidad de Hijuelas, no el GORE; el cruce `same_institution` es falso. Ningún dato de estos cruces acredita que Aliaga interviniera en las compras, que fuera el beneficiario de los pagos, ni que las adquisiciones se relacionaran con decisiones de financiamiento regional.
+¿La participación de José Ricardo Aliaga Cruz en Sociedad Kude y las cuatro órdenes de emergencia emitidas por la Municipalidad de Hijuelas durante parte de su período como CORE permiten documentar una pregunta verificable sobre el ejercicio de su función, o son compras municipales a una empresa en que declaró participación?
 
-## Evaluación de la pista
+## Hechos primarios y fechas
 
-Pista plausible por concurrencia de tres hechos concretos: participación accionaria del 50 % declarada, cargo vigente de CORE durante el período y cuatro órdenes repetidas al mismo proveedor por la misma cuantía, todas registradas como emergencias, de un municipio de la región. La conexión funcional sigue sin probarse: compras del municipio de Hijuelas no son compras de la institución del cargo, y el dato de accionista no demuestra participación en el proceso ni beneficio individual. La ruta “emergencia” es la clasificación de ChileCompra, no una conclusión de ilegalidad.
+- InfoProbidad identifica a **JOSÉ RICARDO ALIAGA CRUZ**. En la declaración 818055, presentada el 28-03-2022 como primera declaración por asunción de cargo, declara el cargo de consejero regional del Gobierno Regional de Valparaíso, con inicio declarado el 11-03-2022. Declara 50% de **SOCIEDAD KUDE LIMITADA**, RUT **77.603.470-3**, como acción, adquirida el 14-05-2001; marca «Tiene Calidad de Controlador: NO». Fuente primaria: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=818055 . La misma participación aparece en las declaraciones 860370 (07-04-2022) y 1056896 (10-04-2023): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=860370 ; https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1056896 .
+- Mercado Público muestra cuatro OCs a **SOCIEDAD KUDE LIMITADA**, proveedor RUT **77.603.470-3**, de la Municipalidad de Hijuelas. Todas llevan la descripción “MANTENCIÓN DE AREAS VERDES JARDINES Y PLAZAS”, la causal/notas “Emergencia, urgencia o imprevisto” y la misma línea de servicio de jardines por CLP $6.168.000:
+  - 3775-28-SE22, enviada 18-03-2022; estado Aceptada: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3775-28-SE22
+  - 3775-30-SE22, enviada 05-04-2022; estado Aceptada: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3775-30-SE22
+  - 3775-43-SE22, enviada 03-05-2022; estado Aceptada: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3775-43-SE22
+  - 3775-48-SE22, enviada 03-06-2022; estado Enviada a proveedor: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=3775-48-SE22
+- Las páginas identifican a I Municipalidad de Hijuelas como compradora y a la Secretaría Comunal de Planificación como unidad de compra. El monto de las cuatro OCs suma CLP **$24.672.000 (768,78 UF)**, calculado por orden a la UF de su fecha en el oro. Tres órdenes posteriores a la presentación de la DIP (abril–junio) suman CLP **$18.504.000 (574,13 UF)**. La orden del 18-03 precede a la presentación de 28-03, aunque es posterior al inicio de cargo que la declaración indica; no se debe confundir la fecha de inicio declarada con el período que la declaración ya acredita.
+- La licitación pública de 2017 para mantención de áreas verdes en Hijuelas adjudicó ese servicio a Sociedad Kude Ltda.; antecedente compatible con continuidad del proveedor, pero no resuelve la causal ni fundamento de las compras de 2022. Acta primaria: https://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=TLaUu0sui39DTY0REo3EgoeX6zY0nhxufJewcfUAkR0%3D .
+- La institución declarada en la DIP es el GORE de Valparaíso y el comprador de las OCs es la Municipalidad de Hijuelas: no son la misma institución. Las fuentes primarias revisadas no documentan intervención individual de Aliaga, decisión del GORE o transferencia regional relacionada con estas compras. Una coincidencia territorial o de fechas no demuestra esos nexos.
 
-El triage previo de octubre/noviembre de 2026 había descartado prioridad por posible falta de simultaneidad del cargo. Releyendo las fechas de inicio de la declaración GORE, las ventanas de suministro y las fechas exactas de las OCs, se confirma que las tres órdenes de abril–junio de 2022 sí caen en el período declarado del cargo; la de marzo queda en zona limítrofe previa a la presentación. No confundir la candidatura de agosto de 2021 (que no prueba ejercicio del cargo) con el período CORE que empieza el 11-03-2022.
+## Consulta y corte del oro
 
-## Qué falta para confirmar o descartar
+`meta.build_date = 2026-11-26T01:01:56+00:00`. Consulta reproducible: `consultas/jose-ricardo-aliaga-kude-hijuelas-1.sql`, ejecutada con `ec-gold-sql --csv --max-rows 100 consultas/jose-ricardo-aliaga-kude-hijuelas-1.sql`. Resultado de la agregación por órdenes únicas: 4 órdenes, CLP $24.672.000, 768,78 UF; de ellas, 3 desde el 28-03-2022 por CLP $18.504.000 y 574,13 UF. El detalle de participaciones y órdenes se repite por versiones de declaración: el total se calcula sobre órdenes distintas y no multiplica cada compra por cada DIP.
 
-1. Expedientes primarios de 3775-28-SE22, 3775-30-SE22, 3775-43-SE22 y 3775-48-SE22: bienes/cantidades, requerimientos, causal de emergencia, cotizaciones, unidad técnica, recepción, pago y continuidad del evento/abastecimiento.
-2. Actas, votaciones, comisiones y asignaciones del CORE/GORE pertinentes a Hijuelas, para determinar si Aliaga intervino en una transferencia, financiamiento o decisión vinculada a los bienes adquiridos. Si no hay decisión o competencia pertinente, la pista pierde fuerza funcional.
-3. Confirmar en el portal oficial que la participación y la identidad del proveedor siguen coincidiendo en las declaraciones completas; los datos de EstadoClaro son una extracción declarada, no auditada.
-4. No extrapolar a campaña: el conjunto Servel integrado por EstadoClaro cubre 2024–2025, no la candidatura CORE 2021.
+## Explicación legítima más fuerte, límites y decisión
 
-## Fuentes enlazadas por los registros de EstadoClaro
+La explicación legítima más fuerte es que la municipalidad contrató repetidamente un servicio de mantención de áreas verdes a un proveedor que ya había obtenido en 2017 una adjudicación pública para ese servicio. Que las cuatro páginas consignen la causal de emergencia no demuestra por sí mismo abuso o ilegalidad. La última OC consta “Enviada a proveedor”, no aceptada ni pagada. No se obtuvieron y cotejaron los expedientes enlazados en las páginas; por tanto, no se determina el fundamento concreto de la causal, recepción/pago, quién tomó las decisiones, fuente de fondos, eventual intervención de Aliaga o situación administrativa de la sociedad en las fechas de compra más allá de su DIP.
 
-- InfoProbidad IDs 860370 y 1056896.[1][2]
-- Mercado Público 3775-28-SE22, 3775-30-SE22, 3775-43-SE22 y 3775-48-SE22.[3][4][5][6]
+**Descartada**: con los hechos comprobados no pasa el umbral de nexo funcional documentado de la decisión editorial. Hay participación declarada, reiteración de compras y causal registradas; falta una fuente primaria que conecte las adquisiciones de Hijuelas con la función de CORE, una decisión del GORE, financiamiento regional o intervención personal. El monto y repetición hacen la coincidencia verificable, pero no salvan ese vacío. No se afirma irregularidad.
 
-Consulta reproducible: `consultas/jose-ricardo-aliaga-kude-hijuelas-1.sql`.
+Reabrir solo si un expediente primario o acta/fuente institucional acredita intervención de Aliaga, decisión o financiamiento regional relacionado, o un nexo competencial concreto entre su función y las compras. Los anexos de Mercado Público son el siguiente documento acotado a revisar si aparece tal pista.
