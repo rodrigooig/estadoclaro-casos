@@ -25,6 +25,6 @@ Participaciones societarias declaradas por autoridades en empresas que facturan 
 | [Una fiscal adjunta del Ministerio Público declara una participación en la empresa que vendió 3.827 UF al SAG y la Universidad de Chile entre 2020 y 2026](encina-calquin-encipharm-sag.md) | $144.263.972 |
 | [Camila Cárdenas Oyarzún declaró el control de una empresa que vendió 3.869 UF al Estado entre 2023 y 2025](cardenas-oyarzun-metalpro-conservadora-aysen.md) | $144.052.033 |
 | [El alcalde de Tiltil firmó contratos estatales por $122,36 millones como representante legal de su empresa y la omitió en InfoProbidad el mismo día en que aceptó la prórroga](cesar-mena-retamal-servicios-profesionales-ktc-tiltil.md) | $122.360.000 |
-| [Una empresa que un asesor de Vitacura declaró controlar figura como proveedora de la Municipalidad en una orden por la Pasarela Lo Curro](pablo-allard-serrano-pasarela-vitacura.md) | $62.758.630 |
+| [Vitacura contrató en 2023 a una empresa que Pablo Allard había declarado controlar](pablo-allard-serrano-pasarela-vitacura.md) | $62.758.630 |
 | [Dos sociedades de Jorge Vaccaro Collao, concejal de Chillán hasta 2021, vendieron UF 1.333 al Estado durante su período y UF 8.536 en los dos años siguientes](vaccaro-collao-negocios-estado.md) | $38.906.325 |
 | [El conservador de Angol cuyas sociedades sumaron 64.761,22 UF en contratos con la Defensoría Penal Pública](winter-perez-defensoria-penal-publica.md) | n/d |
