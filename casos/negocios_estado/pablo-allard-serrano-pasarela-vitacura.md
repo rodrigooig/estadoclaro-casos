@@ -24,15 +24,13 @@ La explicación legítima más sólida es que el municipio contrató un servicio
 
 La declaración de 2022 es una foto declarativa y no resuelve la vigencia del cargo ni de la participación societaria el 2 de mayo de 2023.[1] La ficha de la orden informa proveedor, comprador, objeto, procedimiento y monto original en UTM, pero no identifica a quienes definieron, seleccionaron, autorizaron, administraron o recibieron el servicio, ni permite evaluar por sí sola el fundamento completo del trato directo o el pago.[2]
 
-El oro de EstadoClaro con corte 2026-11-26 conserva la orden con `same_institution = true` y `timing = during` para la relación societaria; esos campos no son prueba primaria de que Allard siguiera empleado por la Municipalidad en la fecha de compra. La fuente externa revisada para la fecha de término es el reporte periodístico citado, no el modelo.[1][2][5]
+La orden aparece en el cruce de EstadoClaro dentro de la ventana de la declaración y para la misma institución; esa clasificación analítica no acredita que Allard siguiera empleado por la Municipalidad en la fecha de compra. La fuente externa revisada para la fecha de término es el reporte periodístico citado, no un registro municipal de cese.[1][2][5]
 
 ## Preguntas acotadas para seguimiento
 
 1. ¿Qué acto municipal acredita la fecha de término de los servicios de Allard y resuelve la discrepancia entre la fecha de asunción que arrastran las declaraciones y el reporte de su salida en 2021?[1][4][5]
 2. ¿Qué disponen el Decreto Alcaldicio Sec. 4.ª N.º 10/66 y la Resolución N.º 29 que cita la orden, y quiénes intervinieron en la definición, selección, autorización, administración y recepción del servicio?[2]
 3. ¿Qué documento establece si la prestación a honorarios de 2020 sobre movilidad en el Mapocho estaba relacionada con el posterior proyecto de la Pasarela Lo Curro, sin asumir que eran el mismo encargo?[2][3]
-
-Esta corrección añade el reporte de cese de 2021 y lo atribuye explícitamente a una fuente periodística. No transforma la coincidencia societaria y la compra posterior en evidencia de intervención o conducta impropia.[1][2][3][5]
 
 ## Sources
 
