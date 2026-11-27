@@ -2,7 +2,7 @@
 
 Participaciones societarias declaradas por autoridades en empresas que facturan al Estado, con foco en control y en la participación que enumera el artículo 4 de la Ley 19.886.
 
-21 casos.
+22 casos.
 
 | Caso | Monto de referencia (CLP) |
 |---|---|
@@ -19,6 +19,7 @@ Participaciones societarias declaradas por autoridades en empresas que facturan 
 | [Un concejal de Copiapó declaró una acción en la clínica que facturó UF 21.661 a organismos de salud del Estado durante su período](luz-hidalgo-clinica-atacama-fonasa.md) | $626.272.534 |
 | [Un notario del Poder Judicial declara un derecho en una inmobiliaria que le vendió asesorías a SERVIU Metropolitano por 542 millones de pesos entre 2020 y 2024](rojas-arriagada-notario-pronto-casa-serviu.md) | $542.048.018 |
 | [Una empresa con participación del alcalde de Lonquimay facturó UF 13.295 al Sernameg entre 2023 y 2024](yanez-rivas-eyd-consultores-lonquimay.md) | $495.000.000 |
+| [El diputado Alejandro Riquelme Ducci, la red Magallania ($245,64 millones en compras públicas 2022–2025), $4,57 millones de campaña al controlador de la firma y el vínculo societario con la Fiscalía de Punta Arenas](alejandro-riquelme-ducci-magallania-punta-arenas.md) | $245.640.000 |
 | [Carlos Alejandro Castillo Cortés, concejal de Monte Patria entre 2021 y 2024, declaró una participación en una empresa de transporte que facturó $203 millones al Estado durante su período y $2.567 millones después](castillo-cortes-monte-patria.md) | $203.466.635 |
 | [Una sociedad donde el diplomático Devia Aldunate declara acciones vendió al Estado en 2020 y 2022](devia-aldunate-piddo-montiglio.md) | $168.323.577 |
 | [Una fiscal adjunta del Ministerio Público declara una participación en la empresa que vendió 3.827 UF al SAG y la Universidad de Chile entre 2020 y 2026](encina-calquin-encipharm-sag.md) | $144.263.972 |
