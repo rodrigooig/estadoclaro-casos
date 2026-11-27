@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261127T012145Z",
+  "lead_id": "omar-luz-hidalgo-clinica-atacama-compras-20261127",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/omar-luz-hidalgo-clinica-atacama-compras-20261127-1.sql",
+    "fichas/omar-luz-hidalgo-clinica-atacama-compras-20261127.md"
+  ],
+  "origen": "cron"
+}
