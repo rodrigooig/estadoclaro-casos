@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261127T072939Z",
+  "lead_id": "pablo-allard-pasarela-vitacura-cese-correccion-20261127",
+  "state": "correccion lista",
+  "product": "correccion",
+  "destination": "casos/negocios_estado/pablo-allard-serrano-pasarela-vitacura.md",
+  "draft_sha256": "b876fadda251cdfcc4c885ded9594ef9607db08de64f39ed6c932852ae2a1741",
+  "files": [
+    "INDICE.md",
+    "borradores/pablo-allard-pasarela-vitacura-cese-correccion-20261127.md",
+    "fichas/pablo-allard-pasarela-vitacura-cese-correccion-20261127.md"
+  ],
+  "origen": "cron"
+}
