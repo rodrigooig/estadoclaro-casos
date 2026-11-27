@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261127T231453Z",
+  "lead_id": "esmirna-vidal-poder-judicial-20261127",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/esmirna-vidal-poder-judicial-20261127-1.sql",
+    "fichas/esmirna-vidal-poder-judicial-20261127.md"
+  ],
+  "origen": "cron"
+}
