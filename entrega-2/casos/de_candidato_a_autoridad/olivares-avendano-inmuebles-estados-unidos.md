@@ -1,6 +1,6 @@
 # Javier Olivares declaró como diputado tres inmuebles en Estados Unidos por US$ 2,08 millones, con fechas de compra entre 2012 y 2018, que no figuraban en su declaración de candidato de agosto de 2025
 
-> **Actualización (27 de noviembre de 2026):** publicado originalmente con el corte de InfoProbidad del 22 de septiembre de 2026. Tras la difusión de este reporte en *El Mostrador* el 23 de noviembre de 2026, el diputado reconoció que aún faltaban otros cuatro inmuebles por declarar. Al corte del **14 de noviembre de 2026**, esa nueva rectificación todavía no figuraba en InfoProbidad.
+> **Actualización (27 de noviembre de 2026):** publicado originalmente con el corte de InfoProbidad del 22 de septiembre de 2026. Tras un reportaje de *El Mostrador* del 23 de noviembre de 2026 —elaborado a partir de estos antecedentes—, el diputado reconoció que aún faltaban otros cuatro inmuebles por declarar. Al corte del **14 de noviembre de 2026**, esa nueva rectificación todavía no figuraba en InfoProbidad.
 
 ## Resumen en tres momentos
 
@@ -35,7 +35,7 @@ El patrimonio neto calculado por EstadoClaro para la declaración del 10 de abri
 ## Requerimiento de la Cámara y respuesta del diputado
 
 - **Septiembre de 2026:** según informó la prensa en noviembre, el secretario general de la Cámara de Diputados, Miguel Landeros, pidió a Olivares rectificar su declaración.
-- **23 de noviembre de 2026:** *El Mostrador* publicó este caso de EstadoClaro, que fue replicado por otros medios nacionales. A raíz de ello, Olivares y su equipo confirmaron que preparan una nueva rectificación para agregar **cuatro inmuebles adicionales** a los ya declarados en abril: **otros tres bienes en Estados Unidos** (dos inmuebles y un terreno) y **un departamento en Viña del Mar** comprado en marzo de 2026, lo que elevaría su patrimonio estimado a cerca de **US$ 6,3 millones**.
+- **23 de noviembre de 2026:** *El Mostrador* publicó un reportaje a partir de los antecedentes de EstadoClaro —replicado luego por otros medios nacionales— que reveló el requerimiento de la Cámara y consultó al diputado. En esa cobertura, Olivares y su equipo confirmaron que preparan una nueva rectificación para agregar **cuatro inmuebles adicionales** a los ya declarados en abril: **otros tres bienes en Estados Unidos** (dos inmuebles y un terreno) y **un departamento en Viña del Mar** comprado en marzo de 2026, lo que elevaría su patrimonio estimado a cerca de **US$ 6,3 millones**.
 - **Explicación del diputado:** atribuyó las omisiones de agosto de 2025 a una «mala asesoría» del Partido de la Gente durante la campaña, en la que —según indicó— se le señaló que no debía declarar bienes en el extranjero. Sostuvo que su patrimonio proviene de su trabajo e inversiones durante sus años en Estados Unidos y que regularizó su declaración tras recibir orientación en el Congreso.
 
 ## Contraste con la evidencia disponible
