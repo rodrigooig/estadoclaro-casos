@@ -50,3 +50,13 @@ La orden se describe como una contratación para un proyecto municipal de arquit
 - Municipalidad de Vitacura, nómina de honorarios, febrero de 2021: https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf
 - InfoProbidad, declaración 703246: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=703246
 - La Tercera, 13-10-2021: https://www.latercera.com/la-tercera-pm/noticia/alcaldesa-de-vitacura-renueva-plana-mayor-de-municipio-en-un-intento-de-desmarcarse-de-la-administracion-de-torrealba/QY2K4J7SV5GR3LI5B2DD5IK3VE/
+
+## Decisión editorial (2026-11-27): publicado
+
+La declaración InfoProbidad 912542 registra a Pablo Allard Serrano como «Asesor Alcaldía» y 20% controlador de ALLARD ASOCIADOS SPA (RUT 76.598.791-1); Mercado Público confirma el mismo RUT como proveedor en la OC aceptada 2659-252-SE23, por 995 UTM, emitida el 02-05-2023.
+La nómina municipal de honorarios sitúa una prestación anterior entre 01-01-2020 y 31-12-2020; La Tercera informó que Allard dejó el municipio el 30-08-2021, pero el borrador atribuye correctamente esa fecha a una fuente periodística y señala que no se obtuvo el acto de cese.
+La corrección distingue las fuentes y mantiene explícito que no prueba continuidad laboral, intervención personal, ilegalidad, pago ni beneficio individual; el titular describe la contratación y la participación declarada sin acusar.
+Verifiqué que la OC refiere al proyecto Pasarela Lo Curro, contratante Municipalidad de Vitacura, proveedor con el RUT coincidente y procedimiento directo; la corrección aporta contexto nuevo y mejora la precisión temporal del caso publicado.
+Decisión: publicar como corrección, sin alterar hechos ni cifras.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/404
