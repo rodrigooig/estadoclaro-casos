@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "run_id": "20261127T135648Z",
+  "lead_id": "pablo-allard-serrano-pasarela-vitacura",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-cese-correccion-20261127-1.sql",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-cese-correccion-20261127-2.sql",
+    "consultas/pablo-allard-serrano-pasarela-vitacura-cese-correccion-20261127-3.sql",
+    "fichas/pablo-allard-serrano-pasarela-vitacura.md"
+  ],
+  "origen": "cron"
+}

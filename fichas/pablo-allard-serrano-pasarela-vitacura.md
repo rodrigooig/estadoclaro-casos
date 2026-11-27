@@ -217,3 +217,14 @@ PR: https://github.com/rodrigooig/estadoclaro-casos/pull/108
 [43] https://transparencia.vitacura.cl/resources/descargas/transparencia/pdf/regimen/2021/personal_municipal_honorarios_febrero_2021.pdf — Municipalidad de Vitacura, Personal Municipal Honorarios febrero 2021.
 [44] https://www.infoprobidad.cl/Declaracion/Declaracion?ID=703246 — InfoProbidad, declaración de actualización periódica, 31-03-2021.
 
+## Cierre de entrega duplicada — 2026-11-27
+
+La pista se cierra como `descartada` para esta entrega, sin reinvestigación. El caso fue publicado en `main`: la entrega investigativa #172 y el PR de caso #173 figuran como MERGED. Por tanto, reenviar el ID estable como caso nuevo duplicaría el caso ya publicado. Esta decisión no revoca ni modifica la publicación.
+
+La corrección posterior tiene otro ID, `pablo-allard-pasarela-vitacura-cese-correccion-20261127`; su PR de investigación #403 está MERGED y el PR editorial #404 permanece OPEN. No se altera ni se entrega de nuevo esa pista, que está en manos del editor.
+
+**Qué reabriría:** solo una pista nueva no duplicada sustentada por evidencia primaria adicional o un cambio verificable en la publicación; la corrección existente debe seguir su propio trámite editorial.
+
+Fuente de verificación del estado: GitHub, PR #172 https://github.com/rodrigooig/estadoclaro-casos/pull/172, #173 https://github.com/rodrigooig/estadoclaro-casos/pull/173, #403 https://github.com/rodrigooig/estadoclaro-casos/pull/403 y #404 https://github.com/rodrigooig/estadoclaro-casos/pull/404 (consultado 2026-11-27). Oro, sin nueva consulta: `meta.build_date = 2026-11-26T01:01:56+00:00`.
+
+
