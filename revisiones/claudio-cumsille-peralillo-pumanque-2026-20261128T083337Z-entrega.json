@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261128T083337Z",
+  "lead_id": "claudio-cumsille-peralillo-pumanque-2026",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/claudio-cumsille-peralillo-pumanque-2026-1.sql",
+    "fichas/claudio-cumsille-peralillo-pumanque-2026.md"
+  ],
+  "origen": "cron"
+}
