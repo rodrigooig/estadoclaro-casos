@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "run_id": "20261128T150235Z",
+  "lead_id": "pedro-jose-duran-sanhueza-autoproveedor-campana-2025",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/autocontratacion/pedro-jose-duran-sanhueza-autoproveedor-campana-2025.md",
+  "draft_sha256": "180438d5472891a2479c769e9f60c39f32de6d94e7e4c5eb7c6cfb54d9f2cfa2",
+  "files": [
+    "INDICE.md"
+  ],
+  "origen": "cron"
+}
