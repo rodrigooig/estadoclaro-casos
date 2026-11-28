@@ -34,3 +34,12 @@ La campaña contrató propaganda radial a una sociedad cuyo giro declarado inclu
 - InfoProbidad, declaración 1506210: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1506210
 - Servel, Reporte definitivo de ingresos y gastos electorales 2025: https://www-doc.servel.cl/2026/09/Reporte%20Ingresos%20y%20Gastos%20Electorales%202025%20-%20Definitivas%20Presidenciales%20y%20Parlamentarias.xlsx
 - SII, valores diarios de la UF 2025: https://www.sii.cl/valores_y_fechas/uf/uf2025.htm
+
+## Decisión editorial (2026-11-28): lista para verificacion
+
+InfoProbidad, DIP 1506210, reabierta, confirma que Pedro José Durán Sanhueza declaró una acción y actividad remunerada de radiodifusor en SOCIEDAD DE DIFUSIÓN Y PUBLICIDAD ESPERANZA LTDA., RUT 89.811.600-K, y que no era controlador.
+No pude reabrir el archivo XLSX definitivo de Servel: la descarga directa se abortó en el navegador y el extractor rechazó el tipo de contenido.
+Por ello no verifiqué personalmente la factura 3090, su monto, clasificación de reembolso ni el resultado de auditoría; la cifra del borrador no queda cotejada por esta revisión.
+Devuelvo para aportar una copia accesible o referencia consultable del reporte y cotejar esos campos antes de decidir.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/417
