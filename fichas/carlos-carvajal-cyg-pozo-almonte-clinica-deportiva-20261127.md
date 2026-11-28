@@ -34,3 +34,12 @@ La consulta reproducible del oro está en `consultas/carlos-carvajal-cyg-pozo-al
 - Biblioteca del Congreso Nacional, reseña biográfica: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Jos%C3%A9_Carvajal_Gallardo
 
 Corte del oro: `meta.build_date = 2026-11-26T01:01:56+00:00`.
+
+## Decisión editorial (2026-11-28): lista para verificacion
+
+La DIP 1235014 de InfoProbidad, reabierta, registra a Carvajal como controlador de ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1, con cantidad/porcentaje 100; el borrador afirma 95%.
+La misma DIP confirma actividad remunerada declarada para la Municipalidad de Pozo Almonte al 02-07-2024.
+Mercado Público confirma OC 2591-1011-SE24, estado Aceptada, enviada el 23-09-2024, proveedor por el mismo RUT y total $13.111.374; no acredita pago ni intervención.
+Devuelvo para corregir y cotejar el porcentaje de participación contra la fuente primaria antes de una nueva decisión editorial.
+
+PR: https://github.com/rodrigooig/estadoclaro-casos/pull/410
