@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261128T180434Z",
+  "lead_id": "carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127",
+  "state": "borrador listo",
+  "product": "caso",
+  "destination": "casos/negocios_estado/carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127.md",
+  "draft_sha256": "ee9c17a5de2a96e7784aa622d046e4d24a31de06bc18b420ea6646ad252058ce",
+  "files": [
+    "INDICE.md",
+    "borradores/carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127.md",
+    "fichas/carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127.md"
+  ],
+  "origen": "cron"
+}

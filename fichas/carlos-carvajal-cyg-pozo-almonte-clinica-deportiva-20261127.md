@@ -1,45 +1,38 @@
 # carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127
 
 ## Pregunta decisiva
-¿Recibió una empresa que Carlos José Carvajal Gallardo declaró controlar un contrato material de la Municipalidad de Pozo Almonte cuando mantenía una relación laboral declarada con ese municipio y ejercía como concejal en Huara, y qué relación tuvo su trabajo previo en Deportes con la compra?
+¿Recibió una sociedad que Carlos José Carvajal Gallardo declaró controlar un contrato de la Municipalidad de Pozo Almonte mientras también declaraba actividad remunerada para ese municipio, y qué evidencia vincula la compra con sus funciones públicas?
 
 ## Hechos comprobados
-- **DIP 1235014, 02-07-2024:** InfoProbidad identifica a CARLOS JOSE CARVAJAL GALLARDO como concejal de la Municipalidad de Huara. La declaración registra actividad remunerada de pedagogía en educación física para la Ilustre Municipalidad de Pozo Almonte y un 95% controlador en ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1. Fuente primaria: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1235014.
-- **Antecedente laboral:** la reseña biográfica de la Biblioteca del Congreso Nacional informa que entre 2020 y 2022 fue jefe de Deportes y Recreación de la Municipalidad de Pozo Almonte. Es contexto funcional y temporal anterior, no prueba de intervención en la compra de 2024. Fuente: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Jos%C3%A9_Carvajal_Gallardo.
-- **OC 2591-1011-SE24:** la fuente primaria de Mercado Público registra envío el 23-09-2024, estado «Aceptada», proveedor ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1, total CLP $13.111.374 (346,09 UF al día del envío). El objeto es un servicio de clínica deportiva para dirigentes locales y la escuela municipal de fútbol. La orden marca «licitación pública previa sin ofertas, o con ofertas inadmisibles». En la fecha de la DIP, el declarante había informado actividad remunerada para el comprador. La OC no identifica al autor de la decisión ni acredita pago. URL: http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2591-1011-SE24.
-- **Contraste de identidad:** la razón social y RUT coinciden exactamente entre la declaración y la OC; no es atribución por homonimia. La declaración precede a la orden en 83 días; es foto del 2 de julio y no prueba por sí sola la vigencia de cada actividad o participación el 23 de septiembre.
-- **Servel:** no se usa una línea de campaña como parte del hecho; no se halló en la pista una relación que altere la lectura documental de esta contratación.
+- **DIP 1235014, 02-07-2024:** la ficha oficial identifica a CARLOS JOSE CARVAJAL GALLARDO como concejal de la Municipalidad de Huara. Registra actividad profesional remunerada en pedagogía en educación física para la Municipalidad de Pozo Almonte y, en el registro societario directo, 95% y calidad de controlador de ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1. Se reabrió la fuente primaria HTML y la descarga JSON oficial; ambas representan el porcentaje directo como 95. InfoProbidad: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1235014.
+- **Ambigüedad declarativa:** la sección de sociedades anidadas de la misma DIP presenta, bajo COMERCIO Y DISTRIBUCION CARLOS CARVAJAL EIRL, una entrada para ASESORIA Y VENTA DEPORTIVA CYG LIMITADA, mismo RUT, con cantidad/porcentaje 100. No se infiere que ese 100% sea una participación adicional sumable: podría corresponder a la representación anidada de derechos y la DIP no basta para resolverlo. La tabla `company` del oro refleja la entrada directa con `quantity = 95.0`, `is_controlling = true`; la tabla base no decide la interpretación del detalle anidado.
+- **Antecedente laboral:** la reseña biográfica de la BCN informa que entre 2020 y 2022 fue jefe de Deportes y Recreación de Pozo Almonte. Es contexto funcional anterior, no prueba de intervención en la compra de 2024. https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Jos%C3%A9_Carvajal_Gallardo.
+- **OC 2591-1011-SE24:** Mercado Público registra envío el 23-09-2024, estado «Aceptada», proveedor ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1, total CLP $13.111.374 (346,09 UF al día del envío). El objeto es una clínica deportiva para dirigentes comunales y la escuela municipal de fútbol. La orden registra «licitación pública previa sin ofertas, o con ofertas inadmisibles»; no identifica quién intervino ni acredita pago. https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2591-1011-SE24.
+- **Identidad:** el mismo RUT enlaza la participación declarada y el proveedor; no es atribución por homonimia. La DIP antecede a la orden en 83 días y es una foto del 2 de julio: no demuestra por sí sola vigencia de los vínculos el 23 de septiembre.
+- **Servel:** no se usa una línea de campaña como parte del hecho, ni se halló en la pista una relación electoral pertinente a esta contratación.
 
 ## Explicación legítima más fuerte
-La empresa pudo ser seleccionada porque era capaz de prestar el servicio deportivo y la propia orden consigna que la licitación pública previa no tuvo ofertas o recibió ofertas inadmisibles. La ficha no permite conocer cuál de esas dos hipótesis ocurrió ni revisar el expediente. Carvajal pudo mantener un trabajo profesional en Pozo Almonte sin ejercer ya la jefatura que la BCN sitúa hasta 2022. Las fuentes consultadas no muestran que participara en la compra, en la contratación ni en la recepción del servicio.
+La orden consigna que la licitación pública previa quedó sin ofertas o tuvo ofertas inadmisibles; la empresa pudo ser seleccionada por su capacidad para prestar el servicio. No se obtuvo el expediente para saber cuál supuesto ocurrió. La actividad remunerada de julio de 2024 no determina el cargo laboral dentro del municipio ni acredita por sí sola que la relación siguiera vigente el día de la OC. La jefatura deportiva que reseña la BCN terminó en 2022 según esa fuente. Ninguna fuente consultada muestra intervención de Carvajal en el requerimiento, selección, autorización o recepción.
 
 ## Decisión
-**borrador listo.** Es un hecho verificable y material: 346,09 UF contratadas con una sociedad que el concejal declaró controlar al 95%, por un servicio deportivo del municipio que también declaró como empleador, con relación al área que dirigió anteriormente. La razón de interés público es comprobar el nexo entre actividad laboral, participación societaria y compra municipal; el documento no concluye ilegalidad, conflicto, intervención ni pago. Se deja al editor valorar si la explicación procedimental y la distancia entre la jefatura (hasta 2022) y la OC (2024) satisfacen la vara editorial.
+**borrador listo.** Hecho central: una sociedad que Carvajal declara controlar al 95% directamente (con un registro anidado separado de 100% que no debe sumarse ni interpretarse sin cotejo) recibió una OC aceptada por 346,09 UF para un servicio deportivo del municipio al que declaró prestar actividad remunerada; además, tuvo una jefatura deportiva municipal entre 2020 y 2022. La coincidencia societaria, laboral, institucional y temática ofrece una pregunta concreta de interés público sobre funciones, contratación y alcance de las participaciones declaradas. El registro no demuestra intervención, beneficio personal, pago ni irregularidad. El envío al editor explicita la ambigüedad de la misma DIP y corrige la lectura de que el dato directo fuera 100%.
 
 ## Afirmación más débil
-Que el antecedente de jefatura en Deportes sea pertinente para la contratación de 2024: el objeto trata del mismo ámbito, pero la BCN fecha esa jefatura hasta 2022 y no se encontró expediente que lo conecte con la decisión ni con la preparación del requerimiento.
+La pertinencia funcional de la jefatura deportiva finalizada en 2022 para una compra de septiembre de 2024. También queda sin resolver la relación entre el registro societario directo de 95% y la entrada anidada de 100% para la misma sociedad/RUT.
 
 ## Qué falta para confirmar o refutar
-- Identificar el proceso público previo (licitación) y si quedó desierto o inadmisible; cotejar las bases, ofertas, acto que lo declaró y causal legal invocada para contratar.
-- Revisar los anexos/decretos de la OC, nombre de quien pidió, aprobó, evaluó y recibió el servicio, ejecución y pago.
-- Determinar con registros oficiales el cargo, contrato y funciones de Carvajal en Pozo Almonte a la fecha de la compra; la declaración prueba actividad remunerada a julio, no el cargo exacto en septiembre.
-- Verificar si hubo cualquier intervención desde su calidad de concejal en Huara; no se presume.
+- Identificar la licitación previa, su resultado y el acto que sustentó la contratación posterior.
+- Revisar anexos/decretos de la OC, quién pidió, aprobó, evaluó y recibió el servicio, y su ejecución/pago.
+- Establecer con registros oficiales qué cargo y funciones tenía Carvajal en Pozo Almonte el 23-09-2024.
+- Cotejar en fuente societaria primaria y en el respaldo completo de la declaración cómo se relacionan los registros directos y anidados de 95%/100% para el RUT 77.167.947-1.
+- Verificar si existe evidencia de intervención suya desde alguno de sus cargos; no se presume.
 
 ## Consultas
-La consulta reproducible del oro está en `consultas/carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127-1.sql`. El oro solo entrega la semilla y el monto registrado; identidad societaria y objeto/estado/procedimiento se cotejaron en las fuentes primarias enlazadas.
+La consulta reproducible del oro está en `consultas/carlos-carvajal-cyg-pozo-almonte-clinica-deportiva-20261127-1.sql`. Devuelve la participación directa como 95.0, controlador, y la OC por CLP $13.111.374 (346,09 UF). El corte indicado en la metadata consultada es `2026-11-27T21:06:24+00:00`. El oro es semilla y resumen; los hechos centrales se cotejaron en las fuentes primarias citadas.
 
 ## Fuentes primarias / oficiales
-- InfoProbidad, declaración 1235014 (02-07-2024): https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1235014
-- Mercado Público, OC 2591-1011-SE24: http://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2591-1011-SE24
+- InfoProbidad, DIP 1235014 y descarga JSON, 02-07-2024: https://www.infoprobidad.cl/Declaracion/Declaracion?ID=1235014
+- Mercado Público, OC 2591-1011-SE24: https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?codigoOC=2591-1011-SE24
 - Biblioteca del Congreso Nacional, reseña biográfica: https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Carlos_Jos%C3%A9_Carvajal_Gallardo
 
-Corte del oro: `meta.build_date = 2026-11-26T01:01:56+00:00`.
-
-## Decisión editorial (2026-11-28): lista para verificacion
-
-La DIP 1235014 de InfoProbidad, reabierta, registra a Carvajal como controlador de ASESORIA Y VENTA DEPORTIVA C Y G LIMITADA, RUT 77.167.947-1, con cantidad/porcentaje 100; el borrador afirma 95%.
-La misma DIP confirma actividad remunerada declarada para la Municipalidad de Pozo Almonte al 02-07-2024.
-Mercado Público confirma OC 2591-1011-SE24, estado Aceptada, enviada el 23-09-2024, proveedor por el mismo RUT y total $13.111.374; no acredita pago ni intervención.
-Devuelvo para corregir y cotejar el porcentaje de participación contra la fuente primaria antes de una nueva decisión editorial.
-
-PR: https://github.com/rodrigooig/estadoclaro-casos/pull/410
+Corte del oro: `meta.build_date = 2026-11-27T21:06:24+00:00`.
