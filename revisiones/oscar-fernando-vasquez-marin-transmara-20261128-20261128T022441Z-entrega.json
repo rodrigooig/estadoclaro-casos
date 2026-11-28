@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "run_id": "20261128T022441Z",
+  "lead_id": "oscar-fernando-vasquez-marin-transmara-20261128",
+  "state": "descartada",
+  "product": "ficha",
+  "destination": "",
+  "draft_sha256": "",
+  "files": [
+    "INDICE.md",
+    "consultas/oscar-fernando-vasquez-marin-transmara-20261128-1.sql",
+    "fichas/oscar-fernando-vasquez-marin-transmara-20261128.md"
+  ],
+  "origen": "cron"
+}
